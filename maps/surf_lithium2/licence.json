@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_lithium2",
-      "textures/"
+      "textures/",
+      "worlds/surf_lithium2/"
     ],
     "licence": "CC-BY-NC-ND-4.0",
     "exception": "credited-community-map",

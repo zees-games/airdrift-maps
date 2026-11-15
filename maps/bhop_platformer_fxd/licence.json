@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_platformer_fxd",
-      "textures/"
+      "textures/",
+      "worlds/bhop_platformer_fxd/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

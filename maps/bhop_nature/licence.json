@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_nature",
-      "textures/"
+      "textures/",
+      "worlds/bhop_nature/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

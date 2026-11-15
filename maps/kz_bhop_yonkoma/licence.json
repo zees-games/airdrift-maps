@@ -11,7 +11,8 @@
   {
     "paths": [
       "kz_bhop_yonkoma",
-      "textures/"
+      "textures/",
+      "worlds/kz_bhop_yonkoma/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

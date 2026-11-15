@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_fury_2",
-      "textures/"
+      "textures/",
+      "worlds/bhop_fury_2/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

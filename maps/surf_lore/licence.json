@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_lore",
-      "textures/"
+      "textures/",
+      "worlds/surf_lore/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

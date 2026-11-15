@@ -11,7 +11,8 @@
   {
     "paths": [
       "bunnyhop_pro",
-      "textures/"
+      "textures/",
+      "worlds/bunnyhop_pro/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

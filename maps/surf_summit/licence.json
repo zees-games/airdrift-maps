@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_summit",
-      "textures/"
+      "textures/",
+      "worlds/surf_summit/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

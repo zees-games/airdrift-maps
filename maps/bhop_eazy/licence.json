@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_eazy",
-      "textures/"
+      "textures/",
+      "worlds/bhop_eazy/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

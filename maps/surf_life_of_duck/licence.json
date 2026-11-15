@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_life_of_duck",
-      "textures/"
+      "textures/",
+      "worlds/surf_life_of_duck/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

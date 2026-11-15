@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_pharma",
-      "textures/"
+      "textures/",
+      "worlds/bhop_pharma/"
     ],
     "licence": "CC-BY-NC-ND-4.0",
     "exception": "credited-community-map",

@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_greensway",
-      "textures/"
+      "textures/",
+      "worlds/surf_greensway/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

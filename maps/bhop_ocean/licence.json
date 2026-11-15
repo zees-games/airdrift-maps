@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_ocean",
-      "textures/"
+      "textures/",
+      "worlds/bhop_ocean/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

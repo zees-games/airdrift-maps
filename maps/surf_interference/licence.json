@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_interference",
-      "textures/"
+      "textures/",
+      "worlds/surf_interference/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

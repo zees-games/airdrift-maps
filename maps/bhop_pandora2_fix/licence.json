@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_pandora2_fix",
-      "textures/"
+      "textures/",
+      "worlds/bhop_pandora2_fix/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

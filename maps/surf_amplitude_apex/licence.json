@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_amplitude_apex",
-      "textures/"
+      "textures/",
+      "worlds/surf_amplitude_apex/"
     ],
     "licence": "CC-BY-NC-ND-4.0",
     "exception": "credited-community-map",

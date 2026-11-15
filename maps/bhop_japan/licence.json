@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_japan",
-      "textures/"
+      "textures/",
+      "worlds/bhop_japan/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

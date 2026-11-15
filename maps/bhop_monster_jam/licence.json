@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_monster_jam",
-      "textures/"
+      "textures/",
+      "worlds/bhop_monster_jam/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

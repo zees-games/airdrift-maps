@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_sqee",
-      "textures/"
+      "textures/",
+      "worlds/bhop_sqee/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

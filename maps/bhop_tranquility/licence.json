@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_tranquility",
-      "textures/"
+      "textures/",
+      "worlds/bhop_tranquility/"
     ],
     "licence": "CC-BY-NC-ND-4.0",
     "exception": "credited-community-map",

@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_grove",
-      "textures/"
+      "textures/",
+      "worlds/bhop_grove/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

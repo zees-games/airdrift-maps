@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_hellish_dream_css",
-      "textures/"
+      "textures/",
+      "worlds/bhop_hellish_dream_css/"
     ],
     "licence": "CC-BY-NC-ND-4.0",
     "exception": "credited-community-map",

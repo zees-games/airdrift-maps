@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_badges_mini",
-      "textures/"
+      "textures/",
+      "worlds/bhop_badges_mini/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

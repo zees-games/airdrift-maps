@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_amor",
-      "textures/"
+      "textures/",
+      "worlds/bhop_amor/"
     ],
     "licence": "CC-BY-NC-ND-4.0",
     "exception": "credited-community-map",

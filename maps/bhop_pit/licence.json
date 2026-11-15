@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_pit",
-      "textures/"
+      "textures/",
+      "worlds/bhop_pit/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

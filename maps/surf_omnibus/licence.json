@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_omnibus",
-      "textures/"
+      "textures/",
+      "worlds/surf_omnibus/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

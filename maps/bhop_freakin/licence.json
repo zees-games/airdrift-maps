@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_freakin",
-      "textures/"
+      "textures/",
+      "worlds/bhop_freakin/"
     ],
     "licence": "CC-BY-NC-ND-4.0",
     "exception": "credited-community-map",

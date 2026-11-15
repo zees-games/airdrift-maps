@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_interloper",
-      "textures/"
+      "textures/",
+      "worlds/bhop_interloper/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

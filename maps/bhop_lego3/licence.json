@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_lego3",
-      "textures/"
+      "textures/",
+      "worlds/bhop_lego3/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

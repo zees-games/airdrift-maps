@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_eclipse",
-      "textures/"
+      "textures/",
+      "worlds/surf_eclipse/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

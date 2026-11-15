@@ -11,7 +11,8 @@
   {
     "paths": [
       "buses_from_hell_fixed",
-      "textures/"
+      "textures/",
+      "worlds/buses_from_hell_fixed/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

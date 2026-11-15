@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_aztec",
-      "textures/"
+      "textures/",
+      "worlds/bhop_aztec/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

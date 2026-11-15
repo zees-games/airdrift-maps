@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_tesquo_v2",
-      "textures/"
+      "textures/",
+      "worlds/bhop_tesquo_v2/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

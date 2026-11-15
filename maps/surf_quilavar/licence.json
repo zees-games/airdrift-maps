@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_quilavar",
-      "textures/"
+      "textures/",
+      "worlds/surf_quilavar/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

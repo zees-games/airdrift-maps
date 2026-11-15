@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_strength_v2",
-      "textures/"
+      "textures/",
+      "worlds/bhop_strength_v2/"
     ],
     "licence": "CC-BY-NC-ND-4.0",
     "exception": "credited-community-map",

@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_crash_egypt",
-      "textures/"
+      "textures/",
+      "worlds/bhop_crash_egypt/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

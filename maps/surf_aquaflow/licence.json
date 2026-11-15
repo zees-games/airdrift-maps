@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_aquaflow",
-      "textures/"
+      "textures/",
+      "worlds/surf_aquaflow/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

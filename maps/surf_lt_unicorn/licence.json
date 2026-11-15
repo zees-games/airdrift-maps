@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_lt_unicorn",
-      "textures/"
+      "textures/",
+      "worlds/surf_lt_unicorn/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

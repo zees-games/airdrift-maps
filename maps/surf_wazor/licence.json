@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_wazor",
-      "textures/"
+      "textures/",
+      "worlds/surf_wazor/"
     ],
     "licence": "CC-BY-NC-ND-4.0",
     "exception": "credited-community-map",

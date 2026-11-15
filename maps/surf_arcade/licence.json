@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_arcade",
-      "textures/"
+      "textures/",
+      "worlds/surf_arcade/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

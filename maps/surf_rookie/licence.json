@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_rookie",
-      "textures/"
+      "textures/",
+      "worlds/surf_rookie/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

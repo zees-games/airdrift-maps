@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_kitsune",
-      "textures/"
+      "textures/",
+      "worlds/surf_kitsune/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

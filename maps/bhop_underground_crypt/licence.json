@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_underground_crypt",
-      "textures/"
+      "textures/",
+      "worlds/bhop_underground_crypt/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

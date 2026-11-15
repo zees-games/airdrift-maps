@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_ember",
-      "textures/"
+      "textures/",
+      "worlds/surf_ember/"
     ],
     "licence": "CC-BY-NC-ND-4.0",
     "exception": "credited-community-map",

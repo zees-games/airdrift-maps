@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_frotinity2",
-      "textures/"
+      "textures/",
+      "worlds/bhop_frotinity2/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_vegetables",
-      "textures/"
+      "textures/",
+      "worlds/surf_vegetables/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_mesa",
-      "textures/"
+      "textures/",
+      "worlds/surf_mesa/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

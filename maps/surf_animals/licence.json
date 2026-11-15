@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_animals",
-      "textures/"
+      "textures/",
+      "worlds/surf_animals/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

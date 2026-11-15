@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_evolve",
-      "textures/"
+      "textures/",
+      "worlds/bhop_evolve/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

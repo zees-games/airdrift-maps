@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_forgotten",
-      "textures/"
+      "textures/",
+      "worlds/bhop_forgotten/"
     ],
     "licence": "CC-BY-NC-ND-4.0",
     "exception": "credited-community-map",

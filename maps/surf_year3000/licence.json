@@ -11,7 +11,8 @@
   {
     "paths": [
       "surf_year3000",
-      "textures/"
+      "textures/",
+      "worlds/surf_year3000/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

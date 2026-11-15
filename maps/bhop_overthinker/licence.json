@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_overthinker",
-      "textures/"
+      "textures/",
+      "worlds/bhop_overthinker/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

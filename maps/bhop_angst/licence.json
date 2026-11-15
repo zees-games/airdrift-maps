@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_angst",
-      "textures/"
+      "textures/",
+      "worlds/bhop_angst/"
     ],
     "licence": "CC-BY-NC-ND-4.0",
     "exception": "credited-community-map",

@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_fur",
-      "textures/"
+      "textures/",
+      "worlds/bhop_fur/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

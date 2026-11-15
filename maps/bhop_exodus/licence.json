@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_exodus",
-      "textures/"
+      "textures/",
+      "worlds/bhop_exodus/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",

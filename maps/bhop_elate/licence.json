@@ -11,7 +11,8 @@
   {
     "paths": [
       "bhop_elate",
-      "textures/"
+      "textures/",
+      "worlds/bhop_elate/"
     ],
     "licence": "none stated",
     "exception": "credited-community-map",
