@@ -6407,7 +6407,7 @@
    },
    {
     "area": 29326.7,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      1.0,
      1.0,
@@ -6419,7 +6419,7 @@
     "key": "generated:foliage_card:ffffff",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "env/backdrop/backdrop_trees_a",
      "fade_dark",
@@ -6430,7 +6430,7 @@
    },
    {
     "area": 6217.6,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      1.0,
      1.0,
@@ -6442,7 +6442,7 @@
     "key": "generated:glow:ffffff",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "fade",
      "mapbounds",
@@ -6500,7 +6500,7 @@
    },
    {
     "area": 863.6,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.375,
      0.375,
@@ -6512,7 +6512,7 @@
     "key": "generated:foliage_card:606060",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "ksf/ksf_banner_clean"
     ],

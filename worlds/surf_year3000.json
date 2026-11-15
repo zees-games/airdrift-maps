@@ -17619,7 +17619,7 @@
    },
    {
     "area": 853.7,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.0,
      0.125,
@@ -17631,7 +17631,7 @@
     "key": "generated:water:002020",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "nature/water_movingplane_beneath"
     ],
@@ -17733,7 +17733,7 @@
    },
    {
     "area": 507.7,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.25,
      0.25,
@@ -17745,7 +17745,7 @@
     "key": "generated:bars:404040",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "metal/metalrail012c"
     ],
@@ -17800,7 +17800,7 @@
    },
    {
     "area": 20.4,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      1.0,
      1.0,
@@ -17812,7 +17812,7 @@
     "key": "generated:foliage_card:ffffff",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "year3000/teleport"
     ],

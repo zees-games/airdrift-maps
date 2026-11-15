@@ -6385,7 +6385,7 @@
    },
    {
     "area": 575.3,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.0,
      0.25,
@@ -6397,7 +6397,7 @@
     "key": "generated:glass:00409f",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "hammer textures/bhop_eazy/31_e_glass_blue"
     ],
@@ -6406,7 +6406,7 @@
    },
    {
     "area": 224.1,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.0,
      0.625,
@@ -6418,7 +6418,7 @@
     "key": "generated:glass:009f20",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "hammer textures/bhop_eazy/31_e_glass_green"
     ],
@@ -6427,7 +6427,7 @@
    },
    {
     "area": 224.1,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.625,
      0.375,
@@ -6439,7 +6439,7 @@
     "key": "generated:glass:9f6000",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "hammer textures/bhop_eazy/31_e_glass_orange"
     ],
@@ -6448,7 +6448,7 @@
    },
    {
     "area": 229.1,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.625,
      0.0,
@@ -6460,7 +6460,7 @@
     "key": "generated:glass:9f0060",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "hammer textures/bhop_eazy/31_e_glass_pink"
     ],

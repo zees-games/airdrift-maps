@@ -13749,7 +13749,7 @@
    },
    {
     "area": 7.5,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.375,
      0.25,
@@ -13761,7 +13761,7 @@
     "key": "generated:grate:60409f",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "dev/dev_lowerfloorgrate01d"
     ],
@@ -14138,7 +14138,7 @@
    },
    {
     "area": 14059.4,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.5,
      0.5,
@@ -14150,7 +14150,7 @@
     "key": "generated:water:808080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "dev/dev_waterbeneath2",
      "nature/water_canals_cheap001"

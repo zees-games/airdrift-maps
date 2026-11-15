@@ -6317,7 +6317,7 @@
     "url": "https://kenney.nl/assets/nature-kit"
    },
    {
-    "author": "TMC (modelled for dot-map)",
+    "author": "Gamespice (modelled for map)",
     "count": 2,
     "file": "own/fxfountain/fxfountain.glb",
     "files": [],
@@ -6564,7 +6564,7 @@
    },
    {
     "area": 5.9,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.75,
      0.75,
@@ -6576,7 +6576,7 @@
     "key": "generated:foliage_card:bfbfbf",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "lego3/mapby"
     ],

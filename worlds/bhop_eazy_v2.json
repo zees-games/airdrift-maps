@@ -9390,7 +9390,7 @@
    },
    {
     "area": 324.8,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.375,
      0.125,
@@ -9402,7 +9402,7 @@
     "key": "generated:glass:6020ff",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "hammer textures/eazy2/31_eazy2_glass_purple_1"
     ],
@@ -9411,7 +9411,7 @@
    },
    {
     "area": 811.2,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.5,
      0.125,
@@ -9423,7 +9423,7 @@
     "key": "generated:foliage_card:8020ff",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "hammer textures/eazy2/31_eazy_web_purple_1"
     ],
@@ -9432,7 +9432,7 @@
    },
    {
     "area": 324.4,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.125,
      0.5,
@@ -9444,7 +9444,7 @@
     "key": "generated:glass:2080ff",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "hammer textures/eazy2/31_eazy2_glass_blue_1"
     ],
@@ -9453,7 +9453,7 @@
    },
    {
     "area": 597.2,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.125,
      0.375,
@@ -9465,7 +9465,7 @@
     "key": "generated:foliage_card:2060df",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "hammer textures/eazy2/31_eazy_web_blue_1"
     ],
@@ -9549,7 +9549,7 @@
    },
    {
     "area": 360.6,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      1.0,
      0.625,
@@ -9561,7 +9561,7 @@
     "key": "generated:glass:ff9f20",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "hammer textures/eazy2/31_eazy2_glass_yellow_1"
     ],
@@ -9570,7 +9570,7 @@
    },
    {
     "area": 818.2,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      1.0,
      0.75,
@@ -9582,7 +9582,7 @@
     "key": "generated:foliage_card:ffbf20",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "hammer textures/eazy2/31_eazy_web_yellow_1"
     ],
@@ -9591,7 +9591,7 @@
    },
    {
     "area": 324.8,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.375,
      0.875,
@@ -9603,7 +9603,7 @@
     "key": "generated:glass:60df40",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "hammer textures/eazy2/31_eazy2_glass_green_1"
     ],
@@ -9612,7 +9612,7 @@
    },
    {
     "area": 708.8,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.125,
      1.0,
@@ -9624,7 +9624,7 @@
     "key": "generated:foliage_card:20ff20",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "hammer textures/eazy2/31_eazy_web_green_1"
     ],
@@ -9633,7 +9633,7 @@
    },
    {
     "area": 335.1,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.625,
      0.5,
@@ -9645,7 +9645,7 @@
     "key": "generated:glass:9f809f",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "hammer textures/eazy2/31_eazy2_glass_multi_1"
     ],
@@ -9654,7 +9654,7 @@
    },
    {
     "area": 1051.6,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.75,
      0.75,
@@ -9666,7 +9666,7 @@
     "key": "generated:foliage_card:bfbfbf",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "hammer textures/eazy2/31_eazy2_laserthings_1",
      "hammer textures/eazy2/31_eazy_web_multi_1"
@@ -9676,7 +9676,7 @@
    },
    {
     "area": 23.8,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.875,
      0.875,
@@ -9688,7 +9688,7 @@
     "key": "generated:foliage_card:dfdfdf",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "hammer textures/eazy2/31_eazy2_map_sign_1",
      "hammer textures/eazy2/31_eazy2_mapby_1"
@@ -9722,7 +9722,7 @@
    },
    {
     "area": 336.9,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      1.0,
      0.125,
@@ -9734,7 +9734,7 @@
     "key": "generated:glass:ff2060",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "hammer textures/eazy2/31_eazy2_glass_red_1"
     ],
@@ -9743,7 +9743,7 @@
    },
    {
     "area": 671.9,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.875,
      0.125,
@@ -9755,7 +9755,7 @@
     "key": "generated:foliage_card:df2020",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "hammer textures/eazy2/31_eazy_web_red_1"
     ],
@@ -9788,7 +9788,7 @@
    },
    {
     "area": 3.0,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.25,
      0.25,
@@ -9800,7 +9800,7 @@
     "key": "generated:bars:404060",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "hammer textures/eazy2/31_eazy2_mapbytrail_1"
     ],
@@ -9855,7 +9855,7 @@
    },
    {
     "area": 115.1,
-    "author": "TMC (generated)",
+    "author": "Gamespice (generated)",
     "colour": [
      0.75,
      0.75,
@@ -9867,7 +9867,7 @@
     "key": "generated:glass:bfbfbf",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dot-map cutout_texture",
+    "source": "Gamespice cutout_texture",
     "sources": [
      "hammer textures/eazy2/31_eazy2_jumpblock_multi_1",
      "hammer textures/eazy2/31_eazy2_jumpsides_multi_1"
