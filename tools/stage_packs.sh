@@ -11,14 +11,14 @@
 # NEVER copied. publish_pack.sh refuses Valve-origin files again (dot-cloud tools/check_valve_files.py) before any upload.
 # Our worlds/ is flat (worlds/<id>.json, shared worlds/textures/); `bsp.py bundle` reads a world folder, so each world is
 # assembled in a scratch folder first.
-# DOT_MAP_CONVERT: dot-map-convert checkout (default ../dot-map-convert). MODEL_STORE: the model store (default $DOT_ART_LIBRARY/models, else ~/art-library/models;
+# GS_MAP_CONVERT: dot-map-convert checkout (default ../dot-map-convert). MODEL_STORE: the model store (default GS_ART_LIBRARY/models, else ~/art-library/models;
 # ./model-library holds only the picks of the last local convert).
 set -euo pipefail
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 OUT="${1:?usage: stage_packs.sh OUT [id...]}"; shift
-CONVERT="${DOT_MAP_CONVERT:-$HERE/../dot-map-convert}"
-STORE="${MODEL_STORE:-${DOT_ART_LIBRARY:-$HOME/art-library}/models}"
-[ -f "$CONVERT/bsp.py" ] || { echo "stage_packs: no dot-map-convert at $CONVERT (set DOT_MAP_CONVERT)" >&2; exit 2; }
+CONVERT="${GS_MAP_CONVERT:-${DOT_MAP_CONVERT:-$HERE/../dot-map-convert}}"
+STORE="${MODEL_STORE:-${GS_ART_LIBRARY:-${DOT_ART_LIBRARY:-$HOME/art-library}}/models}"
+[ -f "$CONVERT/bsp.py" ] || { echo "stage_packs: no dot-map-convert at $CONVERT (set GS_MAP_CONVERT)" >&2; exit 2; }
 IDS=("$@")
 [ ${#IDS[@]} -gt 0 ] || mapfile -t IDS < <(cd "$HERE/worlds" && ls -- *.coverage.json 2>/dev/null | sed 's/\.coverage\.json$//')
 TMP="$(mktemp -d)"; trap 'rm -rf "$TMP"' EXIT

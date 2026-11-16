@@ -4,10 +4,10 @@
 # shared tools/publish_pack.sh, which refuses Valve-origin files before any upload. --member-of is required: a bare publish of a map
 # pack makes a standalone Workshop page.
 # The version is 0.0.0-<12 hex of the staged tree's sha256>, so an unchanged map republishes as the same version (a resume, not a new one).
-# DOT_CLOUD: dot-cloud checkout (default ../dot-cloud). DOT_MAP_CONVERT / MODEL_STORE: see stage_packs.sh.
+# GS_CLOUD: dot-cloud checkout (default ../dot-cloud). GS_MAP_CONVERT / MODEL_STORE: see stage_packs.sh.
 set -euo pipefail
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-CLOUD="${DOT_CLOUD:-$HERE/../dot-cloud}"
+CLOUD="${GS_CLOUD:-${DOT_CLOUD:-$HERE/../dot-cloud}}"
 MEMBER=""; PASS=(); IDS=()
 while [ $# -gt 0 ]; do
     case "$1" in
@@ -20,7 +20,7 @@ while [ $# -gt 0 ]; do
 done
 [ -n "$MEMBER" ] || { echo "publish_packs: --member-of ASSET is required (a bare map pack gets a page of its own)" >&2; exit 2; }
 [ ${#IDS[@]} -gt 0 ] || { echo "publish_packs: name the map ids to publish" >&2; exit 2; }
-[ -x "$CLOUD/tools/publish_pack.sh" ] || { echo "publish_packs: no dot-cloud at $CLOUD (set DOT_CLOUD)" >&2; exit 2; }
+[ -x "$CLOUD/tools/publish_pack.sh" ] || { echo "publish_packs: no dot-cloud at $CLOUD (set GS_CLOUD)" >&2; exit 2; }
 OUT="$(mktemp -d)"; trap 'rm -rf "$OUT"' EXIT
 "$HERE/tools/stage_packs.sh" "$OUT/stage" "${IDS[@]}"
 for id in "${IDS[@]}"; do
