@@ -47,7 +47,7 @@ ROOT = Path(__file__).resolve().parent.parent
 MAPS = ROOT / "maps"
 MANIFEST = ROOT / "maps.json"
 DEFAULT_GAME = ROOT.parent / "game-g2gfast"
-DEFAULT_ORIGIN = "https://dotgames.org/content"
+DEFAULT_ORIGIN = "https://content.gamespice.net/content"
 DEFAULT_OWNER = "gamemann"
 
 
