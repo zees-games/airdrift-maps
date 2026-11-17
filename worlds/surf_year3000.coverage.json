@@ -12,9 +12,8 @@
    "fallback": 6
   },
   "free_by_tier": {
-   "addon": 16,
-   "default": 3,
-   "nearest": 3
+   "addon": 19,
+   "default": 3
   },
   "nearest_photo": [
    "metal/citadel_metalwall063a",
@@ -26,10 +25,10 @@
   ]
  },
  "models": {
-  "looked_up": 22,
+  "looked_up": 24,
   "by_tier": {
-   "category": 1,
-   "default": 21
+   "category": 2,
+   "default": 22
   }
  },
  "sounds": {
@@ -48,9 +47,6 @@
  "keys": {
   "catalogue": true,
   "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ],
    "game_player_equip": [
     "ammo_338mag",
     "ammo_45acp",
@@ -94,7 +90,6 @@
   "sounds_unmapped": [],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.pitch",
    "game_player_equip.ammo_338mag",
    "game_player_equip.ammo_45acp",
    "game_player_equip.ammo_50ae",
@@ -123,6 +118,14 @@
    "path_track.OnPass->book_ct_light",
    "prop_physics.OnBreak->"
   ],
+  "inputs_unimplemented": [
+   "filter_activator_team.TestActivator",
+   "func_areaportal.Open",
+   "func_button.Press",
+   "func_water_analog.Open",
+   "game_player_equip.Use",
+   "point_spotlight.LightOff"
+  ],
   "surfaces_opaque": []
  },
  "counts": {
@@ -131,8 +134,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
-  "keys_unmapped": 20,
+  "keys_unmapped": 19,
   "links_unresolved": 6,
+  "inputs_unimplemented": 6,
   "surfaces_opaque": 0
  }
 }
