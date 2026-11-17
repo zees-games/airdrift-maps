@@ -1,7 +1,7 @@
 #!/bin/bash
 # stage_packs.sh OUT [id...] : one directory per map, OUT/<id>/, in the layout a per-map pack gamemann/<id> is published from:
 #   maps/<id>/ without textures/                (the manifest, .bin, our lightmap, licence.json, provides.json at the pack root)
-#   worlds/<id>/<id>.{json,bin,doc.json}        (the dot-map world document; game-g2gfast's G2GBspMap draws it from here)
+#   worlds/<id>/<id>.{json,bin,doc.json}        (the dot-map world document; game-airdrift's AirdriftBspMap draws it from here)
 #   worlds/<id>/textures/fb_*                   (the CC0 fallbacks it names; full PBR sets come from the store)
 #   worlds/<id>/models/                         (exactly the library models it draws, via dot-map-convert's `bsp.py bundle`)
 # No id stages every map that has a world. A map is refused, not staged, when its coverage report names an unmapped texture,

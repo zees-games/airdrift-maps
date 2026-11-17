@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""g2gmaps -- the maps game-g2gfast plays, as a repository, a manifest and a CDN.
+"""g2gmaps -- the maps game-airdrift plays, as a repository, a manifest and a CDN.
 
     tools/g2gmaps manifest [--game ../game-g2gfast]
         Rewrite maps.json from maps/ and the credits in the game's maps/zones/.
