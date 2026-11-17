@@ -20,7 +20,7 @@ A player joining a server downloads only the map that is running. Each map is pu
 | `worlds/` | The shared importer's output |
 | `maps.json` | Every map with author and source page |
 | `licence.json` | Licence record per map |
-| `tools/g2gmaps` | The command line tool (below) |
+| `tools/airdriftmaps` | The command line tool (below) |
 
 Zone data (starts, finishes, stages) stays in game-airdrift under `maps/zones/`, because it is gameplay the game defines.
 
@@ -28,20 +28,20 @@ Zone data (starts, finishes, stages) stays in game-airdrift under `maps/zones/`,
 
 ```bash
 # Link the game's maps/imported to this repository's maps/ for development.
-tools/g2gmaps link
+tools/airdriftmaps link
 
 # Check every spawn and teleport destination lands in playable space (CI runs this).
 tools/check_playable.py
 
 # Rewrite maps.json after adding or removing a map (credits come from the game's zones files).
-tools/g2gmaps manifest
+tools/airdriftmaps manifest
 
 # Mirror every published map from the content origin into mirror/, each file checked
 # against its hash (and its signature with --pub). Needs only Python 3.
-tools/g2gmaps fetch --pub path/to/content.pub
+tools/airdriftmaps fetch --pub path/to/content.pub
 ```
 
-`tools/g2gmaps publish --key path/to/content.key` signs every map as `gamemann/<id>` into `dist/`. It runs through the game's `tools/publish_maps.sh`, so it needs Godot and the game checked out beside this repository with `link` done.
+`tools/airdriftmaps publish --key path/to/content.key` signs every map as `gamemann/<id>` into `dist/`. It runs through the game's `tools/publish_maps.sh`, so it needs Godot and the game checked out beside this repository with `link` done.
 
 Releasing is a tag: `git tag v1.x.y && git push --tags`. `.github/workflows/release.yml` imports the maps and attaches one pack zip per map.
 
