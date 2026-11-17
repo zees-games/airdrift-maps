@@ -93,7 +93,7 @@ def cmd_manifest(args: argparse.Namespace) -> None:
             if zdoc.get("kind") == "arena":
                 # Combat surf lives in fc-surf-dm-maps; refused rather than skipped so
                 # a stray copy is noticed and deleted instead of quietly left unpublished.
-                die(f"{mid} is kind \"arena\": combat surf maps belong in ../arena-surf-dm-maps, not here", 2)
+                die(f"{mid} is kind \"arena\": combat surf maps belong in ../fc-surf-dm-maps, not here", 2)
             credit = zdoc.get("attribution") or {}
         if not credit.get("author"):
             uncredited.append(mid)

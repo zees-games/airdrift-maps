@@ -16,7 +16,7 @@ The repositories were renamed from g2gfast-maps and game-g2gfast (2026-11-11); t
 
 **`fetch` mirrors packs verbatim; it does not rebuild `maps/`.** A published pack's markers point at its mount prefix, not at `res://maps/imported/`, so unpacking one into `maps/` would break the game's import. A mirror is a content origin (`<out>/gamemann/<id>/manifest.json` + `objects/`) a server can list in `content_urls`. Every object is hash-checked; `--pub` checks the manifest's signature over the DECODED payload bytes, which is what dot-cloud signs.
 
-**Combat surf maps are not here.** Maps whose zones file says `"kind": "arena"` live in `../arena-surf-dm-maps`, and `tools/g2gmaps manifest` refuses to run while one is in `maps/`.
+**Combat surf maps are not here.** Maps whose zones file says `"kind": "arena"` live in `../fc-surf-dm-maps`, and `tools/g2gmaps manifest` refuses to run while one is in `maps/`.
 
 **Credits are mandatory.** `manifest` copies each map's author and source page from the game's `maps/zones/<id>.json` and refuses to finish if any map has none. The game shows the author on screen at a map change (`[credit-1]`).
 
