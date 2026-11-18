@@ -137,7 +137,6 @@
    "input_unimplemented:game_player_equip.Use",
    "input_unimplemented:point_spotlight.LightOff",
    "volume_key_unread:func_water_analog.movedistance=270",
-   "volume_key_unread:trigger_hurt.damagecap=999999999",
    "volume_parented:trigger_hurt#449 -> ss_high01",
    "volume_parented:trigger_hurt#450 -> ss_high02",
    "volume_parented:trigger_hurt#451 -> ss_low02",
@@ -154,14 +153,14 @@
   "links_unresolved": 6,
   "inputs_unimplemented": 6,
   "surfaces_opaque": 0,
-  "gameplay_lost": 14
+  "gameplay_lost": 13
  },
  "gameplay": {
   "findings": {
    "class_unsupported": 2,
    "input_unimplemented": 6,
    "target_dangling": 5,
-   "volume_key_unread": 2,
+   "volume_key_unread": 1,
    "volume_parented": 4
   },
   "severity": {
