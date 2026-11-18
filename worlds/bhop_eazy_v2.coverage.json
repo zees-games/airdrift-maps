@@ -162,7 +162,10 @@
    "weapon_p90.ammo"
   ],
   "links_unresolved": [],
-  "surfaces_opaque": []
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:point_viewcontrol (ignored)"
+  ]
  },
  "counts": {
   "textures_unmapped": 46,
@@ -172,6 +175,19 @@
   "classes_unmapped": 0,
   "keys_unmapped": 8,
   "links_unresolved": 0,
-  "surfaces_opaque": 0
+  "surfaces_opaque": 0,
+  "gameplay_lost": 1
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported"
+  },
+  "classes": {
+   "ignored": 1,
+   "implemented": 25
+  }
  }
 }

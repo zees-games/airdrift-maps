@@ -116,7 +116,10 @@
   "classes_unmapped": [],
   "keys_unmapped": [],
   "links_unresolved": [],
-  "surfaces_opaque": []
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "input_unimplemented:env_tonemap_controller.SetTonemapRate"
+  ]
  },
  "counts": {
   "textures_unmapped": 11,
@@ -126,6 +129,20 @@
   "classes_unmapped": 0,
   "keys_unmapped": 0,
   "links_unresolved": 0,
-  "surfaces_opaque": 0
+  "surfaces_opaque": 0,
+  "gameplay_lost": 1
+ },
+ "gameplay": {
+  "findings": {
+   "input_unimplemented": 1
+  },
+  "severity": {
+   "input_unimplemented": "unsupported"
+  },
+  "classes": {
+   "approximated": 1,
+   "ignored": 1,
+   "implemented": 16
+  }
  }
 }

@@ -124,6 +124,10 @@
    "grids/grid_teal",
    "grids/grid_white",
    "grids/grid_yellow"
+  ],
+  "gameplay_lost": [
+   "player_input:addoutput targetname x16",
+   "player_input:setdamagefilter x6"
   ]
  },
  "counts": {
@@ -134,6 +138,23 @@
   "classes_unmapped": 0,
   "keys_unmapped": 1,
   "links_unresolved": 2,
-  "surfaces_opaque": 9
+  "surfaces_opaque": 9,
+  "gameplay_lost": 2
+ },
+ "gameplay": {
+  "findings": {
+   "filter_dangling": 5,
+   "player_input": 2,
+   "target_dangling": 32
+  },
+  "severity": {
+   "filter_dangling": "source",
+   "player_input": "unsupported",
+   "target_dangling": "source"
+  },
+  "classes": {
+   "approximated": 2,
+   "implemented": 13
+  }
  }
 }

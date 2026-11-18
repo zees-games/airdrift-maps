@@ -67,7 +67,8 @@
    "func_water.startposition"
   ],
   "links_unresolved": [],
-  "surfaces_opaque": []
+  "surfaces_opaque": [],
+  "gameplay_lost": []
  },
  "counts": {
   "textures_unmapped": 0,
@@ -77,6 +78,14 @@
   "classes_unmapped": 0,
   "keys_unmapped": 2,
   "links_unresolved": 0,
-  "surfaces_opaque": 0
+  "surfaces_opaque": 0,
+  "gameplay_lost": 0
+ },
+ "gameplay": {
+  "findings": {},
+  "severity": {},
+  "classes": {
+   "implemented": 13
+  }
  }
 }

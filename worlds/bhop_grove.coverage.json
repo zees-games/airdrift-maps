@@ -55,7 +55,10 @@
   "keys_unmapped": [],
   "links_unresolved": [],
   "inputs_unimplemented": [],
-  "surfaces_opaque": []
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "player_input:addoutput targetname x30"
+  ]
  },
  "counts": {
   "textures_unmapped": 2,
@@ -66,6 +69,21 @@
   "keys_unmapped": 0,
   "links_unresolved": 0,
   "inputs_unimplemented": 0,
-  "surfaces_opaque": 0
+  "surfaces_opaque": 0,
+  "gameplay_lost": 1
+ },
+ "gameplay": {
+  "findings": {
+   "filter_dangling": 1,
+   "player_input": 1
+  },
+  "severity": {
+   "filter_dangling": "source",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "ignored": 1,
+   "implemented": 11
+  }
  }
 }

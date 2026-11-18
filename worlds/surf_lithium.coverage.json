@@ -77,7 +77,28 @@
    "math_colorblend.InValue",
    "player_speedmod.ModifySpeed"
   ],
-  "surfaces_opaque": []
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:player_speedmod (approximated)",
+   "class_unsupported:point_tesla (approximated)",
+   "class_unsupported:point_viewcontrol (ignored)",
+   "input_unimplemented:func_rot_button.Press",
+   "input_unimplemented:game_player_equip.Use",
+   "input_unimplemented:math_colorblend.InValue",
+   "input_unimplemented:player_speedmod.ModifySpeed",
+   "player_input:color x2",
+   "player_input:setdamagefilter x6",
+   "volume_parented:trigger_hurt#415 -> jail_killer_jump_rot1",
+   "volume_parented:trigger_hurt#416 -> jail_killer_jump_rot2",
+   "volume_parented:trigger_hurt#422 -> jail_stampfer_right1",
+   "volume_parented:trigger_hurt#423 -> jail_stampfer_right2",
+   "volume_parented:trigger_hurt#424 -> jail_stampfer_right3",
+   "volume_parented:trigger_hurt#425 -> jail_stampfer_right4",
+   "volume_parented:trigger_hurt#426 -> jail_stampfer_left4",
+   "volume_parented:trigger_hurt#427 -> jail_stampfer_left3",
+   "volume_parented:trigger_hurt#428 -> jail_stampfer_left2",
+   "volume_parented:trigger_hurt#429 -> jail_stampfer_left1"
+  ]
  },
  "counts": {
   "textures_unmapped": 0,
@@ -88,6 +109,26 @@
   "keys_unmapped": 4,
   "links_unresolved": 0,
   "inputs_unimplemented": 4,
-  "surfaces_opaque": 0
+  "surfaces_opaque": 0,
+  "gameplay_lost": 19
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 3,
+   "input_unimplemented": 4,
+   "player_input": 2,
+   "volume_parented": 10
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "volume_parented": "unsupported"
+  },
+  "classes": {
+   "approximated": 2,
+   "ignored": 1,
+   "implemented": 33
+  }
  }
 }

@@ -93,6 +93,23 @@
   ],
   "surfaces_opaque": [
    "models/props_combine/portalball001_sheet"
+  ],
+  "gameplay_lost": [
+   "class_unsupported:env_entity_maker (approximated)",
+   "class_unsupported:path_track (approximated)",
+   "class_unsupported:player_weaponstrip (approximated)",
+   "class_unsupported:point_teleport (approximated)",
+   "class_unsupported:weapon_hegrenade (approximated)",
+   "input_unimplemented:env_entity_maker.ForceSpawn",
+   "input_unimplemented:game_player_equip.use",
+   "input_unimplemented:player_weaponstrip.Strip",
+   "input_unimplemented:point_spotlight.LightOff",
+   "input_unimplemented:point_spotlight.LightOn",
+   "input_unimplemented:point_teleport.Teleport",
+   "player_input:setdamagefilter x4",
+   "volume_key_unread:trigger_hurt.damagecap=100",
+   "volume_parented:trigger_hurt#285 -> jail_winnerplat",
+   "volume_parented:trigger_multiple#215 -> jail_winnerplat"
   ]
  },
  "counts": {
@@ -104,6 +121,30 @@
   "keys_unmapped": 11,
   "links_unresolved": 1,
   "inputs_unimplemented": 6,
-  "surfaces_opaque": 1
+  "surfaces_opaque": 1,
+  "gameplay_lost": 15
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 5,
+   "input_unimplemented": 6,
+   "player_input": 1,
+   "target_dangling": 1,
+   "volume_key_unread": 1,
+   "volume_parented": 2
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "target_dangling": "source",
+   "volume_key_unread": "unsupported",
+   "volume_parented": "unsupported"
+  },
+  "classes": {
+   "approximated": 7,
+   "ignored": 1,
+   "implemented": 28
+  }
  }
 }
