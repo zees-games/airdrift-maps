@@ -1,0 +1,10 @@
+{
+ "surf_hologram": {
+  "fails": {"no_audit": 1},
+  "reason": "imported from surf_test_2.vpk, which is not on any box: cannot be regenerated with the teleport audit until the source is found"
+ },
+ "surf_intro": {
+  "fails": {"no_audit": 1},
+  "reason": "imported from surf_intro.vpk, which is not on any box: cannot be regenerated with the teleport audit until the source is found"
+ }
+}

@@ -1767,14 +1767,14 @@
    "kind": "END",
    "track": 0,
    "min": [
-    4282.5,
+    4362.0,
     2217.0,
-    -1155.5
+    -1105.0
    ],
    "max": [
-    4474.5,
+    4395.0,
     2409.0,
-    -963.5
+    -1014.0
    ],
    "inflated": true,
    "comment": "the door at the end of the pro route (pro4) into the map_finish room, where the map's 'pr0n' message trigger is"
@@ -1783,14 +1783,14 @@
    "kind": "TELEPORT",
    "track": 0,
    "min": [
-    4282.5,
+    4362.0,
     2217.0,
-    -1155.5
+    -1105.0
    ],
    "max": [
-    4474.5,
+    4395.0,
     2409.0,
-    -963.5
+    -1014.0
    ],
    "inflated": true,
    "destination": [
@@ -1828,14 +1828,14 @@
    "kind": "END",
    "track": 1,
    "min": [
-    -2727.5,
+    -2677.0,
     1928.0,
-    -3287.5
+    -3208.0
    ],
    "max": [
-    -2535.5,
+    -2586.0,
     2120.0,
-    -3095.5
+    -3175.0
    ],
    "inflated": true,
    "comment": "the door at the end of the easy route (after noob5 / noob_52) into noob_finish; the other teleport aimed at noob_finish is the map_finish room's"
@@ -1908,14 +1908,14 @@
    "kind": "RESPAWN",
    "track": 1,
    "min": [
-    2995.5,
-    -546.0,
-    -6157.5
+    3029.0,
+    -621.0,
+    -6123.0
    ],
    "max": [
-    3187.5,
-    -354.0,
-    -5965.5
+    3154.0,
+    -429.0,
+    -6000.0
    ],
    "inflated": true,
    "destination": [
@@ -2034,14 +2034,14 @@
    "kind": "RESPAWN",
    "track": 0,
    "min": [
-    -2742.5,
+    -2692.0,
     1973.05,
     -3039.0
    ],
    "max": [
-    -2550.5,
+    -2601.0,
     2068.0,
-    -2940.5
+    -3020.0
    ],
    "inflated": true,
    "destination": [
@@ -2056,12 +2056,12 @@
    "track": 1,
    "min": [
     -3959.0,
-    1607.0,
+    1512.0,
     -8608.0
    ],
    "max": [
     -198.0,
-    1799.0,
+    1704.0,
     -2941.0
    ],
    "inflated": true,
@@ -2097,14 +2097,14 @@
    "kind": "RESPAWN",
    "track": 0,
    "min": [
-    2995.5,
-    -558.5,
-    -5544.5
+    3030.0,
+    -652.0,
+    -5510.0
    ],
    "max": [
-    3187.5,
-    -366.5,
-    -5352.5
+    3153.0,
+    -460.0,
+    -5387.0
    ],
    "inflated": true,
    "destination": [
@@ -2118,12 +2118,12 @@
    "kind": "RESPAWN",
    "track": 0,
    "min": [
-    -2742.5,
+    -2692.0,
     1973.55,
-    -3137.5
+    -3058.0
    ],
    "max": [
-    -2550.5,
+    -2601.0,
     2069.0,
     -3039.0
    ],
@@ -2161,12 +2161,12 @@
    "track": 0,
    "min": [
     4656.0,
-    2096.5,
+    2001.0,
     -4069.0
    ],
    "max": [
     5738.0,
-    2288.5,
+    2193.0,
     -2057.0
    ],
    "inflated": true,
@@ -2182,12 +2182,12 @@
    "track": 0,
    "min": [
     1024.0,
-    1778.0,
+    1686.0,
     -4071.0
    ],
    "max": [
     4591.0,
-    1970.0,
+    1878.0,
     -2057.0
    ],
    "inflated": true,
@@ -2307,14 +2307,14 @@
    "kind": "RESPAWN",
    "track": 0,
    "min": [
-    7732.5,
+    7783.0,
     2174.82,
-    -4054.5
+    -3975.0
    ],
    "max": [
-    7924.5,
+    7874.0,
     2366.82,
-    -3900.36
+    -3942.0
    ],
    "inflated": true,
    "destination": [
@@ -2329,12 +2329,12 @@
    "track": 0,
    "min": [
     3869.0,
-    1790.275,
+    1696.55,
     -2056.0
    ],
    "max": [
     7343.0,
-    1982.275,
+    1888.55,
     473.0
    ],
    "inflated": true,
@@ -2414,17 +2414,17 @@
   },
   {
    "min": [
-    2995.5,
-    5965.5,
-    -546.0
+    3029.0,
+    6000.0,
+    -621.0
    ],
    "max": [
-    3187.5,
-    6157.5,
-    -354.0
+    3154.0,
+    6123.0,
+    -429.0
    ],
    "inflated": true,
-   "hung": false,
+   "hung": true,
    "cleared": false,
    "trimmed": false,
    "stood": false,
@@ -2582,12 +2582,12 @@
   },
   {
    "min": [
-    -2742.5,
-    2940.5,
+    -2692.0,
+    3020.0,
     1973.05
    ],
    "max": [
-    -2550.5,
+    -2601.0,
     3039.0,
     2068.0
    ],
@@ -2612,15 +2612,15 @@
    "min": [
     -3959.0,
     2941.0,
-    1607.0
+    1512.0
    ],
    "max": [
     -198.0,
     8608.0,
-    1799.0
+    1704.0
    ],
    "inflated": true,
-   "hung": false,
+   "hung": true,
    "cleared": false,
    "trimmed": false,
    "stood": false,
@@ -2666,17 +2666,17 @@
   },
   {
    "min": [
-    2995.5,
-    5352.5,
-    -558.5
+    3030.0,
+    5387.0,
+    -652.0
    ],
    "max": [
-    3187.5,
-    5544.5,
-    -366.5
+    3153.0,
+    5510.0,
+    -460.0
    ],
    "inflated": true,
-   "hung": false,
+   "hung": true,
    "cleared": false,
    "trimmed": false,
    "stood": false,
@@ -2694,13 +2694,13 @@
   },
   {
    "min": [
-    -2742.5,
+    -2692.0,
     3039.0,
     1973.55
    ],
    "max": [
-    -2550.5,
-    3137.5,
+    -2601.0,
+    3058.0,
     2069.0
    ],
    "inflated": true,
@@ -2752,15 +2752,15 @@
    "min": [
     4656.0,
     2057.0,
-    2096.5
+    2001.0
    ],
    "max": [
     5738.0,
     4069.0,
-    2288.5
+    2193.0
    ],
    "inflated": true,
-   "hung": false,
+   "hung": true,
    "cleared": false,
    "trimmed": false,
    "stood": false,
@@ -2780,15 +2780,15 @@
    "min": [
     1024.0,
     2057.0,
-    1778.0
+    1686.0
    ],
    "max": [
     4591.0,
     4071.0,
-    1970.0
+    1878.0
    ],
    "inflated": true,
-   "hung": false,
+   "hung": true,
    "cleared": false,
    "trimmed": false,
    "stood": false,
@@ -2946,19 +2946,19 @@
   },
   {
    "min": [
-    7732.5,
-    3900.36,
+    7783.0,
+    3942.0,
     2174.82
    ],
    "max": [
-    7924.5,
-    4054.5,
+    7874.0,
+    3975.0,
     2366.82
    ],
    "inflated": true,
    "hung": true,
-   "cleared": true,
-   "trimmed": true,
+   "cleared": false,
+   "trimmed": false,
    "stood": false,
    "track": 0,
    "original_min": [
@@ -2976,15 +2976,15 @@
    "min": [
     3869.0,
     -473.0,
-    1790.275
+    1696.55
    ],
    "max": [
     7343.0,
     2056.0,
-    1982.275
+    1888.55
    ],
    "inflated": true,
-   "hung": false,
+   "hung": true,
    "cleared": false,
    "trimmed": false,
    "stood": false,

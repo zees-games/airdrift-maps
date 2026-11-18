@@ -46,3 +46,22 @@ jobs:
             - run: python3 tools/check_playable.py
               env:
                   DOT_MAP_CONVERT_PATH: dot-map-convert-src
+
+    # Every respawn volume catches a player only where Source's trigger_teleport could (the
+    # hull past the drawn trigger, never above its top or over a block top), every teleport is
+    # accounted for, and no route zone is buried in a pit; failures the importer has not fixed
+    # yet are held by count in tools/zone_fidelity_known.json.
+    zone-fidelity-check:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/checkout@v4
+              with:
+                  repository: gamespice-platform/map-convert
+                  path: dot-map-convert-src
+            - uses: actions/setup-python@v5
+              with:
+                  python-version: '3.12'
+            - run: python3 tools/check_zone_fidelity.py
+              env:
+                  DOT_MAP_CONVERT_PATH: dot-map-convert-src
