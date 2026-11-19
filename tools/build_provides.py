@@ -11,7 +11,7 @@ import os
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-GAMES = ["gamemann/game-g2gfast"]
+GAMES = ["gamemann/game-g2gfast"]  # legacy id: the published game pack id the maps provide for
 # The Workshop page every map pack joins as a member (the site never gives one map a page of its own).
 COLLECTION = "airdrift-maps"
 # worlds=True: each licence.json also covers worlds/<id>/, where tools/stage_packs.sh puts the world document in the pack.

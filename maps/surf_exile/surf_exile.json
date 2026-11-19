@@ -35460,5 +35460,5 @@
   }
  ],
  "author": "Pyaniy ezhik, Nomax and Sh0k_vv",
- "notes": "Staged by chk-maps run 134, not yet imported (game-g2gfast held). The spawn room's teleport (*222) sends everyone to `tp_start`; levels return falls to tp_level_1..5. The finish is the teleport into `fin_win`; the start-disabled per-level TTELEPORT triggers (FIL2LVL..FIL5LVL) are the round-end sweep and are not finishes. Verify in headless_imported before committing. fin_win is only the round-end sweep's destination; the course's last teleport targets jailwin_tp."
+ "notes": "Staged by chk-maps run 134, not yet imported (game-airdrift held). The spawn room's teleport (*222) sends everyone to `tp_start`; levels return falls to tp_level_1..5. The finish is the teleport into `fin_win`; the start-disabled per-level TTELEPORT triggers (FIL2LVL..FIL5LVL) are the round-end sweep and are not finishes. Verify in headless_imported before committing. fin_win is only the round-end sweep's destination; the course's last teleport targets jailwin_tp."
 }

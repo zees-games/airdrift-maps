@@ -40421,5 +40421,5 @@
   }
  ],
  "author": "buck nasty",
- "notes": "Staged by chk-maps run 134, not yet imported (game-g2gfast held). Stages start at stage1_start, stage2_start, stage3_start; the finish is the teleport to `win`. The map also has jails and fail teleports, so check in headless_imported that the `win` trigger is the course end and not a round-end sweep."
+ "notes": "Staged by chk-maps run 134, not yet imported (game-airdrift held). Stages start at stage1_start, stage2_start, stage3_start; the finish is the teleport to `win`. The map also has jails and fail teleports, so check in headless_imported that the `win` trigger is the course end and not a round-end sweep."
 }

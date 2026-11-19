@@ -1,6 +1,6 @@
 # airdrift-maps
 
-The bunny-hop and surf maps for [Airdrift](https://github.com/zees-games/game-airdrift), imported from community maps. (This repository was renamed from g2gfast-maps on 2026-11-11.)
+The bunny-hop and surf maps for [Airdrift](https://github.com/zees-games/game-airdrift), imported from community maps.
 
 Every map is somebody else's work, made for the genre years ago and imported so it can be played again. Each one is credited below and on screen when a server changes to it. If you made one of these maps and want it credited differently or taken down, open an issue and it will be done.
 
@@ -47,7 +47,7 @@ Releasing is a tag: `git tag v1.x.y && git push --tags`. `.github/workflows/rele
 
 ## The collection
 
-Every published map belongs to the collection `gamemann/airdrift-maps`. A server that lists `gamemann/airdrift-maps/*` gets all of them, and new maps on its next start. The old id `gamemann/g2gfast-maps/*` still works as an alias until 2027-03-01. Change server map lists to the new id before then.
+Every published map belongs to the collection `gamemann/airdrift-maps`. A server that lists `gamemann/airdrift-maps/*` gets all of them, and new maps on its next start. The old id `gamemann/g2gfast-maps/*` (legacy id) still works as an alias until 2027-03-01. Change server map lists to the new id before then.
 
 ## Credits
 

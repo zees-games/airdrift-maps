@@ -14,6 +14,6 @@ jobs:
         permissions:
             contents: write
         with:
-            game: gamemann/game-g2gfast
+            game: gamemann/game-g2gfast  # legacy id: the published game pack id
         secrets:
             DEPS_TOKEN: ${{ secrets.DOT_DEPS_TOKEN }}

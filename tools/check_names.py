@@ -8,8 +8,8 @@ former / renamed / old name / checked out as. A sibling-folder path (../g2gfast-
 allowed too: bootstrap keeps the old folder name as a link.
 
     tools/check_names.py                        this repository (what CI runs)
-    tools/check_names.py --family ..            also game-g2gfast and dot-server-deploy beside it
-    tools/check_names.py ../wt/game-g2gfast-x   also these checkouts (worktrees)
+    tools/check_names.py --family ..            also game-airdrift and dot-server-deploy beside it
+    tools/check_names.py ../wt/game-airdrift-x   also these checkouts (worktrees)
 """
 import argparse
 import re
@@ -17,10 +17,10 @@ import subprocess
 import sys
 from pathlib import Path
 
-OLD = "g2gfast-maps"
+OLD = "g2gfast-maps"  # legacy id: the pre-rename collection name this check flags
 ALLOWED = re.compile(r"airdrift-maps|alias|former|renamed|old name|checked out as", re.IGNORECASE)
 WINDOW = 80
-FAMILY = ("game-g2gfast", "dot-server-deploy")
+FAMILY = ("game-airdrift", "dot-server-deploy")
 ROOT = Path(__file__).resolve().parent.parent
 
 
