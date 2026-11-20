@@ -47,6 +47,10 @@ Releasing is a tag: `git tag v1.x.y && git push --tags`. `.github/workflows/rele
 
 Every published map belongs to the collection `gamemann/airdrift-maps`. A server that lists `gamemann/airdrift-maps/*` gets all of them, and new maps on its next start. The old id `gamemann/g2gfast-maps/*` (legacy id) still works as an alias until 2027-03-01. Change server map lists to the new id before then.
 
+## Quality and ongoing improvement
+
+The maps, models, textures and sounds in this pack are being improved over time, and some of them are low quality today. Improvement is driven by the Nightly queue, a work queue where agents pick up items, and by a visual judge loop that views rendered frames and files defects until each asset passes repeated clean reviews. Known defects are filed there and fixed in later releases, and the screenshots here are regenerated as the assets improve.
+
 ## Credits
 
 Maps are GameBanana uploads. They are published under the credited-community-map exception in `licence.json`, with this credit, the source link and a removal offer. Where a source page states a licence it is shown, otherwise the page does not forbid sharing or porting. Extra credits (textures, skyboxes, testers) are listed with the author. The repository's own tooling is MIT, by TMC.
