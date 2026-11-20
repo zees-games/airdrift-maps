@@ -1,3 +1,5 @@
+![Airdrift Maps banner](https://raw.githubusercontent.com/zees-games/airdrift-maps/main/docs/banner.png)
+
 The bunny-hop and surf maps for [Airdrift](https://github.com/zees-games/game-airdrift), imported from community maps.
 
 Every map is somebody else's work, made for the genre years ago and imported so it can be played again. Each one is credited below and on screen when a server changes to it. If you made one of these maps and want it credited differently or taken down, open an issue and it will be done.
