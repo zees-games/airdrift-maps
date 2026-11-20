@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://08gpbjexgq8o"
-path="res://.godot/imported/surf_lithium_lightmap.png-bc7551f944c316feb73946edc2c0c374.ctex"
+path="res://.godot/imported/surf_lithium_lightmap.png-266ea9c9b7fc07932a04ca6248c8165b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://maps/imported/surf_lithium/surf_lithium/surf_lithium_lightmap.png"
-dest_files=["res://.godot/imported/surf_lithium_lightmap.png-bc7551f944c316feb73946edc2c0c374.ctex"]
+source_file="res://maps/imported/surf_lithium/surf_lithium_lightmap.png"
+dest_files=["res://.godot/imported/surf_lithium_lightmap.png-266ea9c9b7fc07932a04ca6248c8165b.ctex"]
 
 [params]
 
