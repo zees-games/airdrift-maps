@@ -1,5 +1,5 @@
 {
- "format": "dot-bsp-coverage",
+ "format": "gs-bsp-coverage",
  "version": 1,
  "map": "surf_greensway",
  "sha256": "69fb3672fdc501cc34d78765b3ef51a2462a9851336d47de58737ea3d4feda27",

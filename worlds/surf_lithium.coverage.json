@@ -1,5 +1,5 @@
 {
- "format": "dot-bsp-coverage",
+ "format": "gs-bsp-coverage",
  "version": 1,
  "map": "surf_lithium",
  "sha256": "51f8c46a3ebb726acc2be0b1d6bf0d51192b3e56508ea36d90b6cd03b8c6b784",

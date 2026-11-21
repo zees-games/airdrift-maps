@@ -1,5 +1,5 @@
 {
- "format": "dot-bsp-coverage",
+ "format": "gs-bsp-coverage",
  "version": 1,
  "map": "bunnyhop_pro",
  "sha256": "215bfb1e30b45a578ff5c316f57a435ec601fa7d862be7ce43212a7f68dcfcb5",

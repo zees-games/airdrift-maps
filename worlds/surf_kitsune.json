@@ -425,7 +425,7 @@
    "scale": 16.0
   }
  },
- "format": "dot-bsp-mesh",
+ "format": "gs-bsp-mesh",
  "hulls": [
   {
    "brush": 0,

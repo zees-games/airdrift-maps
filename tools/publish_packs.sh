@@ -1,13 +1,13 @@
 #!/bin/bash
 # publish_packs.sh --member-of ASSET [--site URL] [--token-file FILE] [--dry-run] id... : stage each map (tools/stage_packs.sh) and
-# publish it as the pack gamemann/<id>, a member of the collection page ASSET (Airdrift's is airdrift-maps), through dot-cloud's
+# publish it as the pack gamemann/<id>, a member of the collection page ASSET (Airdrift's is airdrift-maps), through gs-cloud's
 # shared tools/publish_pack.sh, which refuses Valve-origin files before any upload. --member-of is required: a bare publish of a map
 # pack makes a standalone Workshop page.
 # The version is 0.0.0-<12 hex of the staged tree's sha256>, so an unchanged map republishes as the same version (a resume, not a new one).
-# GS_CLOUD: dot-cloud checkout (default ../dot-cloud). GS_MAP_CONVERT / MODEL_STORE: see stage_packs.sh.
+# GS_CLOUD: gs-cloud checkout (default ../gs-cloud). GS_MAP_CONVERT / MODEL_STORE: see stage_packs.sh.
 set -euo pipefail
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-CLOUD="${GS_CLOUD:-${DOT_CLOUD:-$HERE/../dot-cloud}}"
+CLOUD="${GS_CLOUD:-$HERE/../gs-cloud}"
 MEMBER=""; PASS=(); IDS=()
 while [ $# -gt 0 ]; do
     case "$1" in
@@ -20,7 +20,7 @@ while [ $# -gt 0 ]; do
 done
 [ -n "$MEMBER" ] || { echo "publish_packs: --member-of ASSET is required (a bare map pack gets a page of its own)" >&2; exit 2; }
 [ ${#IDS[@]} -gt 0 ] || { echo "publish_packs: name the map ids to publish" >&2; exit 2; }
-[ -x "$CLOUD/tools/publish_pack.sh" ] || { echo "publish_packs: no dot-cloud at $CLOUD (set GS_CLOUD)" >&2; exit 2; }
+[ -x "$CLOUD/tools/publish_pack.sh" ] || { echo "publish_packs: no gs-cloud at $CLOUD (set GS_CLOUD)" >&2; exit 2; }
 OUT="$(mktemp -d)"; trap 'rm -rf "$OUT"' EXIT
 "$HERE/tools/stage_packs.sh" "$OUT/stage" "${IDS[@]}"
 for id in "${IDS[@]}"; do

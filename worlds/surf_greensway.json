@@ -142,7 +142,7 @@
    "targetname": "tonemap"
   }
  },
- "format": "dot-bsp-mesh",
+ "format": "gs-bsp-mesh",
  "hulls": [
   {
    "brush": 2,
@@ -6426,7 +6426,7 @@
      "special_thanks"
     ],
     "surfaces": 9,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 6217.6,
@@ -6450,7 +6450,7 @@
      "mapbounds_c"
     ],
     "surfaces": 13,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 3221.4,
@@ -6517,7 +6517,7 @@
      "ksf/ksf_banner_clean"
     ],
     "surfaces": 1,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 1345.4,

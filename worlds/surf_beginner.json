@@ -451,7 +451,7 @@
    "yaw": 0.0
   }
  },
- "format": "dot-bsp-mesh",
+ "format": "gs-bsp-mesh",
  "hulls": [
   {
    "brush": 0,
@@ -7791,7 +7791,7 @@
      "dev/dev_waterbeneath2"
     ],
     "surfaces": 244,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 55.1,
@@ -7927,7 +7927,7 @@
      "effects/combine_binocoverlay"
     ],
     "surfaces": 10,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    }
   ]
  },

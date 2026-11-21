@@ -264,7 +264,7 @@
    }
   ]
  },
- "format": "dot-bsp-mesh",
+ "format": "gs-bsp-mesh",
  "hulls": [
   {
    "brush": 0,
@@ -13766,7 +13766,7 @@
      "dev/dev_lowerfloorgrate01d"
     ],
     "surfaces": 4,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 5.6,
@@ -14156,7 +14156,7 @@
      "nature/water_canals_cheap001"
     ],
     "surfaces": 51,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    }
   ]
  },

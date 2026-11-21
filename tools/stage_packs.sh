@@ -1,24 +1,24 @@
 #!/bin/bash
 # stage_packs.sh OUT [id...] : one directory per map, OUT/<id>/, in the layout a per-map pack gamemann/<id> is published from:
 #   maps/<id>/ without textures/                (the manifest, .bin, our lightmap, licence.json, provides.json at the pack root)
-#   worlds/<id>/<id>.{json,bin,doc.json}        (the dot-map world document; game-airdrift's AirdriftBspMap draws it from here)
+#   worlds/<id>/<id>.{json,bin,doc.json}        (the gs-map world document; game-airdrift's AirdriftBspMap draws it from here)
 #   worlds/<id>/textures/fb_*                   (the CC0 fallbacks it names; full PBR sets come from the store)
-#   worlds/<id>/models/                         (exactly the library models it draws, via dot-map-convert's `bsp.py bundle`)
+#   worlds/<id>/models/                         (exactly the library models it draws, via gs-map-convert's `bsp.py bundle`)
 # No id stages every map that has a world. A map is refused, not staged, when its coverage report names an unmapped texture,
 # model or sound, or a flat-colour texture (owner policy: publish only what is mapped to free/own assets).
 #
 # PUBLISH RULE: maps/<id>/textures/ is the importer's decode of the SOURCE map's pakfile (third-party or Valve art) and is
-# NEVER copied. publish_pack.sh refuses Valve-origin files again (dot-cloud tools/check_valve_files.py) before any upload.
+# NEVER copied. publish_pack.sh refuses Valve-origin files again (gs-cloud tools/check_valve_files.py) before any upload.
 # Our worlds/ is flat (worlds/<id>.json, shared worlds/textures/); `bsp.py bundle` reads a world folder, so each world is
 # assembled in a scratch folder first.
-# GS_MAP_CONVERT: dot-map-convert checkout (default ../dot-map-convert). MODEL_STORE: the model store (default GS_ART_LIBRARY/models, else ~/art-library/models;
+# GS_MAP_CONVERT: gs-map-convert checkout (default ../gs-map-convert). MODEL_STORE: the model store (default GS_ART_LIBRARY/models, else ~/art-library/models;
 # ./model-library holds only the picks of the last local convert).
 set -euo pipefail
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 OUT="${1:?usage: stage_packs.sh OUT [id...]}"; shift
-CONVERT="${GS_MAP_CONVERT:-${DOT_MAP_CONVERT:-$HERE/../dot-map-convert}}"
-STORE="${MODEL_STORE:-${GS_ART_LIBRARY:-${DOT_ART_LIBRARY:-$HOME/art-library}}/models}"
-[ -f "$CONVERT/bsp.py" ] || { echo "stage_packs: no dot-map-convert at $CONVERT (set GS_MAP_CONVERT)" >&2; exit 2; }
+CONVERT="${GS_MAP_CONVERT:-$HERE/../gs-map-convert}"
+STORE="${MODEL_STORE:-${GS_ART_LIBRARY:-$HOME/art-library}/models}"
+[ -f "$CONVERT/bsp.py" ] || { echo "stage_packs: no gs-map-convert at $CONVERT (set GS_MAP_CONVERT)" >&2; exit 2; }
 IDS=("$@")
 [ ${#IDS[@]} -gt 0 ] || mapfile -t IDS < <(cd "$HERE/worlds" && ls -- *.coverage.json 2>/dev/null | sed 's/\.coverage\.json$//')
 TMP="$(mktemp -d)"; trap 'rm -rf "$TMP"' EXIT

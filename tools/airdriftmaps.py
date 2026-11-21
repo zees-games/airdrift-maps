@@ -25,7 +25,7 @@ server downloads the map that is running, not 577 MB of maps they may never see,
 one map can be withdrawn without republishing the others.
 
 Standard library only. `publish` needs Godot (through the game's own tool) and
-`--upload` needs curl and openssl (through dot-server-deploy's uploader).
+`--upload` needs curl and openssl (through gs-server-deploy's uploader).
 """
 
 from __future__ import annotations
@@ -47,7 +47,7 @@ ROOT = Path(__file__).resolve().parent.parent
 MAPS = ROOT / "maps"
 MANIFEST = ROOT / "maps.json"
 # The game checkout beside this one: game-airdrift, or the old Airdrift directory name on a box bootstrapped before the rename.
-DEFAULT_GAME = next((d for d in (ROOT.parent / "game-airdrift", ROOT.parent / "game-g2gfast") if d.exists()), ROOT.parent / "game-airdrift")
+DEFAULT_GAME = next((d for d in (ROOT.parent / "game-airdrift", ROOT.parent / "game-airdrift") if d.exists()), ROOT.parent / "game-airdrift")
 DEFAULT_ORIGIN = "https://content.gamespice.net/content"
 DEFAULT_OWNER = "gamemann"
 
@@ -178,7 +178,7 @@ def cmd_publish(args: argparse.Namespace) -> None:
         print(f"\npublished into {out}; --upload puts it on the content origin")
         return
 
-    uploader = ROOT.parent / "dot-server-deploy" / "deploy" / "publish-web-s3.sh"
+    uploader = ROOT.parent / "gs-server-deploy" / "deploy" / "publish-web-s3.sh"
     env = dict(os.environ)
     for need in ("GAMES_S3_BUCKET", "GAMES_S3_REGION", "GAMES_S3_ACCESS_KEY", "GAMES_S3_ACCESS_SECRET"):
         if not env.get(need):
@@ -208,7 +208,7 @@ def b64(text: str) -> bytes:
 
 
 def verify_signature(envelope: dict, pub: str) -> bool:
-    """RS256 over the DECODED payload bytes, which is what dot-cloud signs."""
+    """RS256 over the DECODED payload bytes, which is what gs-cloud signs."""
     with tempfile.TemporaryDirectory() as tmp:
         payload = Path(tmp) / "payload"
         sig = Path(tmp) / "sig"

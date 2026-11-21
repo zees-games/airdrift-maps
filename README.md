@@ -47,7 +47,7 @@ Releasing is a tag: `git tag v1.x.y && git push --tags`. `.github/workflows/rele
 
 ## The collection
 
-Every published map belongs to the collection `gamemann/airdrift-maps`. A server that lists `gamemann/airdrift-maps/*` gets all of them, and new maps on its next start. The old id `gamemann/g2gfast-maps/*` (legacy id) still works as an alias until 2027-03-01. Change server map lists to the new id before then.
+Every published map belongs to the collection `gamemann/airdrift-maps`. A server that lists `gamemann/airdrift-maps/*` gets all of them, and new maps on its next start. The old id `gamemann/airdrift-maps/*` (legacy id) still works as an alias until 2027-03-01. Change server map lists to the new id before then.
 
 ## Quality and ongoing improvement
 

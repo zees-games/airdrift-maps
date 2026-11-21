@@ -1,6 +1,6 @@
 # Tag this repository (v1.0.0) and every map lands on the release as its own pack zip,
 # which website-city publishes as gamemann/<map id>@<version>. The game imports the
-# maps, so dot-ci checks game-airdrift out beside them; see dot-ci's release-maps.yml.
+# maps, so gs-ci checks game-airdrift out beside them; see gs-ci's release-maps.yml.
 name: Release
 
 on:
@@ -14,6 +14,6 @@ jobs:
         permissions:
             contents: write
         with:
-            game: gamemann/game-g2gfast  # legacy id: the published game pack id
+            game: gamemann/game-airdrift  # legacy id: the published game pack id
         secrets:
-            DEPS_TOKEN: ${{ secrets.DOT_DEPS_TOKEN }}
+            DEPS_TOKEN: ${{ secrets.GS_DEPS_TOKEN }}

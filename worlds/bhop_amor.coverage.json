@@ -1,5 +1,5 @@
 {
- "format": "dot-bsp-coverage",
+ "format": "gs-bsp-coverage",
  "version": 1,
  "map": "bhop_amor",
  "sha256": "309a68473364936e4bc53a95f9a0e9f972abfdac7c489194b5558573e98f121a",

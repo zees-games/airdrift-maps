@@ -1,5 +1,5 @@
 {
- "format": "dot-bsp-coverage",
+ "format": "gs-bsp-coverage",
  "version": 1,
  "map": "bhop_eazy",
  "sha256": "4abc652f775d1639451a20c3a91d5903b41307981ea48395ba0b561e869cd1fe",

@@ -1,5 +1,5 @@
 {
- "format": "dot-bsp-coverage",
+ "format": "gs-bsp-coverage",
  "version": 1,
  "map": "bhop_training_fun",
  "sha256": "2db4a9a926f8199ec3e122af9fd6bf0bcdc1f48a34c9b011537bff55ab6451fa",

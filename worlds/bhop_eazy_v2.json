@@ -576,7 +576,7 @@
    "yaw": 133.0
   }
  },
- "format": "dot-bsp-mesh",
+ "format": "gs-bsp-mesh",
  "hulls": [
   {
    "brush": 0,
@@ -9407,7 +9407,7 @@
      "hammer textures/eazy2/31_eazy2_glass_purple_1"
     ],
     "surfaces": 7,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 811.2,
@@ -9428,7 +9428,7 @@
      "hammer textures/eazy2/31_eazy_web_purple_1"
     ],
     "surfaces": 5,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 324.4,
@@ -9449,7 +9449,7 @@
      "hammer textures/eazy2/31_eazy2_glass_blue_1"
     ],
     "surfaces": 5,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 597.2,
@@ -9470,7 +9470,7 @@
      "hammer textures/eazy2/31_eazy_web_blue_1"
     ],
     "surfaces": 6,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 788.4,
@@ -9566,7 +9566,7 @@
      "hammer textures/eazy2/31_eazy2_glass_yellow_1"
     ],
     "surfaces": 5,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 818.2,
@@ -9587,7 +9587,7 @@
      "hammer textures/eazy2/31_eazy_web_yellow_1"
     ],
     "surfaces": 4,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 324.8,
@@ -9608,7 +9608,7 @@
      "hammer textures/eazy2/31_eazy2_glass_green_1"
     ],
     "surfaces": 5,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 708.8,
@@ -9629,7 +9629,7 @@
      "hammer textures/eazy2/31_eazy_web_green_1"
     ],
     "surfaces": 6,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 335.1,
@@ -9650,7 +9650,7 @@
      "hammer textures/eazy2/31_eazy2_glass_multi_1"
     ],
     "surfaces": 8,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 1051.6,
@@ -9672,7 +9672,7 @@
      "hammer textures/eazy2/31_eazy_web_multi_1"
     ],
     "surfaces": 19,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 23.8,
@@ -9694,7 +9694,7 @@
      "hammer textures/eazy2/31_eazy2_mapby_1"
     ],
     "surfaces": 2,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 467.1,
@@ -9739,7 +9739,7 @@
      "hammer textures/eazy2/31_eazy2_glass_red_1"
     ],
     "surfaces": 11,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 671.9,
@@ -9760,7 +9760,7 @@
      "hammer textures/eazy2/31_eazy_web_red_1"
     ],
     "surfaces": 9,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 128.1,
@@ -9805,7 +9805,7 @@
      "hammer textures/eazy2/31_eazy2_mapbytrail_1"
     ],
     "surfaces": 1,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 1.0,
@@ -9873,7 +9873,7 @@
      "hammer textures/eazy2/31_eazy2_jumpsides_multi_1"
     ],
     "surfaces": 90,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    }
   ]
  },

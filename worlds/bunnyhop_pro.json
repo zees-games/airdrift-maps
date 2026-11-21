@@ -98,7 +98,7 @@
    "yaw": 284.0
   }
  },
- "format": "dot-bsp-mesh",
+ "format": "gs-bsp-mesh",
  "hulls": [
   {
    "brush": 0,
@@ -6313,7 +6313,7 @@
      "glass/glasswindow020a"
     ],
     "surfaces": 7,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 4.8,
@@ -6380,7 +6380,7 @@
      "glass/glasswindow070c"
     ],
     "surfaces": 1,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 1.3,

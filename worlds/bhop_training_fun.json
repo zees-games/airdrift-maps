@@ -600,7 +600,7 @@
    }
   ]
  },
- "format": "dot-bsp-mesh",
+ "format": "gs-bsp-mesh",
  "hulls": [
   {
    "brush": 0,
@@ -2816,7 +2816,7 @@
      "nature/water_dx70_beneath"
     ],
     "surfaces": 9,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 1.2,
@@ -2929,7 +2929,7 @@
      "glass/glasswindowbreak070a"
     ],
     "surfaces": 1,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 24.9,

@@ -368,7 +368,7 @@
    "targetname": ""
   }
  },
- "format": "dot-bsp-mesh",
+ "format": "gs-bsp-mesh",
  "hulls": [
   {
    "brush": 0,
@@ -6402,7 +6402,7 @@
      "hammer textures/bhop_eazy/31_e_glass_blue"
     ],
     "surfaces": 45,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 224.1,
@@ -6423,7 +6423,7 @@
      "hammer textures/bhop_eazy/31_e_glass_green"
     ],
     "surfaces": 3,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 224.1,
@@ -6444,7 +6444,7 @@
      "hammer textures/bhop_eazy/31_e_glass_orange"
     ],
     "surfaces": 3,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 229.1,
@@ -6465,7 +6465,7 @@
      "hammer textures/bhop_eazy/31_e_glass_pink"
     ],
     "surfaces": 5,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 4.5,

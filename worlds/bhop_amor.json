@@ -339,7 +339,7 @@
    }
   ]
  },
- "format": "dot-bsp-mesh",
+ "format": "gs-bsp-mesh",
  "hulls": [
   {
    "brush": 0,
@@ -14332,7 +14332,7 @@
      "glass/glasswindow070c"
     ],
     "surfaces": 18,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 723.5,
@@ -14446,7 +14446,7 @@
      "glass/offwndwb"
     ],
     "surfaces": 8,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 16885.4,
@@ -14490,7 +14490,7 @@
      "effects/com_shield004a"
     ],
     "surfaces": 3,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 215.2,
@@ -14511,7 +14511,7 @@
      "glass/glasswindow007a"
     ],
     "surfaces": 7,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 185.0,
@@ -14948,7 +14948,7 @@
      "glass/glasswindow020a"
     ],
     "surfaces": 2,
-    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+    "url": "drawn in code by addons/gs_map/bsp/gs_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 39.6,
