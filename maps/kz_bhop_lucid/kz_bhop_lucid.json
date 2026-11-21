@@ -5961,14 +5961,77 @@
    "kind": "RESPAWN",
    "track": 0,
    "min": [
-    -1040.0,
+    -1023.0,
     940.0,
-    -3920.0
+    -3903.0
    ],
    "max": [
-    -848.0,
+    -983.5,
     1104.0,
-    -3792.0
+    -3856.0
+   ],
+   "inflated": true,
+   "destination": [
+    -608.0,
+    992.0,
+    -3936.0
+   ],
+   "destination_yaw": 0.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -983.5,
+    940.0,
+    -3919.0
+   ],
+   "max": [
+    -944.0,
+    1104.0,
+    -3793.0
+   ],
+   "inflated": true,
+   "destination": [
+    -608.0,
+    992.0,
+    -3936.0
+   ],
+   "destination_yaw": 0.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -944.0,
+    940.0,
+    -3919.0
+   ],
+   "max": [
+    -904.5,
+    1104.0,
+    -3793.0
+   ],
+   "inflated": true,
+   "destination": [
+    -608.0,
+    992.0,
+    -3936.0
+   ],
+   "destination_yaw": 0.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -904.5,
+    940.0,
+    -3856.0
+   ],
+   "max": [
+    -865.0,
+    1104.0,
+    -3809.0
    ],
    "inflated": true,
    "destination": [
@@ -11991,13 +12054,13 @@
   },
   {
    "min": [
-    -1040.0,
-    3792.0,
+    -1023.0,
+    3856.0,
     940.0
    ],
    "max": [
-    -848.0,
-    3920.0,
+    -983.5,
+    3903.0,
     1104.0
    ],
    "inflated": true,
@@ -12007,13 +12070,97 @@
    "stood": true,
    "track": 0,
    "original_min": [
-    -1024.0,
-    3808.0,
+    -1023.0,
+    3856.0,
     1096.0
    ],
    "original_max": [
-    -864.0,
-    3904.0,
+    -983.5,
+    3903.0,
+    1104.0
+   ]
+  },
+  {
+   "min": [
+    -983.5,
+    3793.0,
+    940.0
+   ],
+   "max": [
+    -944.0,
+    3919.0,
+    1104.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    -983.5,
+    3809.0,
+    1096.0
+   ],
+   "original_max": [
+    -944.0,
+    3903.0,
+    1104.0
+   ]
+  },
+  {
+   "min": [
+    -944.0,
+    3793.0,
+    940.0
+   ],
+   "max": [
+    -904.5,
+    3919.0,
+    1104.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    -944.0,
+    3809.0,
+    1096.0
+   ],
+   "original_max": [
+    -904.5,
+    3903.0,
+    1104.0
+   ]
+  },
+  {
+   "min": [
+    -904.5,
+    3809.0,
+    940.0
+   ],
+   "max": [
+    -865.0,
+    3856.0,
+    1104.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    -904.5,
+    3809.0,
+    1096.0
+   ],
+   "original_max": [
+    -865.0,
+    3856.0,
     1104.0
    ]
   },
