@@ -33546,6 +33546,16 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_class": 4,
+   "filter_activator_name": 2,
+   "filter_damage_type": 1,
+   "game_player_equip": 1,
+   "logic_auto": 1
+  },
+  "switched_off": []
+ },
  "display_name": "bhop: tesquo",
  "author": "george (GeorgeRulesLOL), one stage by Jagg",
  "notes": "The finish is the one trigger_teleport aimed at `tesqend` -- a 40x40 pad in a magenta room at the end of the last level, which puts the player in the end room directly beneath the start room (the two are stacked at [-4200 4300], floors z 2000 and 2272; the GameBanana page apologises for both). Nothing else aims at `tesqend`. The start is the upper room: all 40 spawns are in it, and its only way out is an 8x352 door teleport between the env_laser gate at x -4000 and the destination `s1l1`. The page says the map is '9 mpbhop levels', and the door teleports give exactly nine in a single chain: spawn -> s1l1, s1 -> `s2` (134x8), s2 -> `js1l1` (96x96; js1 is Jagg's stage, JAGG on the credits), js1 -> `s3l1` (40x128), s3 -> `s4l1` (40x40), s4 -> `s5l1` (48x40), s5 -> `s6enter` (72x72), s6 -> `s7l` (64x64), s7 -> `s8l1` (400x7), s8 -> `tesqend`. Those arrival points are the stages. The pits do not return a player directly: each sends to a cell `sNcM` in a grid at [-3560..-3224 -1376..-1232 1984], and a 32x32 teleport in the cell sends on to the level point `sNlM`; the `doorways` rule reads the level doors and the cells alike, which is harmless because nothing reaches a cell once the pits respawn."

@@ -29652,6 +29652,17 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "env_entity_maker": 1,
+   "filter_activator_class": 1,
+   "filter_activator_name": 3,
+   "filter_damage_type": 1,
+   "logic_auto": 1,
+   "point_clientcommand": 1
+  },
+  "switched_off": []
+ },
  "author": "Tony Montana",
  "notes": "Credit, and a start and finish read from the map's own `spawn` destination and end trigger (gb-maps-1). The route is 31 checkpoints, tele_dest_1..31, every pit aimed back at the last one. The end: a trigger_multiple at the top of the last climb plays the map's ending track, fades the screen and moves the player to the end room at tele_dest_35 3.5 s later; that trigger is the finish line. Its 32 teleports behind filter_activator are anti-standing blocks (a 0.09 s AddOutput targetname activator on touching a block), so they are sinking blocks here, not pits. Not published."
 }

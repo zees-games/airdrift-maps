@@ -30366,6 +30366,17 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "env_entity_maker": 1,
+   "filter_activator_name": 1,
+   "filter_damage_type": 1,
+   "logic_auto": 53,
+   "logic_timer": 15,
+   "point_clientcommand": 1
+  },
+  "switched_off": []
+ },
  "author": "BLENDIE",
  "notes": "Credit, and a start and finish read from the map's own logic (chk-maps run 64). The 64 spawns stand in a holding room at z 9048 over a teleport to `level1`; the start is a box round that arrival. Sections level1..level22 (with ekstra1..7 side checkpoints) follow, each block behind the anti-standing trap below. The last section (level22) runs south-west to [-9000, -4320, 3112]; 600 units below its end is the only trigger that shows the map's credit (`message`, a game_text 'bhop_nature - Created by BLEND'), in a closed room the route drops into. That trigger is the finish. Not published."
 }

@@ -47743,6 +47743,15 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_name": 5,
+   "filter_damage_type": 1,
+   "logic_relay": 1,
+   "point_clientcommand": 1
+  },
+  "switched_off": []
+ },
  "display_name": "bhop: interloper",
  "author": "Tony Montana",
  "notes": "The finish is the pad textured `tony/brushes/endboost` (470x470 at [7136 1744 3984]): the trigger_multiple on it (filter cp_deny) renames the player cp_cp, fires the env_fades `fade`/`fade2` and after 5 s renames them cp_tele; a trigger_push filtered on cp_cp throws them up, and the trigger_teleport around it filtered on cp_teleport (1728x1728x3072) sends them to the destination named `end`, a separate room at [-1736 -1488 352]. That teleport is the finish line here rather than the pad, because this importer does not read filters and the column would otherwise be a pit enclosing the pad; entering it is entering the finish room. It is the far end of the route: section returns run t_dest_1..t_dest_38 and t_dest_38's section is the one beside it. The route is three parts joined by two door-sized teleports, `part2` (96x96, end of t_dest_18's part) and `part3` (64x64, end of t_dest_30's), which are the stages. The start: players spawn in a room at [-7672 4062] whose floor teleports to `spawn`, the intro camera; `start_relay` parks them for 14 s and then drops them at [-5760 3744 2440] into the pool of the start room below, whose exit (a trigger_multiple at y 4992..5248 that switches on the course fog) leads into section 1 and the t_dest_1 pit. The start line is that room."

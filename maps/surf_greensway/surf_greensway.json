@@ -255125,6 +255125,12 @@
  },
  "push_volumes": [],
  "trigger_volumes": [],
+ "not_run": {
+  "classes": {
+   "logic_auto": 1
+  },
+  "switched_off": []
+ },
  "author": "NvC_DmN_CH",
  "notes": "Credit, and stage 2 marked as a split with no restart. Everything else about this map comes from the .bsp itself; see README.md."
 }

@@ -220255,12 +220255,12 @@
     "min": [
      -13104.0,
      -14175.999,
-     -13440.0
+     -13439.0
     ],
     "max": [
      -13072.0,
-     -14158.999,
-     -13184.0
+     -14159.0,
+     -13185.0
     ],
     "push": [
      -2000.0,
@@ -220453,12 +220453,12 @@
    "min": [
     -13104.0,
     -14175.999,
-    -13440.0
+    -13439.0
    ],
    "max": [
     -13072.0,
-    -14158.999,
-    -13184.0
+    -14159.0,
+    -13185.0
    ],
    "push": [
     -2000.0,
@@ -221594,6 +221594,191 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "StartDisabled trigger_push": 2,
+   "filter_activator_class": 4,
+   "filter_activator_name": 28,
+   "filter_damage_type": 1,
+   "game_player_equip": 1,
+   "logic_auto": 10,
+   "logic_relay": 13,
+   "logic_timer": 8,
+   "point_servercommand": 1
+  },
+  "switched_off": [
+   {
+    "class": "trigger_teleport",
+    "name": "secret_trail_spawn_tele_out",
+    "by": [
+     "trigger_multiple"
+    ],
+    "min": [
+     -1088.0,
+     11168.0,
+     11200.0
+    ],
+    "max": [
+     -960.0,
+     11312.0,
+     11328.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "secret_trail_t1_tele_out",
+    "by": [
+     "trigger_multiple"
+    ],
+    "min": [
+     960.0,
+     9120.0,
+     13248.0
+    ],
+    "max": [
+     1088.0,
+     9264.0,
+     13376.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "secret_trail_t2_tele_out",
+    "by": [
+     "trigger_multiple"
+    ],
+    "min": [
+     960.0,
+     13216.0,
+     7104.0
+    ],
+    "max": [
+     1088.0,
+     13360.0,
+     7232.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "secret_trail_t3_tele_out",
+    "by": [
+     "trigger_multiple"
+    ],
+    "min": [
+     5056.0,
+     11168.0,
+     9152.0
+    ],
+    "max": [
+     5184.0,
+     11312.0,
+     9280.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "secret_trail_t4_tele_out",
+    "by": [
+     "trigger_multiple"
+    ],
+    "min": [
+     7104.0,
+     11168.0,
+     13248.0
+    ],
+    "max": [
+     7232.0,
+     11312.0,
+     13376.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "secret_trail_t5_tele_out",
+    "by": [
+     "trigger_multiple"
+    ],
+    "min": [
+     9152.0,
+     9120.0,
+     7104.0
+    ],
+    "max": [
+     9280.0,
+     9264.0,
+     7232.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "secret_trail_t6_tele_out",
+    "by": [
+     "trigger_multiple"
+    ],
+    "min": [
+     11200.0,
+     13216.0,
+     11200.0
+    ],
+    "max": [
+     11328.0,
+     13360.0,
+     11328.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "secret_trail_bonus_tele_out",
+    "by": [
+     "trigger_multiple"
+    ],
+    "min": [
+     13248.0,
+     11168.0,
+     11200.0
+    ],
+    "max": [
+     13376.0,
+     11312.0,
+     11328.0
+    ]
+   },
+   {
+    "class": "trigger_push",
+    "name": "ending_pod_sphere_train_doors_push",
+    "by": [
+     "path_track"
+    ],
+    "min": [
+     2480.0,
+     13776.0,
+     -128.0
+    ],
+    "max": [
+     2544.0,
+     13888.0,
+     -80.0
+    ]
+   },
+   {
+    "class": "trigger_push",
+    "name": "ending_pod_sphere_train_doors_push",
+    "by": [
+     "path_track"
+    ],
+    "min": [
+     2480.0,
+     13776.0,
+     80.0
+    ],
+    "max": [
+     2544.0,
+     13888.0,
+     128.0
+    ]
+   }
+  ]
+ },
  "train_movers": [
   {
    "name": "ending_pod_sphere_train",

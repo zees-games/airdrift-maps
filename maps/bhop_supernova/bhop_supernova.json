@@ -17539,6 +17539,12 @@
    "filtername": "soniatop"
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_name": 2
+  },
+  "switched_off": []
+ },
  "display_name": "bhop: supernova",
  "author": "Sonia_ and Benchmarked",
  "notes": "A plain numbered chain and nothing else: 18 destinations cp1..cp17 (plus cp7a, a second checkpoint 40 units from cp7 for the vertical part of section 7), and every one of the 31 trigger_teleports is a floor pad aimed at the checkpoint of the section it lies under. There is no door, no finish label and no end destination. The start is the cp1 platform, where all 37 spawns stand. The finish is the platform at the far end of section 17, the last section the map numbers: the cp17 pit runs 6000 units north of cp17 and this 1600x1300 platform sits on top of its far end, walled on the north, with no geometry beyond it. That is a judgement from the brushes rather than a label. The author's page gives it as 'tier 1, showcase time 1:30'."

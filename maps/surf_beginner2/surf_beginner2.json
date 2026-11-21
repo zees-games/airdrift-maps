@@ -23982,6 +23982,14 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_name": 1,
+   "filter_damage_type": 1,
+   "game_player_equip": 1
+  },
+  "switched_off": []
+ },
  "display_name": "surf: beginner2",
  "author": "Kiiru",
  "notes": "Seven stages and four bonuses, all of which the map labels itself as startzone_s1..s7 and start/endzone_koga|sagan|spy|frag. The only thing missing is the main track's finish, because the map does not end in a zone: the end of stage 7 is a trigger_teleport into 'heaven', the reward room beside the spawn. That teleport is the finish line. Every stage ENDS in a door, too: a 16x224x240 trigger_teleport (the glass panel in a wooden frame) aimed at the next stage's failman_s<n>, the same destination that stage's pits use. Taken as pits, each door sent a player back to the start of the stage they had just finished, for ever (Christian's 2026-10-07 footage: Stage 0/7 for two and a half minutes).  `doorways` at 256 makes exactly the door-sized ones TELEPORT: the seven stage exits, the four bonus entrances in the spawn room and the three bonus exits back to it. The narrowest pit is 320 by 128 (failman_s4) and 224 by 384 (failman_s3), so 512, surf_kitsune's figure, would take four pits for doors."

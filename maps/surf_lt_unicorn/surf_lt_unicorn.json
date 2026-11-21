@@ -172384,6 +172384,57 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "env_entity_maker": 1,
+   "filter_activator_name": 104,
+   "filter_damage_type": 1,
+   "filter_multi": 2,
+   "game_player_equip": 1,
+   "logic_auto": 1,
+   "logic_case": 8,
+   "logic_relay": 134,
+   "logic_timer": 8,
+   "math_counter": 4,
+   "point_servercommand": 1
+  },
+  "switched_off": [
+   {
+    "class": "trigger_teleport",
+    "name": "ending_tele_finished",
+    "by": [
+     "logic_relay"
+    ],
+    "min": [
+     -11808.0,
+     11984.0,
+     -10784.0
+    ],
+    "max": [
+     -11712.0,
+     12048.0,
+     -10688.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "ending_event_lock",
+    "by": [
+     "trigger_multiple"
+    ],
+    "min": [
+     -13312.0,
+     12160.0,
+     -4960.0
+    ],
+    "max": [
+     -12544.0,
+     12432.0,
+     -4256.0
+    ]
+   }
+  ]
+ },
  "train_movers": [
   {
    "name": "credits_train_s01",

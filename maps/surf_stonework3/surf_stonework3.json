@@ -194509,6 +194509,15 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_damage_type": 1,
+   "game_player_equip": 1,
+   "logic_auto": 1,
+   "point_servercommand": 1
+  },
+  "switched_off": []
+ },
  "author": "Mr.Cow",
  "notes": "Credit, and zones from the map's own Stage<n> destinations and Stage<n>End triggers (gb-maps-1, run 12). Not published."
 }

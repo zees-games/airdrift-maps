@@ -20936,6 +20936,13 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "logic_auto": 1,
+   "point_clientcommand": 1
+  },
+  "switched_off": []
+ },
  "display_name": "surf: interference",
  "author": "NvC_DmN_CH",
  "notes": "map_start_zone and map_end_zone are the map's own. Its three checkpoints are named rather than numbered -- center, left and right -- because they are three routes through one section and a player takes exactly one, so they are reported and not counted as splits."

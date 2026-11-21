@@ -54890,6 +54890,33 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_name": 2,
+   "filter_damage_type": 1,
+   "logic_auto": 1,
+   "point_servercommand": 1
+  },
+  "switched_off": [
+   {
+    "class": "trigger_teleport",
+    "name": "boostertele1",
+    "by": [
+     "trigger_multiple"
+    ],
+    "min": [
+     2864.0,
+     -2160.0,
+     -10416.0
+    ],
+    "max": [
+     2944.0,
+     -2159.0,
+     -10320.0
+    ]
+   }
+  ]
+ },
  "author": "Dotty",
  "notes": "A start and finish read from the map (chk-maps run 74). Ten levels, dest1..dest12, each level's floor an anti-standing trap run as sinking blocks. The finish is the one teleport to `dest13`, the music-button room, inside the trigger that says 'Map by Dotty!' and plays the end sound. The five func_doors are touch-opening trapdoors in the drop shaft between levels 7 and 8; the importer runs no outputs, so they are opened. Not published."
 }

@@ -38011,6 +38011,13 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_damage_type": 1,
+   "game_player_equip": 1
+  },
+  "switched_off": []
+ },
  "author": "Kiiru, Sacred91, Zeedz, Retarded brother",
  "notes": "Eighteen numbered stages read from the teleport graph (gb-maps-1, 2026-10-09): each section ends in a door-sized gate (16x384x208) aimed at the next section's stageN destination, and its pits return to its own. The spawn room's door (384x8x192 at -4736 13396 15136) is the way into stage1; stage18's last gate (-1672 13184 2920) aims at `end`, a room beside the spawn, which is the finish. By kiiru, who also made surf_beginner2. Not published."
 }

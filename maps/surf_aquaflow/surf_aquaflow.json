@@ -124134,6 +124134,15 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_damage_type": 1,
+   "game_player_equip": 1,
+   "logic_auto": 1,
+   "logic_timer": 2
+  },
+  "switched_off": []
+ },
  "display_name": "surf: aquaflow",
  "author": "NvC_DmN_CH",
  "notes": "Labelled throughout: zone_start, zone_end, checkpoint_1 and checkpoint_2. Nothing to add but the tier, which is an operator's call and is here to be edited rather than because the map said so."

@@ -24253,6 +24253,15 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_name": 1,
+   "filter_damage_type": 1,
+   "logic_auto": 1,
+   "logic_timer": 1
+  },
+  "switched_off": []
+ },
  "author": "ballz of steel",
  "notes": "A start and finish read from the map (chk-maps run 74). 29 stages (stage1..stage29), each floor an anti-standing trap run as sinking blocks. The start is round the `start` destination beside the spawns. Past stage 29 the route runs north to door5, whose proximity trigger shows the credit hud hint ('bhop_depot by ballz of steel'); that trigger is the finish. The five func_doors are proximity doors (open while a player stands in front of them); the importer runs no outputs, so they are opened. The long-jump room (teleports to `longjumps`) is a side room. Not published."
 }

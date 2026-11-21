@@ -76817,6 +76817,14 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_name": 7,
+   "filter_damage_type": 1,
+   "logic_case": 1
+  },
+  "switched_off": []
+ },
  "author": "Dotty",
  "notes": "Credit, and a start and finish read from the map's own spawns and destend1 teleport (gb-maps-1, run 12). Not published."
 }

@@ -6665,6 +6665,16 @@
    "filtername": "noboosterfixpls"
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_class": 2,
+   "filter_activator_name": 1,
+   "logic_auto": 1,
+   "logic_case": 1,
+   "point_clientcommand": 1
+  },
+  "switched_off": []
+ },
  "author": "Proxychains",
  "notes": "gb-maps-2. Not published."
 }

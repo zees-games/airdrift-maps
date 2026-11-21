@@ -30575,6 +30575,16 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "env_entity_maker": 1,
+   "filter_activator_name": 1,
+   "filter_damage_type": 1,
+   "logic_auto": 1,
+   "point_clientcommand": 1
+  },
+  "switched_off": []
+ },
  "train_movers": [
   {
    "name": "",

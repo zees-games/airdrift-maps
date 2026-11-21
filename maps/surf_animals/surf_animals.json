@@ -19580,6 +19580,1022 @@
    "filtername": "ct_filter"
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_team": 2,
+   "filter_damage_type": 4,
+   "game_player_equip": 16,
+   "logic_auto": 1,
+   "logic_compare": 2,
+   "logic_timer": 6,
+   "point_servercommand": 1
+  },
+  "switched_off": [
+   {
+    "class": "trigger_teleport",
+    "name": "lift_fire",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -608.0,
+     -282.0,
+     1577.0
+    ],
+    "max": [
+     -296.0,
+     -121.0,
+     1844.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "ct_tele",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -1184.0,
+     -829.0,
+     -2370.0
+    ],
+    "max": [
+     280.0,
+     829.0,
+     2146.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "t_tele",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -1184.0,
+     -829.0,
+     -2370.0
+    ],
+    "max": [
+     280.0,
+     829.0,
+     2146.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "fight_tele",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -1184.0,
+     -829.0,
+     -2370.0
+    ],
+    "max": [
+     280.0,
+     829.0,
+     2146.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "ct_tele1",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -11340.0,
+     -763.0,
+     -1421.0
+    ],
+    "max": [
+     -10180.0,
+     807.0,
+     1137.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "t_tele1",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -11340.0,
+     -763.0,
+     -1421.0
+    ],
+    "max": [
+     -10180.0,
+     807.0,
+     1137.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "fight_tele",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -11340.0,
+     -763.0,
+     -1421.0
+    ],
+    "max": [
+     -10180.0,
+     807.0,
+     1137.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "ct_tele2",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -14579.0,
+     -1490.0,
+     -2697.0
+    ],
+    "max": [
+     -12748.0,
+     1535.0,
+     2895.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "t_tele2",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -14579.0,
+     -1490.0,
+     -2697.0
+    ],
+    "max": [
+     -12748.0,
+     1535.0,
+     2895.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "cola_cola",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -14579.0,
+     -1490.0,
+     -2697.0
+    ],
+    "max": [
+     -12748.0,
+     1535.0,
+     2895.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "ct_tele3",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -3414.0,
+     238.0,
+     2496.0
+    ],
+    "max": [
+     3522.0,
+     2038.0,
+     3740.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "t_tele3",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -3414.0,
+     238.0,
+     2496.0
+    ],
+    "max": [
+     3522.0,
+     2038.0,
+     3740.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "fight_tele",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -3414.0,
+     238.0,
+     2496.0
+    ],
+    "max": [
+     3522.0,
+     2038.0,
+     3740.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "ct_tele5",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -3266.0,
+     -2348.0,
+     -7923.0
+    ],
+    "max": [
+     1982.0,
+     2388.0,
+     -6387.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "t_tele5",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -3266.0,
+     -2348.0,
+     -7923.0
+    ],
+    "max": [
+     1982.0,
+     2388.0,
+     -6387.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "fight_tele",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -3266.0,
+     -2348.0,
+     -7923.0
+    ],
+    "max": [
+     1982.0,
+     2388.0,
+     -6387.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "ct_tele6",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -8368.0,
+     -922.0,
+     -2330.0
+    ],
+    "max": [
+     -5792.0,
+     1246.0,
+     2782.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "t_tele6",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -8368.0,
+     -922.0,
+     -2330.0
+    ],
+    "max": [
+     -5792.0,
+     1246.0,
+     2782.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "fight_tele",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -8368.0,
+     -922.0,
+     -2330.0
+    ],
+    "max": [
+     -5792.0,
+     1246.0,
+     2782.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "ct_tele7",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -4854.0,
+     -2114.0,
+     2550.0
+    ],
+    "max": [
+     4824.0,
+     -418.0,
+     3686.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "t_tele7",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -4854.0,
+     -2114.0,
+     2550.0
+    ],
+    "max": [
+     4824.0,
+     -418.0,
+     3686.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "fight_tele",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -4854.0,
+     -2114.0,
+     2550.0
+    ],
+    "max": [
+     4824.0,
+     -418.0,
+     3686.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "ct_tele8",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -11846.0,
+     -1492.0,
+     -4620.0
+    ],
+    "max": [
+     -5709.0,
+     1536.0,
+     -2923.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "t_tele8",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -11846.0,
+     -1492.0,
+     -4620.0
+    ],
+    "max": [
+     -5709.0,
+     1536.0,
+     -2923.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "fight_tele",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -11846.0,
+     -1492.0,
+     -4620.0
+    ],
+    "max": [
+     -5709.0,
+     1536.0,
+     -2923.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "ct_tele9",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -4334.0,
+     -1273.0,
+     -5400.0
+    ],
+    "max": [
+     182.0,
+     1317.0,
+     -3936.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "t_tele9",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -4334.0,
+     -1273.0,
+     -5400.0
+    ],
+    "max": [
+     182.0,
+     1317.0,
+     -3936.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "fight_tele",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -4334.0,
+     -1273.0,
+     -5400.0
+    ],
+    "max": [
+     182.0,
+     1317.0,
+     -3936.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "ct_tele11",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     872.0,
+     -2184.0,
+     -5400.0
+    ],
+    "max": [
+     8008.0,
+     2112.0,
+     2080.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "t_tele11",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     872.0,
+     -2184.0,
+     -5400.0
+    ],
+    "max": [
+     8008.0,
+     2112.0,
+     2080.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "fight_tele",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     872.0,
+     -2184.0,
+     -5400.0
+    ],
+    "max": [
+     8008.0,
+     2112.0,
+     2080.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "fight_tele",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -7936.0,
+     -906.0,
+     -10720.0
+    ],
+    "max": [
+     -5440.0,
+     950.0,
+     -5728.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "ct_tele12",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -7936.0,
+     -906.0,
+     -10720.0
+    ],
+    "max": [
+     -5440.0,
+     950.0,
+     -5728.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "t_tele12",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -7936.0,
+     -906.0,
+     -10720.0
+    ],
+    "max": [
+     -5440.0,
+     950.0,
+     -5728.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "fight_tele",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -14888.0,
+     -278.0,
+     5344.0
+    ],
+    "max": [
+     -7432.0,
+     390.0,
+     12946.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "ct_tele4",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -14888.0,
+     -278.0,
+     5344.0
+    ],
+    "max": [
+     -7432.0,
+     390.0,
+     12946.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "t_tele4",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -14888.0,
+     -278.0,
+     5344.0
+    ],
+    "max": [
+     -7432.0,
+     390.0,
+     12946.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "tele_down",
+    "by": [
+     "func_button"
+    ],
+    "min": [
+     -88.0,
+     1354.0,
+     8032.0
+    ],
+    "max": [
+     104.0,
+     1453.0,
+     8160.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "t",
+    "by": [
+     "trigger_multiple"
+    ],
+    "min": [
+     -904.0,
+     -59.0,
+     6968.0
+    ],
+    "max": [
+     920.0,
+     1789.0,
+     8792.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "ct",
+    "by": [
+     "trigger_multiple"
+    ],
+    "min": [
+     -904.0,
+     -59.0,
+     6968.0
+    ],
+    "max": [
+     920.0,
+     1789.0,
+     8792.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "t_tele10",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -12913.0,
+     -704.0,
+     -13194.0
+    ],
+    "max": [
+     -11376.0,
+     744.0,
+     -5594.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "ct_tele10",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -12913.0,
+     -704.0,
+     -13194.0
+    ],
+    "max": [
+     -11376.0,
+     744.0,
+     -5594.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "fight_tele",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -12913.0,
+     -704.0,
+     -13194.0
+    ],
+    "max": [
+     -11376.0,
+     744.0,
+     -5594.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "cola_cola",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -1184.0,
+     -829.0,
+     -2370.0
+    ],
+    "max": [
+     280.0,
+     829.0,
+     2146.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "cola_cola",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -11340.0,
+     -763.0,
+     -1421.0
+    ],
+    "max": [
+     -10180.0,
+     807.0,
+     1137.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "cola_cola",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -3414.0,
+     238.0,
+     2496.0
+    ],
+    "max": [
+     3522.0,
+     2038.0,
+     3740.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "cola_cola",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -3266.0,
+     -2348.0,
+     -7923.0
+    ],
+    "max": [
+     1982.0,
+     2388.0,
+     -6387.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "cola_cola",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -8368.0,
+     -922.0,
+     -2330.0
+    ],
+    "max": [
+     -5792.0,
+     1246.0,
+     2782.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "cola_cola",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -4854.0,
+     -2114.0,
+     2550.0
+    ],
+    "max": [
+     4824.0,
+     -418.0,
+     3686.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "cola_cola",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -11846.0,
+     -1492.0,
+     -4620.0
+    ],
+    "max": [
+     -5709.0,
+     1536.0,
+     -2923.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "cola_cola",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -4334.0,
+     -1273.0,
+     -5400.0
+    ],
+    "max": [
+     182.0,
+     1317.0,
+     -3936.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "cola_cola",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -12913.0,
+     -704.0,
+     -13194.0
+    ],
+    "max": [
+     -11376.0,
+     744.0,
+     -5594.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "cola_cola",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -14888.0,
+     -278.0,
+     5344.0
+    ],
+    "max": [
+     -7432.0,
+     390.0,
+     12946.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "cola_cola",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     872.0,
+     -2184.0,
+     -5400.0
+    ],
+    "max": [
+     8008.0,
+     2112.0,
+     2080.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "cola_cola",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -7936.0,
+     -906.0,
+     -10720.0
+    ],
+    "max": [
+     -5440.0,
+     950.0,
+     -5728.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "fight_tele",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -5112.0,
+     -889.0,
+     -2456.0
+    ],
+    "max": [
+     -2200.0,
+     1423.0,
+     812.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "ct_tele13",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -5112.0,
+     -889.0,
+     -2456.0
+    ],
+    "max": [
+     -2200.0,
+     1423.0,
+     812.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "t_tele13",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -5112.0,
+     -889.0,
+     -2456.0
+    ],
+    "max": [
+     -2200.0,
+     1423.0,
+     812.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "cola_cola",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     -5112.0,
+     -889.0,
+     -2456.0
+    ],
+    "max": [
+     -2200.0,
+     1423.0,
+     812.0
+    ]
+   }
+  ]
+ },
  "train_movers": [
   {
    "name": "AmstaFF_Lift",

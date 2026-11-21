@@ -70676,6 +70676,56 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "env_entity_maker": 5,
+   "filter_activator_class": 1,
+   "filter_activator_name": 2,
+   "filter_damage_type": 1,
+   "game_player_equip": 2,
+   "logic_auto": 1,
+   "logic_case": 6,
+   "logic_relay": 20,
+   "logic_timer": 5,
+   "point_clientcommand": 1
+  },
+  "switched_off": [
+   {
+    "class": "trigger_teleport",
+    "name": "secret_teleport_start",
+    "by": [
+     "logic_relay"
+    ],
+    "min": [
+     -10648.0,
+     10368.0,
+     -3440.0
+    ],
+    "max": [
+     -10256.0,
+     10528.0,
+     -3088.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "secret_teleport_out",
+    "by": [
+     "logic_relay"
+    ],
+    "min": [
+     -11864.0,
+     11328.0,
+     -3544.0
+    ],
+    "max": [
+     -11752.0,
+     11552.0,
+     -3432.0
+    ]
+   }
+  ]
+ },
  "author": "Proxychains",
  "notes": "Credit only: the map labels its own zones (mod_zone_start, mod_zone_end, mod_zone_bonus_1_start, mod_zone_bonus_1_end), which the importer reads (chk-maps run 73). Its secret_trigger_start opens a hidden credits room with no end, so that track is dropped. Not published."
 }

@@ -21874,6 +21874,13 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_name": 1,
+   "filter_damage_type": 1
+  },
+  "switched_off": []
+ },
  "author": "FreAkin",
  "notes": "Credit, and zones from the spawn room and the door at the end of the green level aimed at `ende` (gb-maps-1, chk-maps run 117). The route runs lvl1st*, then stageblue into lvlbluest*, then lvlgreen into lvlgreenst*; those destinations are fall returns, not splits. The two 12x96 doors in the lower area also aimed at `ende` stay teleports. Not published."
 }

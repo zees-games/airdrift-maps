@@ -32930,6 +32930,165 @@
    "filtername": "tfilter"
   }
  ],
+ "not_run": {
+  "classes": {
+   "StartDisabled trigger_hurt": 1,
+   "StartDisabled trigger_push": 1,
+   "filter_activator_team": 2,
+   "filter_damage_type": 1,
+   "game_player_equip": 5,
+   "logic_auto": 4,
+   "logic_branch": 4,
+   "logic_case": 2,
+   "logic_relay": 5,
+   "logic_timer": 3,
+   "math_counter": 3
+  },
+  "switched_off": [
+   {
+    "class": "trigger_push",
+    "name": "end_push",
+    "by": [
+     "func_rot_button"
+    ],
+    "min": [
+     -3552.0,
+     32.0,
+     -2528.0
+    ],
+    "max": [
+     -2152.0,
+     192.0,
+     -1568.0
+    ]
+   },
+   {
+    "class": "trigger_hurt",
+    "name": "jail_killer",
+    "by": [
+     "math_counter"
+    ],
+    "min": [
+     -6656.0,
+     -6144.0,
+     -6144.0
+    ],
+    "max": [
+     -3584.0,
+     -3072.0,
+     -4096.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "end_of_round_teleport",
+    "by": [
+     "logic_relay",
+     "logic_timer"
+    ],
+    "min": [
+     -2048.0,
+     -1024.0,
+     -11264.0
+    ],
+    "max": [
+     7680.0,
+     5120.0,
+     -5632.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "end_of_round_teleport",
+    "by": [
+     "logic_relay",
+     "logic_timer"
+    ],
+    "min": [
+     -2048.0,
+     -6144.0,
+     -4608.0
+    ],
+    "max": [
+     7680.0,
+     3072.0,
+     -3072.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "end_of_round_teleport",
+    "by": [
+     "logic_relay",
+     "logic_timer"
+    ],
+    "min": [
+     -3584.0,
+     -3072.0,
+     3072.0
+    ],
+    "max": [
+     3328.0,
+     3072.0,
+     9728.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "end_of_round_teleport",
+    "by": [
+     "logic_relay",
+     "logic_timer"
+    ],
+    "min": [
+     -2048.0,
+     -5120.0,
+     1024.0
+    ],
+    "max": [
+     2816.0,
+     3072.0,
+     2560.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "end_of_round_teleport",
+    "by": [
+     "logic_relay",
+     "logic_timer"
+    ],
+    "min": [
+     -2048.0,
+     0.0,
+     -1024.0
+    ],
+    "max": [
+     6656.0,
+     3072.0,
+     512.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "end_of_round_teleport",
+    "by": [
+     "logic_relay",
+     "logic_timer"
+    ],
+    "min": [
+     -3392.0,
+     1024.0,
+     -704.0
+    ],
+    "max": [
+     -2176.0,
+     3072.0,
+     192.0
+    ]
+   }
+  ]
+ },
  "author": "copy-mark",
  "notes": "A start read from the map's teleports; the finish is the bounds of the mapper's end triggers (chk-maps run 73). A race surf map: the spawn room is a lift (spawn_mover) whose exit is a teleport to the level1 destination, and every pit of level N sends back to levelN; the last ramp of level5 ends in two doors to winner_dest, the room holding end_trigger_ct / end_trigger_t; those start disabled behind team filters, so END is a box on their bounds. The start is a box from level1 down to the floor the player drops onto from it, and the spawn stands on that floor. The round's end_of_round_teleport volumes start disabled and cover whole levels (a winner enables them to send everyone else to the jail pads); dropped by round_teleports. Not published."
 }

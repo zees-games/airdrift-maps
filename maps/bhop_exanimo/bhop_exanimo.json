@@ -22942,6 +22942,12 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "logic_timer": 3
+  },
+  "switched_off": []
+ },
  "train_movers": [
   {
    "name": "tracktrainfurret",

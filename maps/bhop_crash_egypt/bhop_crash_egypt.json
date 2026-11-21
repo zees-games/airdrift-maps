@@ -41919,6 +41919,17 @@
    "filtername": "boosterfixisgay"
   }
  ],
+ "not_run": {
+  "classes": {
+   "env_entity_maker": 13,
+   "filter_activator_name": 2,
+   "logic_auto": 2,
+   "logic_timer": 40,
+   "math_counter": 1,
+   "point_clientcommand": 1
+  },
+  "switched_off": []
+ },
  "train_movers": [
   {
    "name": "mummy_train1",

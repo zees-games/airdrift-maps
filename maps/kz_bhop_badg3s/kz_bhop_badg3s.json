@@ -32604,6 +32604,17 @@
    "filtername": "xj6c1"
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_name": 85,
+   "filter_damage_type": 1,
+   "filter_multi": 68,
+   "logic_auto": 1,
+   "point_clientcommand": 1,
+   "point_servercommand": 1
+  },
+  "switched_off": []
+ },
  "train_movers": [
   {
    "name": "acz2train",

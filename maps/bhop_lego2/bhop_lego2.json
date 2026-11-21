@@ -41353,6 +41353,20 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "env_entity_maker": 10,
+   "filter_activator_class": 2,
+   "filter_activator_name": 11,
+   "filter_damage_type": 2,
+   "filter_multi": 7,
+   "game_player_equip": 4,
+   "logic_case": 4,
+   "logic_relay": 1,
+   "logic_timer": 1
+  },
+  "switched_off": []
+ },
  "train_movers": [
   {
    "name": "tracktrain",

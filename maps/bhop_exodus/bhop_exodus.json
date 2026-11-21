@@ -52314,6 +52314,292 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "StartDisabled trigger_push": 1,
+   "filter_activator_name": 7,
+   "filter_damage_type": 1,
+   "game_player_equip": 5,
+   "logic_auto": 2,
+   "logic_relay": 4,
+   "logic_timer": 5,
+   "point_clientcommand": 1
+  },
+  "switched_off": [
+   {
+    "class": "trigger_teleport",
+    "name": "gotoenda",
+    "by": [
+     "logic_relay"
+    ],
+    "min": [
+     3008.0,
+     -1951.93,
+     6816.0
+    ],
+    "max": [
+     4480.0,
+     -1823.93,
+     8096.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "aoki_lv8",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     1340.0,
+     -240.0,
+     -432.0
+    ],
+    "max": [
+     1344.0,
+     -144.0,
+     -400.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "aoki_lv6",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     1266.541,
+     -240.0,
+     -587.997
+    ],
+    "max": [
+     1291.999,
+     -144.0,
+     -562.543
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "aoki_lv10",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     1266.541,
+     -240.0,
+     -267.997
+    ],
+    "max": [
+     1291.999,
+     -144.0,
+     -242.543
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "aoki_lv7",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     1320.001,
+     -240.0,
+     -520.003
+    ],
+    "max": [
+     1335.6989999999998,
+     -144.0,
+     -488.837
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "aoki_lv9",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     1320.001,
+     -240.0,
+     -347.163
+    ],
+    "max": [
+     1335.6989999999998,
+     -144.0,
+     -315.99699999999996
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "aoki_lv4",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     1104.0,
+     -240.0,
+     -640.0
+    ],
+    "max": [
+     1136.0,
+     -144.0,
+     -636.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "aoki_lv12",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     1104.0,
+     -240.0,
+     -196.0
+    ],
+    "max": [
+     1136.0,
+     -144.0,
+     -192.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "aoki_lv11",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     1192.835,
+     -240.0,
+     -215.99800000000002
+    ],
+    "max": [
+     1224.01,
+     -144.0,
+     -200.302
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "aoki_lv13",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     1020.835,
+     -240.0,
+     -215.698
+    ],
+    "max": [
+     1052.01,
+     -144.0,
+     -200.00199999999998
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "aoki_lv5",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     1191.995,
+     -240.0,
+     -627.9979999999999
+    ],
+    "max": [
+     1223.165,
+     -144.0,
+     -612.302
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "aoki_lv3",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     1015.9949999999999,
+     -240.0,
+     -627.9979999999999
+    ],
+    "max": [
+     1047.165,
+     -144.0,
+     -612.302
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "aoki_lv2",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     948.0020000000001,
+     -240.0,
+     -585.458
+    ],
+    "max": [
+     973.458,
+     -144.0,
+     -560.0020000000001
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "aoki_lv14",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     950.542,
+     -240.0,
+     -267.998
+    ],
+    "max": [
+     975.9979999999999,
+     -144.0,
+     -242.542
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "aoki_lv15",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     903.817,
+     -240.0,
+     -344.0
+    ],
+    "max": [
+     920.0029999999999,
+     -144.0,
+     -312.98
+    ]
+   },
+   {
+    "class": "trigger_push",
+    "name": "ppush",
+    "by": [
+     "logic_relay"
+    ],
+    "min": [
+     3264.0,
+     -1951.93,
+     7360.0
+    ],
+    "max": [
+     4352.0,
+     -1855.93,
+     7968.0
+    ]
+   }
+  ]
+ },
  "author": "Aoki",
  "notes": "Credit, and a start and finish read from the map's own spawns and end teleport (gb-maps-1). Fifteen levels, each announced by a trigger_once (aoki_lv2..aoki_lv15) that fades in its sign; they are not stage lines here yet, because a sign trigger is where a level's name appears, not necessarily a line every route crosses. The finish: gotoendddddddd, the one teleport into the end room (enddddddddddd), whose floor trigger sets off the map's ending and sends the player back to the start. Its 95 teleports behind filter_activator are anti-standing blocks (sinking blocks here, not pits), and the 14 start-disabled aoki_lv* teleports are the hub's level-select pads, dropped. Not published."
 }

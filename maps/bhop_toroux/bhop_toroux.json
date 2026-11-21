@@ -3567,6 +3567,12 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_name": 3
+  },
+  "switched_off": []
+ },
  "author": "toroux",
  "notes": "A start and finish read from the map's teleport graph (chk-maps run 74). The spawns stand by the `start` destination; level 1 runs `level1 part1`..`part6b`, level 2 `lvl2-1`..`lvl2-5`, then a door-sized teleport to `lvl3-1`. The only way into the room at `end` that is not that room's own pit is the 80x80 teleport past level 3, which is the finish; the teleport from the end room back to `start` is the map's way home. The bonus (five pits to `bonus`) has no start of its own and is left out. Not published."
 }

@@ -23367,6 +23367,34 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "StartDisabled trigger_push": 1,
+   "filter_damage_type": 1,
+   "logic_auto": 4,
+   "logic_timer": 3,
+   "math_counter": 1
+  },
+  "switched_off": [
+   {
+    "class": "trigger_push",
+    "name": "mp1",
+    "by": [
+     "func_button"
+    ],
+    "min": [
+     6120.0,
+     3776.0,
+     4736.0
+    ],
+    "max": [
+     6232.0,
+     4032.0,
+     5184.0
+    ]
+   }
+  ]
+ },
  "train_movers": [
   {
    "name": "train1",

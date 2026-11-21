@@ -23037,6 +23037,33 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "StartDisabled trigger_push": 1,
+   "filter_activator_name": 1,
+   "filter_damage_type": 1,
+   "logic_auto": 1
+  },
+  "switched_off": [
+   {
+    "class": "trigger_push",
+    "name": "triggersecret",
+    "by": [
+     "func_button"
+    ],
+    "min": [
+     9622.0,
+     846.0,
+     -8214.0
+    ],
+    "max": [
+     9750.0,
+     1257.0,
+     -8022.0
+    ]
+   }
+  ]
+ },
  "author": "sexy but not trying..",
  "notes": "Credit, and zones from the spawn point and the single trigger aimed at the destination `end` (gb-maps-1, chk-maps run 117). cp1..cp29 are where each section returns a player who fell, not splits; lj1, b1, secret1 and bhop_fur_suck1..4 are side areas. Not published."
 }

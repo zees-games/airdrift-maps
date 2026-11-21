@@ -37577,6 +37577,13 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_damage_type": 1,
+   "logic_timer": 2
+  },
+  "switched_off": []
+ },
  "author": "Rapsodia, finished by Helix",
  "notes": "Credit, and a start and finish read from the map's own spawn room, restartreal destination and end-door trigger (gb-maps-1). Not published."
 }
