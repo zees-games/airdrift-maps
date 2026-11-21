@@ -67,7 +67,7 @@
  "entities": [
   {
    "classname": "point_template",
-   "component": "DotMapTemplate",
+   "component": "GSMapTemplate",
    "entity": 32,
    "keys": {
     "Template01": "hegrenade",
@@ -87,7 +87,7 @@
   },
   {
    "classname": "env_physexplosion",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 37,
    "keys": {
     "magnitude": "100",
@@ -108,7 +108,7 @@
   },
   {
    "classname": "env_physexplosion",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 38,
    "keys": {
     "magnitude": "100",
@@ -129,7 +129,7 @@
   },
   {
    "classname": "env_explosion",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 41,
    "keys": {
     "fireballsprite": "sprites/zerogxplode.spr",
@@ -152,7 +152,7 @@
   },
   {
    "classname": "env_physexplosion",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 42,
    "keys": {
     "magnitude": "100",
@@ -173,7 +173,7 @@
   },
   {
    "classname": "env_physexplosion",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 45,
    "keys": {
     "magnitude": "100",
@@ -194,7 +194,7 @@
   },
   {
    "classname": "env_physexplosion",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 47,
    "keys": {
     "magnitude": "100",
@@ -215,7 +215,7 @@
   },
   {
    "classname": "env_physexplosion",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 48,
    "keys": {
     "magnitude": "100",
@@ -236,7 +236,7 @@
   },
   {
    "classname": "env_explosion",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 49,
    "keys": {
     "fireballsprite": "sprites/zerogxplode.spr",
@@ -258,7 +258,7 @@
   },
   {
    "classname": "point_template",
-   "component": "DotMapTemplate",
+   "component": "GSMapTemplate",
    "entity": 95,
    "keys": {
     "Template01": "flashbang",
@@ -278,7 +278,7 @@
   },
   {
    "classname": "point_template",
-   "component": "DotMapTemplate",
+   "component": "GSMapTemplate",
    "entity": 99,
    "keys": {
     "Template01": "scout",

@@ -35,7 +35,7 @@
  "entities": [
   {
    "classname": "logic_auto",
-   "component": "DotMapAuto",
+   "component": "GSMapAuto",
    "entity": 157,
    "keys": {
     "hammerid": "329173",

@@ -123,7 +123,7 @@
  "entities": [
   {
    "classname": "game_player_equip",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 40,
    "keys": {
     "hammerid": "826",
@@ -142,7 +142,7 @@
   },
   {
    "classname": "filter_damage_type",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 50,
    "keys": {
     "Negated": "1",
@@ -163,7 +163,7 @@
   },
   {
    "classname": "func_precipitation",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 129,
    "keys": {
     "hammerid": "31148",
@@ -185,7 +185,7 @@
   },
   {
    "classname": "env_hudhint",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 134,
    "keys": {
     "hammerid": "31729",
@@ -205,7 +205,7 @@
   },
   {
    "classname": "env_hudhint",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 136,
    "keys": {
     "hammerid": "32013",
@@ -225,7 +225,7 @@
   },
   {
    "classname": "env_hudhint",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 137,
    "keys": {
     "hammerid": "32045",
@@ -245,7 +245,7 @@
   },
   {
    "classname": "env_hudhint",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 138,
    "keys": {
     "hammerid": "32075",
@@ -265,7 +265,7 @@
   },
   {
    "classname": "env_hudhint",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 139,
    "keys": {
     "hammerid": "32095",
@@ -285,7 +285,7 @@
   },
   {
    "classname": "env_hudhint",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 140,
    "keys": {
     "hammerid": "32116",
@@ -305,7 +305,7 @@
   },
   {
    "classname": "env_hudhint",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 141,
    "keys": {
     "hammerid": "32146",
@@ -325,7 +325,7 @@
   },
   {
    "classname": "env_hudhint",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 142,
    "keys": {
     "hammerid": "32171",
@@ -345,7 +345,7 @@
   },
   {
    "classname": "env_hudhint",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 143,
    "keys": {
     "hammerid": "32201",
@@ -365,7 +365,7 @@
   },
   {
    "classname": "env_hudhint",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 144,
    "keys": {
     "hammerid": "32225",

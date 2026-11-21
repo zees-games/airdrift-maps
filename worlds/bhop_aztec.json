@@ -123,7 +123,7 @@
  "entities": [
   {
    "classname": "point_template",
-   "component": "DotMapTemplate",
+   "component": "GSMapTemplate",
    "entity": 96,
    "keys": {
     "Template01": "Scout",

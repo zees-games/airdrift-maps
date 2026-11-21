@@ -163,7 +163,7 @@
  "entities": [
   {
    "classname": "point_template",
-   "component": "DotMapTemplate",
+   "component": "GSMapTemplate",
    "entity": 102,
    "keys": {
     "Template01": "w_scout",
@@ -184,7 +184,7 @@
   },
   {
    "classname": "filter_damage_type",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 184,
    "keys": {
     "Negated": "1",

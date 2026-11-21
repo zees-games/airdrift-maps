@@ -155,7 +155,7 @@
  "entities": [
   {
    "classname": "filter_activator_name",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 108,
    "keys": {
     "Negated": "Allow entities that match criteria",
@@ -176,7 +176,7 @@
   },
   {
    "classname": "filter_activator_name",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 126,
    "keys": {
     "Negated": "Allow entities that match criteria",
@@ -197,7 +197,7 @@
   },
   {
    "classname": "filter_activator_name",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 127,
    "keys": {
     "Negated": "Allow entities that match criteria",
@@ -218,7 +218,7 @@
   },
   {
    "classname": "filter_activator_name",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 130,
    "keys": {
     "Negated": "Allow entities that match criteria",
@@ -239,7 +239,7 @@
   },
   {
    "classname": "filter_activator_name",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 131,
    "keys": {
     "Negated": "Allow entities that match criteria",
@@ -260,7 +260,7 @@
   },
   {
    "classname": "filter_activator_name",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 133,
    "keys": {
     "Negated": "Allow entities that match criteria",
@@ -281,7 +281,7 @@
   },
   {
    "classname": "filter_activator_name",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 136,
    "keys": {
     "Negated": "Allow entities that match criteria",
@@ -302,7 +302,7 @@
   },
   {
    "classname": "filter_activator_name",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 138,
    "keys": {
     "Negated": "Allow entities that match criteria",
@@ -323,7 +323,7 @@
   },
   {
    "classname": "filter_activator_name",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 140,
    "keys": {
     "Negated": "Allow entities that match criteria",
@@ -344,7 +344,7 @@
   },
   {
    "classname": "filter_damage_type",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 263,
    "keys": {
     "Negated": "1",

@@ -434,7 +434,7 @@
  "entities": [
   {
    "classname": "logic_auto",
-   "component": "DotMapAuto",
+   "component": "GSMapAuto",
    "entity": 256,
    "keys": {
     "hammerid": "20253",
@@ -453,7 +453,7 @@
   },
   {
    "classname": "point_viewcontrol",
-   "component": "DotMapEntity",
+   "component": "GSMapEntity",
    "entity": 502,
    "keys": {
     "acceleration": "500",
