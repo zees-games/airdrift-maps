@@ -37857,5 +37857,5 @@
   }
  ],
  "author": "Ghost1246511",
- "notes": "Staged by chk-maps run 134, not yet imported (game-g2gfast held). There is no start destination: the eight counter-terrorist spawns sit in a box at z 232 around the origin (target_start is only the intro camera's target). The finish is the teleport to `tele_end`, beside the `end` filter and the `coursewin` hud hint. Verify in headless_imported before committing. Finish pinned to the teleport at the course's lowest point (two teleports reach tele_end)."
+ "notes": "Staged by chk-maps run 134, not yet imported (game-airdrift held). There is no start destination: the eight counter-terrorist spawns sit in a box at z 232 around the origin (target_start is only the intro camera's target). The finish is the teleport to `tele_end`, beside the `end` filter and the `coursewin` hud hint. Verify in headless_imported before committing. Finish pinned to the teleport at the course's lowest point (two teleports reach tele_end)."
 }

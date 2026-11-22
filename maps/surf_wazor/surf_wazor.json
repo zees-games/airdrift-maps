@@ -189854,5 +189854,5 @@
   ]
  },
  "author": "Krusty, Mike999, AmstaFF, Junior and Caterpillar",
- "notes": "Staged by chk-maps run 150, not yet imported (game-g2gfast held and out of scope). A linear skill-surf course (the page: 5 stages, easy to hard, 5-minute round, then a scout fight). Route read from the teleports: spawn box -> lvl.1 -> Level1_start -> lvl.3 -> wu -> Level2_start (red_wall) -> stagelast -> the teleport to `bob` at (9240 -15050 -5787), which also Enables the six start-disabled `tele` sweeps. The finish is the teleport to `bob`; the start-disabled `tele`, `ct_tele` and `t_tele` triggers (weapon rooms t_awp, ct_scout, ...) are the round-end sweep, not finishes. Verify in headless_imported before committing."
+ "notes": "Staged by chk-maps run 150, not yet imported (game-airdrift held and out of scope). A linear skill-surf course (the page: 5 stages, easy to hard, 5-minute round, then a scout fight). Route read from the teleports: spawn box -> lvl.1 -> Level1_start -> lvl.3 -> wu -> Level2_start (red_wall) -> stagelast -> the teleport to `bob` at (9240 -15050 -5787), which also Enables the six start-disabled `tele` sweeps. The finish is the teleport to `bob`; the start-disabled `tele`, `ct_tele` and `t_tele` triggers (weapon rooms t_awp, ct_scout, ...) are the round-end sweep, not finishes. Verify in headless_imported before committing."
 }
