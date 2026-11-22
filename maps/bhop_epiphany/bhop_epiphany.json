@@ -71267,6 +71267,14 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_class": 71,
+   "filter_damage_type": 1,
+   "logic_auto": 1
+  },
+  "switched_off": []
+ },
  "author": "wet",
  "notes": "Credit, and a start and finish read from the map's own logic. The 60 spawns stand in a holding room at about (16, -11150, -600) whose floor teleports to the cpb destination; the start is a box round cpb, where the player lands. The finish is the trigger in the end room (cp_end destination, far below the course) that shows the map's closing text. Checkpoints are class-renaming triggers with class-filtered teleports; the importer drops those whose class no player passes, leaving the unfiltered per-level pits."
 }

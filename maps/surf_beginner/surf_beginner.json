@@ -7808,6 +7808,13 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_damage_type": 1,
+   "game_player_equip": 1
+  },
+  "switched_off": []
+ },
  "author": "Kiiru",
  "notes": "Credit, and a start, seven stages and a finish read from the map's own teleport graph (gb-maps-1). Every trigger_teleport aims at one of failman1..failman7, spawnman or Endman_poop. The ones 224 units wide are the doors from one stage to the next -- each fires the map's own stage<n> hud hint as you pass it -- and the ones 592 units and up are the pit under that stage; 512 separates them with nothing near the line. So failman<n> is where stage n begins, the door out of the spawn room (stage1 hint) starts the course, and the one door aimed at Endman_poop at the end of stage 7 is the finish. Not published."
 }

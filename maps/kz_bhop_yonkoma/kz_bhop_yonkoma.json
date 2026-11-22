@@ -39671,6 +39671,92 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "StartDisabled trigger_push": 3,
+   "filter_activator_class": 1,
+   "filter_activator_name": 14,
+   "filter_damage_type": 1,
+   "filter_multi": 14,
+   "game_player_equip": 3,
+   "logic_auto": 10,
+   "logic_measure_movement": 8,
+   "logic_relay": 28,
+   "logic_timer": 12,
+   "math_counter": 4,
+   "point_clientcommand": 1
+  },
+  "switched_off": [
+   {
+    "class": "trigger_push",
+    "name": "mag_p",
+    "by": [
+     "logic_relay"
+    ],
+    "min": [
+     -12664.0,
+     -10176.0,
+     -3416.0
+    ],
+    "max": [
+     -12288.0,
+     -10048.0,
+     -2920.0
+    ]
+   },
+   {
+    "class": "trigger_push",
+    "name": "mag_p",
+    "by": [
+     "logic_relay"
+    ],
+    "min": [
+     -12696.0,
+     -10176.0,
+     -3256.0
+    ],
+    "max": [
+     -12544.0,
+     -10040.0,
+     -3032.0
+    ]
+   },
+   {
+    "class": "trigger_push",
+    "name": "mag_p",
+    "by": [
+     "logic_relay"
+    ],
+    "min": [
+     -12664.0,
+     -10176.0,
+     -3296.0
+    ],
+    "max": [
+     -12338.0,
+     -10056.0,
+     -3034.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "stato0tele",
+    "by": [
+     "func_button"
+    ],
+    "min": [
+     -8576.0,
+     -8896.0,
+     -3712.0
+    ],
+    "max": [
+     -8567.0,
+     -8640.0,
+     -3392.0
+    ]
+   }
+  ]
+ },
  "train_movers": [
   {
    "name": "train",

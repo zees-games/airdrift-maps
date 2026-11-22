@@ -33154,6 +33154,12 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_name": 26
+  },
+  "switched_off": []
+ },
  "display_name": "bhop: pandora 2",
  "author": "Sonia_",
  "notes": "The map labels nothing as a start or finish, but it numbers its whole route. Destinations cp1..cp21 each have a trigger_multiple around them that renames the player `fcpN`, and every pit in section N is a trigger_teleport to `cpN` filtered on that name -- so the numbers are the map's own section order, and the four door-sized (224x36 or 72x384) teleports join them in that order: cp2's end -> cp3, the top of cp15's push shaft -> cp16, cp20's end -> `fly` (which sits inside the cp21 room). The finish is the destination `end`: exactly one trigger_teleport is aimed at it, a 36x224 door at the end of the `noob`..`noob3` chain, and it stands on an island at z 7428-7748 which is also the western end of the cp21a route (the fall pad under that route runs x -3760..8927 along the island's y). Both last-section routes therefore finish on that island, and the box is drawn around the destination rather than on the door so the cp21 route, which never touches the door, crosses it too. The start is the fcp1 room. The two routes after stage 21 (cp21/cp21a and noob/noob2/noob3) are joined by a pair of doors in their start rooms, so they are not split into stages. Not a track: the `bonus` destination has a start (a door in the start room) and no finish anywhere -- nothing is aimed out of the bonus except a door back to cp1 standing 330 units from where it begins."

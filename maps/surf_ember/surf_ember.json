@@ -24865,6 +24865,238 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "StartDisabled trigger_hurt": 1,
+   "filter_activator_team": 2,
+   "filter_damage_type": 1,
+   "game_player_equip": 11,
+   "logic_timer": 2
+  },
+  "switched_off": [
+   {
+    "class": "trigger_teleport",
+    "name": "timesup1",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -9181.0,
+     -9890.0,
+     -541.0
+    ],
+    "max": [
+     -4123.0,
+     -8308.0,
+     917.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "timesup2",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -11092.0,
+     -7389.0,
+     -452.0
+    ],
+    "max": [
+     427.0,
+     -280.0,
+     992.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "timesup3",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -13636.0,
+     -14602.0,
+     -1042.0
+    ],
+    "max": [
+     -1488.0,
+     -11391.0,
+     485.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "timesup4",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     2651.0,
+     -6234.0,
+     3029.0
+    ],
+    "max": [
+     13962.0,
+     -586.0,
+     4740.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "timesup5",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -6336.0,
+     -7573.0,
+     1955.0
+    ],
+    "max": [
+     38.0,
+     -220.0,
+     3496.0
+    ]
+   },
+   {
+    "class": "trigger_hurt",
+    "name": "jailkill",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -12688.0,
+     -10608.0,
+     2672.0
+    ],
+    "max": [
+     -10656.0,
+     -10464.0,
+     4176.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "youlose",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     -9182.0,
+     -9890.0,
+     -541.0
+    ],
+    "max": [
+     -4124.0,
+     -8308.0,
+     917.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "youlose",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     -13637.0,
+     -14602.0,
+     -1042.0
+    ],
+    "max": [
+     -1489.0,
+     -11391.0,
+     485.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "youlose",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     -11104.0,
+     -7389.0,
+     -468.0
+    ],
+    "max": [
+     427.0,
+     -280.0,
+     960.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "youlose",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     2650.0,
+     -6234.0,
+     3029.0
+    ],
+    "max": [
+     13961.0,
+     -586.0,
+     4740.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "youlose",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     -6336.0,
+     -7572.0,
+     1955.0
+    ],
+    "max": [
+     38.0,
+     -219.0,
+     3496.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "timesup0",
+    "by": [
+     "logic_timer"
+    ],
+    "min": [
+     -12272.0,
+     -9712.0,
+     -250.0
+    ],
+    "max": [
+     -11536.0,
+     -9488.0,
+     506.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "youlose",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     -12272.0,
+     -9712.0,
+     -250.0
+    ],
+    "max": [
+     -11536.0,
+     -9488.0,
+     506.0
+    ]
+   }
+  ]
+ },
  "author": "Skar",
  "notes": "A start and finish read from the map's teleports (chk-maps run 73). A five-stage race surf map: the spawn room's door teleports to 1ENTER, each stage's pits send to nSTART, and a door at each stage's end sends to (n+1)ENTER (2ENTER, 3ENTER, 4ENTER, 5ENTER). The last ramp of stage 5 ends in the teleport to JAILTOP, the winner's room above the jails, whose trigger enables YOULOSE for everyone else; that teleport is the finish. The start is a box round 1ENTER, where the spawn door lands. Timesup0..5 (a five-minute timer) and YOULOSE start disabled and cover whole stages and the spawn room; dropped by round_teleports. The jail pads (T_TELEPORT / CT_TELEPORT) and knife dispensers are the round's and left as they are. Not published."
 }

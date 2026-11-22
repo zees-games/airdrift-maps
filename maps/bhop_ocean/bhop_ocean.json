@@ -3729,6 +3729,13 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_name": 3,
+   "point_clientcommand": 1
+  },
+  "switched_off": []
+ },
  "author": "Tony Montana (tmontana)",
  "notes": "Credit, and a start and finish read from the map's own logic (gb-maps-2). The 64 team spawns stand on a teleport (unfiltered, under the spawn floor) to `tele_`, the start island, inside the one trigger_multiple that plays the map's opening sound and fades in; that trigger is the start line. Eight sections follow, tele_1..tele_8, each with an unfiltered water pit and a block pit behind `bhopfilter` (a name the block triggers give the player 0.09 s after they land: the anti-standing trap, imported as sinking blocks). Past tele_8's section the route ends on an island walled by four tall trigger_pushes, where a 24-unit trigger plays the ending song; the finish is a box round it. Not published."
 }

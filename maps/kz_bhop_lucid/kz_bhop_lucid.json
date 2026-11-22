@@ -5961,14 +5961,77 @@
    "kind": "RESPAWN",
    "track": 0,
    "min": [
-    -1040.0,
+    -1023.0,
     940.0,
-    -3920.0
+    -3903.0
    ],
    "max": [
-    -848.0,
+    -983.5,
     1104.0,
-    -3792.0
+    -3856.0
+   ],
+   "inflated": true,
+   "destination": [
+    -608.0,
+    992.0,
+    -3936.0
+   ],
+   "destination_yaw": 0.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -983.5,
+    940.0,
+    -3919.0
+   ],
+   "max": [
+    -944.0,
+    1104.0,
+    -3793.0
+   ],
+   "inflated": true,
+   "destination": [
+    -608.0,
+    992.0,
+    -3936.0
+   ],
+   "destination_yaw": 0.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -944.0,
+    940.0,
+    -3919.0
+   ],
+   "max": [
+    -904.5,
+    1104.0,
+    -3793.0
+   ],
+   "inflated": true,
+   "destination": [
+    -608.0,
+    992.0,
+    -3936.0
+   ],
+   "destination_yaw": 0.0
+  },
+  {
+   "kind": "RESPAWN",
+   "track": 0,
+   "min": [
+    -904.5,
+    940.0,
+    -3856.0
+   ],
+   "max": [
+    -865.0,
+    1104.0,
+    -3809.0
    ],
    "inflated": true,
    "destination": [
@@ -11991,13 +12054,13 @@
   },
   {
    "min": [
-    -1040.0,
-    3792.0,
+    -1023.0,
+    3856.0,
     940.0
    ],
    "max": [
-    -848.0,
-    3920.0,
+    -983.5,
+    3903.0,
     1104.0
    ],
    "inflated": true,
@@ -12007,13 +12070,97 @@
    "stood": true,
    "track": 0,
    "original_min": [
-    -1024.0,
-    3808.0,
+    -1023.0,
+    3856.0,
     1096.0
    ],
    "original_max": [
-    -864.0,
-    3904.0,
+    -983.5,
+    3903.0,
+    1104.0
+   ]
+  },
+  {
+   "min": [
+    -983.5,
+    3793.0,
+    940.0
+   ],
+   "max": [
+    -944.0,
+    3919.0,
+    1104.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    -983.5,
+    3809.0,
+    1096.0
+   ],
+   "original_max": [
+    -944.0,
+    3903.0,
+    1104.0
+   ]
+  },
+  {
+   "min": [
+    -944.0,
+    3793.0,
+    940.0
+   ],
+   "max": [
+    -904.5,
+    3919.0,
+    1104.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    -944.0,
+    3809.0,
+    1096.0
+   ],
+   "original_max": [
+    -904.5,
+    3903.0,
+    1104.0
+   ]
+  },
+  {
+   "min": [
+    -904.5,
+    3809.0,
+    940.0
+   ],
+   "max": [
+    -865.0,
+    3856.0,
+    1104.0
+   ],
+   "inflated": true,
+   "hung": true,
+   "cleared": false,
+   "trimmed": false,
+   "stood": true,
+   "track": 0,
+   "original_min": [
+    -904.5,
+    3809.0,
+    1096.0
+   ],
+   "original_max": [
+    -865.0,
+    3856.0,
     1104.0
    ]
   },
@@ -18841,6 +18988,103 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_name": 11,
+   "filter_damage_type": 1,
+   "filter_multi": 12,
+   "logic_auto": 1,
+   "math_counter": 1,
+   "point_servercommand": 1
+  },
+  "switched_off": [
+   {
+    "class": "trigger_teleport",
+    "name": "tele_y",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     2140.0,
+     448.0,
+     3292.0
+    ],
+    "max": [
+     2148.0,
+     496.0,
+     3300.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "tele_r",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     2556.0,
+     376.0,
+     3868.0
+    ],
+    "max": [
+     2564.0,
+     424.0,
+     3876.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "tele_p",
+    "by": [
+     "trigger_teleport"
+    ],
+    "min": [
+     1276.0,
+     592.0,
+     3164.0
+    ],
+    "max": [
+     1284.0,
+     640.0,
+     3172.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "tele_back",
+    "by": [
+     "trigger_multiple"
+    ],
+    "min": [
+     -3776.0,
+     -704.0,
+     2880.0
+    ],
+    "max": [
+     -3008.0,
+     -672.0,
+     3648.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "t_b",
+    "by": [
+     "math_counter"
+    ],
+    "min": [
+     2104.0,
+     -16.0,
+     2944.0
+    ],
+    "max": [
+     2176.0,
+     56.0,
+     3016.0
+    ]
+   }
+  ]
+ },
  "author": "Ghost1246511",
  "notes": "Credit and a spawn, and no start or finish, on purpose (gb-maps-2): a hub map of four coloured routes (t_r*, t_p*, t_g*, t_y*: red, purple, green, yellow), each ending at a crystal whose trigger_once adds one to `b_counter`; the way to `t_end` opens only when the counter reaches four. This game runs no counters, so a finish here would be a line on a route the map does not open, and the four routes are not one track either. Its blocks carry two of Aoki's systems: once-only blocks (filter_multi bh12..bh16 over xhop1..xhop6, as on bhop_badges2) and an anti-prespeed name `pre`; both are conditional and dropped, and the `activator` anti-standing trap becomes sinking blocks. Loads, draws and collides; zones want drawing in-game with the zone editor. Not published."
 }

@@ -23409,6 +23409,18 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "env_entity_maker": 1,
+   "filter_activator_class": 3,
+   "filter_activator_name": 3,
+   "filter_damage_type": 1,
+   "game_player_equip": 2,
+   "logic_auto": 1,
+   "point_servercommand": 1
+  },
+  "switched_off": []
+ },
  "author": "Tony Montana",
  "notes": "A start and finish read from the teleport graph (chk-maps run 85). The spawn room floor is a 1200x1200 teleport to `spawn`, where the course starts; stages stage1_1..stage9_2 follow, and a 64x64 teleport over the last booster sends to `end`, the room whose trigger marks the finisher. Not published."
 }

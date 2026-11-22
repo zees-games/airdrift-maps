@@ -15840,14 +15840,14 @@
    "kind": "RESPAWN",
    "track": 0,
    "min": [
-    -1766.81,
+    -1765.81,
     11457.0,
-    -10219.8
+    -10174.650000000001
    ],
    "max": [
-    -1644.4699999999998,
+    -1689.6399999999999,
     11649.0,
-    -10097.5
+    -10098.5
    ],
    "inflated": true,
    "destination": [
@@ -34294,13 +34294,13 @@
   },
   {
    "min": [
-    -1766.81,
-    10097.5,
+    -1765.81,
+    10098.5,
     11457.0
    ],
    "max": [
-    -1644.4699999999998,
-    10219.8,
+    -1689.6399999999999,
+    10174.650000000001,
     11649.0
    ],
    "inflated": true,
@@ -34310,13 +34310,13 @@
    "stood": false,
    "track": 0,
    "original_min": [
-    -1750.81,
-    10113.5,
+    -1749.81,
+    10114.5,
     11648.0
    ],
    "original_max": [
-    -1660.47,
-    10203.8,
+    -1705.6399999999999,
+    10158.65,
     11649.0
    ]
   },
@@ -38011,6 +38011,13 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_damage_type": 1,
+   "game_player_equip": 1
+  },
+  "switched_off": []
+ },
  "author": "Kiiru, Sacred91, Zeedz, Retarded brother",
  "notes": "Eighteen numbered stages read from the teleport graph (gb-maps-1, 2026-10-09): each section ends in a door-sized gate (16x384x208) aimed at the next section's stageN destination, and its pits return to its own. The spawn room's door (384x8x192 at -4736 13396 15136) is the way into stage1; stage18's last gate (-1672 13184 2920) aims at `end`, a room beside the spawn, which is the finish. By kiiru, who also made surf_beginner2. Not published."
 }

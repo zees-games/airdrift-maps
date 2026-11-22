@@ -29264,6 +29264,15 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_name": 2,
+   "filter_damage_type": 1,
+   "game_player_equip": 1,
+   "logic_auto": 4
+  },
+  "switched_off": []
+ },
  "author": "Yaznee",
  "notes": "Credit, and a start and finish read from the map's own logic (chk-maps run 64). The 32 spawns stand in the start room round the `start` destination (every way back to the beginning aims there); the start is a box round it. Levels lvl1..lvl6 and the finale follow (finale_01..04), each block behind the anti-standing trap below. Past finale_04 a trigger in the last room closes door5 and shows the `credit` hud hint; that trigger is the finish. That room also has five door-sized teleports back to start, lvl2, lvl3, lvl6 and the finale: a level select after the finish, imported as pits that keep the run. The trigger_pushes behind `filter_activator_boost` (renamed by the floor under them) import as plain pushes. Not published."
 }

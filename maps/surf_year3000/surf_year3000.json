@@ -3248,6 +3248,155 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "StartDisabled trigger_hurt": 4,
+   "StartDisabled trigger_push": 2,
+   "filter_activator_team": 1,
+   "game_player_equip": 17,
+   "logic_branch": 10,
+   "logic_relay": 3,
+   "math_counter": 13
+  },
+  "switched_off": [
+   {
+    "class": "trigger_push",
+    "name": "t_push",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     205.09,
+     9029.52,
+     2977.0
+    ],
+    "max": [
+     235.09,
+     9160.52,
+     2990.0
+    ]
+   },
+   {
+    "class": "trigger_push",
+    "name": "ct_push",
+    "by": [
+     "trigger_once"
+    ],
+    "min": [
+     -145.0,
+     9029.52,
+     2977.0
+    ],
+    "max": [
+     -115.0,
+     9160.52,
+     2990.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "ct_teleport",
+    "by": [
+     "filter_activator_team"
+    ],
+    "min": [
+     -9752.0,
+     -7583.0,
+     1330.0
+    ],
+    "max": [
+     -9672.0,
+     -7439.0,
+     1332.0
+    ]
+   },
+   {
+    "class": "trigger_teleport",
+    "name": "t_teleport",
+    "by": [
+     "filter_activator_team"
+    ],
+    "min": [
+     -9752.0,
+     -7583.0,
+     1330.0
+    ],
+    "max": [
+     -9672.0,
+     -7439.0,
+     1332.0
+    ]
+   },
+   {
+    "class": "trigger_hurt",
+    "name": "ss_high01_hurt",
+    "by": [
+     "logic_relay"
+    ],
+    "min": [
+     -10174.0,
+     -7530.0,
+     2381.0
+    ],
+    "max": [
+     -9215.0,
+     -7500.0,
+     2411.0
+    ]
+   },
+   {
+    "class": "trigger_hurt",
+    "name": "ss_high02_hurt",
+    "by": [
+     "logic_relay"
+    ],
+    "min": [
+     -10217.0,
+     -7530.0,
+     2381.0
+    ],
+    "max": [
+     -9258.0,
+     -7500.0,
+     2411.0
+    ]
+   },
+   {
+    "class": "trigger_hurt",
+    "name": "ss_low02_hurt",
+    "by": [
+     "logic_relay"
+    ],
+    "min": [
+     -10217.0,
+     -7581.0,
+     2381.0
+    ],
+    "max": [
+     -9258.0,
+     -7552.0,
+     2411.0
+    ]
+   },
+   {
+    "class": "trigger_hurt",
+    "name": "ss_low01_hurt",
+    "by": [
+     "logic_relay"
+    ],
+    "min": [
+     -10174.0,
+     -7581.0,
+     2381.0
+    ],
+    "max": [
+     -9215.0,
+     -7552.0,
+     2411.0
+    ]
+   }
+  ]
+ },
  "train_movers": [
   {
    "name": "t_camera_train",

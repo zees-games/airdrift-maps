@@ -4448,6 +4448,12 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_name": 1
+  },
+  "switched_off": []
+ },
  "display_name": "bhop: grove",
  "author": "Tony Montana",
  "notes": "A single straight corridor 704 units wide running +Y from y -16128 to 16064, and the map labels nothing -- no named triggers at all. The order is still not a guess: fifteen destinations `level_1`..`level_15` stand in a row down the centre line at x 4704, y strictly increasing, and each is the return point for the pit directly after it (`level_n`'s unfiltered teleport spans the section that follows the point). All 40 spawns are in the 704x384 room at the -Y end, which is also where `level_1` is, so that room is the start. The +Y end is the matching 704x384 room past the last pit (y 15680..16064, floor z 0): the corridor ends there, the map has a cubemap there (c4704_15872) and only there and at the start, and both end walls carry the same `lego3/mapby` credit sign -- the start room and the finish room of a straight line. The finish is drawn on that room's floor because nothing in it is a trigger. The 14 platforms between consecutive pits are emitted as stages 2..15: the map numbers them itself, every run crosses each one, and nothing else in the file shares the namespace."

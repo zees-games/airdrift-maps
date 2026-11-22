@@ -2170,6 +2170,12 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_name": 21
+  },
+  "switched_off": []
+ },
  "display_name": "bhop: pit",
  "author": "Roady",
  "notes": "The map is timed by its own checkpoint chain and says so in plain text. The single info_player_terrorist stands in a trigger_multiple that renames the player `checkpoint0` and shows 'Progress 0%'; nineteen more trigger_multiples each accept only `checkpointN` (filter_activator_name) and rename the player `checkpointN+1`, stepping the game_text `checkpoints` through 5%..95%, so their order is not a judgement -- it is the filter chain, and those nineteen are the stages here, numbered the way zone_role numbers `checkpointN` (checkpoint1 opens stage 2). The last link is a 16x512x256 wall at [8968 -1664 3200] holding two trigger_teleports: the one filtered on checkpoint19 sends you to `end_main`, a 512x512 room whose trigger shows 'Progress 100%' and whose doors return you to `start_main`. That wall is the finish. The bonus is the map's own and is the same course without the chain: a trigger in the booster room under the start renames the player `filter_bonus` ('Progress Not Needed'), and the other teleport on the same wall, filtered on filter_bonus, sends that player to `end_bonus`. There are only six trigger_teleports in the whole map -- the two finish copies and four end-room doors -- so the main track has no pit volumes: a player who falls lands on lower geometry, not in a teleport. Both finish teleports are one volume here and fire for anyone, because this game does not run the map's outputs: the gate that makes a player earn the main finish (all 19 checkpoints) is not enforced. The stage splits still show whether a run went through them."

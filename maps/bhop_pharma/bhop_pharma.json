@@ -42286,6 +42286,16 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_name": 8,
+   "filter_damage_type": 2,
+   "logic_auto": 3,
+   "point_clientcommand": 1,
+   "point_servercommand": 1
+  },
+  "switched_off": []
+ },
  "author": "frostiee_",
  "notes": "A start and finish read from the teleport graph (chk-maps run 85). Levels level1..level22 follow `start`; the last shaft drops past the thank-you lights to a 128x128 teleport to `end`, the finish. The f_1..f_7 teleports are the per-level fall floors that send by the name a level gives. Not published."
 }

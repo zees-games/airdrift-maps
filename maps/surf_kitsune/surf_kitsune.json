@@ -11604,6 +11604,31 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_name": 9,
+   "filter_damage_type": 1
+  },
+  "switched_off": [
+   {
+    "class": "trigger_teleport",
+    "name": "secretteleporter",
+    "by": [
+     "func_button"
+    ],
+    "min": [
+     12032.0,
+     -2496.0,
+     -3840.0
+    ],
+    "max": [
+     12544.0,
+     -2416.0,
+     -3328.0
+    ]
+   }
+  ]
+ },
  "display_name": "surf: kitsune",
  "author": "Arblarg",
  "notes": "Nine sections named after colours, and not one label in the map: kitsune drives its progression with `OnTrigger !activator,AddOutput,targetname X` and a filter chain, which is a program rather than a description. What IS in the file is a teleport graph, and it is completely regular. Every trigger_teleport aims at one of the nine colour destinations. The ones the size of a room are the pit under that colour's section; the ones the size of a door are how you leave one section for the next -- and 512 units separates the two with nothing near the boundary. So the colour destinations are the stage starts, in the order the doors chain them, and the single teleport aimed back at `start` -- at the far end of the white section -- is the finish."

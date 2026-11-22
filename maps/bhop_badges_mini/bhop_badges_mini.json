@@ -26552,6 +26552,13 @@
    "filtername": ""
   }
  ],
+ "not_run": {
+  "classes": {
+   "filter_activator_name": 4,
+   "filter_damage_type": 1
+  },
+  "switched_off": []
+ },
  "display_name": "bhop: badges mini",
  "author": "GumPum",
  "notes": "A cut-down remake of bhop_badges by a different mapper, and it is timed the same way the original is, with one word changed: the original's finish is the single trigger_teleport aimed at `end`, and this one's is the single trigger_teleport aimed at `ziel` (German for 'finish'). It is a 64x64x32 pad at [15296 -11360 2704], 900 units past destination `51` -- the highest of the numbered section returns `1`..`51` -- so it is the far end of the chain, and it lands the player at [1728 -3136 15104], back beside the start. The start is unlabelled and is the spawn block, as in the original: all 56 info_player_terrorist entities stand at z 14928 in a 1024x384 rectangle ([1216..2240, -2880..-2496]), with section `1`'s pits starting at y -2304. UNLIKE the original, sections here are joined by doors: twenty-odd unfiltered 64x64x128 trigger_teleports (and a 128x48 one into `51`) stand at the far end of a section aimed at the next section's destination -- [13792 -3776] at the end of section 23 sends you to `24` across the map -- so `doorways` is on, at 128 units, which takes every door and leaves every floor-sized pit (352 units and up) a RESPAWN. Sections are not emitted as stages: the numbered destinations are points, most sections are entered by walking rather than through a volume, and the original is zoned without them. THE BIG DOUBT IS NOT THE ZONES: 252 of the 363 trigger_teleports are 1-unit-thick pads on the tops of bhop blocks, filtered on `filter_activator` -- they fire only for a player a func_button/trigger renamed `activator` for a tenth of a second, i.e. one who stood on a block too long. The importer does not read `filtername`, so every one of them becomes a volume that fires on every landing."
