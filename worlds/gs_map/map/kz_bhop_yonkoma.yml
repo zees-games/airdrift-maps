@@ -1,0 +1,34 @@
+# Suggested by the converter from commands in kz_bhop_yonkoma's entities.
+# Nothing here is applied. Uncomment a line to set it for this map; a key the game does
+# not whitelist is logged and ignored (docs/map-config.md).
+# skipped, never run: point_clientcommand: play strafeco/moon.wav
+# skipped, never run: point_clientcommand: r_screenoverlay strafe/derp-scout
+# skipped, never run: point_clientcommand: play strafeco/tense.mp3
+# skipped, never run: point_clientcommand: sm_maptimer_checkpoints 1
+# skipped, never run: point_clientcommand: sm_rcon sm_maptimer_checkpoints 1
+# skipped, never run: point_clientcommand: sm_rcon sm_maptimer_checkpoints 0
+# skipped, never run: point_clientcommand: sm_maptimer_checkpoints 0
+# skipped, never run: point_clientcommand: mpbhops_enable 0
+# skipped, never run: point_clientcommand: sm_rcon mpbhops_enable 0
+# skipped, never run: point_clientcommand: sm_maptimer_checkpoints 0
+# skipped, never run: point_clientcommand: sm_rcon sm_maptimer_checkpoints 0
+# skipped, never run: point_clientcommand: sm_rcon mpbhops_enable 0
+# skipped, never run: point_clientcommand: mpbhops_enable 0
+# skipped, never run: point_clientcommand: sm_maptimer_checkpoints 0
+# skipped, never run: point_clientcommand: sm_rcon sm_maptimer_checkpoints 0
+# skipped, never run: point_clientcommand: sm_rcon mpbhops_enable 0
+# skipped, never run: point_clientcommand: mpbhops_enable 0
+# skipped, never run: point_clientcommand: play strafeco/dr_death.mp3
+# skipped, never run: point_clientcommand: play strafeco/dr_death.mp3
+# skipped, never run: point_clientcommand: play strafeco/dr_death.mp3
+# skipped, never run: point_clientcommand: play strafeco/byron/final_spawn1.mp3
+# skipped, never run: point_clientcommand: play strafeco/byron/final_cave1.mp3
+# skipped, never run: point_clientcommand: play strafeco/byron/final_cave1-explo.mp3
+# skipped, never run: point_clientcommand: play strafeco/byron/final_cave1-explo.mp3
+# skipped, never run: point_clientcommand: play strafeco/byron/final_cave1-nade.mp3
+# skipped, never run: point_clientcommand: play strafeco/byron/final_dr.mp3
+# skipped, never run: point_clientcommand: play strafeco/byron/final_cave2-mag.mp3
+# skipped, never run: point_clientcommand: play strafeco/byron/final_cave2-nade.mp3
+# skipped, never run: point_clientcommand: play strafeco/byron/final_ind1.mp3
+# skipped, never run: point_clientcommand: play strafeco/byron/final_ind2.mp3
+# skipped, never run: point_clientcommand: play strafeco/byron/final_ind3.mp3

@@ -7,16 +7,14 @@
   "looked_up": 4,
   "drawn": 4,
   "by_tier": {
-   "addon": 2,
-   "fallback": 2
+   "addon": 3,
+   "fallback": 1
   },
   "free_by_tier": {
    "addon": 3,
    "default": 1
   },
-  "nearest_photo": [
-   "tony/forest_texture4"
-  ]
+  "nearest_photo": []
  },
  "models": {
   "looked_up": 15,
@@ -43,10 +41,23 @@
   "total": 30,
   "unresolved": 0
  },
+ "gameplay": {
+  "findings": {
+   "filter_dangling": 1,
+   "player_input": 1
+  },
+  "severity": {
+   "filter_dangling": "source",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "ignored": 1,
+   "implemented": 11
+  }
+ },
  "lists": {
   "textures_unmapped": [
-   "LEGO3/MAPBY",
-   "TONY/FOREST_TEXTURE4"
+   "LEGO3/MAPBY"
   ],
   "textures_flat": [],
   "models_unmapped": [],
@@ -61,7 +72,7 @@
   ]
  },
  "counts": {
-  "textures_unmapped": 2,
+  "textures_unmapped": 1,
   "textures_flat": 0,
   "models_unmapped": 0,
   "sounds_unmapped": 0,
@@ -72,18 +83,9 @@
   "surfaces_opaque": 0,
   "gameplay_lost": 1
  },
- "gameplay": {
-  "findings": {
-   "filter_dangling": 1,
-   "player_input": 1
-  },
-  "severity": {
-   "filter_dangling": "source",
-   "player_input": "unsupported"
-  },
-  "classes": {
-   "ignored": 1,
-   "implemented": 11
-  }
+ "prop_fit": {
+  "fits": 432,
+  "rescaled": 13,
+  "unmeasured": 1
  }
 }

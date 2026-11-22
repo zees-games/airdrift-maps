@@ -1,0 +1,139 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "surf_omnibus",
+ "sha256": "afc46862eec992eb43d1ca10a1413260f756c95d3866817b146469e35c3dcdfa",
+ "textures": {
+  "looked_up": 86,
+  "drawn": 86,
+  "by_tier": {
+   "addon": 75,
+   "default": 10,
+   "fallback": 1
+  },
+  "free_by_tier": {
+   "addon": 75,
+   "default": 11
+  },
+  "nearest_photo": [
+   "de_nuke/nukblenddirtgrass"
+  ]
+ },
+ "models": {
+  "looked_up": 20,
+  "by_tier": {
+   "default": 20
+  }
+ },
+ "sounds": {
+  "looked_up": 2,
+  "by_tier": {
+   "default": 2
+  }
+ },
+ "classes": {
+  "distinct": 37,
+  "entities": 747,
+  "by_tier": {
+   "default": 37
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    ""
+   ],
+   "game_player_equip": [
+    "weapon_hegrenade",
+    "weapon_knife",
+    "weapon_m3",
+    "weapon_usp"
+   ],
+   "trigger_teleport": [
+    ""
+   ]
+  }
+ },
+ "links": {
+  "total": 102,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 3,
+   "input_unimplemented": 4,
+   "player_input": 2
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 5,
+   "ignored": 1,
+   "implemented": 30
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "CUSTOM/FRUIT JELLY"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.",
+   "game_player_equip.weapon_hegrenade",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_m3",
+   "game_player_equip.weapon_usp",
+   "trigger_teleport."
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_hudhint.ShowHudHint",
+   "game_player_equip.Use",
+   "point_hurt.Hurt",
+   "point_servercommand.Command"
+  ],
+  "surfaces_opaque": [
+   "de_train/train_bombsite_arrow_01",
+   "de_train/train_bombsite_arrow_02",
+   "models/props/de_nuke/light_red1_glass_on",
+   "sprites/strider_blackball"
+  ],
+  "gameplay_lost": [
+   "class_unsupported:path_track (ignored)",
+   "class_unsupported:point_hurt (approximated)",
+   "class_unsupported:point_tesla (approximated)",
+   "input_unimplemented:env_hudhint.ShowHudHint",
+   "input_unimplemented:game_player_equip.Use",
+   "input_unimplemented:point_hurt.Hurt",
+   "input_unimplemented:point_servercommand.Command",
+   "player_input:addoutput targetname x2",
+   "player_input:setdamagefilter x5"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 1,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 6,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 4,
+  "surfaces_opaque": 4,
+  "gameplay_lost": 9
+ },
+ "prop_fit": {
+  "rescaled": 55,
+  "boxed": 8,
+  "unmeasured": 36,
+  "fits": 35,
+  "rescaled_upright": 8
+ }
+}

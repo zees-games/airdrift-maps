@@ -1,0 +1,113 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_badges",
+ "sha256": "591eea78e5435d4fb1526a61150cb2f62f45c3da70a41a1c7d1d672642182251",
+ "textures": {
+  "looked_up": 20,
+  "drawn": 19,
+  "by_tier": {
+   "addon": 18,
+   "default": 2
+  },
+  "free_by_tier": {
+   "addon": 18,
+   "default": 1
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 1,
+  "by_tier": {
+   "fallback": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 23,
+  "entities": 1224,
+  "by_tier": {
+   "default": 23
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "weapon_fiveseven": [
+    "ammo"
+   ],
+   "weapon_m3": [
+    "ammo"
+   ],
+   "weapon_p90": [
+    "ammo"
+   ],
+   "weapon_xm1014": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 425,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 4,
+   "filter_dangling": 4,
+   "player_input": 2
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 4,
+   "ignored": 1,
+   "implemented": 18
+  }
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [
+   "gnin/human_penis.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "weapon_fiveseven.ammo",
+   "weapon_m3.ammo",
+   "weapon_p90.ammo",
+   "weapon_xm1014.ammo"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:weapon_fiveseven (approximated)",
+   "class_unsupported:weapon_m3 (approximated)",
+   "class_unsupported:weapon_p90 (approximated)",
+   "class_unsupported:weapon_xm1014 (approximated)",
+   "player_input:addoutput targetname x398",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 1,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 4,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 6
+ },
+ "prop_fit": {}
+}

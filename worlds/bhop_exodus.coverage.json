@@ -1,0 +1,232 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_exodus",
+ "sha256": "7986b5d19d02435b8c001f3f0aa51a392387bee925b1968cdfdf82b81b526e43",
+ "textures": {
+  "looked_up": 416,
+  "drawn": 400,
+  "by_tier": {
+   "addon": 351,
+   "default": 36,
+   "fallback": 29
+  },
+  "free_by_tier": {
+   "addon": 352,
+   "default": 48
+  },
+  "nearest_photo": [
+   "de_chateau/rockf_blend",
+   "de_dust/rockwall_blend",
+   "de_piranesi/pi_bigbrkb",
+   "nature/blendcliffgrass001a",
+   "nature/blendgrassgravel001b",
+   "nature/blendprodconcgrass",
+   "nature/blendrockdirt008c",
+   "nature/blendrockgrass004a"
+  ]
+ },
+ "models": {
+  "looked_up": 137,
+  "by_tier": {
+   "category": 19,
+   "default": 112,
+   "fallback": 6
+  }
+ },
+ "sounds": {
+  "looked_up": 6,
+  "by_tier": {
+   "default": 2,
+   "fallback": 4
+  }
+ },
+ "classes": {
+  "distinct": 62,
+  "entities": 1377,
+  "by_tier": {
+   "default": 62
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "env_laser": [
+    "current",
+    "density",
+    "frequency"
+   ],
+   "func_brush": [
+    "fish_count",
+    "max_range"
+   ],
+   "game_player_equip": [
+    "ammo_45acp",
+    "ammo_57mm",
+    "ammo_9mm",
+    "ammo_buckshot",
+    "weapon_knife",
+    "weapon_m3",
+    "weapon_mp5navy",
+    "weapon_p90",
+    "weapon_usp"
+   ],
+   "prop_physics_multiplayer": [
+    "screenspacefade",
+    "solid"
+   ]
+  }
+ },
+ "links": {
+  "total": 486,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 3,
+   "filter_dangling": 8,
+   "input_unimplemented": 9,
+   "player_input": 2
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 13,
+   "ignored": 6,
+   "implemented": 42
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "AOKI/1/REFRACT_TRANS_TEST",
+   "AOKI/2/AOKIBARSCROLL1",
+   "AOKI/2/AOKIBARSCROLL2",
+   "AOKI/2/FUKO1",
+   "AOKI/2/INSTRUMENTALITY",
+   "AOKI/2/MAPBY",
+   "AOKI/AOKI_NYAN_ASUZA_TRANS",
+   "AOKI/AOKI_NYAN_ASUZA_TRANS_B",
+   "AOKI/AOKI_OPTICAL5SCROLLREV2",
+   "AOKI/AOKI_OPTICAL6AN_SCROLL",
+   "AOKI/AOKI_OPTICAL6AN_TRANS",
+   "AOKI/AOKI_OPTICAL8_BACK1",
+   "AOKI/AOKI_OPTICAL8_BACK2",
+   "AOKI/AOKI_OPTICAL8_SCROLLSTAR",
+   "AOKI/AOKI_OPTICAL9_SCROLL",
+   "AOKI/TOOLSAREAPORTAL",
+   "AOKI/TOOLSFOG",
+   "AOKI/TOOLSHINT",
+   "AOKI/TOOLSINVISIBLE",
+   "AOKI/TOOLSOCCLUDER",
+   "AOKI/TOOLSPLAYERCLIP",
+   "AOKI/TOOLSSKIP",
+   "AOKI/TRAIN_WIN_75",
+   "AOKI/WHITE_DEV_TRANSP_BLUE",
+   "AOKI/WHITE_DEV_TRANSP_GREEN",
+   "AOKI/WHITE_DEV_TRANSP_RED",
+   "AOKI/WHITE_DEV_TRANSP_WHITE",
+   "AOKI/WHITE_DEV_TRANSP_YELLOW",
+   "MODELS/PROPS/CS_ASSAULT/CHAIN"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props_combine/combinethumper001a.mdl",
+   "props_combine/prison01b.mdl",
+   "props_combine/stasisshield.mdl",
+   "props_combine/stasisvortex.mdl",
+   "props_docks/prefab_piling01a.mdl",
+   "xero/azucat/azucat_prop.mdl"
+  ],
+  "sounds_unmapped": [
+   "aoki/apartmentronik.wav",
+   "aoki/myu_-_eyecatch1.wav",
+   "aoki/nyan_nyan_ni_hao_nyan.wav",
+   "aoki/time-stop5.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "env_laser.current",
+   "env_laser.density",
+   "env_laser.frequency",
+   "func_brush.fish_count",
+   "func_brush.max_range",
+   "game_player_equip.ammo_45acp",
+   "game_player_equip.ammo_57mm",
+   "game_player_equip.ammo_9mm",
+   "game_player_equip.ammo_buckshot",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_m3",
+   "game_player_equip.weapon_mp5navy",
+   "game_player_equip.weapon_p90",
+   "game_player_equip.weapon_usp",
+   "prop_physics_multiplayer.screenspacefade",
+   "prop_physics_multiplayer.solid"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_physexplosion.Explode",
+   "env_sprite.SetParentAttachment",
+   "env_sprite.SetParentAttachmentMaintainOffset",
+   "env_spritetrail.SetParentAttachment",
+   "func_smokevolume.SetDensity",
+   "game_player_equip.Use",
+   "player_weaponstrip.Strip",
+   "point_spotlight.SetParentAttachment",
+   "prop_dynamic.SetPlaybackRate"
+  ],
+  "surfaces_opaque": [
+   "aoki/2/aokicaustic1",
+   "aoki/2/aokicaustic2",
+   "aoki/2/aokicaustic3",
+   "aoki/2/fade1",
+   "dev/dev_measureladder01",
+   "models/effects/portalfunnel_sheet",
+   "models/effects/vol_light001",
+   "models/props_c17/fisheyelens_dx60",
+   "models/props_c17/metaldecklight01glass01",
+   "nature/cloud001c",
+   "shadertest/unlitalphatestedtexturedetail",
+   "storefront_template/storefront_template001d"
+  ],
+  "gameplay_lost": [
+   "class_unsupported:player_weaponstrip (approximated)",
+   "class_unsupported:point_viewcontrol (ignored)",
+   "class_unsupported:trigger_vphysics_motion (approximated)",
+   "input_unimplemented:env_physexplosion.Explode",
+   "input_unimplemented:env_sprite.SetParentAttachment",
+   "input_unimplemented:env_sprite.SetParentAttachmentMaintainOffset",
+   "input_unimplemented:env_spritetrail.SetParentAttachment",
+   "input_unimplemented:func_smokevolume.SetDensity",
+   "input_unimplemented:game_player_equip.Use",
+   "input_unimplemented:player_weaponstrip.Strip",
+   "input_unimplemented:point_spotlight.SetParentAttachment",
+   "input_unimplemented:prop_dynamic.SetPlaybackRate",
+   "player_input:addoutput targetname x224",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 29,
+  "textures_flat": 0,
+  "models_unmapped": 6,
+  "sounds_unmapped": 4,
+  "classes_unmapped": 0,
+  "keys_unmapped": 16,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 9,
+  "surfaces_opaque": 12,
+  "gameplay_lost": 14
+ },
+ "prop_fit": {
+  "unmeasured": 145,
+  "rescaled": 99,
+  "fits": 82,
+  "fitted_in": 20,
+  "boxed": 2,
+  "rescaled_upright": 6
+ }
+}

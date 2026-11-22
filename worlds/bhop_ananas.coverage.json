@@ -1,0 +1,119 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_ananas",
+ "sha256": "2900ea5e9657e6704ed23c135cb21562949c06ad78962b171b61a203c55bc97f",
+ "textures": {
+  "looked_up": 79,
+  "drawn": 73,
+  "by_tier": {
+   "addon": 64,
+   "default": 13,
+   "fallback": 2
+  },
+  "free_by_tier": {
+   "addon": 65,
+   "default": 8
+  },
+  "nearest_photo": [
+   "nature/blendmilground004_rock2",
+   "nature/blendmilground004_rock2b"
+  ]
+ },
+ "models": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 21,
+  "entities": 872,
+  "by_tier": {
+   "default": 21
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "game_player_equip": [
+    "ammo_9mm",
+    "ammo_buckshot",
+    "weapon_knife",
+    "weapon_usp"
+   ]
+  }
+ },
+ "links": {
+  "total": 375,
+  "unresolved": 1
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1,
+   "filter_dangling": 2,
+   "input_unimplemented": 2,
+   "player_input": 2,
+   "target_dangling": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "target_dangling": "source"
+  },
+  "classes": {
+   "approximated": 1,
+   "implemented": 19
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "CS_ITALY/IVY01",
+   "CS_ITALY/IVY05A"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "game_player_equip.ammo_9mm",
+   "game_player_equip.ammo_buckshot",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_usp"
+  ],
+  "links_unresolved": [
+   "trigger_multiple.OnStartTouch->strip"
+  ],
+  "inputs_unimplemented": [
+   "game_player_equip.Use",
+   "player_speedmod.ModifySpeed"
+  ],
+  "surfaces_opaque": [
+   "sprites/strider_blackball"
+  ],
+  "gameplay_lost": [
+   "class_unsupported:player_speedmod (approximated)",
+   "input_unimplemented:game_player_equip.Use",
+   "input_unimplemented:player_speedmod.ModifySpeed",
+   "player_input:addoutput targetname x366",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 2,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 4,
+  "links_unresolved": 1,
+  "inputs_unimplemented": 2,
+  "surfaces_opaque": 1,
+  "gameplay_lost": 5
+ },
+ "prop_fit": {}
+}

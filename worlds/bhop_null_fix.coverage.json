@@ -1,0 +1,202 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_null_fix",
+ "sha256": "509a1580994692517434fcf691000334a436aa5c7e84e7de5bec976da4dfe457",
+ "textures": {
+  "looked_up": 87,
+  "drawn": 87,
+  "by_tier": {
+   "addon": 24,
+   "fallback": 63
+  },
+  "free_by_tier": {
+   "addon": 23,
+   "default": 64
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 1,
+  "by_tier": {
+   "fallback": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 32,
+  "entities": 1134,
+  "by_tier": {
+   "default": 32
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "game_player_equip": [
+    "weapon_glock",
+    "weapon_knife",
+    "weapon_m3"
+   ],
+   "weapon_glock": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 563,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 7,
+   "filter_dangling": 2,
+   "input_unimplemented": 7,
+   "player_input": 9
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 5,
+   "ignored": 4,
+   "implemented": 23
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "NULL/BOOSTER",
+   "NULL/ENABLEQUICK",
+   "NULL/NULLBY",
+   "NULL/PICKSKIN",
+   "NULL/SONGS",
+   "NULL/WELLDONE",
+   "NULLNUMBRS/230",
+   "NULLNUMBRS/231",
+   "NULLNUMBRS/232",
+   "NULLNUMBRS/233",
+   "NULLNUMBRS/234",
+   "NULLNUMBRS/235",
+   "NULLNUMBRS/236",
+   "NULLNUMBRS/237",
+   "NULLNUMBRS/238",
+   "NULLNUMBRS/239",
+   "NULLNUMBRS/240",
+   "NULLNUMBRS/241",
+   "NULLNUMBRS/241250",
+   "NULLNUMBRS/242",
+   "NULLNUMBRS/243",
+   "NULLNUMBRS/244",
+   "NULLNUMBRS/245",
+   "NULLNUMBRS/246",
+   "NULLNUMBRS/247",
+   "NULLNUMBRS/248",
+   "NULLNUMBRS/249",
+   "NULLNUMBRS/250",
+   "NULLNUMBRS/251",
+   "NULLNUMBRS/251260",
+   "NULLNUMBRS/252",
+   "NULLNUMBRS/253",
+   "NULLNUMBRS/254",
+   "NULLNUMBRS/255",
+   "NULLNUMBRS/256",
+   "NULLNUMBRS/257",
+   "NULLNUMBRS/258",
+   "NULLNUMBRS/259",
+   "NULLNUMBRS/260",
+   "NULLNUMBRS/261",
+   "NULLNUMBRS/261270",
+   "NULLNUMBRS/262",
+   "NULLNUMBRS/263",
+   "NULLNUMBRS/264",
+   "NULLNUMBRS/265",
+   "NULLNUMBRS/266",
+   "NULLNUMBRS/267",
+   "NULLNUMBRS/268",
+   "NULLNUMBRS/269",
+   "NULLNUMBRS/270",
+   "NULLNUMBRS/271",
+   "NULLNUMBRS/271280",
+   "NULLNUMBRS/272",
+   "NULLNUMBRS/273",
+   "NULLNUMBRS/274",
+   "NULLNUMBRS/275",
+   "NULLNUMBRS/276",
+   "NULLNUMBRS/277",
+   "NULLNUMBRS/278",
+   "NULLNUMBRS/279",
+   "NULLNUMBRS/280",
+   "NULLNUMBRS/LJS",
+   "NULLNUMBRS/SPAWN"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "mapeadores/kaem/cloudfix/cloud.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "game_player_equip.weapon_glock",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_m3",
+   "weapon_glock.ammo"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_entity_maker.ForceSpawn",
+   "env_hudhint.ShowHudHint",
+   "game_player_equip.use",
+   "player_speedmod.ModifySpeed",
+   "player_weaponstrip.Strip",
+   "player_weaponstrip.StripWeaponsAndSuit",
+   "point_servercommand.Command"
+  ],
+  "surfaces_opaque": [
+   "dev/dev_measureladder01"
+  ],
+  "gameplay_lost": [
+   "class_unsupported:env_entity_maker (approximated)",
+   "class_unsupported:func_buyzone (ignored)",
+   "class_unsupported:game_weapon_manager (ignored)",
+   "class_unsupported:player_speedmod (approximated)",
+   "class_unsupported:player_weaponstrip (approximated)",
+   "class_unsupported:point_viewcontrol (ignored)",
+   "class_unsupported:weapon_knife (approximated)",
+   "input_unimplemented:env_entity_maker.ForceSpawn",
+   "input_unimplemented:env_hudhint.ShowHudHint",
+   "input_unimplemented:game_player_equip.use",
+   "input_unimplemented:player_speedmod.ModifySpeed",
+   "input_unimplemented:player_weaponstrip.Strip",
+   "input_unimplemented:player_weaponstrip.StripWeaponsAndSuit",
+   "input_unimplemented:point_servercommand.Command",
+   "player_input:addoutput basevelocity x11",
+   "player_input:addoutput health x1",
+   "player_input:addoutput modelindex x6",
+   "player_input:addoutput origin x108",
+   "player_input:addoutput rendermode x1",
+   "player_input:addoutput targetname x354",
+   "player_input:alpha x1",
+   "player_input:kill x57",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 63,
+  "textures_flat": 0,
+  "models_unmapped": 1,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 4,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 7,
+  "surfaces_opaque": 1,
+  "gameplay_lost": 23
+ },
+ "prop_fit": {}
+}

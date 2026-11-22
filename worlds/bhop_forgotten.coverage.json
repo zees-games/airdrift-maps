@@ -1,0 +1,141 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_forgotten",
+ "sha256": "30d690984cdd011aa338141804f583f979da24a042e385ebb759ddb7dd1516dc",
+ "textures": {
+  "looked_up": 201,
+  "drawn": 201,
+  "by_tier": {
+   "addon": 175,
+   "default": 17,
+   "fallback": 9
+  },
+  "free_by_tier": {
+   "addon": 171,
+   "default": 30
+  },
+  "nearest_photo": [
+   "bioshock/arcadia/grass",
+   "kz_shrubhop/shrbhp_blend_grassdirtwall001a",
+   "perftest/blendrockdirt001a"
+  ]
+ },
+ "models": {
+  "looked_up": 136,
+  "by_tier": {
+   "category": 8,
+   "default": 119,
+   "fallback": 9
+  }
+ },
+ "sounds": {
+  "looked_up": 14,
+  "by_tier": {
+   "default": 14
+  }
+ },
+ "classes": {
+  "distinct": 39,
+  "entities": 1909,
+  "by_tier": {
+   "default": 39
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "prop_dynamic_override": [
+    ""
+   ],
+   "trigger_multiple": [
+    ""
+   ]
+  }
+ },
+ "links": {
+  "total": 356,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1,
+   "filter_dangling": 9,
+   "player_input": 3
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 3,
+   "ignored": 4,
+   "implemented": 31
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "BADGES/0",
+   "BADGES/2",
+   "BADGES/4",
+   "BADGES/5",
+   "BADGES/6",
+   "BADGES/8",
+   "BIOSHOCK/PLASMID_SIGN_NEW_DIFFUSE",
+   "CS_HAVANA/{CXIVY",
+   "SBNT/SBNT_SIGN"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "bioshock/arcadia/arcadia_glens.mdl",
+   "bioshock/hephaestus/machine_gear.mdl",
+   "bioshock/machine.mdl",
+   "bioshock/metro.mdl",
+   "fragmodels/gnubbel.mdl",
+   "fragmodels/gnubbel4.mdl",
+   "fragmodels/hills_gnubbel.mdl",
+   "fragmodels/pilzport.mdl",
+   "mapeadores/kaem/alma/alma.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "prop_dynamic_override.",
+   "trigger_multiple."
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [
+   "dev/dev_prisontvoverlay002",
+   "dev/dev_prisontvoverlay003",
+   "dev/dev_prisontvoverlay004"
+  ],
+  "gameplay_lost": [
+   "class_unsupported:env_firesource (ignored)",
+   "player_input:addoutput gravity x10",
+   "player_input:addoutput targetname x318",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 9,
+  "textures_flat": 0,
+  "models_unmapped": 9,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 2,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 3,
+  "gameplay_lost": 4
+ },
+ "prop_fit": {
+  "rescaled": 656,
+  "fits": 491,
+  "unmeasured": 249,
+  "boxed": 24,
+  "fitted_in": 210,
+  "rescaled_upright": 1
+ }
+}

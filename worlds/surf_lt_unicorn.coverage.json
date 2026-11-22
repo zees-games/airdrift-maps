@@ -1,0 +1,271 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "surf_lt_unicorn",
+ "sha256": "daab4c1834999e362e02dc2c8af40aa719aa555aaa2e1c65af0ce7070521b240",
+ "textures": {
+  "looked_up": 60,
+  "drawn": 60,
+  "by_tier": {
+   "addon": 57,
+   "default": 2,
+   "fallback": 1
+  },
+  "free_by_tier": {
+   "addon": 40,
+   "default": 20
+  },
+  "nearest_photo": [
+   "surf_lt_unicorn/blendgrassrock",
+   "surf_lt_unicorn/blendrockrock_dark"
+  ]
+ },
+ "models": {
+  "looked_up": 145,
+  "by_tier": {
+   "category": 15,
+   "default": 22,
+   "fallback": 108
+  }
+ },
+ "sounds": {
+  "looked_up": 15,
+  "by_tier": {
+   "default": 12,
+   "fallback": 3
+  }
+ },
+ "classes": {
+  "distinct": 58,
+  "entities": 3041,
+  "by_tier": {
+   "default": 58
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "weapon_tmp": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 2248,
+  "unresolved": 2
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 7,
+   "filter_dangling": 102,
+   "input_unimplemented": 12,
+   "player_input": 6,
+   "target_dangling": 2,
+   "teleport_dangling": 1,
+   "volume_follows": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "target_dangling": "source",
+   "teleport_dangling": "source",
+   "volume_follows": "handled"
+  },
+  "classes": {
+   "approximated": 14,
+   "ignored": 3,
+   "implemented": 40
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "SURF_LT_UNICORN/CREDITS"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props/letters_3d/1.mdl",
+   "props/letters_3d/2.mdl",
+   "props/letters_3d/3.mdl",
+   "props/letters_3d/4.mdl",
+   "props/letters_3d/b.mdl",
+   "props/letters_3d/n.mdl",
+   "props/letters_3d/o.mdl",
+   "props/letters_3d/s.mdl",
+   "props/letters_3d/u.mdl",
+   "props/surf_lt_unicorn/b_rr_star_cluster.mdl",
+   "props/surf_lt_unicorn/bonus3_blackfade.mdl",
+   "props/surf_lt_unicorn/bonus3_blackfade_b.mdl",
+   "props/surf_lt_unicorn/castle_ceiling01.mdl",
+   "props/surf_lt_unicorn/castle_ceiling02.mdl",
+   "props/surf_lt_unicorn/castle_ceiling03.mdl",
+   "props/surf_lt_unicorn/castle_ceiling04.mdl",
+   "props/surf_lt_unicorn/castle_ceiling05.mdl",
+   "props/surf_lt_unicorn/castle_credits_stand.mdl",
+   "props/surf_lt_unicorn/castle_el_256.mdl",
+   "props/surf_lt_unicorn/castle_l_256.mdl",
+   "props/surf_lt_unicorn/castle_l_balcony.mdl",
+   "props/surf_lt_unicorn/castle_l_cap_bottom.mdl",
+   "props/surf_lt_unicorn/castle_l_cap_top.mdl",
+   "props/surf_lt_unicorn/castle_m_256.mdl",
+   "props/surf_lt_unicorn/castle_m_balcony.mdl",
+   "props/surf_lt_unicorn/castle_m_cap_bottom.mdl",
+   "props/surf_lt_unicorn/castle_m_cap_top.mdl",
+   "props/surf_lt_unicorn/castle_s_256.mdl",
+   "props/surf_lt_unicorn/castle_s_balcony.mdl",
+   "props/surf_lt_unicorn/castle_s_cap_bottom.mdl",
+   "props/surf_lt_unicorn/castle_s_cap_top.mdl",
+   "props/surf_lt_unicorn/castle_s_flag.mdl",
+   "props/surf_lt_unicorn/castle_square_balcony.mdl",
+   "props/surf_lt_unicorn/castle_trophy01.mdl",
+   "props/surf_lt_unicorn/castle_trophy02.mdl",
+   "props/surf_lt_unicorn/cloud_l_01.mdl",
+   "props/surf_lt_unicorn/cloud_l_02.mdl",
+   "props/surf_lt_unicorn/cloud_m_01.mdl",
+   "props/surf_lt_unicorn/cloud_m_02.mdl",
+   "props/surf_lt_unicorn/cloud_s_01.mdl",
+   "props/surf_lt_unicorn/cloud_s_02.mdl",
+   "props/surf_lt_unicorn/heart.mdl",
+   "props/surf_lt_unicorn/heart_platform.mdl",
+   "props/surf_lt_unicorn/rainbow_a_050.mdl",
+   "props/surf_lt_unicorn/rainbow_a_075.mdl",
+   "props/surf_lt_unicorn/rainbow_a_100.mdl",
+   "props/surf_lt_unicorn/rainbow_a_150.mdl",
+   "props/surf_lt_unicorn/rainbow_a_175.mdl",
+   "props/surf_lt_unicorn/rainbow_a_200.mdl",
+   "props/surf_lt_unicorn/rainbow_b_050.mdl",
+   "props/surf_lt_unicorn/rainbow_b_125.mdl",
+   "props/surf_lt_unicorn/rainbow_b_150.mdl",
+   "props/surf_lt_unicorn/rainbow_b_200.mdl",
+   "props/surf_lt_unicorn/spawn_temple_ring.mdl",
+   "props/surf_lt_unicorn/spawn_whirlpool.mdl",
+   "props/surf_lt_unicorn/stage_reset_rainbow.mdl",
+   "props/surf_lt_unicorn/stage_start_platform.mdl",
+   "props/surf_lt_unicorn/star_b.mdl",
+   "props/surf_lt_unicorn/star_c.mdl",
+   "props/surf_lt_unicorn/surfs/b04_surf01.mdl",
+   "props/surf_lt_unicorn/surfs/b04_surf02.mdl",
+   "props/surf_lt_unicorn/surfs/b_rr_surf02.mdl",
+   "props/surf_lt_unicorn/surfs/b_rr_surf03.mdl",
+   "props/surf_lt_unicorn/surfs/b_rr_surf06.mdl",
+   "props/surf_lt_unicorn/surfs/b_rr_surf07.mdl",
+   "props/surf_lt_unicorn/surfs/b_rr_surf08.mdl",
+   "props/surf_lt_unicorn/surfs/b_rr_surf09.mdl",
+   "props/surf_lt_unicorn/surfs/b_rr_surf10.mdl",
+   "props/surf_lt_unicorn/surfs/b_rr_surf11.mdl",
+   "props/surf_lt_unicorn/surfs/b_rr_surf12.mdl",
+   "props/surf_lt_unicorn/surfs/b_rr_surf13.mdl",
+   "props/surf_lt_unicorn/surfs/s01_surf01.mdl",
+   "props/surf_lt_unicorn/surfs/s01_surf02.mdl",
+   "props/surf_lt_unicorn/surfs/s01_surf03.mdl",
+   "props/surf_lt_unicorn/surfs/s02_surf01.mdl",
+   "props/surf_lt_unicorn/surfs/s02_surf02.mdl",
+   "props/surf_lt_unicorn/surfs/s02_surf03_l.mdl",
+   "props/surf_lt_unicorn/surfs/s02_surf03_r.mdl",
+   "props/surf_lt_unicorn/surfs/s03_surf01.mdl",
+   "props/surf_lt_unicorn/surfs/s03_surf02_l.mdl",
+   "props/surf_lt_unicorn/surfs/s03_surf02_r.mdl",
+   "props/surf_lt_unicorn/surfs/s04_surf01.mdl",
+   "props/surf_lt_unicorn/surfs/s04_surf02.mdl",
+   "props/surf_lt_unicorn/surfs/s04_surf03_l.mdl",
+   "props/surf_lt_unicorn/surfs/s04_surf03_r.mdl",
+   "props/surf_lt_unicorn/surfs/s05_surf03.mdl",
+   "props/surf_lt_unicorn/surfs/s05_surf04.mdl",
+   "props/surf_lt_unicorn/surfs/s06_surf01.mdl",
+   "props/surf_lt_unicorn/surfs/s06_surf02.mdl",
+   "props/surf_lt_unicorn/surfs/s06_surf05_l.mdl",
+   "props/surf_lt_unicorn/surfs/s06_surf05_r.mdl",
+   "props/surf_lt_unicorn/surfs/s06_surf06_l.mdl",
+   "props/surf_lt_unicorn/surfs/s06_surf06_r.mdl",
+   "props/surf_lt_unicorn/unicorn.mdl",
+   "props/surf_lt_unicorn/waterfall_l_01.mdl",
+   "props/surf_lt_unicorn/waterfall_l_02.mdl",
+   "props/surf_lt_unicorn/waterfall_l_03.mdl",
+   "props/surf_lt_unicorn/waterfall_m_01.mdl",
+   "props/surf_lt_unicorn/waterfall_m_02.mdl",
+   "props/surf_lt_unicorn/waterfall_m_03.mdl",
+   "props/surf_lt_unicorn/waterfall_s_01.mdl",
+   "props/surf_lt_unicorn/waterfall_s_02.mdl",
+   "props/surf_lt_unicorn/waterflow01.mdl",
+   "props/surf_lt_unicorn/waterflow02.mdl",
+   "props/surf_lt_unicorn/waterflow03.mdl",
+   "props/surf_lt_unicorn/waterflow04.mdl",
+   "props/surf_lt_unicorn/waterflow05.mdl",
+   "props_combine/portalskydome.mdl"
+  ],
+  "sounds_unmapped": [
+   "surf_lt_unicorn/collectable_pickup.wav",
+   "surf_lt_unicorn/collectable_twinkle.wav",
+   "surf_lt_unicorn/m83_mc_loop.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "weapon_tmp.ammo"
+  ],
+  "links_unresolved": [
+   "filter_activator_name.OnFail->b_rr_gt_cp_invalid",
+   "func_door_rotating.OnFullyOpen->3ds_shooting_star_sprite"
+  ],
+  "inputs_unimplemented": [
+   "env_entity_maker.ForceSpawn",
+   "env_lightglow.Skin",
+   "env_texturetoggle.SetTextureIndex",
+   "filter_activator_name.TestActivator",
+   "info_camera_link.SetCamera",
+   "logic_case.SetOff",
+   "logic_relay.SetOff",
+   "momentary_rot_button.SetPosition",
+   "player_weaponstrip.Strip",
+   "point_camera.SetOff",
+   "point_camera.SetOn",
+   "point_servercommand.Command"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:env_entity_maker (approximated)",
+   "class_unsupported:game_weapon_manager (ignored)",
+   "class_unsupported:info_camera_link (approximated)",
+   "class_unsupported:path_track (ignored)",
+   "class_unsupported:player_weaponstrip (approximated)",
+   "class_unsupported:weapon_knife (approximated)",
+   "class_unsupported:weapon_tmp (approximated)",
+   "input_unimplemented:env_entity_maker.ForceSpawn",
+   "input_unimplemented:env_lightglow.Skin",
+   "input_unimplemented:env_texturetoggle.SetTextureIndex",
+   "input_unimplemented:filter_activator_name.TestActivator",
+   "input_unimplemented:info_camera_link.SetCamera",
+   "input_unimplemented:logic_case.SetOff",
+   "input_unimplemented:logic_relay.SetOff",
+   "input_unimplemented:momentary_rot_button.SetPosition",
+   "input_unimplemented:player_weaponstrip.Strip",
+   "input_unimplemented:point_camera.SetOff",
+   "input_unimplemented:point_camera.SetOn",
+   "input_unimplemented:point_servercommand.Command",
+   "player_input:addoutput renderamt x2",
+   "player_input:addoutput rendermode x2",
+   "player_input:addoutput targetname x113",
+   "player_input:clearparent x12",
+   "player_input:setdamagefilter x1",
+   "player_input:setparent x12"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 1,
+  "textures_flat": 0,
+  "models_unmapped": 108,
+  "sounds_unmapped": 3,
+  "classes_unmapped": 0,
+  "keys_unmapped": 1,
+  "links_unresolved": 2,
+  "inputs_unimplemented": 12,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 25
+ },
+ "prop_fit": {
+  "rescaled": 65,
+  "boxed": 19,
+  "fitted_in": 16,
+  "fits": 660
+ }
+}

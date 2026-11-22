@@ -1,0 +1,94 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_ocean",
+ "sha256": "59065d4000816fb8dfc4d54a0c24ef71e5398e1736cbd3dda8473a3800600462",
+ "textures": {
+  "looked_up": 15,
+  "drawn": 14,
+  "by_tier": {
+   "addon": 12,
+   "default": 3
+  },
+  "free_by_tier": {
+   "addon": 10,
+   "default": 4
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 23,
+  "by_tier": {
+   "category": 1,
+   "default": 22
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 25,
+  "entities": 255,
+  "by_tier": {
+   "default": 25
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 7,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1,
+   "filter_dangling": 2,
+   "player_input": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "ignored": 2,
+   "implemented": 22
+  }
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:point_viewcontrol (ignored)",
+   "player_input:addoutput targetname x4"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 2
+ },
+ "prop_fit": {
+  "rescaled": 28,
+  "fits": 37,
+  "fitted_in": 6,
+  "unmeasured": 10
+ }
+}

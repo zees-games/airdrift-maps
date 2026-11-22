@@ -1,0 +1,34 @@
+# Suggested by the converter from commands in bhop_badges2's entities.
+# Nothing here is applied. Uncomment a line to set it for this map; a key the game does
+# not whitelist is logged and ignored (docs/map-config.md).
+# mp_flashlight: 1
+# sv_airaccelerate: 100
+# sv_enablebunnyhop: 1
+# skipped, never run: point_clientcommand: play badges/scream.mp3
+# skipped, never run: point_clientcommand: r_screenoverlay badges/scaryface
+# skipped, never run: point_clientcommand: r_screenoverlay badges/trip1
+# skipped, never run: point_clientcommand: play badges/heartbeat.mp3
+# skipped, never run: point_clientcommand: r_screenoverlay badges/trip2
+# skipped, never run: point_clientcommand: r_screenoverlay badges/trip3
+# skipped, never run: point_clientcommand: r_screenoverlay badges/trip4
+# skipped, never run: point_clientcommand: r_screenoverlay badges/trip5
+# skipped, never run: point_clientcommand: r_screenoverlay badges/trip6
+# skipped, never run: point_clientcommand: r_screenoverlay badges/trip7
+# skipped, never run: point_clientcommand: r_screenoverlay badges/trip8
+# skipped, never run: point_clientcommand: r_screenoverlay badges/trip9
+# skipped, never run: point_clientcommand: r_screenoverlay badges/trip10
+# skipped, never run: point_clientcommand: r_screenoverlay off
+# skipped, never run: point_clientcommand: r_screenoverlay badges/goto5
+# skipped, never run: point_clientcommand: r_screenoverlay badges/goto3
+# skipped, never run: point_clientcommand: r_screenoverlay badges/goto4
+# skipped, never run: point_clientcommand: r_screenoverlay badges/goto6
+# skipped, never run: point_clientcommand: r_screenoverlay badges/goto7
+# skipped, never run: point_clientcommand: r_screenoverlay badges/goto1
+# skipped, never run: point_clientcommand: r_screenoverlay badges/goto2
+# skipped, never run: point_clientcommand: r_screenoverlay off
+# skipped, never run: point_clientcommand: r_screenoverlay badges/cheatoverlay
+# skipped, never run: point_clientcommand: r_screenoverlay off
+# skipped, never run: point_clientcommand: r_screenoverlay off
+# skipped, never run: point_clientcommand: r_screenoverlay badges/cheatoverlay
+# skipped, never run: point_clientcommand: r_screenoverlay off
+# skipped, never run: point_clientcommand: r_screenoverlay badges/cheatoverlay

@@ -1,0 +1,184 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "surf_interference",
+ "sha256": "4421e8946388090065cd0876f16a4b4e6f5a99e3a349e7f0a7c3c40e3bbdf017",
+ "textures": {
+  "looked_up": 32,
+  "drawn": 33,
+  "by_tier": {
+   "addon": 3,
+   "default": 9,
+   "fallback": 20
+  },
+  "free_by_tier": {
+   "addon": 26,
+   "default": 7
+  },
+  "nearest_photo": [
+   "cs_italy/black",
+   "easteregg",
+   "endthing_disk_texturefromthere",
+   "explanation_for_the_strange_black_boxes",
+   "fakeskybox",
+   "fakeskybox_fade_far",
+   "fakeskybox_night",
+   "marbletile",
+   "rocksand_blend",
+   "surface",
+   "surface_brick01",
+   "surface_detail01",
+   "surface_detail02",
+   "surface_mip_far",
+   "surface_spacemetal",
+   "surface_stair",
+   "surface_tile01",
+   "surface_tile02",
+   "surface_trim01",
+   "tile",
+   "totally_not_encoded_map_maker_info",
+   "trim_glow",
+   "trim_glow_smooth"
+  ]
+ },
+ "models": {
+  "looked_up": 73,
+  "by_tier": {
+   "category": 14,
+   "default": 8,
+   "fallback": 41,
+   "skybox": 10
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 24,
+  "entities": 1534,
+  "by_tier": {
+   "default": 24
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 3,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "player_input": 2
+  },
+  "severity": {
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 1,
+   "ignored": 1,
+   "implemented": 21
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "/EASTEREGG",
+   "/ENDTHING_DISK_TEXTUREFROMTHERE",
+   "/EXPLANATION_FOR_THE_STRANGE_BLACK_BOXES",
+   "/FAKESKYBOX",
+   "/FAKESKYBOX_FADE_FAR",
+   "/FAKESKYBOX_NIGHT",
+   "/LOGO",
+   "/PORTAL_LIGHTMAPPED_INWALL",
+   "/SCROLLING_SCREEN",
+   "/SURFACE",
+   "/SURFACE_DETAIL01",
+   "/SURFACE_DETAIL02",
+   "/SURFACE_MIP_CLOSE",
+   "/SURFACE_MIP_FAR",
+   "/SURFACE_STAIR",
+   "/SURFACE_TRIM01",
+   "/TOTALLY_NOT_ENCODED_MAP_MAKER_INFO",
+   "/TRIM_GLOW",
+   "/TRIM_GLOW_SMOOTH",
+   "/VOLUMETRIC_LIGHT"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "env/endthing/endthing_disk.mdl",
+   "env/endthing/endthing_disk_halo.mdl",
+   "env/endthing/endthing_disk_warp.mdl",
+   "env/fragments_cloud_01.mdl",
+   "env/portals/otherside/portal01.mdl",
+   "env/portals/portal01.mdl",
+   "env/portals/portal_emitter.mdl",
+   "env/space/crystal.mdl",
+   "env/space/crystal2s.mdl",
+   "env/space/crystal_core.mdl",
+   "env/space/pad.mdl",
+   "env/surface/broken_2048_straight_low.mdl",
+   "env/surface/broken_header.mdl",
+   "env/surface/broken_main.mdl",
+   "env/surface/wall_mapbounds.mdl",
+   "env/surface/wall_mapbounds_closer.mdl",
+   "env/surface/wall_outoftheportal.mdl",
+   "env/transitions/transition1_entrance_around.mdl",
+   "env/transitions/transition1_entrance_broken.mdl",
+   "env/transitions/transition1_entrance_broken_closer.mdl",
+   "env/transitions/transition1_entrance_fill.mdl",
+   "env/transitions/transition1_entrance_still.mdl",
+   "env/transitions/transition1_entrance_still_closer.mdl",
+   "env/transitions/transition1_entrance_still_closer_extreme.mdl",
+   "ramps/ramp_left_1k_225.mdl",
+   "ramps/ramp_left_1k_45.mdl",
+   "ramps/ramp_right_1k_225.mdl",
+   "ramps/ramp_right_1k_45.mdl",
+   "ramps/ramp_straight_500.mdl",
+   "ramps/ramp_straight_half_250.mdl",
+   "ramps/ramp_straight_half_250_right.mdl",
+   "ramps/ramp_straight_half_500.mdl",
+   "ramps/ramp_straight_half_500_right.mdl",
+   "ramps/ramp_up_1k_225.mdl",
+   "ramps/ramp_up_1k_225_boost.mdl",
+   "ramps/ramp_up_1k_225_left.mdl",
+   "ramps/ramp_up_1k_225_right.mdl",
+   "ramps/ramp_up_1k_225_start.mdl",
+   "ramps/ramp_up_1k_45.mdl",
+   "ramps/ramp_up_1k_45_left.mdl",
+   "ramps/ramp_up_1k_45_right.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [
+   "fakeskybox_fade_far",
+   "surface_mip_far"
+  ],
+  "gameplay_lost": [
+   "player_input:addoutput basevelocity x1",
+   "player_input:addoutput origin x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 20,
+  "textures_flat": 0,
+  "models_unmapped": 41,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 2,
+  "gameplay_lost": 2
+ },
+ "prop_fit": {
+  "fitted_in": 133,
+  "unmeasured": 92,
+  "boxed": 5,
+  "rescaled": 166
+ }
+}

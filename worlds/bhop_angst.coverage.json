@@ -1,0 +1,238 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_angst",
+ "sha256": "3f14c0326aca22d561193877b3c362b3c3af6dbbf9b66dc5cfab9d539f257d96",
+ "textures": {
+  "looked_up": 81,
+  "drawn": 78,
+  "by_tier": {
+   "addon": 50,
+   "default": 20,
+   "fallback": 11
+  },
+  "free_by_tier": {
+   "addon": 38,
+   "default": 40
+  },
+  "nearest_photo": [
+   "proxychains/kz_bhop_algetic/reflective_blend_normal_rock"
+  ]
+ },
+ "models": {
+  "looked_up": 130,
+  "by_tier": {
+   "category": 28,
+   "default": 28,
+   "fallback": 74
+  }
+ },
+ "sounds": {
+  "looked_up": 17,
+  "by_tier": {
+   "default": 11,
+   "fallback": 6
+  }
+ },
+ "classes": {
+  "distinct": 59,
+  "entities": 1878,
+  "by_tier": {
+   "default": 59
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "game_player_equip": [
+    "weapon_usp"
+   ]
+  }
+ },
+ "links": {
+  "total": 410,
+  "unresolved": 3
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 6,
+   "filter_dangling": 2,
+   "input_unimplemented": 7,
+   "player_input": 9,
+   "target_dangling": 8
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "target_dangling": "source"
+  },
+  "classes": {
+   "approximated": 14,
+   "ignored": 8,
+   "implemented": 36
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "PROXYCHAINS/ANGST_PROPS/CHIPS",
+   "PROXYCHAINS/ANGST_PROPS/CHIPS2",
+   "PROXYCHAINS/KZ_BHOP_ALGETIC/STRAFE_LADDER",
+   "PROXYCHAINS/PROXIES/PLAYER_ALPHA_BL3",
+   "PROXYCHAINS/PROXIES/PLAYER_FADE_NEBULA",
+   "PROXYCHAINS/SHADERS/PROXY_BL3",
+   "PROXYCHAINS/SHADERS/PROXY_FIRSTPORTAL",
+   "PROXYCHAINS/SHADERS/PROXY_NEBULA",
+   "PROXYCHAINS/SHADERS/PROXY_NEBULABLUR",
+   "PROXYCHAINS/SJCONTEST/AFTERSHOCK",
+   "PROXYCHAINS/SJCONTEST/EARTH"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props/bhop_overthinker/arrow.mdl",
+   "props/bhop_overthinker/bhop1.mdl",
+   "props/bhop_overthinker/collum1.mdl",
+   "proxychains/algetic_props/algetic_bhop06.mdl",
+   "proxychains/algetic_props/algetic_portal.mdl",
+   "proxychains/algetic_props/con4_coin.mdl",
+   "proxychains/angst_props/3surfs.mdl",
+   "proxychains/angst_props/3wayblocks.mdl",
+   "proxychains/angst_props/3wayend.mdl",
+   "proxychains/angst_props/3waywhites.mdl",
+   "proxychains/angst_props/angst.mdl",
+   "proxychains/angst_props/angst_lights.mdl",
+   "proxychains/angst_props/angst_main.mdl",
+   "proxychains/angst_props/angst_ramp.mdl",
+   "proxychains/angst_props/angst_triangle_128.mdl",
+   "proxychains/angst_props/angst_triangle_256.mdl",
+   "proxychains/angst_props/angstbox.mdl",
+   "proxychains/angst_props/angstgift.mdl",
+   "proxychains/angst_props/bhop_green256.mdl",
+   "proxychains/angst_props/blackhole_full.mdl",
+   "proxychains/angst_props/blueen1.mdl",
+   "proxychains/angst_props/blueen2.mdl",
+   "proxychains/angst_props/bonus1s.mdl",
+   "proxychains/angst_props/bonus2s.mdl",
+   "proxychains/angst_props/bonus3s.mdl",
+   "proxychains/angst_props/bonus4s.mdl",
+   "proxychains/angst_props/bonus5s.mdl",
+   "proxychains/angst_props/bonus6s.mdl",
+   "proxychains/angst_props/bonus_curve2.mdl",
+   "proxychains/angst_props/bonus_wall_detail.mdl",
+   "proxychains/angst_props/bonusguy1.mdl",
+   "proxychains/angst_props/boost_pad1.mdl",
+   "proxychains/angst_props/borderhop1.mdl",
+   "proxychains/angst_props/borderhops2z.mdl",
+   "proxychains/angst_props/borderhops3z.mdl",
+   "proxychains/angst_props/borderhopsend.mdl",
+   "proxychains/angst_props/cafe1.mdl",
+   "proxychains/angst_props/cardbox.mdl",
+   "proxychains/angst_props/cave_leafs1.mdl",
+   "proxychains/angst_props/creditsroom.mdl",
+   "proxychains/angst_props/creditsroom2.mdl",
+   "proxychains/angst_props/crystalt.mdl",
+   "proxychains/angst_props/curve3.mdl",
+   "proxychains/angst_props/curve6.mdl",
+   "proxychains/angst_props/decoportal.mdl",
+   "proxychains/angst_props/downlights.mdl",
+   "proxychains/angst_props/endfloorblack.mdl",
+   "proxychains/angst_props/endpart2.mdl",
+   "proxychains/angst_props/evilone.mdl",
+   "proxychains/angst_props/godrays.mdl",
+   "proxychains/angst_props/hoplandsaa.mdl",
+   "proxychains/angst_props/ico_model.mdl",
+   "proxychains/angst_props/jumppad.mdl",
+   "proxychains/angst_props/jumppad_broken.mdl",
+   "proxychains/angst_props/labceiling.mdl",
+   "proxychains/angst_props/labcrystal1.mdl",
+   "proxychains/angst_props/labcrystal2.mdl",
+   "proxychains/angst_props/labend1.mdl",
+   "proxychains/angst_props/optisnacks.mdl",
+   "proxychains/angst_props/outofnames.mdl",
+   "proxychains/angst_props/platform_256.mdl",
+   "proxychains/angst_props/portal_square.mdl",
+   "proxychains/angst_props/ramp_end.mdl",
+   "proxychains/angst_props/secret_1.mdl",
+   "proxychains/angst_props/secretextras.mdl",
+   "proxychains/angst_props/sourcejump.mdl",
+   "proxychains/angst_props/spawn_lights.mdl",
+   "proxychains/angst_props/spawndetail.mdl",
+   "proxychains/angst_props/spawndisp.mdl",
+   "proxychains/angst_props/tars.mdl",
+   "proxychains/angst_props/thegiantgod.mdl",
+   "proxychains/angst_props/thewitnessproxy.mdl",
+   "proxychains/angst_props/wallthing1.mdl",
+   "proxychains/angst_props/whydoihavetoconverttomodel.mdl"
+  ],
+  "sounds_unmapped": [
+   "ambient/levels/citadel/field_loop1.wav",
+   "hide/hideitem_skill_hp.wav",
+   "hide/hideitem_skill_trap01.wav",
+   "hide/hideitem_skill_trap02.wav",
+   "hide/hideitem_skill_trap03.wav",
+   "ui/randombox_in.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "game_player_equip.weapon_usp"
+  ],
+  "links_unresolved": [
+   "logic_relay.OnTrigger->------------------------------",
+   "trigger_brush.OnUse->fb_add",
+   "trigger_multiple.OnStartTouch->fb_add"
+  ],
+  "inputs_unimplemented": [
+   "env_entity_maker.ForceSpawn",
+   "env_entity_maker.ForceSpawnAtEntityOrigin",
+   "game_player_equip.Use",
+   "info_teleport_destination.Skin",
+   "player_weaponstrip.Strip",
+   "point_spotlight.LightOff",
+   "point_spotlight.LightOn"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:env_entity_maker (approximated)",
+   "class_unsupported:info_teleport_destination (approximated)",
+   "class_unsupported:path_track (ignored)",
+   "class_unsupported:player_weaponstrip (approximated)",
+   "class_unsupported:point_viewcontrol (ignored)",
+   "class_unsupported:trigger_brush (approximated)",
+   "input_unimplemented:env_entity_maker.ForceSpawn",
+   "input_unimplemented:env_entity_maker.ForceSpawnAtEntityOrigin",
+   "input_unimplemented:game_player_equip.Use",
+   "input_unimplemented:info_teleport_destination.Skin",
+   "input_unimplemented:player_weaponstrip.Strip",
+   "input_unimplemented:point_spotlight.LightOff",
+   "input_unimplemented:point_spotlight.LightOn",
+   "player_input:addoutput basevelocity x23",
+   "player_input:addoutput classname x1",
+   "player_input:addoutput modelindex x1",
+   "player_input:addoutput renderamt x2",
+   "player_input:addoutput rendermode x2",
+   "player_input:addoutput skin x18",
+   "player_input:addoutput targetname x10",
+   "player_input:setdamagefilter x1",
+   "player_input:setfogcontroller x6"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 11,
+  "textures_flat": 0,
+  "models_unmapped": 74,
+  "sounds_unmapped": 6,
+  "classes_unmapped": 0,
+  "keys_unmapped": 1,
+  "links_unresolved": 3,
+  "inputs_unimplemented": 7,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 22
+ },
+ "prop_fit": {
+  "rescaled": 71,
+  "fitted_in": 10,
+  "boxed": 5,
+  "fits": 50
+ }
+}

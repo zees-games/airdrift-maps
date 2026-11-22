@@ -1,0 +1,110 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_hellish_dream_css",
+ "sha256": "b0c24d79c29516e5dbd46eb14665190451853237e24c363fa556ba32be7b1e70",
+ "textures": {
+  "looked_up": 44,
+  "drawn": 44,
+  "by_tier": {
+   "addon": 41,
+   "default": 3
+  },
+  "free_by_tier": {
+   "addon": 40,
+   "default": 4
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 28,
+  "by_tier": {
+   "category": 1,
+   "default": 26,
+   "fallback": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 30,
+  "entities": 604,
+  "by_tier": {
+   "default": 30
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "point_viewcontrol": [
+    "trackspeed"
+   ]
+  }
+ },
+ "links": {
+  "total": 27,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1,
+   "filter_dangling": 19,
+   "input_unimplemented": 1,
+   "player_input": 2
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "ignored": 4,
+   "implemented": 25
+  }
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props_xen/xsg_01.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "point_viewcontrol.trackspeed"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "point_servercommand.Command"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:point_viewcontrol (ignored)",
+   "input_unimplemented:point_servercommand.Command",
+   "player_input:addoutput basevelocity x8",
+   "player_input:addoutput targetname x17"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 1,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 1,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 1,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 4
+ },
+ "prop_fit": {
+  "rescaled": 19,
+  "unmeasured": 9,
+  "fits": 58,
+  "rescaled_upright": 3,
+  "fitted_in": 3
+ }
+}

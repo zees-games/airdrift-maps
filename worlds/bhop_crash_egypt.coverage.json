@@ -1,0 +1,164 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_crash_egypt",
+ "sha256": "c2b3bc1e5a3f2507df4b7aa6ed71af7c2ac38edb12c41939547d25268ec9613e",
+ "textures": {
+  "looked_up": 89,
+  "drawn": 89,
+  "by_tier": {
+   "addon": 82,
+   "default": 1,
+   "fallback": 6
+  },
+  "free_by_tier": {
+   "addon": 78,
+   "default": 11
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 22,
+  "by_tier": {
+   "category": 5,
+   "default": 9,
+   "fallback": 8
+  }
+ },
+ "sounds": {
+  "looked_up": 15,
+  "by_tier": {
+   "default": 3,
+   "fallback": 12
+  }
+ },
+ "classes": {
+  "distinct": 38,
+  "entities": 1356,
+  "by_tier": {
+   "default": 38
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "func_physbox": [
+    "gibmodel"
+   ],
+   "trigger_once": [
+    "wait"
+   ]
+  }
+ },
+ "links": {
+  "total": 3346,
+  "unresolved": 1
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 5,
+   "filter_dangling": 10,
+   "input_unimplemented": 6,
+   "player_input": 2,
+   "target_dangling": 1,
+   "volume_key_unread": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "target_dangling": "source",
+   "volume_key_unread": "unsupported"
+  },
+  "classes": {
+   "approximated": 7,
+   "ignored": 2,
+   "implemented": 28
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "CRASH BANDICOOT 3/EGYPT/TEXT_LEVEL1",
+   "CRASH BANDICOOT 3/EGYPT/TEXT_LEVEL2",
+   "CRASH BANDICOOT 3/EGYPT/TEXT_LEVEL3_2",
+   "CRASH BANDICOOT 3/EGYPT_CREDITS",
+   "CRASH BANDICOOT 3/EGYPT_IMPORTANT",
+   "OVERLAYS/BLACK_GRADIENT"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "dofke/crash bandicoot/enemies/sarcophagus.mdl",
+   "dofke/crash bandicoot/enemies/scarab.mdl",
+   "dofke/crash bandicoot/general/aku_aku.mdl",
+   "dofke/crash bandicoot/general/crystal.mdl",
+   "dofke/crash bandicoot/general/warp_sphere.mdl",
+   "dofke/crash bandicoot/general/wumpa_tw.mdl",
+   "dofke/crash bandicoot/props/egypt/bonus_pad.mdl",
+   "dofke/crash bandicoot/props/egypt/cortex_sphynx.mdl"
+  ],
+  "sounds_unmapped": [
+   "crash_bandicoot_original/crates/checkpoint_open.wav",
+   "crash_bandicoot_original/crates/crystal.wav",
+   "crash_bandicoot_original/crates/uka_uka.wav",
+   "crash_bandicoot_original/crates/wumpa_collect.wav",
+   "crash_bandicoot_original/egypt/bug_loop.wav",
+   "crash_bandicoot_original/egypt/mummy_case.wav",
+   "effects/crate/crate_break.wav",
+   "effects/crate/crate_jump.wav",
+   "effects/crate/crate_trigger.wav",
+   "effects/crate/nitro_idle1.wav",
+   "effects/crate/nitro_idle2.wav",
+   "effects/crate/tnt_timer.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "func_physbox.gibmodel",
+   "trigger_once.wait"
+  ],
+  "links_unresolved": [
+   "logic_auto.OnMapSpawn->water_analog2"
+  ],
+  "inputs_unimplemented": [
+   "env_entity_maker.ForceSpawnAtEntityOrigin",
+   "env_sprite.SetParentAttachment",
+   "func_water_analog.Close",
+   "func_water_analog.Open",
+   "player_weaponstrip.StripWeaponsAndSuit",
+   "prop_dynamic.SetBodyGroup"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:env_entity_maker (approximated)",
+   "class_unsupported:path_track (ignored)",
+   "class_unsupported:player_weaponstrip (approximated)",
+   "class_unsupported:point_tesla (approximated)",
+   "class_unsupported:point_viewcontrol (ignored)",
+   "input_unimplemented:env_entity_maker.ForceSpawnAtEntityOrigin",
+   "input_unimplemented:env_sprite.SetParentAttachment",
+   "input_unimplemented:func_water_analog.Close",
+   "input_unimplemented:func_water_analog.Open",
+   "input_unimplemented:player_weaponstrip.StripWeaponsAndSuit",
+   "input_unimplemented:prop_dynamic.SetBodyGroup",
+   "player_input:addoutput basevelocity x9",
+   "player_input:addoutput targetname x17",
+   "volume_key_unread:func_water_analog.movedistance=72"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 6,
+  "textures_flat": 0,
+  "models_unmapped": 8,
+  "sounds_unmapped": 12,
+  "classes_unmapped": 0,
+  "keys_unmapped": 2,
+  "links_unresolved": 1,
+  "inputs_unimplemented": 6,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 14
+ },
+ "prop_fit": {
+  "rescaled": 157,
+  "fits": 120
+ }
+}

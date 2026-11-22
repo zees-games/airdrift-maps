@@ -1,0 +1,142 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "surf_stonework4",
+ "sha256": "f6708a26082fe00f5fe6b1e751422baae06cf9de678b974cb525220d567c9bab",
+ "textures": {
+  "looked_up": 17,
+  "drawn": 17,
+  "by_tier": {
+   "addon": 16,
+   "default": 1
+  },
+  "free_by_tier": {
+   "addon": 16,
+   "default": 1
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 80,
+  "by_tier": {
+   "category": 32,
+   "default": 4,
+   "fallback": 44
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 18,
+  "entities": 2452,
+  "by_tier": {
+   "default": 18
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 4,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1,
+   "input_unimplemented": 1,
+   "player_input": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "ignored": 1,
+   "implemented": 16
+  }
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [
+   "stonework4/cylinder_floor_01.mdl",
+   "stonework4/cylinder_wall_01.mdl",
+   "stonework4/mrcow.mdl",
+   "stonework4/ramps/s1_r02(1).mdl",
+   "stonework4/ramps/s1_r02(2).mdl",
+   "stonework4/ramps/s2_r01.mdl",
+   "stonework4/ramps/s3_r03.mdl",
+   "stonework4/ramps/s3_r04.mdl",
+   "stonework4/ramps/s3_r05.mdl",
+   "stonework4/ramps/s4_r04.mdl",
+   "stonework4/ramps/s4_r05.mdl",
+   "stonework4/ramps/s5_r01.mdl",
+   "stonework4/ramps/s5_r05.mdl",
+   "stonework4/ramps/s6_r01.mdl",
+   "stonework4/ramps/s6_r02.mdl",
+   "stonework4/ramps/s6_r03_l.mdl",
+   "stonework4/ramps/s6_r03_r.mdl",
+   "stonework4/spawn_towers.mdl",
+   "stonework4/stage1.mdl",
+   "stonework4/stage2.mdl",
+   "stonework4/stage2_curve.mdl",
+   "stonework4/stage2_detail01.mdl",
+   "stonework4/stage3.mdl",
+   "stonework4/stage4.mdl",
+   "stonework4/stage4_end_detail.mdl",
+   "stonework4/stage4_end_detail_01_btm.mdl",
+   "stonework4/stage4_end_detail_01_top.mdl",
+   "stonework4/stage4_weave_01.mdl",
+   "stonework4/stage5.mdl",
+   "stonework4/stage5_curve_arrow(1).mdl",
+   "stonework4/stage5_curve_arrow(2).mdl",
+   "stonework4/stage5_curve_bar(1).mdl",
+   "stonework4/stage5_curve_bar_l.mdl",
+   "stonework4/stage5_curve_bar_r.mdl",
+   "stonework4/stage5_ramp_cover.mdl",
+   "stonework4/stage6.mdl",
+   "stonework4/stage6_detail_01.mdl",
+   "stonework4/stage6_ramp_ceiling.mdl",
+   "stonework4/stage7.mdl",
+   "stonework4/stage7_ramp_cover_02.mdl",
+   "stonework4/stage7_ramp_cover_03.mdl",
+   "stonework4/sw4_title.mdl",
+   "stonework4/tower_blue_01.mdl",
+   "stonework4/tower_red_01.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "point_servercommand.Command"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:point_viewcontrol (ignored)",
+   "input_unimplemented:point_servercommand.Command",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 44,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 1,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 3
+ },
+ "prop_fit": {
+  "boxed": 529,
+  "fitted_in": 27,
+  "fits": 36
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_tesquo_v2",
+ "sha256": "fa60dedee8db4018d0b5b1ee049880b34a4433b6dfceade795e44f83c2d0996c",
+ "textures": {
+  "looked_up": 238,
+  "drawn": 238,
+  "by_tier": {
+   "addon": 182,
+   "default": 7,
+   "fallback": 49
+  },
+  "free_by_tier": {
+   "addon": 181,
+   "default": 57
+  },
+  "nearest_photo": [
+   "george/blend_rock",
+   "nature/blendcliffgrass001a"
+  ]
+ },
+ "models": {
+  "looked_up": 16,
+  "by_tier": {
+   "category": 1,
+   "default": 13,
+   "fallback": 2
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 39,
+  "entities": 1097,
+  "by_tier": {
+   "default": 39
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "game_player_equip": [
+    "ammo_9mm",
+    "weapon_glock"
+   ]
+  }
+ },
+ "links": {
+  "total": 194,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1,
+   "input_unimplemented": 2,
+   "player_input": 4
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 2,
+   "ignored": 2,
+   "implemented": 34
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "GEORGE/TESQUO/CREDITS",
+   "GEORGE/TESQUO/DOUBLETIME",
+   "GEORGE/TESQUO/HIDDEN",
+   "GEORGE/TESQUO/NEXTLEVELM8",
+   "GEORGE/TESQUO/OSU/GREEN/0",
+   "GEORGE/TESQUO/OSU/GREEN/0FADE",
+   "GEORGE/TESQUO/OSU/GREEN/1",
+   "GEORGE/TESQUO/OSU/GREEN/2",
+   "GEORGE/TESQUO/OSU/GREEN/3",
+   "GEORGE/TESQUO/OSU/GREEN/4",
+   "GEORGE/TESQUO/OSU/GREEN/5",
+   "GEORGE/TESQUO/OSU/GREEN/6",
+   "GEORGE/TESQUO/OSU/GREEN/7",
+   "GEORGE/TESQUO/OSU/ORANGE/0",
+   "GEORGE/TESQUO/OSU/ORANGE/1",
+   "GEORGE/TESQUO/OSU/ORANGE/2",
+   "GEORGE/TESQUO/OSU/ORANGE/3",
+   "GEORGE/TESQUO/OSU/ORANGE/4",
+   "GEORGE/TESQUO/OSU/ORANGE/5",
+   "GEORGE/TESQUO/OSU/ORANGE/5FADE",
+   "GEORGE/TESQUO/OSU/ORANGE/6",
+   "GEORGE/TESQUO/OSU/ORANGE/6FADE",
+   "GEORGE/TESQUO/OSU/ORANGE/7",
+   "GEORGE/TESQUO/OSU/ORANGE/7FADE",
+   "GEORGE/TESQUO/OSU/ORANGE/8",
+   "GEORGE/TESQUO/OSU/ORANGE/8FADE",
+   "GEORGE/TESQUO/OSU/ORANGE/9",
+   "GEORGE/TESQUO/OSU/ORANGE/9FADE",
+   "GEORGE/TESQUO/OSU/PINK/0",
+   "GEORGE/TESQUO/OSU/PINK/1",
+   "GEORGE/TESQUO/OSU/PINK/1FADE",
+   "GEORGE/TESQUO/OSU/PINK/2",
+   "GEORGE/TESQUO/OSU/PINK/2FADE",
+   "GEORGE/TESQUO/OSU/PINK/3",
+   "GEORGE/TESQUO/OSU/PINK/3FADE",
+   "GEORGE/TESQUO/OSU/PINK/4",
+   "GEORGE/TESQUO/OSU/PINK/4FADE",
+   "GEORGE/TESQUO/OSU/PINK/5",
+   "GEORGE/TESQUO/OSU/PINK/5FADE",
+   "GEORGE/TESQUO/OSU/PINK/6",
+   "GEORGE/TESQUO/OSU/PINK/6FADE",
+   "GEORGE/TESQUO/OSU/PINK/7",
+   "GEORGE/TESQUO/OSU/PINK/7FADE",
+   "GEORGE/TESQUO/OSU/PINK/8",
+   "GEORGE/TESQUO/OSU/PINK/9",
+   "GEORGE/TESQUO/OSULOGO",
+   "GEORGE/TESQUO/PRODUCTS/AIMER",
+   "GEORGE/TESQUO/PRODUCTS/FLUME",
+   "GEORGE/TESQUO/START"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "george/tesquo/house.mdl",
+   "george/tesquo/sidesew.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "game_player_equip.ammo_9mm",
+   "game_player_equip.weapon_glock"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "game_player_equip.Use",
+   "player_weaponstrip.Strip"
+  ],
+  "surfaces_opaque": [
+   "cs_assault/assault_window_decal01"
+  ],
+  "gameplay_lost": [
+   "class_unsupported:player_weaponstrip (approximated)",
+   "input_unimplemented:game_player_equip.Use",
+   "input_unimplemented:player_weaponstrip.Strip",
+   "player_input:addoutput classname x9",
+   "player_input:addoutput gravity x43",
+   "player_input:addoutput targetname x130",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 49,
+  "textures_flat": 0,
+  "models_unmapped": 2,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 2,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 2,
+  "surfaces_opaque": 1,
+  "gameplay_lost": 7
+ },
+ "prop_fit": {
+  "rescaled": 145,
+  "boxed": 6,
+  "unmeasured": 52,
+  "fitted_in": 11,
+  "fits": 64
+ }
+}

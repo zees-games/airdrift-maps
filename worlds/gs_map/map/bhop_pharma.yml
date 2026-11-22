@@ -1,0 +1,5 @@
+# Suggested by the converter from commands in bhop_pharma's entities.
+# Nothing here is applied. Uncomment a line to set it for this map; a key the game does
+# not whitelist is logged and ignored (docs/map-config.md).
+# mp_flashlight: 1
+# sv_enablebunnyhop: 1

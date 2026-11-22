@@ -7,29 +7,19 @@
   "looked_up": 23,
   "drawn": 28,
   "by_tier": {
-   "default": 12,
-   "fallback": 11
+   "addon": 14,
+   "fallback": 9
   },
   "free_by_tier": {
-   "addon": 10,
-   "default": 8,
-   "nearest": 10
+   "addon": 20,
+   "default": 8
   },
   "nearest_photo": [
-   "env/blend_testing",
-   "env/brick",
    "env/dirt2stone_blend",
    "env/dirtstone_blend",
    "env/grassdirt2_blend",
    "env/grassdirt_blend",
    "env/grassstone_blend",
-   "env/wood1",
-   "env/wood1_beam",
-   "env/wood2",
-   "env/wood2_beam",
-   "env/wood3",
-   "env/wood3_beam",
-   "fade_b",
    "invisible_but_really_invisible_for_real"
   ]
  },
@@ -60,6 +50,19 @@
   "total": 4,
   "unresolved": 0
  },
+ "gameplay": {
+  "findings": {
+   "input_unimplemented": 1
+  },
+  "severity": {
+   "input_unimplemented": "unsupported"
+  },
+  "classes": {
+   "approximated": 1,
+   "ignored": 1,
+   "implemented": 16
+  }
+ },
  "lists": {
   "textures_unmapped": [
    "/FADE",
@@ -69,8 +72,6 @@
    "/MAPBOUNDS_B",
    "/MAPBOUNDS_C",
    "ENV/BACKDROP/BACKDROP_TREES_A",
-   "ENV/BLEND_TESTING",
-   "FADE_B",
    "KSF/KSF_BANNER_CLEAN",
    "SPECIAL_THANKS"
   ],
@@ -116,33 +117,30 @@
   "classes_unmapped": [],
   "keys_unmapped": [],
   "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_tonemap_controller.SetTonemapRate"
+  ],
   "surfaces_opaque": [],
   "gameplay_lost": [
    "input_unimplemented:env_tonemap_controller.SetTonemapRate"
   ]
  },
  "counts": {
-  "textures_unmapped": 11,
+  "textures_unmapped": 9,
   "textures_flat": 0,
   "models_unmapped": 35,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 0,
   "links_unresolved": 0,
+  "inputs_unimplemented": 1,
   "surfaces_opaque": 0,
   "gameplay_lost": 1
  },
- "gameplay": {
-  "findings": {
-   "input_unimplemented": 1
-  },
-  "severity": {
-   "input_unimplemented": "unsupported"
-  },
-  "classes": {
-   "approximated": 1,
-   "ignored": 1,
-   "implemented": 16
-  }
+ "prop_fit": {
+  "rescaled": 16,
+  "fits": 529,
+  "fitted_in": 150,
+  "rescaled_upright": 10
  }
 }

@@ -1,0 +1,137 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_atmosphere",
+ "sha256": "45912ee31dbcfb280f00627bd4bfa55709dc6be6bda72d6eeb00a7c757fe71a1",
+ "textures": {
+  "looked_up": 28,
+  "drawn": 18,
+  "by_tier": {
+   "addon": 14,
+   "default": 14
+  },
+  "free_by_tier": {
+   "addon": 14,
+   "default": 4
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 47,
+  "by_tier": {
+   "category": 4,
+   "fallback": 43
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 18,
+  "entities": 610,
+  "by_tier": {
+   "default": 18
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 8,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 2,
+   "player_input": 1,
+   "teleport_dangling": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "player_input": "unsupported",
+   "teleport_dangling": "source"
+  },
+  "classes": {
+   "approximated": 1,
+   "ignored": 3,
+   "implemented": 13
+  }
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props/fulfilled1.mdl",
+   "props/fulfilledprop10.mdl",
+   "props/fulfilledprop11.mdl",
+   "props/fulfilledprop12.mdl",
+   "props/fulfilledprop13.mdl",
+   "props/fulfilledprop14.mdl",
+   "props/fulfilledprop15.mdl",
+   "props/fulfilledprop16.mdl",
+   "props/fulfilledprop19.mdl",
+   "props/fulfilledprop2.mdl",
+   "props/fulfilledprop20.mdl",
+   "props/fulfilledprop21.mdl",
+   "props/fulfilledprop22.mdl",
+   "props/fulfilledprop23.mdl",
+   "props/fulfilledprop24.mdl",
+   "props/fulfilledprop25.mdl",
+   "props/fulfilledprop26.mdl",
+   "props/fulfilledprop27.mdl",
+   "props/fulfilledprop28.mdl",
+   "props/fulfilledprop29.mdl",
+   "props/fulfilledprop3.mdl",
+   "props/fulfilledprop30.mdl",
+   "props/fulfilledprop31.mdl",
+   "props/fulfilledprop32.mdl",
+   "props/fulfilledprop33.mdl",
+   "props/fulfilledprop34.mdl",
+   "props/fulfilledprop35.mdl",
+   "props/fulfilledprop36.mdl",
+   "props/fulfilledprop37.mdl",
+   "props/fulfilledprop38.mdl",
+   "props/fulfilledprop39.mdl",
+   "props/fulfilledprop4.mdl",
+   "props/fulfilledprop40.mdl",
+   "props/fulfilledprop41.mdl",
+   "props/fulfilledprop42.mdl",
+   "props/fulfilledprop5.mdl",
+   "props/fulfilledprop6.mdl",
+   "props/fulfilledprop7.mdl",
+   "props/fulfilledprop8.mdl",
+   "props/fulfilledprop9.mdl",
+   "props/fulfulledprop43.mdl",
+   "props/props/fulfilledprop17.mdl",
+   "props/stoppers1.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:path_track (ignored)",
+   "class_unsupported:point_viewcontrol (approximated)",
+   "player_input:addoutput basevelocity x7"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 43,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 3
+ },
+ "prop_fit": {
+  "fits": 49
+ }
+}

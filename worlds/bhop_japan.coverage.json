@@ -1,0 +1,125 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_japan",
+ "sha256": "ddbbe596a94e86ad4df7fa4a71e4b5654950888d33492664798e424582f694cf",
+ "textures": {
+  "looked_up": 64,
+  "drawn": 66,
+  "by_tier": {
+   "addon": 59,
+   "default": 3,
+   "fallback": 2
+  },
+  "free_by_tier": {
+   "addon": 60,
+   "default": 6
+  },
+  "nearest_photo": [
+   "tony/blendrockdirt008c_detail",
+   "tony/blendrockgrass_detail"
+  ]
+ },
+ "models": {
+  "looked_up": 45,
+  "by_tier": {
+   "category": 6,
+   "default": 29,
+   "fallback": 8,
+   "skybox": 2
+  }
+ },
+ "sounds": {
+  "looked_up": 2,
+  "by_tier": {
+   "default": 2
+  }
+ },
+ "classes": {
+  "distinct": 35,
+  "entities": 788,
+  "by_tier": {
+   "default": 35
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 98,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 2,
+   "filter_dangling": 3,
+   "input_unimplemented": 1,
+   "player_input": 5
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 4,
+   "ignored": 3,
+   "implemented": 27
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "FIBBS/VOL_LIGHT2",
+   "TONY/GLAS"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "garden/garden_cherryblossom.mdl",
+   "garden/garden_cherryblossom_large.mdl",
+   "garden/garden_cherryblossom_red.mdl",
+   "garden/garden_cherryblossom_red_large.mdl",
+   "garden/garden_cherryblossom_white.mdl",
+   "garden/garden_cherryblossom_white_large.mdl",
+   "props_dojo/dojo_teaset.mdl",
+   "temple/belltower.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_entity_maker.ForceSpawnAtEntityOrigin"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:env_entity_maker (approximated)",
+   "class_unsupported:point_viewcontrol (ignored)",
+   "input_unimplemented:env_entity_maker.ForceSpawnAtEntityOrigin",
+   "player_input:addoutput classname x2",
+   "player_input:addoutput modelindex x4",
+   "player_input:addoutput origin x1",
+   "player_input:addoutput targetname x70",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 2,
+  "textures_flat": 0,
+  "models_unmapped": 8,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 1,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 8
+ },
+ "prop_fit": {
+  "rescaled": 150,
+  "fits": 219,
+  "unmeasured": 119,
+  "fitted_in": 6
+ }
+}

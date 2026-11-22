@@ -1,0 +1,118 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "surf_beginner2",
+ "sha256": "af1501648925aa267842c71f4df77b8bdcd57720c74bae353bf23b9d1a7d6c33",
+ "textures": {
+  "looked_up": 41,
+  "drawn": 40,
+  "by_tier": {
+   "addon": 18,
+   "default": 6,
+   "fallback": 17
+  },
+  "free_by_tier": {
+   "addon": 16,
+   "default": 24
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 9,
+  "by_tier": {
+   "default": 8,
+   "fallback": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 2,
+  "by_tier": {
+   "default": 2
+  }
+ },
+ "classes": {
+  "distinct": 29,
+  "entities": 675,
+  "by_tier": {
+   "default": 29
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 5,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1,
+   "player_input": 3
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 1,
+   "ignored": 3,
+   "implemented": 24
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "CS_HAVANA/{CXIVYB",
+   "CS_ITALY/IVY05",
+   "KIIRU/BEGINNER2_BETATESTER_NAMES",
+   "KIIRU/BEGINNER2_BONUS_NAMES",
+   "KIIRU/BEGINNER2_GRANIS_THX",
+   "KIIRU/BEGINNER2_HEAVEN_WHITE",
+   "KIIRU/BEGINNER2_LOOKING_BEHIND",
+   "KIIRU/BEGINNER2_NAMES_FOR_NO_REASONS",
+   "KIIRU/BEGINNER2_PRETZL_THX",
+   "KIIRU/BEGINNER2_SPAWN_BONUS1",
+   "KIIRU/BEGINNER2_SPAWN_BONUS2",
+   "KIIRU/BEGINNER2_SPAWN_BONUS3",
+   "KIIRU/BEGINNER2_SPAWN_BONUS4",
+   "KIIRU/BEGINNER2_SPAWN_BRANDON",
+   "KIIRU/BEGINNER2_SPAWN_KIIRU",
+   "KIIRU/BEGINNER2_SPAWN_MAIN_WHITE",
+   "KIIRU/BEGINNER2_TWITCH"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "gman_high.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:point_viewcontrol (ignored)",
+   "player_input:addoutput basevelocity x1",
+   "player_input:addoutput targetname x2",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 17,
+  "textures_flat": 0,
+  "models_unmapped": 1,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 4
+ },
+ "prop_fit": {
+  "rescaled": 31,
+  "boxed": 10,
+  "fits": 21,
+  "rescaled_upright": 5
+ }
+}

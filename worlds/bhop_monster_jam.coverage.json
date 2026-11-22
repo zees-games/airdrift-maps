@@ -1,0 +1,160 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_monster_jam",
+ "sha256": "da386b9e31ce569ac3a0abe9a9f412063be2bdb31fc594e50035c676e2c2934a",
+ "textures": {
+  "looked_up": 217,
+  "drawn": 164,
+  "by_tier": {
+   "addon": 141,
+   "default": 71,
+   "fallback": 5
+  },
+  "free_by_tier": {
+   "addon": 144,
+   "default": 20
+  },
+  "nearest_photo": [
+   "de_chateau/rockf_blend",
+   "de_dust/groundsand_blend",
+   "de_nuke/nukblenddirtgrass",
+   "de_train/blendgrassdirt001a",
+   "ground/blendsnow_tracks",
+   "icecreamlock/iceorange",
+   "nature/blenddirtdirt001a",
+   "nature/blenddirtgrass006a",
+   "nature/blendgrassgrass001a",
+   "nature/blendgrassgravel001a",
+   "nature/blendmilground004_2",
+   "nature/blendmilground008_2",
+   "nature/blendmilground008_4",
+   "nature/blendmilground008_8b",
+   "nature/blendmilground008b_2",
+   "nature/blendmilground011_2",
+   "nature/blendmuddirt001a"
+  ]
+ },
+ "models": {
+  "looked_up": 54,
+  "by_tier": {
+   "category": 5,
+   "default": 44,
+   "fallback": 5
+  }
+ },
+ "sounds": {
+  "looked_up": 24,
+  "by_tier": {
+   "default": 9,
+   "fallback": 15
+  }
+ },
+ "classes": {
+  "distinct": 46,
+  "entities": 886,
+  "by_tier": {
+   "default": 46
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 153,
+  "unresolved": 1
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 2,
+   "parent_dangling": 1,
+   "player_input": 1,
+   "target_dangling": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "parent_dangling": "source",
+   "player_input": "unsupported",
+   "target_dangling": "source"
+  },
+  "classes": {
+   "approximated": 6,
+   "ignored": 4,
+   "implemented": 35
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "MODELS/PROPS/DE_INFERNO/TREE_GROUP10",
+   "MODELS/PROPS/DE_INFERNO/TREE_GROUP11",
+   "MODELS/PROPS/DE_INFERNO/TREE_GROUP4",
+   "MODELS/PROPS/DE_INFERNO/TREE_GROUP5",
+   "MODELS/PROPS/DE_INFERNO/TREE_GROUP8"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "djstuff/tt.mdl",
+   "feline.mdl",
+   "props/cs_italy/it_blc_med.mdl",
+   "props/cs_militia/river03.mdl",
+   "props/de_tides/tides_partyflags.mdl"
+  ],
+  "sounds_unmapped": [
+   "monsterjam/annoying_kid.wav",
+   "monsterjam/burp.wav",
+   "monsterjam/byron_phone_brazil.wav",
+   "monsterjam/decoy_speech.wav",
+   "monsterjam/eiffel_tower.wav",
+   "monsterjam/jam_it_up_map.wav",
+   "monsterjam/jam_like_an_egyptian.wav",
+   "monsterjam/jam_odyssey_equalize.wav",
+   "monsterjam/jam_on_through.wav",
+   "monsterjam/jammin_usa.wav",
+   "monsterjam/jamming_on_the_moon.wav",
+   "monsterjam/o_monster_jam.wav",
+   "monsterjam/reporters_1.wav",
+   "monsterjam/reporters_2.wav",
+   "monsterjam/saturday_mapversion.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [
+   "math_counter.OnHitMax->server_only"
+  ],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [
+   "cs_havana/laundry01b",
+   "de_chateau/curtain01b",
+   "effects/bubble",
+   "models/props/de_port/clouds2",
+   "nature/milmountains001",
+   "nature/milmountains002"
+  ],
+  "gameplay_lost": [
+   "class_unsupported:env_fire (approximated)",
+   "class_unsupported:path_track (approximated)",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 5,
+  "textures_flat": 0,
+  "models_unmapped": 5,
+  "sounds_unmapped": 15,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 1,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 6,
+  "gameplay_lost": 3
+ },
+ "prop_fit": {
+  "rescaled": 43,
+  "boxed": 1,
+  "rescaled_upright": 5,
+  "fits": 33,
+  "unmeasured": 49,
+  "fitted_in": 3
+ }
+}

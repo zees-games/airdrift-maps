@@ -1,0 +1,93 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_sqee",
+ "sha256": "ca34b97a98caa6789b4d656c4366e73b214fc95cb9eeb455ba70ecda6dea4fe6",
+ "textures": {
+  "looked_up": 17,
+  "drawn": 17,
+  "by_tier": {
+   "addon": 15,
+   "default": 2
+  },
+  "free_by_tier": {
+   "addon": 15,
+   "default": 2
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 7,
+  "by_tier": {
+   "fallback": 7
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 14,
+  "entities": 1385,
+  "by_tier": {
+   "default": 14
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 699,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "filter_dangling": 2,
+   "player_input": 2
+  },
+  "severity": {
+   "filter_dangling": "source",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "implemented": 13
+  }
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [
+   "bhop_sqee/echelle.mdl",
+   "bhop_sqee/fin.mdl",
+   "bhop_sqee/lvl1.mdl",
+   "bhop_sqee/lvl10.mdl",
+   "bhop_sqee/lvl2.mdl",
+   "bhop_sqee/lvl4_cercle.mdl",
+   "bhop_sqee/lvl8.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "player_input:addoutput targetname x698",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 7,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 2
+ },
+ "prop_fit": {}
+}

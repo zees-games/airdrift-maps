@@ -1,0 +1,171 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "kz_bhop_indiana",
+ "sha256": "b0a8b55e0e3a86e2cfa97152b27a70e5f4461000c8b7367c420f443c7f5f65eb",
+ "textures": {
+  "looked_up": 99,
+  "drawn": 100,
+  "by_tier": {
+   "addon": 66,
+   "default": 13,
+   "fallback": 20
+  },
+  "free_by_tier": {
+   "addon": 67,
+   "default": 33
+  },
+  "nearest_photo": [
+   "nature/blendcliffgrass001a",
+   "nature/blendgrassgrass001a",
+   "nature/blendgrassgrass001a_wvt_patch",
+   "nature/blendmilground004_rock2",
+   "nature/blendsandgrass008a",
+   "nature/blendsandrock004a"
+  ]
+ },
+ "models": {
+  "looked_up": 29,
+  "by_tier": {
+   "category": 2,
+   "default": 26,
+   "fallback": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 8,
+  "by_tier": {
+   "default": 4,
+   "fallback": 4
+  }
+ },
+ "classes": {
+  "distinct": 56,
+  "entities": 1711,
+  "by_tier": {
+   "default": 56
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "game_player_equip": [
+    "ammo_acp45",
+    "weapon_knife",
+    "weapon_usp"
+   ]
+  }
+ },
+ "links": {
+  "total": 507,
+  "unresolved": 1
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 4,
+   "filter_dangling": 1,
+   "input_unimplemented": 5,
+   "player_input": 2,
+   "target_dangling": 2,
+   "volume_parented": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "target_dangling": "source",
+   "volume_parented": "unsupported"
+  },
+  "classes": {
+   "approximated": 7,
+   "ignored": 4,
+   "implemented": 44
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "BHOP_INDIANA/BONUS",
+   "BHOP_INDIANA/INDYNUMBER0",
+   "BHOP_INDIANA/INDYNUMBER1",
+   "BHOP_INDIANA/INDYNUMBER2",
+   "BHOP_INDIANA/INDYNUMBER3",
+   "BHOP_INDIANA/INDYNUMBER4",
+   "BHOP_INDIANA/INDYNUMBER5",
+   "BHOP_INDIANA/INDYNUMBER6",
+   "BHOP_INDIANA/INDYNUMBER7",
+   "BHOP_INDIANA/INDYNUMBER8",
+   "BHOP_INDIANA/INDYNUMBER9",
+   "BHOP_INDIANA/JUMPS",
+   "BHOP_INDIANA/OFF",
+   "BHOP_INDIANA/ON",
+   "BHOP_INDIANA/RS",
+   "BHOP_INDIANA/SCORE",
+   "CS_ITALY/IVY03",
+   "CS_ITALY/IVY05",
+   "CS_ITALY/IVY05A",
+   "CS_ITALY/IVY06"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "pigeon.mdl"
+  ],
+  "sounds_unmapped": [
+   "ambient/animal/bird_flapping_2.wav",
+   "ambient/animal/frog_1.wav",
+   "ambient/animal/frog_2.wav",
+   "physics/plastic/plastic_barrel_roll_loop1.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "game_player_equip.ammo_acp45",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_usp"
+  ],
+  "links_unresolved": [
+   "trigger_multiple.OnTrigger->ri_snd"
+  ],
+  "inputs_unimplemented": [
+   "env_hudhint.HideHudHint",
+   "env_hudhint.ShowHudHint",
+   "env_splash.Splash",
+   "player_weaponstrip.Strip",
+   "point_servercommand.Command"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:path_track (approximated)",
+   "class_unsupported:player_weaponstrip (approximated)",
+   "class_unsupported:point_viewcontrol (ignored)",
+   "class_unsupported:weapon_smokegrenade (approximated)",
+   "input_unimplemented:env_hudhint.HideHudHint",
+   "input_unimplemented:env_hudhint.ShowHudHint",
+   "input_unimplemented:env_splash.Splash",
+   "input_unimplemented:player_weaponstrip.Strip",
+   "input_unimplemented:point_servercommand.Command",
+   "player_input:addoutput targetname x457",
+   "player_input:setdamagefilter x2",
+   "volume_parented:trigger_teleport#268 -> phys_ball"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 20,
+  "textures_flat": 0,
+  "models_unmapped": 1,
+  "sounds_unmapped": 4,
+  "classes_unmapped": 0,
+  "keys_unmapped": 3,
+  "links_unresolved": 1,
+  "inputs_unimplemented": 5,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 12
+ },
+ "prop_fit": {
+  "rescaled": 178,
+  "rescaled_upright": 2,
+  "boxed": 4,
+  "unmeasured": 29,
+  "fits": 60,
+  "fitted_in": 10
+ }
+}

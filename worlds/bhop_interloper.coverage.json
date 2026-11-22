@@ -1,0 +1,143 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_interloper",
+ "sha256": "a14fcefa33fae5cccd445e6075c236b41f37c824e961a75755e63db6f65acfc9",
+ "textures": {
+  "looked_up": 41,
+  "drawn": 44,
+  "by_tier": {
+   "addon": 24,
+   "default": 7,
+   "fallback": 10
+  },
+  "free_by_tier": {
+   "addon": 27,
+   "default": 17
+  },
+  "nearest_photo": [
+   "de_tides/blend_concrete_dirt",
+   "tony/blend_concrete_dirt_shrooms",
+   "tony/blend_concrete_dirt_shroomsg"
+  ]
+ },
+ "models": {
+  "looked_up": 55,
+  "by_tier": {
+   "default": 41,
+   "fallback": 14
+  }
+ },
+ "sounds": {
+  "looked_up": 4,
+  "by_tier": {
+   "default": 4
+  }
+ },
+ "classes": {
+  "distinct": 34,
+  "entities": 1616,
+  "by_tier": {
+   "default": 34
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "prop_dynamic": [
+    "lightmapresolutionx",
+    "lightmapresolutiony"
+   ]
+  }
+ },
+ "links": {
+  "total": 65,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1,
+   "filter_dangling": 4,
+   "player_input": 4,
+   "teleport_dangling": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "player_input": "unsupported",
+   "teleport_dangling": "source"
+  },
+  "classes": {
+   "approximated": 2,
+   "ignored": 3,
+   "implemented": 28
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "FIBBS/VOL_LIGHT",
+   "FIBBS/VOL_LIGHT2",
+   "NOTHING/JUSTSET",
+   "NOTHING/MAPBY",
+   "NOTHING/MUSICBY",
+   "TONY/BLUECLOUDS",
+   "TONY/HEJVATTEN2",
+   "Z-O-M-B-I-E/STALKER/VINE/VINE_DRIED_UP",
+   "ZELDA/FTEMPLE/INVIS",
+   "ZELDA/FTEMPLE/INVIS_ORANGERAD"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "fragmodels/gnubbel.mdl",
+   "fragmodels/gnubbel2.mdl",
+   "fragmodels/gnubbel2pink.mdl",
+   "fragmodels/gnubbel2x3.mdl",
+   "fragmodels/gnubbel3.mdl",
+   "fragmodels/gnubbel3pink.mdl",
+   "fragmodels/gnubbel3x3.mdl",
+   "fragmodels/gnubbel4.mdl",
+   "fragmodels/gnubbel4x3.mdl",
+   "fragmodels/gnubbelx3.mdl",
+   "fragmodels/gnubbelx3pink.mdl",
+   "fragmodels/pilz2.mdl",
+   "fragmodels/pilz3.mdl",
+   "fragmodels/pilzport.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "prop_dynamic.lightmapresolutionx",
+   "prop_dynamic.lightmapresolutiony"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:point_viewcontrol (approximated)",
+   "player_input:addoutput origin x2",
+   "player_input:addoutput targetname x47",
+   "player_input:setdamagefilter x1",
+   "player_input:setfogcontroller x2"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 10,
+  "textures_flat": 0,
+  "models_unmapped": 14,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 2,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 5
+ },
+ "prop_fit": {
+  "fits": 379,
+  "fitted_in": 55,
+  "rescaled": 30,
+  "boxed": 23,
+  "rescaled_upright": 2,
+  "unmeasured": 2
+ }
+}

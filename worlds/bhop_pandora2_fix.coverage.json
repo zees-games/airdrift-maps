@@ -1,0 +1,127 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_pandora2_fix",
+ "sha256": "9e156ed8c460b3c618f5235f964b840ce1c6e9d5d53877b494c90ece3c9b7de0",
+ "textures": {
+  "looked_up": 37,
+  "drawn": 34,
+  "by_tier": {
+   "addon": 23,
+   "default": 7,
+   "fallback": 7
+  },
+  "free_by_tier": {
+   "addon": 21,
+   "default": 13
+  },
+  "nearest_photo": [
+   "pandora2/grassblend2"
+  ]
+ },
+ "models": {
+  "looked_up": 61,
+  "by_tier": {
+   "category": 2,
+   "default": 39,
+   "fallback": 16,
+   "skybox": 4
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 26,
+  "entities": 1837,
+  "by_tier": {
+   "default": 26
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 62,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1,
+   "filter_dangling": 59,
+   "player_input": 4
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "ignored": 5,
+   "implemented": 20
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "NIKS/BACK",
+   "NIKS/BUNUS",
+   "NIKS/NIKPAN2",
+   "NIKS/NIKPAN22",
+   "NIKS/NIKPANSON",
+   "NIKS/NOOB",
+   "NIKS/RESTART"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props/hr_massive/survival_dock_rope/survival_dock_rope_01.mdl",
+   "props/hr_massive/survival_dock_rope/survival_dock_rope_02.mdl",
+   "props/pandora.mdl",
+   "props/pandora3.mdl",
+   "props/pandora4.mdl",
+   "props/pandorablocks.mdl",
+   "props/pandorablocks2.mdl",
+   "props/pandorablocks3.mdl",
+   "props/pandorablocks4.mdl",
+   "props/pandorablocks5.mdl",
+   "props/pandorablocks6.mdl",
+   "props/pandorablocks7.mdl",
+   "props/pandoramed2.mdl",
+   "props_xen/xen_charger_crystal.mdl",
+   "props_xen/xen_charger_crystal_base_2.mdl",
+   "props_xen/xen_charger_crystal_mega.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:point_viewcontrol (ignored)",
+   "player_input:addoutput basevelocity x18",
+   "player_input:addoutput gravity x6",
+   "player_input:addoutput targetname x32",
+   "player_input:setfogcontroller x6"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 7,
+  "textures_flat": 0,
+  "models_unmapped": 16,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 5
+ },
+ "prop_fit": {
+  "fits": 671,
+  "fitted_in": 28,
+  "rescaled": 65,
+  "boxed": 8
+ }
+}

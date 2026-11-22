@@ -7,24 +7,14 @@
   "looked_up": 17,
   "drawn": 16,
   "by_tier": {
-   "addon": 7,
-   "default": 9,
-   "fallback": 1
+   "addon": 15,
+   "default": 2
   },
   "free_by_tier": {
-   "addon": 12,
-   "default": 2,
-   "nearest": 2
+   "addon": 15,
+   "default": 1
   },
-  "nearest_photo": [
-   "de_cbble/wallinterior01",
-   "de_nuke/nukwater_movingplane_dx70",
-   "dev/dev_blendmeasure2",
-   "dev/dev_slime",
-   "dev/reflectivity_40b",
-   "dev/value70",
-   "effects/offgaragedr"
-  ]
+  "nearest_photo": []
  },
  "models": {
   "looked_up": 3,
@@ -48,9 +38,6 @@
  "keys": {
   "catalogue": true,
   "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ],
    "weapon_scout": [
     "ammo"
    ]
@@ -59,38 +46,6 @@
  "links": {
   "total": 63,
   "unresolved": 0
- },
- "lists": {
-  "textures_unmapped": [
-   "DE_CBBLE/WALLINTERIOR01"
-  ],
-  "textures_flat": [],
-  "models_unmapped": [],
-  "sounds_unmapped": [],
-  "classes_unmapped": [],
-  "keys_unmapped": [
-   "ambient_generic.pitch",
-   "weapon_scout.ammo"
-  ],
-  "links_unresolved": [],
-  "surfaces_opaque": [],
-  "gameplay_lost": [
-   "class_unsupported:weapon_flashbang (approximated)",
-   "class_unsupported:weapon_hegrenade (approximated)",
-   "class_unsupported:weapon_scout (approximated)",
-   "input_unimplemented:env_physexplosion.Explode"
-  ]
- },
- "counts": {
-  "textures_unmapped": 1,
-  "textures_flat": 0,
-  "models_unmapped": 0,
-  "sounds_unmapped": 0,
-  "classes_unmapped": 0,
-  "keys_unmapped": 2,
-  "links_unresolved": 0,
-  "surfaces_opaque": 0,
-  "gameplay_lost": 4
  },
  "gameplay": {
   "findings": {
@@ -108,5 +63,41 @@
    "ignored": 1,
    "implemented": 13
   }
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "weapon_scout.ammo"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_physexplosion.Explode"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:weapon_flashbang (approximated)",
+   "class_unsupported:weapon_hegrenade (approximated)",
+   "class_unsupported:weapon_scout (approximated)",
+   "input_unimplemented:env_physexplosion.Explode"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 1,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 1,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 4
+ },
+ "prop_fit": {
+  "unmeasured": 6
  }
 }

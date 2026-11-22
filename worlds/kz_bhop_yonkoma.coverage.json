@@ -1,0 +1,259 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "kz_bhop_yonkoma",
+ "sha256": "0ec14f0896b1a329d57c5da20c97d341357748eb2365f64576e38f2a1de04451",
+ "textures": {
+  "looked_up": 112,
+  "drawn": 109,
+  "by_tier": {
+   "addon": 21,
+   "default": 8,
+   "fallback": 83
+  },
+  "free_by_tier": {
+   "addon": 20,
+   "default": 89
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 6,
+  "by_tier": {
+   "default": 4,
+   "fallback": 2
+  }
+ },
+ "sounds": {
+  "looked_up": 26,
+  "by_tier": {
+   "default": 21,
+   "fallback": 5
+  }
+ },
+ "classes": {
+  "distinct": 74,
+  "entities": 1517,
+  "by_tier": {
+   "default": 74
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "env_laser": [
+    "current",
+    "density",
+    "frequency"
+   ],
+   "game_player_equip": [
+    "ammo_338mag",
+    "weapon_awp",
+    "weapon_knife",
+    "weapon_usp"
+   ],
+   "trigger_once": [
+    "wait"
+   ]
+  }
+ },
+ "links": {
+  "total": 1117,
+  "unresolved": 1
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 13,
+   "filter_dangling": 5,
+   "input_unimplemented": 9,
+   "player_input": 5,
+   "target_dangling": 2,
+   "volume_follows": 2,
+   "volume_parented": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "target_dangling": "source",
+   "volume_follows": "handled",
+   "volume_parented": "unsupported"
+  },
+  "classes": {
+   "approximated": 23,
+   "ignored": 6,
+   "implemented": 45
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "AOKI/2/MAPBY",
+   "OVERVIEWS/BHOP_YONKOMA",
+   "STRAFE/1BH",
+   "STRAFE/3BH",
+   "STRAFE/7BH",
+   "STRAFE/BOOST",
+   "STRAFE/DASH",
+   "STRAFE/EFFECT1",
+   "STRAFE/EFFECT2",
+   "STRAFE/EFFECT3",
+   "STRAFE/LADDER",
+   "STRAFE/LJ/STRAFE_LJ_0",
+   "STRAFE/LJ/STRAFE_LJ_1",
+   "STRAFE/LJ/STRAFE_LJ_2",
+   "STRAFE/LJ/STRAFE_LJ_3",
+   "STRAFE/LJ/STRAFE_LJ_4",
+   "STRAFE/LJ/STRAFE_LJ_5",
+   "STRAFE/LJ/STRAFE_LJ_6",
+   "STRAFE/LJ/STRAFE_LJ_7",
+   "STRAFE/LJ/STRAFE_LJ_8",
+   "STRAFE/LJ/STRAFE_LJ_9",
+   "STRAFE/LJ/STRAFE_LJ_X",
+   "STRAFE/MAPBY",
+   "STRAFE/PARTICLE_CRESCENT",
+   "STRAFE/QUITTERS/QUITTERS-AMBI",
+   "STRAFE/QUITTERS/QUITTERS-ASUX",
+   "STRAFE/REDX2",
+   "STRAFE/TRANSPBOX_UNLIT",
+   "STRAFE/TRANSPBOX_UNLIT_RAD",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE001",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE002",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE003",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE004",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE005",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE006",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE007",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE008",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE009",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE010",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE011",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE012",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE013",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE014",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE015",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE016",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE017",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE018",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE019",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE020",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE021",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE022",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE023",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE024",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE025",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE026",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE027",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE028",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE029",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE030",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE031",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE033",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE034",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE035",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE036",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE037",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE038",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE039",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE040",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE041",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE042",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE043",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE044",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE045",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE046",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE047",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE048",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE049",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE050",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE051",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE052",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE053",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE054",
+   "STRAFE/YONKOMA/UNTITLED-2-RESIZE055"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "miku.mdl",
+   "miku_v2/miku2.mdl"
+  ],
+  "sounds_unmapped": [
+   "ambient/levels/citadel/field_loop2.wav",
+   "ambient/levels/citadel/zapper_ambient_loop1.wav",
+   "ambient/levels/citadel/zapper_loop1.wav",
+   "physics/glass/glass_cup_break2.wav",
+   "strafeco/gem_drop.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "env_laser.current",
+   "env_laser.density",
+   "env_laser.frequency",
+   "game_player_equip.ammo_338mag",
+   "game_player_equip.weapon_awp",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_usp",
+   "trigger_once.wait"
+  ],
+  "links_unresolved": [
+   "logic_auto.OnMapSpawn->abiogenesis_dot_com_the_website"
+  ],
+  "inputs_unimplemented": [
+   "env_physexplosion.Explode",
+   "game_player_equip.Use",
+   "keyframe_rope.Break",
+   "move_rope.Break",
+   "phys_thruster.Activate",
+   "phys_thruster.Deactivate",
+   "player_weaponstrip.Strip",
+   "point_spotlight.LightOff",
+   "prop_physics_multiplayer.Explode"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:env_laser (approximated)",
+   "class_unsupported:func_clip_vphysics (approximated)",
+   "class_unsupported:keyframe_rope (approximated)",
+   "class_unsupported:move_rope (approximated)",
+   "class_unsupported:path_track (approximated)",
+   "class_unsupported:phys_constraintsystem (approximated)",
+   "class_unsupported:phys_hinge (approximated)",
+   "class_unsupported:phys_keepupright (approximated)",
+   "class_unsupported:phys_lengthconstraint (approximated)",
+   "class_unsupported:phys_thruster (approximated)",
+   "class_unsupported:player_weaponstrip (approximated)",
+   "class_unsupported:point_viewcontrol (ignored)",
+   "class_unsupported:weapon_hegrenade (approximated)",
+   "input_unimplemented:env_physexplosion.Explode",
+   "input_unimplemented:game_player_equip.Use",
+   "input_unimplemented:keyframe_rope.Break",
+   "input_unimplemented:move_rope.Break",
+   "input_unimplemented:phys_thruster.Activate",
+   "input_unimplemented:phys_thruster.Deactivate",
+   "input_unimplemented:player_weaponstrip.Strip",
+   "input_unimplemented:point_spotlight.LightOff",
+   "input_unimplemented:prop_physics_multiplayer.Explode",
+   "player_input:addoutput modelindex x4",
+   "player_input:addoutput targetname x463",
+   "player_input:break x1",
+   "player_input:disablemotion x1",
+   "player_input:setdamagefilter x4",
+   "volume_parented:trigger_multiple#1451 -> mag_targ2"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 83,
+  "textures_flat": 0,
+  "models_unmapped": 2,
+  "sounds_unmapped": 5,
+  "classes_unmapped": 0,
+  "keys_unmapped": 8,
+  "links_unresolved": 1,
+  "inputs_unimplemented": 9,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 28
+ },
+ "prop_fit": {
+  "unmeasured": 16
+ }
+}

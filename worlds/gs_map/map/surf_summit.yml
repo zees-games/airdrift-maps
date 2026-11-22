@@ -1,0 +1,8 @@
+# Suggested by the converter from commands in surf_summit's entities.
+# Nothing here is applied. Uncomment a line to set it for this map; a key the game does
+# not whitelist is logged and ignored (docs/map-config.md).
+# mp_freezetime: 0
+# sv_airaccelerate: 150
+# sv_cheats: 1
+# sv_enablebunnyhopping: 1
+# sv_maxvelocity: 10000

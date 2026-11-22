@@ -1,0 +1,236 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "surf_animals",
+ "sha256": "3d7ed172c4b989e564fe2ad7bb64837a8c4c3a2ba0468a28c45462a2ef422580",
+ "textures": {
+  "looked_up": 156,
+  "drawn": 149,
+  "by_tier": {
+   "addon": 122,
+   "default": 29,
+   "fallback": 5
+  },
+  "free_by_tier": {
+   "addon": 121,
+   "default": 28
+  },
+  "nearest_photo": [
+   "de_tides/blendgrassstonepath"
+  ]
+ },
+ "models": {
+  "looked_up": 54,
+  "by_tier": {
+   "category": 1,
+   "default": 9,
+   "fallback": 44
+  }
+ },
+ "sounds": {
+  "looked_up": 4,
+  "by_tier": {
+   "default": 1,
+   "fallback": 3
+  }
+ },
+ "classes": {
+  "distinct": 52,
+  "entities": 1315,
+  "by_tier": {
+   "default": 52
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "func_rot_button": [
+    "StartDisabled"
+   ],
+   "game_player_equip": [
+    "ammo",
+    "weapon_aug",
+    "weapon_awp",
+    "weapon_deagle",
+    "weapon_elite",
+    "weapon_famas",
+    "weapon_fiveseven",
+    "weapon_glock",
+    "weapon_hegrenade",
+    "weapon_knife",
+    "weapon_m249",
+    "weapon_m4a1",
+    "weapon_scout",
+    "weapon_sg550",
+    "weapon_smokegrenade",
+    "weapon_usp"
+   ]
+  }
+ },
+ "links": {
+  "total": 204,
+  "unresolved": 1
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 4,
+   "input_unimplemented": 9,
+   "player_input": 2,
+   "target_dangling": 1,
+   "volume_follows": 5,
+   "volume_parented": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "target_dangling": "source",
+   "volume_follows": "handled",
+   "volume_parented": "unsupported"
+  },
+  "classes": {
+   "approximated": 11,
+   "ignored": 4,
+   "implemented": 36
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "CS_ITALY/IVY06",
+   "FOX/NAME",
+   "HAMSTER/SPOTTED",
+   "STAGE_SPIDER/SPINNEROT",
+   "STAGE_SPIDER/STAGE_SPIDER1"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "amstaff/schwert.mdl",
+   "animals/bear.mdl",
+   "animals/cat.mdl",
+   "animals/faintgoatkopf.mdl",
+   "animals/faintgoatkopf1.mdl",
+   "animals/hundekopf.mdl",
+   "animals/lion.mdl",
+   "animals/spinne.mdl",
+   "fish/b.mdl",
+   "fish/blue.mdl",
+   "fish/f.mdl",
+   "fish/g.mdl",
+   "fish/gp.mdl",
+   "fish/k.mdl",
+   "fish/manta1.mdl",
+   "fish/miggo13.mdl",
+   "fish/n.mdl",
+   "fish/no.mdl",
+   "fish/nose.mdl",
+   "fish/noses.mdl",
+   "fish/p.mdl",
+   "fish/ping.mdl",
+   "fish/r.mdl",
+   "fish/s.mdl",
+   "fish/sangre.mdl",
+   "fish/sv.mdl",
+   "fish/t.mdl",
+   "fish/tiger.mdl",
+   "galleons/shark.mdl",
+   "hell/big.mdl",
+   "hell/hundebein.mdl",
+   "hell/hundebeinhl.mdl",
+   "hell/hundebeinhr.mdl",
+   "hell/hundebeinv.mdl",
+   "hell/name.mdl",
+   "hell/name1.mdl",
+   "hell/nuss.mdl",
+   "hell/razer.mdl",
+   "hell/sq.mdl",
+   "hund/de.mdl",
+   "skar/frog.mdl",
+   "skar/shark.mdl",
+   "skar/zebra.mdl",
+   "spidereye/eye1.mdl"
+  ],
+  "sounds_unmapped": [
+   "admin_plugin/booom.wav",
+   "admin_plugin/funny/dude_videogamesdont.wav",
+   "ambient/animal/dog5.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "func_rot_button.StartDisabled",
+   "game_player_equip.ammo",
+   "game_player_equip.weapon_aug",
+   "game_player_equip.weapon_awp",
+   "game_player_equip.weapon_deagle",
+   "game_player_equip.weapon_elite",
+   "game_player_equip.weapon_famas",
+   "game_player_equip.weapon_fiveseven",
+   "game_player_equip.weapon_glock",
+   "game_player_equip.weapon_hegrenade",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_m249",
+   "game_player_equip.weapon_m4a1",
+   "game_player_equip.weapon_scout",
+   "game_player_equip.weapon_sg550",
+   "game_player_equip.weapon_smokegrenade",
+   "game_player_equip.weapon_usp"
+  ],
+  "links_unresolved": [
+   "trigger_multiple.OnStartTouch->dino"
+  ],
+  "inputs_unimplemented": [
+   "env_bubbles.Activate",
+   "env_bubbles.Deactivate",
+   "env_hudhint.ShowHudHint",
+   "game_player_equip.Use",
+   "phys_thruster.Activate",
+   "phys_thruster.Deactivate",
+   "point_servercommand.Command",
+   "point_spotlight.LightOff",
+   "point_spotlight.LightOn"
+  ],
+  "surfaces_opaque": [
+   "amstaff/dog",
+   "decals/decalconcretedrain002a",
+   "models/effects/comball_sphere",
+   "poco/zebra head",
+   "poco/zebra head inv"
+  ],
+  "gameplay_lost": [
+   "class_unsupported:path_track (approximated)",
+   "class_unsupported:phys_keepupright (approximated)",
+   "class_unsupported:phys_thruster (approximated)",
+   "class_unsupported:point_viewcontrol (approximated)",
+   "input_unimplemented:env_bubbles.Activate",
+   "input_unimplemented:env_bubbles.Deactivate",
+   "input_unimplemented:env_hudhint.ShowHudHint",
+   "input_unimplemented:game_player_equip.Use",
+   "input_unimplemented:phys_thruster.Activate",
+   "input_unimplemented:phys_thruster.Deactivate",
+   "input_unimplemented:point_servercommand.Command",
+   "input_unimplemented:point_spotlight.LightOff",
+   "input_unimplemented:point_spotlight.LightOn",
+   "player_input:color x2",
+   "player_input:setdamagefilter x26",
+   "volume_parented:trigger_teleport#820 -> shark"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 5,
+  "textures_flat": 0,
+  "models_unmapped": 44,
+  "sounds_unmapped": 3,
+  "classes_unmapped": 0,
+  "keys_unmapped": 17,
+  "links_unresolved": 1,
+  "inputs_unimplemented": 9,
+  "surfaces_opaque": 5,
+  "gameplay_lost": 16
+ },
+ "prop_fit": {
+  "rescaled": 53,
+  "rescaled_upright": 34,
+  "boxed": 1,
+  "fits": 166,
+  "fitted_in": 3
+ }
+}

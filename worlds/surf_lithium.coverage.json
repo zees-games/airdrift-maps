@@ -5,24 +5,16 @@
  "sha256": "51f8c46a3ebb726acc2be0b1d6bf0d51192b3e56508ea36d90b6cd03b8c6b784",
  "textures": {
   "looked_up": 29,
-  "drawn": 29,
+  "drawn": 27,
   "by_tier": {
-   "addon": 14,
-   "default": 15
+   "addon": 22,
+   "default": 7
   },
   "free_by_tier": {
    "addon": 21,
-   "default": 8
+   "default": 6
   },
-  "nearest_photo": [
-   "cs_italy/pipe_wall5_1",
-   "de_chateau/intbrickk",
-   "de_nuke/nukfloora",
-   "de_piranesi/pi_cobbles",
-   "lights/white",
-   "metal/metalwall082a",
-   "models/props_c17/metalladder002"
-  ]
+  "nearest_photo": []
  },
  "models": {
   "looked_up": 0,
@@ -58,6 +50,25 @@
   "total": 170,
   "unresolved": 0
  },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 3,
+   "input_unimplemented": 4,
+   "player_input": 2,
+   "volume_follows": 10
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "volume_follows": "handled"
+  },
+  "classes": {
+   "approximated": 2,
+   "ignored": 1,
+   "implemented": 33
+  }
+ },
  "lists": {
   "textures_unmapped": [],
   "textures_flat": [],
@@ -87,17 +98,7 @@
    "input_unimplemented:math_colorblend.InValue",
    "input_unimplemented:player_speedmod.ModifySpeed",
    "player_input:color x2",
-   "player_input:setdamagefilter x6",
-   "volume_parented:trigger_hurt#415 -> jail_killer_jump_rot1",
-   "volume_parented:trigger_hurt#416 -> jail_killer_jump_rot2",
-   "volume_parented:trigger_hurt#422 -> jail_stampfer_right1",
-   "volume_parented:trigger_hurt#423 -> jail_stampfer_right2",
-   "volume_parented:trigger_hurt#424 -> jail_stampfer_right3",
-   "volume_parented:trigger_hurt#425 -> jail_stampfer_right4",
-   "volume_parented:trigger_hurt#426 -> jail_stampfer_left4",
-   "volume_parented:trigger_hurt#427 -> jail_stampfer_left3",
-   "volume_parented:trigger_hurt#428 -> jail_stampfer_left2",
-   "volume_parented:trigger_hurt#429 -> jail_stampfer_left1"
+   "player_input:setdamagefilter x6"
   ]
  },
  "counts": {
@@ -110,25 +111,7 @@
   "links_unresolved": 0,
   "inputs_unimplemented": 4,
   "surfaces_opaque": 0,
-  "gameplay_lost": 19
+  "gameplay_lost": 9
  },
- "gameplay": {
-  "findings": {
-   "class_unsupported": 3,
-   "input_unimplemented": 4,
-   "player_input": 2,
-   "volume_parented": 10
-  },
-  "severity": {
-   "class_unsupported": "unsupported",
-   "input_unimplemented": "unsupported",
-   "player_input": "unsupported",
-   "volume_parented": "unsupported"
-  },
-  "classes": {
-   "approximated": 2,
-   "ignored": 1,
-   "implemented": 33
-  }
- }
+ "prop_fit": {}
 }

@@ -1,0 +1,123 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_epiphany",
+ "sha256": "a742331f1164bd0b96da0eb907e69f16535215313dea59599fb12f52e4ddeaa6",
+ "textures": {
+  "looked_up": 97,
+  "drawn": 99,
+  "by_tier": {
+   "addon": 93,
+   "default": 2,
+   "fallback": 2
+  },
+  "free_by_tier": {
+   "addon": 95,
+   "default": 4
+  },
+  "nearest_photo": [
+   "nature/blenddirtdirt001a",
+   "nature/blendmilrock001_ground002",
+   "nature/blendrockdirt006a",
+   "nature/blendrockgrass004a"
+  ]
+ },
+ "models": {
+  "looked_up": 93,
+  "by_tier": {
+   "category": 11,
+   "default": 80,
+   "fallback": 1,
+   "parts": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 6,
+  "by_tier": {
+   "default": 5,
+   "fallback": 1
+  }
+ },
+ "classes": {
+  "distinct": 31,
+  "entities": 2216,
+  "by_tier": {
+   "default": 31
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 194,
+  "unresolved": 1
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1,
+   "filter_dangling": 2,
+   "player_input": 3,
+   "target_dangling": 6,
+   "teleport_dangling": 2
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "player_input": "unsupported",
+   "target_dangling": "source",
+   "teleport_dangling": "source"
+  },
+  "classes": {
+   "approximated": 2,
+   "ignored": 2,
+   "implemented": 26
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "FIBBS/VOL_LIGHT",
+   "FIBBS/VOL_LIGHT2"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props/cs_assault/stoplight.mdl"
+  ],
+  "sounds_unmapped": [
+   "ambient/guit1.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [
+   "trigger_multiple.OnStartTouch->booster"
+  ],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:point_viewcontrol (ignored)",
+   "player_input:addoutput classname x88",
+   "player_input:addoutput gravity x94",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 2,
+  "textures_flat": 0,
+  "models_unmapped": 1,
+  "sounds_unmapped": 1,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 1,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 4
+ },
+ "prop_fit": {
+  "rescaled": 580,
+  "rescaled_upright": 14,
+  "fits": 592,
+  "unmeasured": 245,
+  "boxed": 36,
+  "fitted_in": 32
+ }
+}

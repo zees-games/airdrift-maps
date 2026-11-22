@@ -1,0 +1,96 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_pit",
+ "sha256": "5b6447667b050c8b8780bc667cb8a4c65f73f43d6d9aa3d7105eb755f805a30e",
+ "textures": {
+  "looked_up": 32,
+  "drawn": 31,
+  "by_tier": {
+   "addon": 31,
+   "default": 1
+  },
+  "free_by_tier": {
+   "addon": 31
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 10,
+  "by_tier": {
+   "category": 2,
+   "default": 7,
+   "fallback": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 14,
+  "entities": 540,
+  "by_tier": {
+   "default": 14
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 90,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "filter_dangling": 1,
+   "input_unimplemented": 1,
+   "player_input": 2
+  },
+  "severity": {
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 1,
+   "implemented": 12
+  }
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props/generated_pit_brokenramp.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "game_text.setTextColor 0 255 0"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "input_unimplemented:game_text.setTextColor 0 255 0",
+   "player_input:addoutput basevelocity x1",
+   "player_input:addoutput targetname x21"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 1,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 1,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 3
+ },
+ "prop_fit": {
+  "fits": 285
+ }
+}

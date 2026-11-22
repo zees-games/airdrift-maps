@@ -1,0 +1,103 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_freakin",
+ "sha256": "f4c8df43e29a0d1fc88e271e16045bc37a3005fbfbdea61518ed018477e88b9f",
+ "textures": {
+  "looked_up": 18,
+  "drawn": 18,
+  "by_tier": {
+   "addon": 13,
+   "default": 4,
+   "fallback": 1
+  },
+  "free_by_tier": {
+   "addon": 13,
+   "default": 5
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 3,
+  "by_tier": {
+   "default": 3
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 16,
+  "entities": 1742,
+  "by_tier": {
+   "default": 16
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 359,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1,
+   "filter_dangling": 1,
+   "input_unimplemented": 2,
+   "player_input": 2
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 1,
+   "ignored": 1,
+   "implemented": 13
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "PB_TEXTURES/FRAME"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_hudhint.HideHudHint",
+   "env_hudhint.ShowHudHint"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:point_viewcontrol (ignored)",
+   "input_unimplemented:env_hudhint.HideHudHint",
+   "input_unimplemented:env_hudhint.ShowHudHint",
+   "player_input:addoutput targetname x356",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 1,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 2,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 5
+ },
+ "prop_fit": {
+  "fits": 862,
+  "rescaled": 340
+ }
+}

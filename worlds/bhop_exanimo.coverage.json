@@ -1,0 +1,130 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_exanimo",
+ "sha256": "bf92dfb9e8bf3534c1ba3479c5652d64dcd4b1e21502d5855819d6b206c65855",
+ "textures": {
+  "looked_up": 93,
+  "drawn": 91,
+  "by_tier": {
+   "addon": 84,
+   "default": 6,
+   "fallback": 3
+  },
+  "free_by_tier": {
+   "addon": 82,
+   "default": 9
+  },
+  "nearest_photo": [
+   "realworldtextures/grass/grassblend"
+  ]
+ },
+ "models": {
+  "looked_up": 109,
+  "by_tier": {
+   "category": 11,
+   "default": 83,
+   "fallback": 15
+  }
+ },
+ "sounds": {
+  "looked_up": 15,
+  "by_tier": {
+   "default": 9,
+   "fallback": 6
+  }
+ },
+ "classes": {
+  "distinct": 25,
+  "entities": 1498,
+  "by_tier": {
+   "default": 25
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 26,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1,
+   "player_input": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 1,
+   "ignored": 3,
+   "implemented": 20
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "GIZA/TEMPLEWALL-1",
+   "WORLDSPAWN/ARROW",
+   "WORLDSPAWN/STRELOCZKANAZAD"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "antosha/bhop/furret.mdl",
+   "cofprops/bag1.mdl",
+   "cofprops/dead_cat.mdl",
+   "cofprops/deadvictim.mdl",
+   "cofprops/parktrad.mdl",
+   "cofprops/parktrad2.mdl",
+   "cofprops/sand_heap.mdl",
+   "cofprops/sandlada.mdl",
+   "cofprops/stadsbank.mdl",
+   "cofprops/wood_stack.mdl",
+   "props/cs_italy/trellis01.mdl",
+   "props/de_aztec/hr_aztec/aztec_wood_formwork/aztec_wood_formwork_culvert_barrier_01.mdl",
+   "props/de_mill/front_loader01_front_down.mdl",
+   "props/de_mill/front_loader01_rear.mdl",
+   "props_fortifications/traffic_barrier001.mdl"
+  ],
+  "sounds_unmapped": [
+   "ambient/animal/bird11.wav",
+   "ambient/animal/bird15.wav",
+   "ambient/animal/bird2.wav",
+   "ambient/animal/bird20.wav",
+   "ambient/animal/bird5.wav",
+   "ambient/misc/flour_light_loud.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [
+   "halflife/c1a3yellow"
+  ],
+  "gameplay_lost": [
+   "class_unsupported:path_track (ignored)",
+   "player_input:addoutput basevelocity x7"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 3,
+  "textures_flat": 0,
+  "models_unmapped": 15,
+  "sounds_unmapped": 6,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 1,
+  "gameplay_lost": 2
+ },
+ "prop_fit": {
+  "rescaled": 252,
+  "fits": 379,
+  "fitted_in": 54,
+  "unmeasured": 89,
+  "boxed": 40
+ }
+}

@@ -1,0 +1,183 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "surf_vegetables",
+ "sha256": "02ce9a7f3716374cd79d62d0552d4170175d51073f0be90f010c07725cc70aac",
+ "textures": {
+  "looked_up": 173,
+  "drawn": 157,
+  "by_tier": {
+   "addon": 120,
+   "default": 34,
+   "fallback": 19
+  },
+  "free_by_tier": {
+   "addon": 115,
+   "default": 42
+  },
+  "nearest_photo": [
+   "nature/blendgrassgravel002a"
+  ]
+ },
+ "models": {
+  "looked_up": 30,
+  "by_tier": {
+   "default": 29,
+   "fallback": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 10,
+  "by_tier": {
+   "default": 10
+  }
+ },
+ "classes": {
+  "distinct": 61,
+  "entities": 1512,
+  "by_tier": {
+   "default": 61
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "func_rot_button": [
+    "StartDisabled"
+   ],
+   "game_player_equip": [
+    "weapon_aug",
+    "weapon_deagle",
+    "weapon_famas",
+    "weapon_fiveseven",
+    "weapon_glock",
+    "weapon_knife",
+    "weapon_m4a1",
+    "weapon_p228",
+    "weapon_tmp",
+    "weapon_usp"
+   ],
+   "weapon_ak47": [
+    "ammo"
+   ],
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_m3": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 189,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 4,
+   "filter_dangling": 1,
+   "input_unimplemented": 4,
+   "player_input": 2,
+   "volume_follows": 3
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "volume_follows": "handled"
+  },
+  "classes": {
+   "approximated": 9,
+   "ignored": 2,
+   "implemented": 49
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "CUSTOMS/GLAS/MILCHGLAS GLASTEXTUR",
+   "CUSTOMS/SURF_VEGETABLES/ARROW_BACK",
+   "CUSTOMS/SURF_VEGETABLES/CABBAGE",
+   "CUSTOMS/SURF_VEGETABLES/CABBAGE3",
+   "CUSTOMS/SURF_VEGETABLES/CARROT",
+   "CUSTOMS/SURF_VEGETABLES/GEMUESE",
+   "CUSTOMS/SURF_VEGETABLES/HOLZLEITER",
+   "CUSTOMS/SURF_VEGETABLES/MUSHROOMS/MUSH",
+   "CUSTOMS/SURF_VEGETABLES/MUSHROOMS/MUSH1",
+   "CUSTOMS/SURF_VEGETABLES/MUSHROOMS/MUSH2",
+   "CUSTOMS/SURF_VEGETABLES/PEAPOD",
+   "CUSTOMS/SURF_VEGETABLES/PEPPER",
+   "CUSTOMS/SURF_VEGETABLES/SPINACH",
+   "CUSTOMS/SURF_VEGETABLES/SQUASH1",
+   "CUSTOMS/SURF_VEGETABLES/STAGE_SQUASH",
+   "ICECREAMLOCK/LEEK/LEEK",
+   "ICECREAMLOCK/LEEK/QUANTEX",
+   "ICECREAMLOCK/LEEK/SCROPTRANS",
+   "ICECREAMLOCK/LODY"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props/de_piranesi/pi_sundial.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "func_rot_button.StartDisabled",
+   "game_player_equip.weapon_aug",
+   "game_player_equip.weapon_deagle",
+   "game_player_equip.weapon_famas",
+   "game_player_equip.weapon_fiveseven",
+   "game_player_equip.weapon_glock",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_m4a1",
+   "game_player_equip.weapon_p228",
+   "game_player_equip.weapon_tmp",
+   "game_player_equip.weapon_usp",
+   "weapon_ak47.ammo",
+   "weapon_awp.ammo",
+   "weapon_m3.ammo"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_hudhint.ShowHudHint",
+   "game_player_equip.Use",
+   "game_player_equip.use",
+   "player_weaponstrip.StripWeaponsAndSuit"
+  ],
+  "surfaces_opaque": [
+   "de_train/train_bombsite_arrow_01",
+   "de_train/train_bombsite_arrow_02"
+  ],
+  "gameplay_lost": [
+   "class_unsupported:env_fire (approximated)",
+   "class_unsupported:player_weaponstrip (approximated)",
+   "class_unsupported:point_tesla (approximated)",
+   "class_unsupported:point_viewcontrol (ignored)",
+   "input_unimplemented:env_hudhint.ShowHudHint",
+   "input_unimplemented:game_player_equip.Use",
+   "input_unimplemented:game_player_equip.use",
+   "input_unimplemented:player_weaponstrip.StripWeaponsAndSuit",
+   "player_input:addoutput targetname x9",
+   "player_input:setdamagefilter x7"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 19,
+  "textures_flat": 0,
+  "models_unmapped": 1,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 14,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 4,
+  "surfaces_opaque": 2,
+  "gameplay_lost": 10
+ },
+ "prop_fit": {
+  "unmeasured": 56,
+  "fits": 144,
+  "rescaled": 130,
+  "rescaled_upright": 24,
+  "fitted_in": 2
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_underground_crypt",
+ "sha256": "cf293a9eac072d614ffa845e0b7c72cccd7d7faa8dec40056d96e9c2c87045ee",
+ "textures": {
+  "looked_up": 112,
+  "drawn": 113,
+  "by_tier": {
+   "addon": 103,
+   "default": 9
+  },
+  "free_by_tier": {
+   "addon": 106,
+   "default": 7
+  },
+  "nearest_photo": [
+   "nature/blendrockdirt008c",
+   "nature/blendrocksgrass005a",
+   "nature/blendrocksgrass006a"
+  ]
+ },
+ "models": {
+  "looked_up": 9,
+  "by_tier": {
+   "default": 7,
+   "skybox": 2
+  }
+ },
+ "sounds": {
+  "looked_up": 3,
+  "by_tier": {
+   "default": 3
+  }
+ },
+ "classes": {
+  "distinct": 33,
+  "entities": 2157,
+  "by_tier": {
+   "default": 33
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "game_player_equip": [
+    "weapon_knife",
+    "weapon_usp"
+   ]
+  }
+ },
+ "links": {
+  "total": 804,
+  "unresolved": 2
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1,
+   "filter_dangling": 2,
+   "input_unimplemented": 2,
+   "player_input": 2,
+   "target_dangling": 2,
+   "teleport_dangling": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "target_dangling": "source",
+   "teleport_dangling": "source"
+  },
+  "classes": {
+   "approximated": 2,
+   "ignored": 4,
+   "implemented": 26
+  }
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_usp"
+  ],
+  "links_unresolved": [
+   "trigger_multiple.OnEndTouchAll->door5",
+   "trigger_multiple.OnStartTouchAll->door5"
+  ],
+  "inputs_unimplemented": [
+   "env_hudhint.HideHudHint",
+   "env_hudhint.ShowHudHint"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:point_viewcontrol (ignored)",
+   "input_unimplemented:env_hudhint.HideHudHint",
+   "input_unimplemented:env_hudhint.ShowHudHint",
+   "player_input:addoutput targetname x794",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 2,
+  "links_unresolved": 2,
+  "inputs_unimplemented": 2,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 5
+ },
+ "prop_fit": {
+  "rescaled": 449,
+  "fitted_in": 146,
+  "rescaled_upright": 4,
+  "fits": 107
+ }
+}

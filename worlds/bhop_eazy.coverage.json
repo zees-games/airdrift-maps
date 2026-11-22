@@ -7,27 +7,14 @@
   "looked_up": 15,
   "drawn": 15,
   "by_tier": {
-   "default": 14,
-   "fallback": 1
+   "addon": 11,
+   "default": 4
   },
   "free_by_tier": {
-   "addon": 3,
-   "default": 4,
-   "nearest": 8
+   "addon": 11,
+   "default": 4
   },
-  "nearest_photo": [
-   "hammer textures/bhop_eazy/31_e_brick_blue",
-   "hammer textures/bhop_eazy/31_e_brick_green",
-   "hammer textures/bhop_eazy/31_e_brick_red",
-   "hammer textures/bhop_eazy/31_e_brick_white",
-   "hammer textures/bhop_eazy/31_e_brick_yellow",
-   "hammer textures/bhop_eazy/31_e_mapby_blue_2",
-   "hammer textures/bhop_eazy/31_e_tile_1",
-   "hammer textures/bhop_eazy/31_e_tile_2",
-   "hammer textures/bhop_eazy/31_e_tile_3",
-   "hammer textures/bhop_eazy/31_e_tile_4",
-   "hammer textures/bhop_eazy/31_e_tile_5"
-  ]
+  "nearest_photo": []
  },
  "models": {
   "looked_up": 0,
@@ -56,10 +43,15 @@
   "total": 0,
   "unresolved": 0
  },
+ "gameplay": {
+  "findings": {},
+  "severity": {},
+  "classes": {
+   "implemented": 14
+  }
+ },
  "lists": {
-  "textures_unmapped": [
-   "HAMMER TEXTURES/BHOP_EAZY/31_E_MAPBY_BLUE_2"
-  ],
+  "textures_unmapped": [],
   "textures_flat": [],
   "models_unmapped": [],
   "sounds_unmapped": [],
@@ -68,25 +60,21 @@
    "weapon_deagle.ammo"
   ],
   "links_unresolved": [],
+  "inputs_unimplemented": [],
   "surfaces_opaque": [],
   "gameplay_lost": []
  },
  "counts": {
-  "textures_unmapped": 1,
+  "textures_unmapped": 0,
   "textures_flat": 0,
   "models_unmapped": 0,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 1,
   "links_unresolved": 0,
+  "inputs_unimplemented": 0,
   "surfaces_opaque": 0,
   "gameplay_lost": 0
  },
- "gameplay": {
-  "findings": {},
-  "severity": {},
-  "classes": {
-   "implemented": 14
-  }
- }
+ "prop_fit": {}
 }

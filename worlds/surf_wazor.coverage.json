@@ -5,27 +5,17 @@
  "sha256": "493d0e3d5f0213ff8f90d2c1d96784ecfce417f069df020337ef0951952a82d8",
  "textures": {
   "looked_up": 49,
-  "drawn": 48,
+  "drawn": 47,
   "by_tier": {
-   "addon": 28,
-   "default": 21
+   "addon": 42,
+   "default": 7
   },
   "free_by_tier": {
    "addon": 40,
-   "default": 8
+   "default": 7
   },
   "nearest_photo": [
-   "cs_havana/dirtfloor006a",
-   "de_dust/tilefloor01",
-   "de_nuke/nukblenddirtgrass",
-   "de_tides/tides_dirtstonepath",
-   "dev/value10",
-   "dev/valuesand30",
-   "lights/white",
-   "mirror-map-studios/mms_stonewall7",
-   "models/props_c17/furnituremetal002a",
-   "nature/blenddirtdirt001a",
-   "nature/blendprodconcgrass"
+   "nature/blenddirtdirt001a"
   ]
  },
  "models": {
@@ -72,6 +62,25 @@
  "links": {
   "total": 32,
   "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 4,
+   "input_unimplemented": 3,
+   "player_input": 1,
+   "volume_parented": 2
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "volume_parented": "unsupported"
+  },
+  "classes": {
+   "approximated": 5,
+   "ignored": 1,
+   "implemented": 36
+  }
  },
  "lists": {
   "textures_unmapped": [],
@@ -127,23 +136,10 @@
   "surfaces_opaque": 2,
   "gameplay_lost": 10
  },
- "gameplay": {
-  "findings": {
-   "class_unsupported": 4,
-   "input_unimplemented": 3,
-   "player_input": 1,
-   "volume_parented": 2
-  },
-  "severity": {
-   "class_unsupported": "unsupported",
-   "input_unimplemented": "unsupported",
-   "player_input": "unsupported",
-   "volume_parented": "unsupported"
-  },
-  "classes": {
-   "approximated": 5,
-   "ignored": 1,
-   "implemented": 36
-  }
+ "prop_fit": {
+  "rescaled": 7,
+  "rescaled_upright": 7,
+  "unmeasured": 1,
+  "fits": 7
  }
 }

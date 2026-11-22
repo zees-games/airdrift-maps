@@ -1,0 +1,6 @@
+# Suggested by the converter from commands in surf_stonework4's entities.
+# Nothing here is applied. Uncomment a line to set it for this map; a key the game does
+# not whitelist is logged and ignored (docs/map-config.md).
+# sv_airaccelerate: 150
+# sv_enablebunnyhopping: 1
+# sv_maxvelocity: 10000

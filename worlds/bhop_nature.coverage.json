@@ -1,0 +1,139 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_nature",
+ "sha256": "72f734de16ad7b34bbba65e56cb8460e440ab6a798410fa82825646eb7164c46",
+ "textures": {
+  "looked_up": 106,
+  "drawn": 103,
+  "by_tier": {
+   "addon": 91,
+   "default": 10,
+   "fallback": 5
+  },
+  "free_by_tier": {
+   "addon": 87,
+   "default": 16
+  },
+  "nearest_photo": [
+   "nature/blendsandweed005a"
+  ]
+ },
+ "models": {
+  "looked_up": 53,
+  "by_tier": {
+   "category": 4,
+   "default": 43,
+   "fallback": 6
+  }
+ },
+ "sounds": {
+  "looked_up": 22,
+  "by_tier": {
+   "default": 10,
+   "fallback": 12
+  }
+ },
+ "classes": {
+  "distinct": 33,
+  "entities": 1272,
+  "by_tier": {
+   "default": 33
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 358,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 2,
+   "filter_dangling": 1,
+   "input_unimplemented": 2,
+   "player_input": 3
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 5,
+   "ignored": 3,
+   "implemented": 24
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "CS_ITALY/IVY06",
+   "FIBBS/VOL_LIGHT",
+   "Z-O-M-B-I-E/METRO_2033/WM/WM_POTEK_05",
+   "Z-O-M-B-I-E/STALKER/VINE/VINE_DRIED_UP",
+   "Z-O-M-B-I-E/STALKER/VINE/VINE_RICH"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "loopix/tropical/flax1r.mdl",
+   "loopix/tropical/tropw7.mdl",
+   "stromy/plum_1.mdl",
+   "z-o-m-b-i-e/st/big_object/st_katushka_03.mdl",
+   "z-o-m-b-i-e/st/briks_block/st_poddon_01.mdl",
+   "z-o-m-b-i-e/st/cistern/st_cistern_01.mdl"
+  ],
+  "sounds_unmapped": [
+   "ambient/animal/bird14.wav",
+   "ambient/animal/bird19.wav",
+   "ambient/animal/bird20.wav",
+   "ambient/animal/bird4.wav",
+   "ambient/animal/bird9.wav",
+   "ambient/animal/flies3.wav",
+   "ambient/animal/flies4.wav",
+   "ambient/animal/flies5.wav",
+   "ambient/animal/frog_2.wav",
+   "ambient/animal/frog_3.wav",
+   "ambient/animal/snake1.wav",
+   "ambient/animal/snake3.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_entity_maker.ForceSpawnAtEntityOrigin",
+   "env_tonemap_controller.SetTonemapRate"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:env_entity_maker (approximated)",
+   "class_unsupported:point_viewcontrol (ignored)",
+   "input_unimplemented:env_entity_maker.ForceSpawnAtEntityOrigin",
+   "input_unimplemented:env_tonemap_controller.SetTonemapRate",
+   "player_input:addoutput gravity x8",
+   "player_input:addoutput targetname x268",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 5,
+  "textures_flat": 0,
+  "models_unmapped": 6,
+  "sounds_unmapped": 12,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 2,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 7
+ },
+ "prop_fit": {
+  "fits": 117,
+  "rescaled": 45,
+  "fitted_in": 11,
+  "unmeasured": 29,
+  "boxed": 1
+ }
+}

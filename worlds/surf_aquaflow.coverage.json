@@ -1,0 +1,162 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "surf_aquaflow",
+ "sha256": "24211e8a63816cc55aed9137eafba35dedbf6649d80326dd9484bbe4f8aa2c88",
+ "textures": {
+  "looked_up": 24,
+  "drawn": 26,
+  "by_tier": {
+   "addon": 3,
+   "default": 8,
+   "fallback": 13
+  },
+  "free_by_tier": {
+   "addon": 16,
+   "default": 10
+  },
+  "nearest_photo": [
+   "blend_reef_sand_n_rocks",
+   "blend_reef_sand_n_rocks_nocaustics",
+   "blend_reef_sand_n_shells",
+   "blend_reef_sand_n_shells_nocaustics",
+   "blend_reef_sand_n_slide",
+   "graything",
+   "marbletile",
+   "oceanwall",
+   "oceanwall_light",
+   "oceanwall_portal",
+   "u_glow"
+  ]
+ },
+ "models": {
+  "looked_up": 96,
+  "by_tier": {
+   "category": 62,
+   "default": 4,
+   "fallback": 29,
+   "skybox": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 22,
+  "entities": 1159,
+  "by_tier": {
+   "default": 22
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "game_player_equip": [
+    "weapon_knife"
+   ]
+  }
+ },
+ "links": {
+  "total": 11,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "input_unimplemented": 1,
+   "player_input": 1
+  },
+  "severity": {
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 2,
+   "ignored": 2,
+   "implemented": 17
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "/FISHINGNET",
+   "/GRAYTHING",
+   "/OCEANSURFACE_BENEATH",
+   "/OCEANSURFACE_BENEATH_REGULAR",
+   "/OCEANWALL",
+   "/OCEANWALL_FADE",
+   "/OCEANWALL_LIGHT",
+   "/OCEANWALL_PORTAL",
+   "/PORTALCARD",
+   "/U_BUBBLES",
+   "/U_GLOW",
+   "/U_GLOW_VOLUMETRIC",
+   "/U_TURN"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "dome.mdl",
+   "dome_b.mdl",
+   "drone.mdl",
+   "fakeskyboxplane.mdl",
+   "glass_tunnel/glass_tunnel_001a.mdl",
+   "scrolling_info.mdl",
+   "scrolling_info_end.mdl",
+   "u_ramps/01_ramp_final.mdl",
+   "u_ramps/02_ramp_final.mdl",
+   "u_ramps/03_ramp_final.mdl",
+   "u_ramps/04_ramp_final.mdl",
+   "u_ramps/05_ramp_final.mdl",
+   "u_ramps/06_ramp_final.mdl",
+   "u_ramps/07_ramp_final.mdl",
+   "u_ramps/08_ramp_final.mdl",
+   "u_ramps/09_ramp_final.mdl",
+   "u_ramps/10_ramp_final.mdl",
+   "u_ramps/11_ramp_final.mdl",
+   "u_ramps/12_ramp_final.mdl",
+   "u_ramps/13_ramp_final.mdl",
+   "u_ramps/14_ramp_final.mdl",
+   "u_ramps/15_ramp_final.mdl",
+   "u_ramps/16_ramp_final.mdl",
+   "u_ramps/17_ramp_final.mdl",
+   "u_ramps/18_ramp_final.mdl",
+   "u_ramps/19_ramp_final.mdl",
+   "u_ramps/20_ramp_final.mdl",
+   "u_ramps/21_ramp_final.mdl",
+   "u_ramps/22_ramp_final.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "game_player_equip.weapon_knife"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_tonemap_controller.SetTonemapRate"
+  ],
+  "surfaces_opaque": [
+   "oceanwall_portal"
+  ],
+  "gameplay_lost": [
+   "input_unimplemented:env_tonemap_controller.SetTonemapRate",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 13,
+  "textures_flat": 0,
+  "models_unmapped": 29,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 1,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 1,
+  "surfaces_opaque": 1,
+  "gameplay_lost": 2
+ },
+ "prop_fit": {
+  "fitted_in": 58,
+  "boxed": 17,
+  "unmeasured": 2,
+  "fits": 24
+ }
+}

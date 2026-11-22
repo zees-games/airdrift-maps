@@ -1,0 +1,119 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_elate",
+ "sha256": "10cfbc577da970bcdaf7e1c12776b86940c2d40e277a7b236f712c73bb632d49",
+ "textures": {
+  "looked_up": 36,
+  "drawn": 36,
+  "by_tier": {
+   "addon": 28,
+   "default": 1,
+   "fallback": 7
+  },
+  "free_by_tier": {
+   "addon": 28,
+   "default": 8
+  },
+  "nearest_photo": [
+   "biql/royale/concreteblend",
+   "biql/royale/rocksandblend",
+   "concrete/blend_concrete02_concfloor012a"
+  ]
+ },
+ "models": {
+  "looked_up": 100,
+  "by_tier": {
+   "category": 8,
+   "default": 86,
+   "fallback": 6
+  }
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "default": 1
+  }
+ },
+ "classes": {
+  "distinct": 20,
+  "entities": 1235,
+  "by_tier": {
+   "default": 20
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "trigger_teleport": [
+    "CheckDestIfClearForPlayer"
+   ]
+  }
+ },
+ "links": {
+  "total": 0,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "volume_key_unread": 1
+  },
+  "severity": {
+   "volume_key_unread": "unsupported"
+  },
+  "classes": {
+   "ignored": 1,
+   "implemented": 18
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "BIQL/ROYALE/ROPE",
+   "BIQL/ROYALE/TEXT/BY BIQL",
+   "BIQL/ROYALE/TEXT/DANGER",
+   "BIQL/ROYALE/TEXT/END",
+   "BIQL/ROYALE/TEXT/KEEP",
+   "BIQL/ROYALE/TEXT/OUT",
+   "BIQL/ROYALE/TEXT/START"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props/schooner/schooner_static.mdl",
+   "props_castle/waterfall01c.mdl",
+   "props_castle/waterfall_mist.mdl",
+   "static_fittings/overhang_04.mdl",
+   "static_props/market_bin_02.mdl",
+   "static_props/market_stall_01.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "trigger_teleport.CheckDestIfClearForPlayer"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "volume_key_unread:trigger_teleport.uselandmarkangles=1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 7,
+  "textures_flat": 0,
+  "models_unmapped": 6,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 1,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 1
+ },
+ "prop_fit": {
+  "fits": 248,
+  "rescaled": 166,
+  "boxed": 12,
+  "fitted_in": 18,
+  "unmeasured": 2
+ }
+}

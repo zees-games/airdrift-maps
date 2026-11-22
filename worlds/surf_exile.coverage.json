@@ -1,0 +1,126 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "surf_exile",
+ "sha256": "300a9809cdd19675cc99b153eb4735bd68f02980737ea9ec69811ca15f24df36",
+ "textures": {
+  "looked_up": 27,
+  "drawn": 26,
+  "by_tier": {
+   "addon": 26,
+   "default": 1
+  },
+  "free_by_tier": {
+   "addon": 24,
+   "default": 2
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 4,
+  "by_tier": {
+   "default": 4
+  }
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "fallback": 1
+  }
+ },
+ "classes": {
+  "distinct": 32,
+  "entities": 594,
+  "by_tier": {
+   "default": 32
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "func_rot_button": [
+    "StartDisabled"
+   ],
+   "game_player_equip": [
+    "weapon_knife",
+    "weapon_mp5navy"
+   ],
+   "weapon_ak47": [
+    "ammo"
+   ],
+   "weapon_deagle": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 47,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1,
+   "filter_dangling": 4,
+   "input_unimplemented": 2,
+   "player_input": 2
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 2,
+   "ignored": 1,
+   "implemented": 28
+  }
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [
+   "player/heartbeat1.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "func_rot_button.StartDisabled",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_mp5navy",
+   "weapon_ak47.ammo",
+   "weapon_deagle.ammo"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_blood.EmitBlood",
+   "game_player_equip.use"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:env_blood (approximated)",
+   "input_unimplemented:env_blood.EmitBlood",
+   "input_unimplemented:game_player_equip.use",
+   "player_input:addoutput targetname x4",
+   "player_input:setdamagefilter x6"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 1,
+  "classes_unmapped": 0,
+  "keys_unmapped": 5,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 2,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 5
+ },
+ "prop_fit": {
+  "unmeasured": 8,
+  "rescaled": 22,
+  "rescaled_upright": 22,
+  "fits": 22
+ }
+}

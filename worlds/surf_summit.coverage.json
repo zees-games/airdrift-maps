@@ -1,0 +1,136 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "surf_summit",
+ "sha256": "807f13aed0628b9b5ef55d7ba684e17d558bef5da29339cacf2238af2c58edc4",
+ "textures": {
+  "looked_up": 37,
+  "drawn": 41,
+  "by_tier": {
+   "addon": 28,
+   "default": 8,
+   "fallback": 1
+  },
+  "free_by_tier": {
+   "addon": 34,
+   "default": 7
+  },
+  "nearest_photo": [
+   "castle/blend_cave_dirt",
+   "castle/blend_cave_gravel",
+   "castle/blend_cave_rock01",
+   "castle/blend_grass_rock03",
+   "castle/blend_grass_rock04",
+   "castle/blend_grass_rock05",
+   "castle/blend_grass_rock06"
+  ]
+ },
+ "models": {
+  "looked_up": 63,
+  "by_tier": {
+   "category": 7,
+   "default": 32,
+   "fallback": 24
+  }
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "default": 1
+  }
+ },
+ "classes": {
+  "distinct": 36,
+  "entities": 1819,
+  "by_tier": {
+   "default": 36
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 73,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "input_unimplemented": 1,
+   "player_input": 3
+  },
+  "severity": {
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "ignored": 3,
+   "implemented": 32
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "SURF_SUMMIT/CREDITS1"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "fragmodels/gnubbel.mdl",
+   "fragmodels/gnubbel2.mdl",
+   "fragmodels/gnubbel3.mdl",
+   "fragmodels/hills_gnubbel.mdl",
+   "fragmodels/pilzport.mdl",
+   "propper/surf_summit/bhop_128.mdl",
+   "propper/surf_summit/bhop_192.mdl",
+   "propper/surf_summit/bhop_96.mdl",
+   "propper/surf_summit/bigcrystal_blue.mdl",
+   "propper/surf_summit/bigcrystal_green.mdl",
+   "propper/surf_summit/bigcrystal_purple.mdl",
+   "propper/surf_summit/bigcrystal_red.mdl",
+   "propper/surf_summit/bigcrystal_yellow.mdl",
+   "propper/surf_summit/crystal_blue.mdl",
+   "propper/surf_summit/crystal_blue_small01.mdl",
+   "propper/surf_summit/crystal_green.mdl",
+   "propper/surf_summit/crystal_green_small01.mdl",
+   "propper/surf_summit/crystal_purple.mdl",
+   "propper/surf_summit/crystal_purple_small01.mdl",
+   "propper/surf_summit/crystal_red.mdl",
+   "propper/surf_summit/crystal_red_small01.mdl",
+   "propper/surf_summit/crystal_yellow_small01.mdl",
+   "propper/surf_summit/end_fade512x256.mdl",
+   "propper/surf_summit/temple_deco1.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "point_servercommand.Command"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "input_unimplemented:point_servercommand.Command",
+   "player_input:addoutput basevelocity x4",
+   "player_input:addoutput targetname x54",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 1,
+  "textures_flat": 0,
+  "models_unmapped": 24,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 1,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 4
+ },
+ "prop_fit": {
+  "fits": 574,
+  "rescaled": 61,
+  "boxed": 56,
+  "fitted_in": 59,
+  "unmeasured": 52
+ }
+}

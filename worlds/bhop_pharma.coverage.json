@@ -1,0 +1,141 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_pharma",
+ "sha256": "6826b5cd08fbcd01000e116baae12bec536bebf6591a0478f52aeac9515a36c5",
+ "textures": {
+  "looked_up": 49,
+  "drawn": 48,
+  "by_tier": {
+   "addon": 33,
+   "default": 9,
+   "fallback": 7
+  },
+  "free_by_tier": {
+   "addon": 34,
+   "default": 14
+  },
+  "nearest_photo": [
+   "de_tides/blendgrassstonepath",
+   "realworldtextures/grass/grass_cracks_blend"
+  ]
+ },
+ "models": {
+  "looked_up": 19,
+  "by_tier": {
+   "default": 14,
+   "fallback": 5
+  }
+ },
+ "sounds": {
+  "looked_up": 9,
+  "by_tier": {
+   "default": 7,
+   "fallback": 2
+  }
+ },
+ "classes": {
+  "distinct": 42,
+  "entities": 2025,
+  "by_tier": {
+   "default": 42
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "player_speedmod": [
+    "name"
+   ]
+  }
+ },
+ "links": {
+  "total": 912,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 3,
+   "filter_dangling": 13,
+   "input_unimplemented": 3,
+   "player_input": 3,
+   "teleport_dangling": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "teleport_dangling": "source"
+  },
+  "classes": {
+   "approximated": 7,
+   "ignored": 6,
+   "implemented": 28
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "BADGES/0",
+   "BADGES/2",
+   "BADGES/4",
+   "BADGES/6",
+   "BADGES/7",
+   "BADGES/8",
+   "FIBBS/VOL_LIGHT"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props/pharma/checkpoint.mdl",
+   "props/pharma/joovittu.mdl",
+   "props/pharma/tower.mdl",
+   "props/pharma/tower2.mdl",
+   "props/pharma/waterbottom.mdl"
+  ],
+  "sounds_unmapped": [
+   "ambient/animal/bird5.wav",
+   "ambient/levels/canals/swamp_bird4.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "player_speedmod.name"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "player_speedmod.ModifySpeed",
+   "player_speedmod.ModifySpeed 1",
+   "point_servercommand.Command"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:path_track (approximated)",
+   "class_unsupported:player_speedmod (approximated)",
+   "class_unsupported:point_viewcontrol (ignored)",
+   "input_unimplemented:player_speedmod.ModifySpeed",
+   "input_unimplemented:player_speedmod.ModifySpeed 1",
+   "input_unimplemented:point_servercommand.Command",
+   "player_input:addoutput basevelocity x6",
+   "player_input:addoutput gravity x6",
+   "player_input:addoutput targetname x814"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 7,
+  "textures_flat": 0,
+  "models_unmapped": 5,
+  "sounds_unmapped": 2,
+  "classes_unmapped": 0,
+  "keys_unmapped": 1,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 3,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 9
+ },
+ "prop_fit": {
+  "rescaled": 104,
+  "rescaled_upright": 39,
+  "fitted_in": 58,
+  "fits": 216,
+  "unmeasured": 12
+ }
+}

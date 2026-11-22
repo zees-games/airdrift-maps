@@ -1,0 +1,7 @@
+# Suggested by the converter from commands in bhop_hellish_dream_css's entities.
+# Nothing here is applied. Uncomment a line to set it for this map; a key the game does
+# not whitelist is logged and ignored (docs/map-config.md).
+# mat_autoexposure_max: 1.5
+# mat_autoexposure_min: 0.9
+# skipped, never run: point_clientcommand: mat_autoexposure_max 1.5
+# skipped, never run: point_clientcommand: mat_autoexposure_min 0.9

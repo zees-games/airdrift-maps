@@ -1,0 +1,8 @@
+# Suggested by the converter from commands in kz_bhop_indiana's entities.
+# Nothing here is applied. Uncomment a line to set it for this map; a key the game does
+# not whitelist is logged and ignored (docs/map-config.md).
+# mp_flashlight: 1
+# sv_airaccelerate: 100
+# sv_enablebunnyhopping: 1
+# skipped, never run: not a setting: say kz_bhop_indiana by keyuu
+# skipped, never run: not a setting: say someone finished

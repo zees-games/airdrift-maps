@@ -1,0 +1,133 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "surf_lithium2",
+ "sha256": "dadedc3739cc822cd663ada7fd04bfb5858bc87fdcf98f5e226e53d0bc601a6f",
+ "textures": {
+  "looked_up": 27,
+  "drawn": 25,
+  "by_tier": {
+   "addon": 18,
+   "default": 7,
+   "fallback": 2
+  },
+  "free_by_tier": {
+   "addon": 16,
+   "default": 9
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 1,
+  "by_tier": {
+   "default": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 6,
+  "by_tier": {
+   "default": 6
+  }
+ },
+ "classes": {
+  "distinct": 43,
+  "entities": 682,
+  "by_tier": {
+   "default": 43
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "func_rot_button": [
+    "StartDisabled"
+   ],
+   "game_player_equip": [
+    "weapon_awp",
+    "weapon_knife",
+    "weapon_m249",
+    "weapon_m3"
+   ]
+  }
+ },
+ "links": {
+  "total": 169,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 5,
+   "input_unimplemented": 5,
+   "player_input": 4,
+   "volume_follows": 4
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "volume_follows": "handled"
+  },
+  "classes": {
+   "approximated": 7,
+   "ignored": 2,
+   "implemented": 34
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "CUSTOM/COPYMARK",
+   "CUSTOM/LITHIUM"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "func_rot_button.StartDisabled",
+   "game_player_equip.weapon_awp",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_m249",
+   "game_player_equip.weapon_m3"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "ai_changetarget.Activate",
+   "env_hudhint.ShowHudHint",
+   "game_player_equip.Use",
+   "player_speedmod.ModifySpeed",
+   "point_hurt.Hurt"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:ai_changetarget (approximated)",
+   "class_unsupported:player_speedmod (approximated)",
+   "class_unsupported:point_hurt (approximated)",
+   "class_unsupported:point_tesla (approximated)",
+   "class_unsupported:point_viewcontrol (ignored)",
+   "input_unimplemented:ai_changetarget.Activate",
+   "input_unimplemented:env_hudhint.ShowHudHint",
+   "input_unimplemented:game_player_equip.Use",
+   "input_unimplemented:player_speedmod.ModifySpeed",
+   "input_unimplemented:point_hurt.Hurt",
+   "player_input:addoutput health x11",
+   "player_input:addoutput targetname x8",
+   "player_input:color x6",
+   "player_input:setdamagefilter x11"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 2,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 5,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 5,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 14
+ },
+ "prop_fit": {
+  "unmeasured": 16
+ }
+}

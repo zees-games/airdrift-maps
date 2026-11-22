@@ -1,0 +1,106 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_badges_mini",
+ "sha256": "7ff0dc64b3f0e71a8701ae59f810845151e31751c20379d3ec21defdea8b0305",
+ "textures": {
+  "looked_up": 19,
+  "drawn": 19,
+  "by_tier": {
+   "addon": 17,
+   "default": 2
+  },
+  "free_by_tier": {
+   "addon": 17,
+   "default": 2
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 3,
+  "by_tier": {
+   "category": 1,
+   "default": 1,
+   "fallback": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 21,
+  "entities": 1148,
+  "by_tier": {
+   "default": 21
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "weapon_glock": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 581,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 2,
+   "filter_dangling": 4,
+   "player_input": 2
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 1,
+   "ignored": 2,
+   "implemented": 18
+  }
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [
+   "mortarsynth.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "weapon_glock.ammo"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [
+   "gum/mappby"
+  ],
+  "gameplay_lost": [
+   "class_unsupported:point_viewcontrol (ignored)",
+   "class_unsupported:weapon_glock (approximated)",
+   "player_input:addoutput targetname x556",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 1,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 1,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 1,
+  "gameplay_lost": 4
+ },
+ "prop_fit": {
+  "unmeasured": 2,
+  "fits": 2
+ }
+}

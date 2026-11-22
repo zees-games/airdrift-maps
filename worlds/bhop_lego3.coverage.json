@@ -1,0 +1,128 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_lego3",
+ "sha256": "c0f777c18a340bfc4331cf67f69e404bea991d5513550e0032b257af5c27ec91",
+ "textures": {
+  "looked_up": 59,
+  "drawn": 58,
+  "by_tier": {
+   "addon": 53,
+   "default": 4,
+   "fallback": 2
+  },
+  "free_by_tier": {
+   "addon": 53,
+   "default": 5
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 28,
+  "by_tier": {
+   "category": 2,
+   "default": 13,
+   "fallback": 13
+  }
+ },
+ "sounds": {
+  "looked_up": 3,
+  "by_tier": {
+   "default": 3
+  }
+ },
+ "classes": {
+  "distinct": 33,
+  "entities": 2639,
+  "by_tier": {
+   "default": 33
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 179,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 3,
+   "filter_dangling": 12,
+   "input_unimplemented": 2,
+   "player_input": 5
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 4,
+   "ignored": 4,
+   "implemented": 24
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "LEGO3/MAPBY",
+   "LEGO3/SJNET"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "antosha/fortony/bhop.mdl",
+   "antosha/fortony/bhop_lego3.mdl",
+   "antosha/fortony/bird_2x.mdl",
+   "antosha/fortony/coin.mdl",
+   "antosha/fortony/lego.mdl",
+   "antosha/fortony/legoman.mdl",
+   "antosha/fortony/legoman1.mdl",
+   "antosha/fortony/number3.mdl",
+   "antosha/fortony/poplavok.mdl",
+   "antosha/fortony/rod.mdl",
+   "lego3/patch_big.mdl",
+   "lego3/patch_med.mdl",
+   "lego3/patch_small.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_entity_maker.ForceSpawnAtEntityOrigin",
+   "filter_activator_name.TestActivator"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:env_entity_maker (approximated)",
+   "class_unsupported:path_track (ignored)",
+   "class_unsupported:point_viewcontrol (ignored)",
+   "input_unimplemented:env_entity_maker.ForceSpawnAtEntityOrigin",
+   "input_unimplemented:filter_activator_name.TestActivator",
+   "player_input:addoutput basevelocity x22",
+   "player_input:addoutput onuser1 x6",
+   "player_input:addoutput targetname x91",
+   "player_input:fireuser1 x5",
+   "player_input:setdamagefilter x2"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 2,
+  "textures_flat": 0,
+  "models_unmapped": 13,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 2,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 10
+ },
+ "prop_fit": {
+  "fits": 2061,
+  "rescaled": 7,
+  "boxed": 7
+ }
+}

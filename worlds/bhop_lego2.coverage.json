@@ -1,0 +1,164 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_lego2",
+ "sha256": "4d71347b5e3356cf76f7b278519afae8d1e387e73582011ce3c0140e21f942ae",
+ "textures": {
+  "looked_up": 73,
+  "drawn": 73,
+  "by_tier": {
+   "addon": 54,
+   "fallback": 19
+  },
+  "free_by_tier": {
+   "addon": 54,
+   "default": 19
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 3,
+  "by_tier": {
+   "default": 2,
+   "fallback": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 13,
+  "by_tier": {
+   "default": 7,
+   "fallback": 6
+  }
+ },
+ "classes": {
+  "distinct": 41,
+  "entities": 1103,
+  "by_tier": {
+   "default": 41
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "game_player_equip": [
+    "weapon_glock",
+    "weapon_knife",
+    "weapon_usp"
+   ],
+   "weapon_usp": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 800,
+  "unresolved": 1
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 8,
+   "filter_dangling": 2,
+   "input_unimplemented": 4,
+   "player_input": 5,
+   "target_dangling": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "target_dangling": "source"
+  },
+  "classes": {
+   "approximated": 8,
+   "ignored": 4,
+   "implemented": 29
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "LEGO2/240",
+   "LEGO2/244",
+   "LEGO2/245",
+   "LEGO2/248",
+   "LEGO2/255",
+   "LEGO2/260",
+   "LEGO2/BONUS",
+   "LEGO2/BTC",
+   "LEGO2/GOAL2",
+   "LEGO2/GROUP2",
+   "LEGO2/ID",
+   "LEGO2/INFO",
+   "LEGO2/MAINMAP",
+   "LEGO2/MAPBY",
+   "LEGO2/MUSIC",
+   "LEGO2/NICE",
+   "LEGO2/RESTART",
+   "LEGO2/TONYMONTANA",
+   "LEGO2/YE"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "hobune/horse.mdl"
+  ],
+  "sounds_unmapped": [
+   "ambient/animal/horse_1.wav",
+   "ambient/animal/horse_6.wav",
+   "ambient/levels/citadel/field_loop1.wav",
+   "bot/great.wav",
+   "bot/oh_yea2.wav",
+   "bot/very_nice.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "game_player_equip.weapon_glock",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_usp",
+   "weapon_usp.ammo"
+  ],
+  "links_unresolved": [
+   "logic_timer.OnTimer->weapon_scout"
+  ],
+  "inputs_unimplemented": [
+   "env_entity_maker.ForceSpawn",
+   "env_entity_maker.ForceSpawnAtEntityOrigin",
+   "game_player_equip.use",
+   "player_weaponstrip.Strip"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:env_entity_maker (approximated)",
+   "class_unsupported:game_weapon_manager (ignored)",
+   "class_unsupported:info_teleport_destination (approximated)",
+   "class_unsupported:path_track (ignored)",
+   "class_unsupported:player_weaponstrip (approximated)",
+   "class_unsupported:point_viewcontrol (ignored)",
+   "class_unsupported:weapon_knife (approximated)",
+   "class_unsupported:weapon_usp (approximated)",
+   "input_unimplemented:env_entity_maker.ForceSpawn",
+   "input_unimplemented:env_entity_maker.ForceSpawnAtEntityOrigin",
+   "input_unimplemented:game_player_equip.use",
+   "input_unimplemented:player_weaponstrip.Strip",
+   "player_input:addoutput classname x23",
+   "player_input:addoutput gravity x48",
+   "player_input:addoutput modelindex x13",
+   "player_input:addoutput targetname x551",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 19,
+  "textures_flat": 0,
+  "models_unmapped": 1,
+  "sounds_unmapped": 6,
+  "classes_unmapped": 0,
+  "keys_unmapped": 4,
+  "links_unresolved": 1,
+  "inputs_unimplemented": 4,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 17
+ },
+ "prop_fit": {
+  "unmeasured": 4
+ }
+}

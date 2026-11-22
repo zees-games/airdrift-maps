@@ -1,0 +1,133 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_badges2",
+ "sha256": "512f184685337ad9f1ea2cdf71f1f8eb1a93c4cd9aafad97757935193d7a736a",
+ "textures": {
+  "looked_up": 30,
+  "drawn": 30,
+  "by_tier": {
+   "addon": 18,
+   "default": 2,
+   "fallback": 10
+  },
+  "free_by_tier": {
+   "addon": 17,
+   "default": 13
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 1,
+  "by_tier": {
+   "default": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 24,
+  "by_tier": {
+   "default": 22,
+   "fallback": 2
+  }
+ },
+ "classes": {
+  "distinct": 43,
+  "entities": 1944,
+  "by_tier": {
+   "default": 43
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "weapon_usp": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 767,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 5,
+   "filter_dangling": 1,
+   "input_unimplemented": 4,
+   "player_input": 4
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 6,
+   "ignored": 3,
+   "implemented": 34
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "BADGES/0",
+   "BADGES/1",
+   "BADGES/2",
+   "BADGES/3",
+   "BADGES/4",
+   "BADGES/5",
+   "BADGES/6",
+   "BADGES/7",
+   "BADGES/8",
+   "BADGES/9"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [
+   "badges/checkpointon.wav",
+   "items/gift_drop.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "weapon_usp.ammo"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_entity_maker.ForceSpawn",
+   "player_speedmod.ModifySpeed",
+   "player_weaponstrip.StripWeaponsAndSuit",
+   "point_servercommand.Command"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:env_entity_maker (approximated)",
+   "class_unsupported:player_speedmod (approximated)",
+   "class_unsupported:player_weaponstrip (approximated)",
+   "class_unsupported:point_viewcontrol (ignored)",
+   "class_unsupported:trigger_remove (ignored)",
+   "input_unimplemented:env_entity_maker.ForceSpawn",
+   "input_unimplemented:player_speedmod.ModifySpeed",
+   "input_unimplemented:player_weaponstrip.StripWeaponsAndSuit",
+   "input_unimplemented:point_servercommand.Command",
+   "player_input:addoutput gravity x124",
+   "player_input:addoutput modelindex x1",
+   "player_input:addoutput targetname x404",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 10,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 2,
+  "classes_unmapped": 0,
+  "keys_unmapped": 1,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 4,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 13
+ },
+ "prop_fit": {
+  "unmeasured": 4
+ }
+}

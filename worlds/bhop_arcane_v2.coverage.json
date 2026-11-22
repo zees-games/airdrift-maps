@@ -1,0 +1,186 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_arcane_v2",
+ "sha256": "caebb705cf814cabf202473c525b2a12d2726748dc5bad36a69748cec664c402",
+ "textures": {
+  "looked_up": 94,
+  "drawn": 85,
+  "by_tier": {
+   "addon": 74,
+   "default": 19,
+   "fallback": 1
+  },
+  "free_by_tier": {
+   "addon": 73,
+   "default": 12
+  },
+  "nearest_photo": [
+   "nature/blendmilground008_2_plants",
+   "nature/blendrockgrass"
+  ]
+ },
+ "models": {
+  "looked_up": 54,
+  "by_tier": {
+   "category": 1,
+   "default": 53
+  }
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "default": 1
+  }
+ },
+ "classes": {
+  "distinct": 63,
+  "entities": 1717,
+  "by_tier": {
+   "default": 63
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "weapon_awp": [
+    "ammo"
+   ],
+   "weapon_elite": [
+    "ammo"
+   ],
+   "weapon_famas": [
+    "ammo"
+   ],
+   "weapon_g3sg1": [
+    "ammo"
+   ],
+   "weapon_m249": [
+    "ammo"
+   ],
+   "weapon_m4a1": [
+    "ammo"
+   ],
+   "weapon_mac10": [
+    "ammo"
+   ],
+   "weapon_p90": [
+    "ammo"
+   ],
+   "weapon_scout": [
+    "ammo"
+   ],
+   "weapon_sg550": [
+    "ammo"
+   ],
+   "weapon_tmp": [
+    "ammo"
+   ],
+   "weapon_ump45": [
+    "ammo"
+   ],
+   "weapon_xm1014": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 182,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 4,
+   "filter_dangling": 1,
+   "input_unimplemented": 5,
+   "player_input": 4,
+   "volume_parented": 8
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "volume_parented": "unsupported"
+  },
+  "classes": {
+   "approximated": 7,
+   "ignored": 7,
+   "implemented": 48
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "NATURE/ICE"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "weapon_awp.ammo",
+   "weapon_elite.ammo",
+   "weapon_famas.ammo",
+   "weapon_g3sg1.ammo",
+   "weapon_m249.ammo",
+   "weapon_m4a1.ammo",
+   "weapon_mac10.ammo",
+   "weapon_p90.ammo",
+   "weapon_scout.ammo",
+   "weapon_sg550.ammo",
+   "weapon_tmp.ammo",
+   "weapon_ump45.ammo",
+   "weapon_xm1014.ammo"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_hudhint.ShowHudHint",
+   "player_speedmod.ModifySpeed",
+   "point_servercommand.Command",
+   "point_spotlight.LightOff",
+   "point_spotlight.LightOn"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:player_speedmod (approximated)",
+   "class_unsupported:point_viewcontrol (ignored)",
+   "class_unsupported:weapon_elite (approximated)",
+   "class_unsupported:weapon_scout (approximated)",
+   "input_unimplemented:env_hudhint.ShowHudHint",
+   "input_unimplemented:player_speedmod.ModifySpeed",
+   "input_unimplemented:point_servercommand.Command",
+   "input_unimplemented:point_spotlight.LightOff",
+   "input_unimplemented:point_spotlight.LightOn",
+   "player_input:addoutput gravity x6",
+   "player_input:addoutput targetname x18",
+   "player_input:setdamagefilter x1",
+   "player_input:setfogcontroller x4",
+   "volume_parented:trigger_multiple#1340 -> scout1",
+   "volume_parented:trigger_multiple#1343 -> scout2",
+   "volume_parented:trigger_multiple#1365 -> uber_scout",
+   "volume_parented:trigger_multiple#1375 -> uber_scout",
+   "volume_parented:trigger_multiple#1376 -> scout1",
+   "volume_parented:trigger_multiple#1377 -> scout2",
+   "volume_parented:trigger_multiple#1378 -> scout3",
+   "volume_parented:trigger_multiple#1416 -> scout3"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 1,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 13,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 5,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 21
+ },
+ "prop_fit": {
+  "rescaled": 268,
+  "boxed": 12,
+  "fits": 309,
+  "fitted_in": 11
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "surf_rookie",
+ "sha256": "df303e57d8a12c8fb4ab3b71038128ff22be9c6b74aed8d705fab5d215f1c27f",
+ "textures": {
+  "looked_up": 46,
+  "drawn": 46,
+  "by_tier": {
+   "addon": 38,
+   "default": 5,
+   "fallback": 3
+  },
+  "free_by_tier": {
+   "addon": 38,
+   "default": 8
+  },
+  "nearest_photo": [
+   "nature/infblendgrassdirt001a"
+  ]
+ },
+ "models": {
+  "looked_up": 1,
+  "by_tier": {
+   "category": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 2,
+  "by_tier": {
+   "default": 1,
+   "fallback": 1
+  }
+ },
+ "classes": {
+  "distinct": 20,
+  "entities": 451,
+  "by_tier": {
+   "default": 20
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 6,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1,
+   "player_input": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 1,
+   "ignored": 1,
+   "implemented": 18
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "KIIRU/COLORS/COLORPANEL",
+   "KIIRU/CREEPYFACE",
+   "KIIRU/SURF_ROOKIE"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [
+   "hostitron/girls/hpain/hpain6.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:point_viewcontrol (ignored)",
+   "player_input:setdamagefilter x3"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 3,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 1,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 2
+ },
+ "prop_fit": {
+  "fits": 1
+ }
+}

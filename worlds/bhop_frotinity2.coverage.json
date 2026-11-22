@@ -1,0 +1,123 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_frotinity2",
+ "sha256": "4dddcee0d3812c5207252b5d555414fefb09c25668292e4509c5f2eb782c1cdb",
+ "textures": {
+  "looked_up": 120,
+  "drawn": 118,
+  "by_tier": {
+   "addon": 104,
+   "default": 12,
+   "fallback": 4
+  },
+  "free_by_tier": {
+   "addon": 107,
+   "default": 11
+  },
+  "nearest_photo": [
+   "gravematerials/egypt/grave_dirtgrass_blend",
+   "ground/alex_grass_05",
+   "nature/blend_grassdirtleaves01",
+   "tony/blendrockgrass_detail",
+   "xen/blend_c4a1b_xen_rock_wall09a_d_xen_swamp_grass_01a_diff"
+  ]
+ },
+ "models": {
+  "looked_up": 121,
+  "by_tier": {
+   "category": 4,
+   "default": 94,
+   "fallback": 12,
+   "skybox": 11
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 28,
+  "entities": 1708,
+  "by_tier": {
+   "default": 28
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 38,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "filter_dangling": 27,
+   "player_input": 2,
+   "teleport_dangling": 8
+  },
+  "severity": {
+   "filter_dangling": "source",
+   "player_input": "unsupported",
+   "teleport_dangling": "source"
+  },
+  "classes": {
+   "ignored": 3,
+   "implemented": 24
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "AMPTEXTURES/TEXTURE2",
+   "AMPTEXTURES/TEXTURE3",
+   "MATERIALS/TOOLS/TOOLSNODRAW",
+   "SHIROKO/OT_TROPICFALL"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "antosha/flow/name.mdl",
+   "antosha/pivo.mdl",
+   "antosha/pivo2.mdl",
+   "fragmodels/gnubbel.mdl",
+   "fragmodels/gnubbel4.mdl",
+   "fragmodels/gnubbel4x3.mdl",
+   "props/antenaprop.mdl",
+   "props/serzsurf.mdl",
+   "props_xen/c4a1b/b_lowerswamp092.mdl",
+   "props_xen/crystals/watercrystal01.mdl",
+   "props_xen/hub/rootcage03.mdl",
+   "z-o-m-b-i-e/st/fishers/st_mostik_03.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "player_input:addoutput basevelocity x32",
+   "player_input:setfogcontroller x6"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 4,
+  "textures_flat": 0,
+  "models_unmapped": 12,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 2
+ },
+ "prop_fit": {
+  "rescaled": 236,
+  "fitted_in": 32,
+  "rescaled_upright": 38,
+  "fits": 653,
+  "boxed": 6,
+  "unmeasured": 70
+ }
+}

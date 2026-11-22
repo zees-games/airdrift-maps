@@ -1,0 +1,6 @@
+# Suggested by the converter from commands in bhop_exodus's entities.
+# Nothing here is applied. Uncomment a line to set it for this map; a key the game does
+# not whitelist is logged and ignored (docs/map-config.md).
+# skipped, never run: point_clientcommand: r_screenoverlay aoki/2/ufukointro
+# skipped, never run: point_clientcommand: r_screenoverlay aoki/2/404
+# skipped, never run: point_clientcommand: r_screenoverlay sprites/arrow.vmt

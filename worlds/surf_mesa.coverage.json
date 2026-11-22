@@ -1,0 +1,102 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "surf_mesa",
+ "sha256": "7328e453b2aaaf3c116e1bfb4d842ac3f09e6ce282a977b63fe4f0539e995d93",
+ "textures": {
+  "looked_up": 21,
+  "drawn": 16,
+  "by_tier": {
+   "addon": 12,
+   "default": 9
+  },
+  "free_by_tier": {
+   "addon": 14,
+   "default": 2
+  },
+  "nearest_photo": [
+   "gm_construct/blend_rockrock",
+   "gm_construct/blend_sandgrass",
+   "gm_construct/blend_sandrock"
+  ]
+ },
+ "models": {
+  "looked_up": 14,
+  "by_tier": {
+   "category": 4,
+   "default": 10
+  }
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "default": 1
+  }
+ },
+ "classes": {
+  "distinct": 26,
+  "entities": 461,
+  "by_tier": {
+   "default": 26
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 91,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 3,
+   "filter_dangling": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source"
+  },
+  "classes": {
+   "approximated": 5,
+   "ignored": 2,
+   "implemented": 18
+  }
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [
+   "gm_construct/tanks"
+  ],
+  "gameplay_lost": [
+   "class_unsupported:func_areaportal (approximated)",
+   "class_unsupported:path_track (approximated)",
+   "class_unsupported:trigger_vphysics_motion (ignored)"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 1,
+  "gameplay_lost": 3
+ },
+ "prop_fit": {
+  "fits": 113,
+  "boxed": 8,
+  "rescaled": 49,
+  "fitted_in": 36
+ }
+}

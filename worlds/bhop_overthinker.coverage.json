@@ -1,0 +1,130 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_overthinker",
+ "sha256": "78be543240f9fe02aa44f79d0cafdbac87350cd786ee5e4a8e1a6be1e73ab7f2",
+ "textures": {
+  "looked_up": 40,
+  "drawn": 37,
+  "by_tier": {
+   "addon": 19,
+   "default": 16,
+   "fallback": 5
+  },
+  "free_by_tier": {
+   "addon": 18,
+   "default": 19
+  },
+  "nearest_photo": [
+   "proxychains/kz_bhop_algetic/reflective_blend_normal_rock"
+  ]
+ },
+ "models": {
+  "looked_up": 27,
+  "by_tier": {
+   "category": 8,
+   "default": 5,
+   "fallback": 14
+  }
+ },
+ "sounds": {
+  "looked_up": 16,
+  "by_tier": {
+   "default": 10,
+   "fallback": 6
+  }
+ },
+ "classes": {
+  "distinct": 36,
+  "entities": 944,
+  "by_tier": {
+   "default": 36
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 87,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "filter_dangling": 39,
+   "player_input": 5
+  },
+  "severity": {
+   "filter_dangling": "source",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 1,
+   "ignored": 2,
+   "implemented": 32
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "PROXYCHAINS/KZ_BHOP_ALGETIC/OVERTHINKER_SHOUTOUTS",
+   "PROXYCHAINS/KZ_BHOP_ALGETIC/STRAFE_TEXTS_2",
+   "PROXYCHAINS/KZ_BHOP_ALGETIC/TRYIT",
+   "PROXYCHAINS/SHADERS/PROXYCHAINS_TESTSKY",
+   "PROXYCHAINS/SHADERS/PROXY_SKY56"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props/bhop_overthinker/arrow.mdl",
+   "props/bhop_overthinker/arrow2.mdl",
+   "props/bhop_overthinker/bhop1.mdl",
+   "props/bhop_overthinker/bhop2.mdl",
+   "props/bhop_overthinker/collum1.mdl",
+   "props/bhop_overthinker/headsurf.mdl",
+   "props/bhop_overthinker/ramp0.mdl",
+   "props/bhop_overthinker/ramp2.mdl",
+   "props/bhop_overthinker/ramp3.mdl",
+   "props/bhop_overthinker/skythingy.mdl",
+   "props/bhop_overthinker/weirdlogo.mdl",
+   "proxychains/algetic_props/algetic_big_1.mdl",
+   "proxychains/algetic_props/algetic_big_2.mdl",
+   "proxychains/algetic_props/algetic_portal.mdl"
+  ],
+  "sounds_unmapped": [
+   "bot/no_sir.wav",
+   "hide/hideitem_skill_hp.wav",
+   "hide/hideitem_skill_trap01.wav",
+   "hide/hideitem_skill_trap02.wav",
+   "hide/hideitem_skill_trap03.wav",
+   "ui/randombox_in.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "player_input:addoutput basevelocity x34",
+   "player_input:addoutput classname x3",
+   "player_input:addoutput gravity x4",
+   "player_input:addoutput targetname x4",
+   "player_input:setfogcontroller x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 5,
+  "textures_flat": 0,
+  "models_unmapped": 14,
+  "sounds_unmapped": 6,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 5
+ },
+ "prop_fit": {
+  "rescaled": 44,
+  "fits": 11,
+  "fitted_in": 1
+ }
+}

@@ -7,18 +7,14 @@
   "looked_up": 21,
   "drawn": 19,
   "by_tier": {
-   "addon": 12,
-   "default": 8,
-   "fallback": 1
+   "addon": 16,
+   "default": 5
   },
   "free_by_tier": {
    "addon": 14,
    "default": 5
   },
-  "nearest_photo": [
-   "eclipse/map_by_papercut1",
-   "halflife/+0~generic86r"
-  ]
+  "nearest_photo": []
  },
  "models": {
   "looked_up": 1,
@@ -59,10 +55,29 @@
   "total": 70,
   "unresolved": 1
  },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 5,
+   "input_unimplemented": 6,
+   "player_input": 1,
+   "target_dangling": 1,
+   "volume_follows": 2
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "target_dangling": "source",
+   "volume_follows": "handled"
+  },
+  "classes": {
+   "approximated": 7,
+   "ignored": 1,
+   "implemented": 28
+  }
+ },
  "lists": {
-  "textures_unmapped": [
-   "ECLIPSE/MAP_BY_PAPERCUT1"
-  ],
+  "textures_unmapped": [],
   "textures_flat": [],
   "models_unmapped": [],
   "sounds_unmapped": [],
@@ -106,13 +121,11 @@
    "input_unimplemented:point_spotlight.LightOff",
    "input_unimplemented:point_spotlight.LightOn",
    "input_unimplemented:point_teleport.Teleport",
-   "player_input:setdamagefilter x4",
-   "volume_parented:trigger_hurt#285 -> jail_winnerplat",
-   "volume_parented:trigger_multiple#215 -> jail_winnerplat"
+   "player_input:setdamagefilter x4"
   ]
  },
  "counts": {
-  "textures_unmapped": 1,
+  "textures_unmapped": 0,
   "textures_flat": 0,
   "models_unmapped": 0,
   "sounds_unmapped": 0,
@@ -121,27 +134,10 @@
   "links_unresolved": 1,
   "inputs_unimplemented": 6,
   "surfaces_opaque": 1,
-  "gameplay_lost": 14
+  "gameplay_lost": 12
  },
- "gameplay": {
-  "findings": {
-   "class_unsupported": 5,
-   "input_unimplemented": 6,
-   "player_input": 1,
-   "target_dangling": 1,
-   "volume_parented": 2
-  },
-  "severity": {
-   "class_unsupported": "unsupported",
-   "input_unimplemented": "unsupported",
-   "player_input": "unsupported",
-   "target_dangling": "source",
-   "volume_parented": "unsupported"
-  },
-  "classes": {
-   "approximated": 7,
-   "ignored": 1,
-   "implemented": 28
-  }
+ "prop_fit": {
+  "rescaled": 6,
+  "fits": 6
  }
 }

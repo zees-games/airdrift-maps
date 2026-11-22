@@ -1,0 +1,25 @@
+# Suggested by the converter from commands in kz_bhop_badg3s's entities.
+# Nothing here is applied. Uncomment a line to set it for this map; a key the game does
+# not whitelist is logged and ignored (docs/map-config.md).
+# mp_flashlight: 1
+# sv_airaccelerate: 100
+# sv_enablebunnyhop: 1
+# skipped, never run: point_clientcommand: r_screenoverlay off
+# skipped, never run: point_clientcommand: r_screenoverlay badges/GIFTRIPTUBETHING
+# skipped, never run: point_clientcommand: play badges/glitches/triptunnel.mp3
+# skipped, never run: point_clientcommand: r_screenoverlay off
+# skipped, never run: point_clientcommand: r_screenoverlay badges/GIFTRIP5
+# skipped, never run: point_clientcommand: play badges/glitches/badfeelin.mp3
+# skipped, never run: point_clientcommand: r_screenoverlay badges/b3endcredit
+# skipped, never run: point_clientcommand: play badges/glitches/b3title.mp3
+# skipped, never run: point_clientcommand: r_screenoverlay off
+# skipped, never run: point_clientcommand: r_screenoverlay badges/BSOD
+# skipped, never run: point_clientcommand: r_screenoverlay badges/GIFTRIP4
+# skipped, never run: point_clientcommand: play badges/glitches/bsodsound.mp3
+# skipped, never run: point_clientcommand: r_screenoverlay off
+# skipped, never run: point_clientcommand: r_screenoverlay badges/GIFTRIP3
+# skipped, never run: point_clientcommand: play badges/glitches/recoverysound.mp3
+# skipped, never run: point_clientcommand: r_screenoverlay off
+# skipped, never run: point_clientcommand: r_screenoverlay badges/GIFEYE
+# skipped, never run: point_clientcommand: r_screenoverlay badges/b3credits
+# skipped, never run: point_clientcommand: play badges/glitches/15.mp3

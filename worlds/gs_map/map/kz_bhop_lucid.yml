@@ -1,0 +1,15 @@
+# Suggested by the converter from commands in kz_bhop_lucid's entities.
+# Nothing here is applied. Uncomment a line to set it for this map; a key the game does
+# not whitelist is logged and ignored (docs/map-config.md).
+# sv_airaccelerate: 100
+# sv_enablebunnyhopping: 1
+# sv_maxspeed: 250
+# skipped, never run: not a setting: say yellow unlocked
+# skipped, never run: not a setting: say red unlocked
+# skipped, never run: not a setting: say purple unlocked
+# skipped, never run: not a setting: say a player jumped 266 block!
+# skipped, never run: not a setting: say a player jumped 268 block!
+# skipped, never run: not a setting: say a player jumped 270 block!
+# skipped, never run: not a setting: say a player jumped 272 block!
+# skipped, never run: not a setting: say HOLY...
+# skipped, never run: not a setting: say bonus unlocked

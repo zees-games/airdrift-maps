@@ -1,0 +1,118 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_supernova",
+ "sha256": "3167e12be2cd3866b18765329192ab21708e189c76bdb6f8352fe00984bdd527",
+ "textures": {
+  "looked_up": 19,
+  "drawn": 18,
+  "by_tier": {
+   "addon": 12,
+   "default": 3,
+   "fallback": 4
+  },
+  "free_by_tier": {
+   "addon": 13,
+   "default": 5
+  },
+  "nearest_photo": [
+   "collablol/rock_pur_blend ",
+   "collablol/rock_pur_blendnorefract"
+  ]
+ },
+ "models": {
+  "looked_up": 25,
+  "by_tier": {
+   "category": 3,
+   "default": 4,
+   "fallback": 16,
+   "skybox": 2
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 19,
+  "entities": 554,
+  "by_tier": {
+   "default": 19
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 12,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "filter_dangling": 12,
+   "player_input": 2
+  },
+  "severity": {
+   "filter_dangling": "source",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "ignored": 2,
+   "implemented": 16
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "FAKESKY/SKYBLOCKBLACK",
+   "FAKESKY/SKYCUB2",
+   "NIKS/SONIA_PUR",
+   "NIKS/TESTERS_PUR"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "antosha/bihop/chel.mdl",
+   "models/soniamodels/sonia_crystal.mdl",
+   "models/soniamodels/sonia_crystal4.mdl",
+   "models/soniamodels/sonia_cvetok2.mdl",
+   "models/soniamodels/sonia_cvetok3.mdl",
+   "models/soniamodels/sonia_cvetok3_1.mdl",
+   "models/soniamodels/sonia_cvetok3_2.mdl",
+   "props/shari1.mdl",
+   "props/shari2.mdl",
+   "props/shari3.mdl",
+   "props/shari4.mdl",
+   "props/shari5.mdl",
+   "props/shari6.mdl",
+   "props/shari7.mdl",
+   "props/shari8.mdl",
+   "props/shari9.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "player_input:addoutput basevelocity x10",
+   "player_input:addoutput targetname x2"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 4,
+  "textures_flat": 0,
+  "models_unmapped": 16,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 2
+ },
+ "prop_fit": {
+  "fits": 57,
+  "fitted_in": 1
+ }
+}

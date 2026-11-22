@@ -7,23 +7,14 @@
   "looked_up": 17,
   "drawn": 16,
   "by_tier": {
-   "addon": 7,
-   "default": 10
+   "addon": 14,
+   "default": 3
   },
   "free_by_tier": {
-   "addon": 10,
-   "default": 2,
-   "nearest": 4
+   "addon": 14,
+   "default": 2
   },
-  "nearest_photo": [
-   "building_template/courtyard_template001a",
-   "de_cbble/concrete02",
-   "de_dust/groundsand_blend",
-   "de_dust/residwall02",
-   "de_dust/templewall02",
-   "ground/blendsnow_tracks",
-   "halflife/lab1_w6a"
-  ]
+  "nearest_photo": []
  },
  "models": {
   "looked_up": 2,
@@ -50,6 +41,18 @@
   "total": 0,
   "unresolved": 0
  },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported"
+  },
+  "classes": {
+   "ignored": 1,
+   "implemented": 9
+  }
+ },
  "lists": {
   "textures_unmapped": [],
   "textures_flat": [],
@@ -58,6 +61,7 @@
   "classes_unmapped": [],
   "keys_unmapped": [],
   "links_unresolved": [],
+  "inputs_unimplemented": [],
   "surfaces_opaque": [],
   "gameplay_lost": [
    "class_unsupported:func_buyzone (ignored)"
@@ -71,19 +75,12 @@
   "classes_unmapped": 0,
   "keys_unmapped": 0,
   "links_unresolved": 0,
+  "inputs_unimplemented": 0,
   "surfaces_opaque": 0,
   "gameplay_lost": 1
  },
- "gameplay": {
-  "findings": {
-   "class_unsupported": 1
-  },
-  "severity": {
-   "class_unsupported": "unsupported"
-  },
-  "classes": {
-   "ignored": 1,
-   "implemented": 9
-  }
+ "prop_fit": {
+  "rescaled": 4,
+  "fits": 4
  }
 }

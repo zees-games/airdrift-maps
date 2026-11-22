@@ -5,18 +5,16 @@
  "sha256": "c7679bbb68829273c7ab86c7404096b65f4ef8f94ab09433da987c8f474e8d8d",
  "textures": {
   "looked_up": 16,
-  "drawn": 16,
+  "drawn": 15,
   "by_tier": {
-   "addon": 12,
-   "default": 4
+   "addon": 14,
+   "default": 2
   },
   "free_by_tier": {
    "addon": 13,
-   "default": 3
+   "default": 2
   },
-  "nearest_photo": [
-   "nature/mudfloor005a"
-  ]
+  "nearest_photo": []
  },
  "models": {
   "looked_up": 2,
@@ -43,31 +41,6 @@
   "total": 12,
   "unresolved": 0
  },
- "lists": {
-  "textures_unmapped": [],
-  "textures_flat": [],
-  "models_unmapped": [],
-  "sounds_unmapped": [],
-  "classes_unmapped": [],
-  "keys_unmapped": [],
-  "links_unresolved": [],
-  "surfaces_opaque": [],
-  "gameplay_lost": [
-   "input_unimplemented:env_hudhint.ShowHudHint",
-   "player_input:setdamagefilter x1"
-  ]
- },
- "counts": {
-  "textures_unmapped": 0,
-  "textures_flat": 0,
-  "models_unmapped": 0,
-  "sounds_unmapped": 0,
-  "classes_unmapped": 0,
-  "keys_unmapped": 0,
-  "links_unresolved": 0,
-  "surfaces_opaque": 0,
-  "gameplay_lost": 2
- },
  "gameplay": {
   "findings": {
    "input_unimplemented": 1,
@@ -82,5 +55,38 @@
    "ignored": 1,
    "implemented": 16
   }
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_hudhint.ShowHudHint"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "input_unimplemented:env_hudhint.ShowHudHint",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 1,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 2
+ },
+ "prop_fit": {
+  "rescaled": 2,
+  "fits": 2
  }
 }

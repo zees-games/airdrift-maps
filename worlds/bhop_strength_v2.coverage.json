@@ -1,0 +1,113 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_strength_v2",
+ "sha256": "f737e7203766e273f29a2a61692c950a46d75af4488e31737aa0699d70c92ebd",
+ "textures": {
+  "looked_up": 52,
+  "drawn": 51,
+  "by_tier": {
+   "addon": 42,
+   "default": 4,
+   "fallback": 6
+  },
+  "free_by_tier": {
+   "addon": 14,
+   "default": 37
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 13,
+  "by_tier": {
+   "default": 13
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 32,
+  "entities": 1606,
+  "by_tier": {
+   "default": 32
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 656,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 3,
+   "filter_dangling": 1,
+   "input_unimplemented": 2,
+   "player_input": 3
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 3,
+   "ignored": 5,
+   "implemented": 23
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "CS_ITALY/IVY03",
+   "CS_ITALY/IVY05",
+   "CS_ITALY/IVY05A",
+   "CS_ITALY/IVY06B",
+   "Z-O-M-B-I-E/STALKER/VINE/VINE_DRIED_UP",
+   "Z-O-M-B-I-E/STALKER/VINE/VINE_RICH"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_entity_maker.ForceSpawnAtEntityOrigin",
+   "env_tonemap_controller.SetTonemapRate"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:env_entity_maker (approximated)",
+   "class_unsupported:path_track (ignored)",
+   "class_unsupported:point_viewcontrol (ignored)",
+   "input_unimplemented:env_entity_maker.ForceSpawnAtEntityOrigin",
+   "input_unimplemented:env_tonemap_controller.SetTonemapRate",
+   "player_input:addoutput gravity x12",
+   "player_input:addoutput targetname x592",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 6,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 2,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 8
+ },
+ "prop_fit": {
+  "fits": 47,
+  "rescaled": 3,
+  "fitted_in": 5,
+  "unmeasured": 6
+ }
+}

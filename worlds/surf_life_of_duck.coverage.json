@@ -1,0 +1,92 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "surf_life_of_duck",
+ "sha256": "51d0b0d8c5a858e6ed3eddbb6c5a0bda499337e19256d1a1430f1591364ebe4e",
+ "textures": {
+  "looked_up": 25,
+  "drawn": 24,
+  "by_tier": {
+   "addon": 23,
+   "default": 2
+  },
+  "free_by_tier": {
+   "addon": 23,
+   "default": 1
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "sounds": {
+  "looked_up": 6,
+  "by_tier": {
+   "fallback": 6
+  }
+ },
+ "classes": {
+  "distinct": 16,
+  "entities": 153,
+  "by_tier": {
+   "default": 16
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 26,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "player_input": 1,
+   "volume_follows": 1
+  },
+  "severity": {
+   "player_input": "unsupported",
+   "volume_follows": "handled"
+  },
+  "classes": {
+   "approximated": 1,
+   "implemented": 15
+  }
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [
+   "ambient/levels/canals/swamp_frogs_loop2.wav",
+   "skarsounds/duck/canadian long reed ac.wav",
+   "skarsounds/duck/duck-quacking animals038.wav",
+   "skarsounds/duck/honker acrylic cylinder.wav",
+   "skarsounds/duck/long reed goose call.wav",
+   "skarsounds/duck/timber sr arkansas style duck.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "player_input:setdamagefilter x3"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 6,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 1
+ },
+ "prop_fit": {}
+}

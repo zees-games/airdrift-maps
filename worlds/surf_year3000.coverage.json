@@ -5,24 +5,17 @@
  "sha256": "04592e69e1d21e9259b7151095c50194994ecb82adb7e75b55c127af6f47b9d6",
  "textures": {
   "looked_up": 23,
-  "drawn": 22,
+  "drawn": 23,
   "by_tier": {
-   "addon": 13,
-   "default": 4,
-   "fallback": 6
+   "addon": 20,
+   "default": 2,
+   "fallback": 1
   },
   "free_by_tier": {
-   "addon": 19,
+   "addon": 20,
    "default": 3
   },
-  "nearest_photo": [
-   "metal/citadel_metalwall063a",
-   "year3000/logo",
-   "year3000/riddle_fake",
-   "year3000/riddle_one",
-   "year3000/riddle_tip",
-   "year3000/riddle_two"
-  ]
+  "nearest_photo": []
  },
  "models": {
   "looked_up": 24,
@@ -76,13 +69,28 @@
   "total": 217,
   "unresolved": 6
  },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 2,
+   "input_unimplemented": 6,
+   "target_dangling": 5,
+   "volume_follows": 4,
+   "volume_key_unread": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "input_unimplemented": "unsupported",
+   "target_dangling": "source",
+   "volume_follows": "handled",
+   "volume_key_unread": "unsupported"
+  },
+  "classes": {
+   "approximated": 7,
+   "implemented": 31
+  }
+ },
  "lists": {
   "textures_unmapped": [
-   "YEAR3000/LOGO",
-   "YEAR3000/RIDDLE_FAKE",
-   "YEAR3000/RIDDLE_ONE",
-   "YEAR3000/RIDDLE_TIP",
-   "YEAR3000/RIDDLE_TWO",
    "YEAR3000/TELEPORT"
   ],
   "textures_flat": [],
@@ -126,7 +134,9 @@
    "game_player_equip.Use",
    "point_spotlight.LightOff"
   ],
-  "surfaces_opaque": [],
+  "surfaces_opaque": [
+   "decals/decalmetalspeaker002a"
+  ],
   "gameplay_lost": [
    "class_unsupported:func_areaportal (approximated)",
    "class_unsupported:path_track (approximated)",
@@ -136,15 +146,11 @@
    "input_unimplemented:func_water_analog.Open",
    "input_unimplemented:game_player_equip.Use",
    "input_unimplemented:point_spotlight.LightOff",
-   "volume_key_unread:func_water_analog.movedistance=270",
-   "volume_parented:trigger_hurt#449 -> ss_high01",
-   "volume_parented:trigger_hurt#450 -> ss_high02",
-   "volume_parented:trigger_hurt#451 -> ss_low02",
-   "volume_parented:trigger_hurt#452 -> ss_low01"
+   "volume_key_unread:func_water_analog.movedistance=270"
   ]
  },
  "counts": {
-  "textures_unmapped": 6,
+  "textures_unmapped": 1,
   "textures_flat": 0,
   "models_unmapped": 0,
   "sounds_unmapped": 0,
@@ -152,27 +158,14 @@
   "keys_unmapped": 19,
   "links_unresolved": 6,
   "inputs_unimplemented": 6,
-  "surfaces_opaque": 0,
-  "gameplay_lost": 13
+  "surfaces_opaque": 1,
+  "gameplay_lost": 9
  },
- "gameplay": {
-  "findings": {
-   "class_unsupported": 2,
-   "input_unimplemented": 6,
-   "target_dangling": 5,
-   "volume_key_unread": 1,
-   "volume_parented": 4
-  },
-  "severity": {
-   "class_unsupported": "unsupported",
-   "input_unimplemented": "unsupported",
-   "target_dangling": "source",
-   "volume_key_unread": "unsupported",
-   "volume_parented": "unsupported"
-  },
-  "classes": {
-   "approximated": 7,
-   "implemented": 31
-  }
+ "prop_fit": {
+  "unmeasured": 114,
+  "rescaled": 83,
+  "boxed": 1,
+  "fitted_in": 26,
+  "fits": 75
  }
 }

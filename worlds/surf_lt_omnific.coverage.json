@@ -1,0 +1,243 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "surf_lt_omnific",
+ "sha256": "5e8ac2c8ed4b819c7b3ce3ab5486329d387731781715a259bbfc95128f2d471d",
+ "textures": {
+  "looked_up": 23,
+  "drawn": 23,
+  "by_tier": {
+   "addon": 21,
+   "default": 2
+  },
+  "free_by_tier": {
+   "addon": 21,
+   "default": 2
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 125,
+  "by_tier": {
+   "category": 13,
+   "default": 18,
+   "fallback": 93,
+   "skybox": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 22,
+  "by_tier": {
+   "default": 13,
+   "fallback": 9
+  }
+ },
+ "classes": {
+  "distinct": 47,
+  "entities": 5907,
+  "by_tier": {
+   "default": 47
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 500,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 5,
+   "filter_dangling": 30,
+   "input_unimplemented": 12,
+   "player_input": 7,
+   "volume_follows": 2
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "volume_follows": "handled"
+  },
+  "classes": {
+   "approximated": 14,
+   "ignored": 2,
+   "implemented": 30
+  }
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props/surf_lt/checkem/bonus_bhop01.mdl",
+   "props/surf_lt/checkem/bonus_surf01.mdl",
+   "props/surf_lt/checkem/bonus_surf02.mdl",
+   "props/surf_lt/checkem/t1_surf01.mdl",
+   "props/surf_lt/checkem/t2_surf01.mdl",
+   "props/surf_lt/checkem/t2_surf03.mdl",
+   "props/surf_lt/checkem/t3_surf01.mdl",
+   "props/surf_lt/checkem/t3_surf03_l.mdl",
+   "props/surf_lt/checkem/t3_surf03_r.mdl",
+   "props/surf_lt/checkem/t3_surf04.mdl",
+   "props/surf_lt/checkem/t3_surf06.mdl",
+   "props/surf_lt/checkem/t4_obstacle04.mdl",
+   "props/surf_lt/checkem/t4_surf01.mdl",
+   "props/surf_lt/checkem/t4_surf02.mdl",
+   "props/surf_lt/checkem/t4_surf03.mdl",
+   "props/surf_lt/checkem/t4_surf04.mdl",
+   "props/surf_lt/checkem/t4_surf05.mdl",
+   "props/surf_lt/checkem/t4_surf06.mdl",
+   "props/surf_lt/checkem/t5_surf01.mdl",
+   "props/surf_lt/checkem/t5_surf02.mdl",
+   "props/surf_lt/checkem/t5_surf03.mdl",
+   "props/surf_lt/checkem/t5_surf05.mdl",
+   "props/surf_lt/checkem/t6_surf01.mdl",
+   "props/surf_lt/checkem/t6_surf02.mdl",
+   "props/surf_lt/checkem/t6_surf03.mdl",
+   "props/surf_lt/checkem/t6_surf08.mdl",
+   "props/surf_lt/checkem/t6_surf09.mdl",
+   "props/surf_lt/ending/core_white_1.mdl",
+   "props/surf_lt/ending/core_white_2.mdl",
+   "props/surf_lt/ending/ending_lab.mdl",
+   "props/surf_lt/ending/ending_platform.mdl",
+   "props/surf_lt/ending/pod_sphere.mdl",
+   "props/surf_lt/ending/ring_1.mdl",
+   "props/surf_lt/ending/ring_2.mdl",
+   "props/surf_lt/ending/ring_3.mdl",
+   "props/surf_lt/nyro/bonus_surf01.mdl",
+   "props/surf_lt/nyro/t1_surf02.mdl",
+   "props/surf_lt/nyro/t2_surf01.mdl",
+   "props/surf_lt/nyro/t2_surf02.mdl",
+   "props/surf_lt/nyro/t3_detail01.mdl",
+   "props/surf_lt/nyro/t3_surf01.mdl",
+   "props/surf_lt/nyro/t3_surf02.mdl",
+   "props/surf_lt/nyro/t3_surf03.mdl",
+   "props/surf_lt/nyro/t3_surf04.mdl",
+   "props/surf_lt/nyro/t3_surf05.mdl",
+   "props/surf_lt/nyro/t3_surf06.mdl",
+   "props/surf_lt/nyro/t3_surf07.mdl",
+   "props/surf_lt/nyro/t4_surf01.mdl",
+   "props/surf_lt/nyro/t4_surf03.mdl",
+   "props/surf_lt/nyro/t4_surf04.mdl",
+   "props/surf_lt/nyro/t5_surf01.mdl",
+   "props/surf_lt/nyro/t5_surf02.mdl",
+   "props/surf_lt/nyro/t5_surf03.mdl",
+   "props/surf_lt/nyro/t5_surf04.mdl",
+   "props/surf_lt/nyro/t6_surf01.mdl",
+   "props/surf_lt/nyro/t6_surf02.mdl",
+   "props/surf_lt/nyro/t6_surf03.mdl",
+   "props/surf_lt/nyro/t6_surf04.mdl",
+   "props/surf_lt/qr/bonus_detail01.mdl",
+   "props/surf_lt/qr/bonus_detail02.mdl",
+   "props/surf_lt/qr/bonus_surf01.mdl",
+   "props/surf_lt/qr/bonus_surf03.mdl",
+   "props/surf_lt/qr/bonus_surf04.mdl",
+   "props/surf_lt/qr/bonus_surf05.mdl",
+   "props/surf_lt/qr/bonus_surf06.mdl",
+   "props/surf_lt/qr/t1_surf01.mdl",
+   "props/surf_lt/qr/t3_surf01.mdl",
+   "props/surf_lt/qr/t3_surf02.mdl",
+   "props/surf_lt/qr/t4_obstacle01.mdl",
+   "props/surf_lt/qr/t4_surf02.mdl",
+   "props/surf_lt/qr/t4_surf04.mdl",
+   "props/surf_lt/qr/t5_surf01.mdl",
+   "props/surf_lt/qr/t5_surf03.mdl",
+   "props/surf_lt/qr/t5_surf04.mdl",
+   "props/surf_lt/qr/t5_surf05.mdl",
+   "props/surf_lt/qr/t5_surf06.mdl",
+   "props/surf_lt/qr/t6_surf01.mdl",
+   "props/surf_lt/qr/t6_surf02.mdl",
+   "props/surf_lt/qr/t6_surf03.mdl",
+   "props/surf_lt/qr/t6_surf04.mdl",
+   "props/surf_lt/qr/t6_surf05.mdl",
+   "props/surf_lt/qr/t6_surf07.mdl",
+   "props/surf_lt/qr/t6_surf08.mdl",
+   "props/surf_lt/secret_platform.mdl",
+   "props/surf_lt/spawn/glass_catwalk_center.mdl",
+   "props/surf_lt/spawn/glass_catwalk_spawn.mdl",
+   "props/surf_lt/spawn/glass_catwalk_tier.mdl",
+   "props/surf_lt/spawn/glass_catwalk_tier_d.mdl",
+   "props/surf_lt/spawn/octagonal_dome.mdl",
+   "props/surf_lt/spawn/portal_ring.mdl",
+   "props/surf_lt/spawn/tier_tunnel.mdl",
+   "props/surf_lt/tesseract.mdl",
+   "props/surf_lt/trail_parent.mdl"
+  ],
+  "sounds_unmapped": [
+   "ambient/levels/citadel/field_loop3.wav",
+   "ambient/levels/citadel/pod_close1.wav",
+   "ambient/levels/citadel/pod_open1.wav",
+   "ambient/levels/citadel/zapper_ambient_loop1.wav",
+   "ambient/levels/citadel/zapper_loop1.wav",
+   "ambient/levels/citadel/zapper_loop2.wav",
+   "ambient/levels/citadel/zapper_warmup1.wav",
+   "ambient/levels/citadel/zapper_warmup4.wav",
+   "omnific/omnific.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_hudhint.ShowHudHint",
+   "env_spritetrail.SetParentAttachment",
+   "func_monitor.SetCamera",
+   "func_rotating.StopAtStartPos",
+   "path_track.DisablePath",
+   "path_track.EnablePath",
+   "player_weaponstrip.Strip",
+   "point_camera.SetOff",
+   "point_camera.SetOnAndTurnOthersOff",
+   "point_servercommand.Command",
+   "prop_dynamic.DisableCollision",
+   "prop_dynamic.EnableCollision"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:path_track (approximated)",
+   "class_unsupported:player_weaponstrip (approximated)",
+   "class_unsupported:point_tesla (approximated)",
+   "class_unsupported:point_viewcontrol (ignored)",
+   "class_unsupported:weapon_hegrenade (approximated)",
+   "input_unimplemented:env_hudhint.ShowHudHint",
+   "input_unimplemented:env_spritetrail.SetParentAttachment",
+   "input_unimplemented:func_monitor.SetCamera",
+   "input_unimplemented:func_rotating.StopAtStartPos",
+   "input_unimplemented:path_track.DisablePath",
+   "input_unimplemented:path_track.EnablePath",
+   "input_unimplemented:player_weaponstrip.Strip",
+   "input_unimplemented:point_camera.SetOff",
+   "input_unimplemented:point_camera.SetOnAndTurnOthersOff",
+   "input_unimplemented:point_servercommand.Command",
+   "input_unimplemented:prop_dynamic.DisableCollision",
+   "input_unimplemented:prop_dynamic.EnableCollision",
+   "player_input:addoutput classname x4",
+   "player_input:addoutput renderamt x1",
+   "player_input:addoutput rendercolor x1",
+   "player_input:addoutput renderfx x1",
+   "player_input:addoutput rendermode x1",
+   "player_input:addoutput targetname x29",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 93,
+  "sounds_unmapped": 9,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 12,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 24
+ },
+ "prop_fit": {
+  "rescaled": 519,
+  "fitted_in": 382,
+  "boxed": 61,
+  "fits": 4
+ }
+}

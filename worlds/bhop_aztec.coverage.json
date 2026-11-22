@@ -7,26 +7,14 @@
   "looked_up": 23,
   "drawn": 23,
   "by_tier": {
-   "addon": 10,
-   "default": 13
+   "addon": 21,
+   "default": 2
   },
   "free_by_tier": {
-   "addon": 12,
-   "default": 3,
-   "nearest": 8
+   "addon": 21,
+   "default": 2
   },
-  "nearest_photo": [
-   "de_aztec/stn01grm04_s1a",
-   "de_aztec/stn01mosscgrm03_s1",
-   "de_aztec/stonework01c",
-   "de_aztec/stonework01mossb",
-   "de_aztec/trim128b",
-   "dev/dev_measureswitch03",
-   "dev/reflectivity_70",
-   "dev/valuesand10",
-   "dev/valuesand30",
-   "nature/dirtwall001a"
-  ]
+  "nearest_photo": []
  },
  "models": {
   "looked_up": 0,
@@ -56,6 +44,13 @@
   "total": 1,
   "unresolved": 0
  },
+ "gameplay": {
+  "findings": {},
+  "severity": {},
+  "classes": {
+   "implemented": 13
+  }
+ },
  "lists": {
   "textures_unmapped": [],
   "textures_flat": [],
@@ -67,6 +62,7 @@
    "func_water.startposition"
   ],
   "links_unresolved": [],
+  "inputs_unimplemented": [],
   "surfaces_opaque": [],
   "gameplay_lost": []
  },
@@ -78,14 +74,9 @@
   "classes_unmapped": 0,
   "keys_unmapped": 2,
   "links_unresolved": 0,
+  "inputs_unimplemented": 0,
   "surfaces_opaque": 0,
   "gameplay_lost": 0
  },
- "gameplay": {
-  "findings": {},
-  "severity": {},
-  "classes": {
-   "implemented": 13
-  }
- }
+ "prop_fit": {}
 }

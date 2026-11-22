@@ -1,0 +1,121 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_fury_2",
+ "sha256": "b75d999b0a9798d727831bb4928144baa0af3c7b9cd869e6728cba0caf26c196",
+ "textures": {
+  "looked_up": 39,
+  "drawn": 39,
+  "by_tier": {
+   "addon": 22,
+   "default": 2,
+   "fallback": 15
+  },
+  "free_by_tier": {
+   "addon": 22,
+   "default": 17
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "sounds": {
+  "looked_up": 5,
+  "by_tier": {
+   "default": 3,
+   "fallback": 2
+  }
+ },
+ "classes": {
+  "distinct": 27,
+  "entities": 1453,
+  "by_tier": {
+   "default": 27
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 717,
+  "unresolved": 2
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1,
+   "filter_dangling": 3,
+   "player_input": 2,
+   "target_dangling": 2
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "player_input": "unsupported",
+   "target_dangling": "source"
+  },
+  "classes": {
+   "approximated": 1,
+   "ignored": 3,
+   "implemented": 23
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "EXPLORER2/GRUENHELL75",
+   "EXPLORER2/PFEIL",
+   "FURY2/MUSIC_RANDOM",
+   "FURY2/RESTART_MAP",
+   "FURY2/SKIP_LEVEL",
+   "LJ/240",
+   "LJ/245",
+   "LJ/250",
+   "LJ/255",
+   "LJ/260",
+   "LJ/265",
+   "LJ/270",
+   "LJ/NOTELE",
+   "LJ/PFEIL",
+   "RIVER/RIVER_FLAT_01"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [
+   "bot/good_one_sir.wav",
+   "d3_breen.core_breen_elev_beam"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [
+   "trigger_multiple.OnTrigger->fader1",
+   "trigger_multiple.OnTrigger->fader2"
+  ],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [
+   "lj/center",
+   "lj/left",
+   "lj/right",
+   "xc/lj"
+  ],
+  "gameplay_lost": [
+   "class_unsupported:point_viewcontrol (ignored)",
+   "player_input:addoutput targetname x688",
+   "player_input:setdamagefilter x1"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 15,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 2,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 2,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 4,
+  "gameplay_lost": 3
+ },
+ "prop_fit": {}
+}

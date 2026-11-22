@@ -1,0 +1,100 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "surf_stonework3",
+ "sha256": "e79ef328db86abcfa24a16d58049d93818ad71331bcb8eef41c6fb4474e5286d",
+ "textures": {
+  "looked_up": 16,
+  "drawn": 16,
+  "by_tier": {
+   "addon": 14,
+   "default": 2
+  },
+  "free_by_tier": {
+   "addon": 14,
+   "default": 2
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 20,
+  "by_tier": {
+   "category": 14,
+   "default": 1,
+   "fallback": 5
+  }
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "default": 1
+  }
+ },
+ "classes": {
+  "distinct": 18,
+  "entities": 1916,
+  "by_tier": {
+   "default": 18
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 4,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "input_unimplemented": 1,
+   "player_input": 1
+  },
+  "severity": {
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "implemented": 17
+  }
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [
+   "mrcow.mdl",
+   "stage3corner.mdl",
+   "stage6corner.mdl",
+   "stage7weave.mdl",
+   "thespectator/cow.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "point_servercommand.Command"
+  ],
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "input_unimplemented:point_servercommand.Command",
+   "player_input:setdamagefilter x2"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 5,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 1,
+  "surfaces_opaque": 0,
+  "gameplay_lost": 2
+ },
+ "prop_fit": {
+  "rescaled": 353,
+  "fitted_in": 353
+ }
+}
