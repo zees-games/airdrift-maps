@@ -5,17 +5,25 @@
  "sha256": "f737e7203766e273f29a2a61692c950a46d75af4488e31737aa0699d70c92ebd",
  "textures": {
   "looked_up": 52,
-  "drawn": 51,
+  "drawn": 60,
   "by_tier": {
    "addon": 42,
    "default": 4,
    "fallback": 6
   },
   "free_by_tier": {
-   "addon": 14,
+   "addon": 23,
    "default": 37
   },
-  "nearest_photo": []
+  "nearest_photo": [
+   "models/lanix/bushes/cross09",
+   "models/lanix/bushes/wood03",
+   "models/lanix/trees/wood03",
+   "models/props_foliage/arbrefallen01",
+   "models/props_foliage/driftwood_01a",
+   "models/www.gaming-models.de/couch/couch_diffuse",
+   "models/z-o-m-b-i-e/stalker/wood/wood_collect"
+  ]
  },
  "models": {
   "looked_up": 13,

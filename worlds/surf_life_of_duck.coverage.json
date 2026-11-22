@@ -5,16 +5,18 @@
  "sha256": "51d0b0d8c5a858e6ed3eddbb6c5a0bda499337e19256d1a1430f1591364ebe4e",
  "textures": {
   "looked_up": 25,
-  "drawn": 24,
+  "drawn": 25,
   "by_tier": {
    "addon": 23,
    "default": 2
   },
   "free_by_tier": {
-   "addon": 23,
+   "addon": 24,
    "default": 1
   },
-  "nearest_photo": []
+  "nearest_photo": [
+   "nature/water_coast01_beneath"
+  ]
  },
  "models": {
   "looked_up": 0,

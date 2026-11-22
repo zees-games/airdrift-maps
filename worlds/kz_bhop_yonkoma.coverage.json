@@ -5,14 +5,14 @@
  "sha256": "0ec14f0896b1a329d57c5da20c97d341357748eb2365f64576e38f2a1de04451",
  "textures": {
   "looked_up": 112,
-  "drawn": 109,
+  "drawn": 133,
   "by_tier": {
    "addon": 21,
    "default": 8,
    "fallback": 83
   },
   "free_by_tier": {
-   "addon": 20,
+   "addon": 43,
    "default": 89
   },
   "nearest_photo": []
@@ -172,7 +172,9 @@
    "STRAFE/YONKOMA/UNTITLED-2-RESIZE054",
    "STRAFE/YONKOMA/UNTITLED-2-RESIZE055"
   ],
-  "textures_flat": [],
+  "textures_flat": [
+   "models/player/hatsunemiku/black"
+  ],
   "models_unmapped": [
    "miku.mdl",
    "miku_v2/miku2.mdl"
@@ -243,7 +245,7 @@
  },
  "counts": {
   "textures_unmapped": 83,
-  "textures_flat": 0,
+  "textures_flat": 1,
   "models_unmapped": 2,
   "sounds_unmapped": 5,
   "classes_unmapped": 0,

@@ -5,16 +5,18 @@
  "sha256": "b0c24d79c29516e5dbd46eb14665190451853237e24c363fa556ba32be7b1e70",
  "textures": {
   "looked_up": 44,
-  "drawn": 44,
+  "drawn": 49,
   "by_tier": {
    "addon": 41,
    "default": 3
   },
   "free_by_tier": {
-   "addon": 40,
+   "addon": 45,
    "default": 4
   },
-  "nearest_photo": []
+  "nearest_photo": [
+   "models/props_xen/foliage/swamp_tree/bark"
+  ]
  },
  "models": {
   "looked_up": 28,

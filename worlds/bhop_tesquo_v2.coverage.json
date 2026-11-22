@@ -5,18 +5,29 @@
  "sha256": "fa60dedee8db4018d0b5b1ee049880b34a4433b6dfceade795e44f83c2d0996c",
  "textures": {
   "looked_up": 238,
-  "drawn": 238,
+  "drawn": 257,
   "by_tier": {
    "addon": 182,
    "default": 7,
    "fallback": 49
   },
   "free_by_tier": {
-   "addon": 181,
+   "addon": 200,
    "default": 57
   },
   "nearest_photo": [
+   "dev/dev_waterbeneath2",
    "george/blend_rock",
+   "models/fibbs/torch",
+   "models/fibbs/torchmount",
+   "models/george/tesquo/bluemet_b",
+   "models/george/tesquo/bluemet_d",
+   "models/george/tesquo/cr_miscwood2b",
+   "models/george/tesquo/nukroof01",
+   "models/george/tesquo/prodwndwa",
+   "models/george/tesquo/yellow_neon",
+   "models/trees/new_elm",
+   "models/trees/tree_leaves",
    "nature/blendcliffgrass001a"
   ]
  },

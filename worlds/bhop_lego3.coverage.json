@@ -5,17 +5,21 @@
  "sha256": "c0f777c18a340bfc4331cf67f69e404bea991d5513550e0032b257af5c27ec91",
  "textures": {
   "looked_up": 59,
-  "drawn": 58,
+  "drawn": 102,
   "by_tier": {
    "addon": 53,
    "default": 4,
    "fallback": 2
   },
   "free_by_tier": {
-   "addon": 53,
+   "addon": 97,
    "default": 5
   },
-  "nearest_photo": []
+  "nearest_photo": [
+   "models/antosha/fortony/grass",
+   "models/antosha/fortony/grass2_tony2",
+   "models/antosha/fortony/grass_tony"
+  ]
  },
  "models": {
   "looked_up": 28,

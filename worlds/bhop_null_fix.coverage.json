@@ -5,13 +5,13 @@
  "sha256": "509a1580994692517434fcf691000334a436aa5c7e84e7de5bec976da4dfe457",
  "textures": {
   "looked_up": 87,
-  "drawn": 87,
+  "drawn": 126,
   "by_tier": {
    "addon": 24,
    "fallback": 63
   },
   "free_by_tier": {
-   "addon": 23,
+   "addon": 61,
    "default": 64
   },
   "nearest_photo": []
@@ -135,7 +135,9 @@
    "NULLNUMBRS/LJS",
    "NULLNUMBRS/SPAWN"
   ],
-  "textures_flat": [],
+  "textures_flat": [
+   "models/player/hatsunemiku/black"
+  ],
   "models_unmapped": [
    "mapeadores/kaem/cloudfix/cloud.mdl"
   ],
@@ -188,7 +190,7 @@
  },
  "counts": {
   "textures_unmapped": 63,
-  "textures_flat": 0,
+  "textures_flat": 1,
   "models_unmapped": 1,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,

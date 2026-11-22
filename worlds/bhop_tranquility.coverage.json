@@ -5,18 +5,25 @@
  "sha256": "089fef229d38cd7357bc009340fe53118cfdc495cf869018af03a0e2677bfe44",
  "textures": {
   "looked_up": 324,
-  "drawn": 316,
+  "drawn": 373,
   "by_tier": {
    "addon": 300,
    "default": 23,
    "fallback": 1
   },
   "free_by_tier": {
-   "addon": 300,
+   "addon": 357,
    "default": 16
   },
   "nearest_photo": [
+   "adb-foliage-pack/bushes/hedge01_tex",
+   "adb-foliage-pack/bushes/leaves02_tex",
+   "adb-foliage-pack/bushes/wildbushes/leaves09_tex",
+   "adb-foliage-pack/trees/leaves04_tex",
    "de_piranesi/pi_bigbrkb",
+   "models/props/nallieheai/windowframe_window/ceiling01",
+   "models/props/nallieheai/windowframe_windowplaster/ceiling01",
+   "models/props/nallieheai/windowframe_woodblock/ceiling01",
    "nallieheai/blend/blend_grass_dirt",
    "nallieheai/blend/blend_metalfloor_dirt",
    "nature/blendrockdirt008d"

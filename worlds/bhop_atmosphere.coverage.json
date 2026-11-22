@@ -5,16 +5,18 @@
  "sha256": "45912ee31dbcfb280f00627bd4bfa55709dc6be6bda72d6eeb00a7c757fe71a1",
  "textures": {
   "looked_up": 28,
-  "drawn": 18,
+  "drawn": 44,
   "by_tier": {
    "addon": 14,
    "default": 14
   },
   "free_by_tier": {
-   "addon": 14,
+   "addon": 40,
    "default": 4
   },
-  "nearest_photo": []
+  "nearest_photo": [
+   "models/props/generated_prop/logowarning"
+  ]
  },
  "models": {
   "looked_up": 47,

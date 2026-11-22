@@ -1,0 +1,206 @@
+{
+ "format": "gs-bsp-mesh",
+ "licence": {
+  "model_stand_ins": [],
+  "models": [],
+  "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
+  "pbr_store": "../pbr-library",
+  "skipped_skybox_models": 0,
+  "sounds": [],
+  "textures": [
+   {
+    "area": 0.0,
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.75,
+     0.5,
+     0.25
+    ],
+    "fallback_file": "textures/fb_WoodFloor068.webp",
+    "file": "pbr/WoodFloor068",
+    "generic": "pbr_WoodFloor068",
+    "how": "library",
+    "key": "pbr:pbr_WoodFloor068",
+    "kind": "pbr",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "full_ramp_end_mat",
+     "half_ramp_end_flip_mat",
+     "half_ramp_end_mat"
+    ],
+    "surfaces": 3,
+    "tier": "1k",
+    "url": "https://ambientcg.com/view?id=WoodFloor068"
+   },
+   {
+    "area": 0.0,
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.25,
+     0.5,
+     0.75
+    ],
+    "fallback_file": "textures/fb_DiamondPlate005C.webp",
+    "file": "pbr/DiamondPlate005C",
+    "generic": "pbr_DiamondPlate005C",
+    "how": "library",
+    "key": "pbr:pbr_DiamondPlate005C",
+    "kind": "pbr",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "ramp_surf_side_mat"
+    ],
+    "surfaces": 1,
+    "tier": "1k",
+    "url": "https://ambientcg.com/view?id=DiamondPlate005C"
+   },
+   {
+    "area": 0.0,
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.5,
+     0.5,
+     0.625
+    ],
+    "fallback_file": "textures/fb_PavingStones109.webp",
+    "file": "pbr/PavingStones109",
+    "generic": "pbr_PavingStones109",
+    "how": "library",
+    "key": "pbr:pbr_PavingStones109",
+    "kind": "pbr",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "reflectivity"
+    ],
+    "surfaces": 1,
+    "tier": "1k",
+    "url": "https://ambientcg.com/view?id=PavingStones109"
+   },
+   {
+    "area": 0.0,
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.25,
+     0.5,
+     0.375
+    ],
+    "fallback_file": "textures/fb_PaintedMetal006.webp",
+    "file": "pbr/PaintedMetal006",
+    "generic": "pbr_PaintedMetal006",
+    "how": "library",
+    "key": "pbr:pbr_PaintedMetal006",
+    "kind": "pbr",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "side_rail_ramp_mat"
+    ],
+    "surfaces": 1,
+    "tier": "1k",
+    "url": "https://ambientcg.com/view?id=PaintedMetal006"
+   },
+   {
+    "area": 0.0,
+    "author": "Amal Kumar",
+    "colour": [
+     0.375,
+     0.375,
+     0.5
+    ],
+    "fallback_file": "textures/fb_granite_tile_04.webp",
+    "file": "pbr/granite_tile_04",
+    "generic": "pbr_granite_tile_04",
+    "how": "library",
+    "key": "pbr:pbr_granite_tile_04",
+    "kind": "pbr",
+    "licence": "CC0-1.0",
+    "source": "polyhaven",
+    "sources": [
+     "tileable_surf_dec_mat"
+    ],
+    "surfaces": 1,
+    "tier": "1k",
+    "url": "https://polyhaven.com/a/granite_tile_04"
+   }
+  ]
+ },
+ "name": "surf_hologram",
+ "notes": [
+  "Texture companion only: this map was imported from a CS2 source with no BSP, so the materials are mapped from the map's own palette (material name, then nearest colour) for the Nightly viewer. It has no world geometry; the playable map is maps/surf_hologram/surf_hologram.json."
+ ],
+ "surfaces": [
+  {
+   "colour": [
+    0.8,
+    0.5,
+    0.2
+   ],
+   "free": "pbr:pbr_WoodFloor068",
+   "material": "full_ramp_end_mat",
+   "translucent": false
+  },
+  {
+   "colour": [
+    0.8,
+    0.5,
+    0.2
+   ],
+   "free": "pbr:pbr_WoodFloor068",
+   "material": "half_ramp_end_flip_mat",
+   "translucent": false
+  },
+  {
+   "colour": [
+    0.8,
+    0.5,
+    0.2
+   ],
+   "free": "pbr:pbr_WoodFloor068",
+   "material": "half_ramp_end_mat",
+   "translucent": false
+  },
+  {
+   "colour": [
+    0.25,
+    0.45,
+    0.75
+   ],
+   "free": "pbr:pbr_DiamondPlate005C",
+   "material": "ramp_surf_side_mat",
+   "translucent": false
+  },
+  {
+   "colour": [
+    0.55,
+    0.55,
+    0.58
+   ],
+   "free": "pbr:pbr_PavingStones109",
+   "material": "reflectivity",
+   "translucent": false
+  },
+  {
+   "colour": [
+    0.2,
+    0.55,
+    0.4
+   ],
+   "free": "pbr:pbr_PaintedMetal006",
+   "material": "side_rail_ramp_mat",
+   "translucent": false
+  },
+  {
+   "colour": [
+    0.4,
+    0.42,
+    0.48
+   ],
+   "free": "pbr:pbr_granite_tile_04",
+   "material": "tileable_surf_dec_mat",
+   "translucent": false
+  }
+ ]
+}

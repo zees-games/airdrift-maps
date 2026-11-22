@@ -5,17 +5,19 @@
  "sha256": "02ce9a7f3716374cd79d62d0552d4170175d51073f0be90f010c07725cc70aac",
  "textures": {
   "looked_up": 173,
-  "drawn": 157,
+  "drawn": 176,
   "by_tier": {
    "addon": 120,
    "default": 34,
    "fallback": 19
   },
   "free_by_tier": {
-   "addon": 115,
+   "addon": 134,
    "default": 42
   },
   "nearest_photo": [
+   "customs/decals/pumpkin",
+   "models/jtwoods/woods_bush",
    "nature/blendgrassgravel002a"
   ]
  },

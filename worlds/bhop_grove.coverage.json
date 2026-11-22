@@ -5,16 +5,24 @@
  "sha256": "96a3f34b23920681bbe4f628d9f4b6358cfc58bac45959432132ea1a4d561a71",
  "textures": {
   "looked_up": 4,
-  "drawn": 4,
+  "drawn": 11,
   "by_tier": {
    "addon": 3,
    "fallback": 1
   },
   "free_by_tier": {
-   "addon": 3,
+   "addon": 10,
    "default": 1
   },
-  "nearest_photo": []
+  "nearest_photo": [
+   "models/cliffs/rocks02",
+   "models/props_foliage/ah_foliage_sheet001",
+   "props/pinetrees/bark_001",
+   "props/pinetrees/bark_01",
+   "props/pinetrees/pine_branches_01",
+   "props/pinetrees/pine_foliage_01",
+   "props/pinetrees/post_top_01"
+  ]
  },
  "models": {
   "looked_up": 15,

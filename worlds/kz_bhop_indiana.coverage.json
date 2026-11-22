@@ -5,17 +5,18 @@
  "sha256": "b0a8b55e0e3a86e2cfa97152b27a70e5f4461000c8b7367c420f443c7f5f65eb",
  "textures": {
   "looked_up": 99,
-  "drawn": 100,
+  "drawn": 107,
   "by_tier": {
    "addon": 66,
    "default": 13,
    "fallback": 20
   },
   "free_by_tier": {
-   "addon": 67,
+   "addon": 74,
    "default": 33
   },
   "nearest_photo": [
+   "models/props_wasteland/rockcliff_standin",
    "nature/blendcliffgrass001a",
    "nature/blendgrassgrass001a",
    "nature/blendgrassgrass001a_wvt_patch",

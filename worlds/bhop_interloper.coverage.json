@@ -5,18 +5,34 @@
  "sha256": "a14fcefa33fae5cccd445e6075c236b41f37c824e961a75755e63db6f65acfc9",
  "textures": {
   "looked_up": 41,
-  "drawn": 44,
+  "drawn": 78,
   "by_tier": {
    "addon": 24,
    "default": 7,
    "fallback": 10
   },
   "free_by_tier": {
-   "addon": 27,
+   "addon": 61,
    "default": 17
   },
   "nearest_photo": [
    "de_tides/blend_concrete_dirt",
+   "foliage/misc/wooden_bridge",
+   "foliage/rock01",
+   "foliage/rock03",
+   "foliage/rock04",
+   "foliage/rock04a",
+   "foliage/rock05",
+   "foliage/rock08",
+   "models/cliffs/rocks02",
+   "models/cliffs/rocks_vegetation",
+   "models/plantlife/fern/jn_hollyfern",
+   "models/plantlife/lillypads/jn_lilly_pad",
+   "models/props_foliage/leaf_ncweeping02de_de",
+   "models/props_foliage/tree_deciduous_01a_branches",
+   "models/props_foliage/tree_deciduous_01a_trunk",
+   "models/tony/trees_bark_a_02",
+   "models/z-o-m-b-i-e/stalker/trees/trees_bark_a_02",
    "tony/blend_concrete_dirt_shrooms",
    "tony/blend_concrete_dirt_shroomsg"
   ]

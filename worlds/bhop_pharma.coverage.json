@@ -5,18 +5,20 @@
  "sha256": "6826b5cd08fbcd01000e116baae12bec536bebf6591a0478f52aeac9515a36c5",
  "textures": {
   "looked_up": 49,
-  "drawn": 48,
+  "drawn": 73,
   "by_tier": {
    "addon": 33,
    "default": 9,
    "fallback": 7
   },
   "free_by_tier": {
-   "addon": 34,
+   "addon": 59,
    "default": 14
   },
   "nearest_photo": [
    "de_tides/blendgrassstonepath",
+   "models/props/pharma/pipe/reflectivity_20b",
+   "models/props/pharma/pipe/reflectivity_70b",
    "realworldtextures/grass/grass_cracks_blend"
   ]
  },

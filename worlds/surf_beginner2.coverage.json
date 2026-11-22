@@ -5,17 +5,19 @@
  "sha256": "af1501648925aa267842c71f4df77b8bdcd57720c74bae353bf23b9d1a7d6c33",
  "textures": {
   "looked_up": 41,
-  "drawn": 40,
+  "drawn": 41,
   "by_tier": {
    "addon": 18,
    "default": 6,
    "fallback": 17
   },
   "free_by_tier": {
-   "addon": 16,
+   "addon": 17,
    "default": 24
   },
-  "nearest_photo": []
+  "nearest_photo": [
+   "dev/dev_waterbeneath2"
+  ]
  },
  "models": {
   "looked_up": 9,

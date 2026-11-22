@@ -5,17 +5,30 @@
  "sha256": "3f14c0326aca22d561193877b3c362b3c3af6dbbf9b66dc5cfab9d539f257d96",
  "textures": {
   "looked_up": 81,
-  "drawn": 78,
+  "drawn": 188,
   "by_tier": {
    "addon": 50,
    "default": 20,
    "fallback": 11
   },
   "free_by_tier": {
-   "addon": 38,
+   "addon": 144,
    "default": 40
   },
   "nearest_photo": [
+   "models/bhop_overthinker/white_neon",
+   "models/bhop_overthinker/white_nop",
+   "proxychains/algetic_props/white_neon",
+   "proxychains/algetic_props/white_nop",
+   "proxychains/algetic_props/white_nop_low",
+   "proxychains/angst_props/ivy_difuse",
+   "proxychains/angst_props/makedem_tile00",
+   "proxychains/angst_props/strafe_tiles",
+   "proxychains/angst_props/white",
+   "proxychains/angst_props/white_neon",
+   "proxychains/angst_props/white_unlit",
+   "proxychains/angst_props/whiteglass",
+   "proxychains/angst_props/whiteglass_env",
    "proxychains/kz_bhop_algetic/reflective_blend_normal_rock"
   ]
  },
@@ -88,7 +101,12 @@
    "PROXYCHAINS/SJCONTEST/AFTERSHOCK",
    "PROXYCHAINS/SJCONTEST/EARTH"
   ],
-  "textures_flat": [],
+  "textures_flat": [
+   "models/proxychains/borderlands/black",
+   "proxychains/angst_props/black",
+   "proxychains/angst_props/blackhole_rings",
+   "proxychains/angst_props/blackhole_rings2"
+  ],
   "models_unmapped": [
    "props/bhop_overthinker/arrow.mdl",
    "props/bhop_overthinker/bhop1.mdl",
@@ -219,7 +237,7 @@
  },
  "counts": {
   "textures_unmapped": 11,
-  "textures_flat": 0,
+  "textures_flat": 4,
   "models_unmapped": 74,
   "sounds_unmapped": 6,
   "classes_unmapped": 0,

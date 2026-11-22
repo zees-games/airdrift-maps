@@ -5,16 +5,18 @@
  "sha256": "2db4a9a926f8199ec3e122af9fd6bf0bcdc1f48a34c9b011537bff55ab6451fa",
  "textures": {
   "looked_up": 17,
-  "drawn": 16,
+  "drawn": 17,
   "by_tier": {
    "addon": 15,
    "default": 2
   },
   "free_by_tier": {
-   "addon": 15,
+   "addon": 16,
    "default": 1
   },
-  "nearest_photo": []
+  "nearest_photo": [
+   "decals/italy_painting1"
+  ]
  },
  "models": {
   "looked_up": 3,

@@ -5,17 +5,23 @@
  "sha256": "c2b3bc1e5a3f2507df4b7aa6ed71af7c2ac38edb12c41939547d25268ec9613e",
  "textures": {
   "looked_up": 89,
-  "drawn": 89,
+  "drawn": 125,
   "by_tier": {
    "addon": 82,
    "default": 1,
    "fallback": 6
   },
   "free_by_tier": {
-   "addon": 78,
+   "addon": 114,
    "default": 11
   },
-  "nearest_photo": []
+  "nearest_photo": [
+   "models/crash bandicoot game/props/crates/c_crate",
+   "models/crash bandicoot game/props/crates/c_inside",
+   "models/crash bandicoot game/props/crates/crate",
+   "models/crash bandicoot game/props/crates/x_crate",
+   "models/crashbandicoot/tile1"
+  ]
  },
  "models": {
   "looked_up": 22,

@@ -5,13 +5,13 @@
  "sha256": "69fb3672fdc501cc34d78765b3ef51a2462a9851336d47de58737ea3d4feda27",
  "textures": {
   "looked_up": 23,
-  "drawn": 28,
+  "drawn": 67,
   "by_tier": {
    "addon": 14,
    "fallback": 9
   },
   "free_by_tier": {
-   "addon": 20,
+   "addon": 58,
    "default": 8
   },
   "nearest_photo": [
@@ -20,7 +20,45 @@
    "env/grassdirt2_blend",
    "env/grassdirt_blend",
    "env/grassstone_blend",
-   "invisible_but_really_invisible_for_real"
+   "invisible_but_really_invisible_for_real",
+   "models/bisquit/bisquit_a",
+   "models/bisquit/bisquit_b",
+   "models/candy/candy_bar_brown",
+   "models/candy/candy_bar_brown_nophong",
+   "models/candy/candy_bar_white",
+   "models/candy/candy_spiral_colora",
+   "models/candy/candy_spiral_colorb",
+   "models/candy/candy_spiral_colorb_nophong",
+   "models/candy/candy_spiral_colord_nophong",
+   "models/candy/candy_wrapped",
+   "models/candy_cane/candy_cane",
+   "models/chocolate/candy",
+   "models/chocolate/chocolate_river/chocolate_river",
+   "models/chocolate/waffle_side",
+   "models/chocolate/waffle_side_river",
+   "models/chocolate/waffle_top",
+   "models/collision_placeholder",
+   "models/cookie/cookie",
+   "models/donut/donut_a",
+   "models/donut/donut_b",
+   "models/foliage/grass",
+   "models/foliage/rock",
+   "models/foliage/tree_bark",
+   "models/foliage/tree_leaf",
+   "models/mine/carts/straight_10720/cart",
+   "models/mine/carts/straight_10720/cart_ramp",
+   "models/mine/rail",
+   "models/props/generated_prop/wood1",
+   "models/props/generated_prop/wood1_beam",
+   "models/ramps/other",
+   "models/ramps/other_none",
+   "models/ramps/side_edge",
+   "models/ramps/side_inside",
+   "models/signtest/edge",
+   "models/signtest/side",
+   "models/star/star",
+   "models/star/star_trails",
+   "models/waffle/waffle"
   ]
  },
  "models": {
@@ -75,7 +113,9 @@
    "KSF/KSF_BANNER_CLEAN",
    "SPECIAL_THANKS"
   ],
-  "textures_flat": [],
+  "textures_flat": [
+   "models/props/generated_prop/black"
+  ],
   "models_unmapped": [
    "candy/bisquit_3.mdl",
    "candy/bisquit_4.mdl",
@@ -127,7 +167,7 @@
  },
  "counts": {
   "textures_unmapped": 9,
-  "textures_flat": 0,
+  "textures_flat": 1,
   "models_unmapped": 35,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,

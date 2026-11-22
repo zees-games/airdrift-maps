@@ -5,16 +5,30 @@
  "sha256": "f6708a26082fe00f5fe6b1e751422baae06cf9de678b974cb525220d567c9bab",
  "textures": {
   "looked_up": 17,
-  "drawn": 17,
+  "drawn": 30,
   "by_tier": {
    "addon": 16,
    "default": 1
   },
   "free_by_tier": {
-   "addon": 16,
+   "addon": 29,
    "default": 1
   },
-  "nearest_photo": []
+  "nearest_photo": [
+   "models/stonework4/concretefloor016a",
+   "models/stonework4/dark_stone",
+   "models/stonework4/dark_stone2",
+   "models/stonework4/floor_mosaictiles",
+   "models/stonework4/infwllfedge",
+   "models/stonework4/roofa",
+   "models/stonework4/stone_brick",
+   "models/stonework4/stone_brick_dark",
+   "models/stonework4/stone_brick_nobmp",
+   "models/stonework4/stone_brick_wall",
+   "models/stonework4/stonewall020c",
+   "models/stonework4/tides_brick_wall_g",
+   "models/stonework4/tileroof01"
+  ]
  },
  "models": {
   "looked_up": 80,

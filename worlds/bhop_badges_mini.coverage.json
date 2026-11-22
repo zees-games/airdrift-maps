@@ -5,16 +5,18 @@
  "sha256": "7ff0dc64b3f0e71a8701ae59f810845151e31751c20379d3ec21defdea8b0305",
  "textures": {
   "looked_up": 19,
-  "drawn": 19,
+  "drawn": 66,
   "by_tier": {
    "addon": 17,
    "default": 2
   },
   "free_by_tier": {
-   "addon": 17,
+   "addon": 63,
    "default": 2
   },
-  "nearest_photo": []
+  "nearest_photo": [
+   "models/player/slow/jamis/mkvsdcu/catwoman/slow_catwoman_metal"
+  ]
  },
  "models": {
   "looked_up": 3,
@@ -66,7 +68,9 @@
  },
  "lists": {
   "textures_unmapped": [],
-  "textures_flat": [],
+  "textures_flat": [
+   "models/player/gw0a0/glados/black"
+  ],
   "models_unmapped": [
    "mortarsynth.mdl"
   ],
@@ -89,7 +93,7 @@
  },
  "counts": {
   "textures_unmapped": 0,
-  "textures_flat": 0,
+  "textures_flat": 1,
   "models_unmapped": 1,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,

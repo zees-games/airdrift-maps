@@ -5,15 +5,23 @@
  "sha256": "5b6447667b050c8b8780bc667cb8a4c65f73f43d6d9aa3d7105eb755f805a30e",
  "textures": {
   "looked_up": 32,
-  "drawn": 31,
+  "drawn": 38,
   "by_tier": {
    "addon": 31,
    "default": 1
   },
   "free_by_tier": {
-   "addon": 31
+   "addon": 38
   },
-  "nearest_photo": []
+  "nearest_photo": [
+   "decals/arrow",
+   "models/props/generated_prop/oldstone10",
+   "models/props/generated_prop/oldstone1_fullbright",
+   "models/props/generated_prop/oldstone2_2",
+   "models/props/generated_prop/oldstone4",
+   "models/props/generated_prop/oldstone5",
+   "models/props/generated_prop/oldstone8_fullbright"
+  ]
  },
  "models": {
   "looked_up": 10,

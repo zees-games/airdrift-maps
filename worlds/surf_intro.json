@@ -1,0 +1,151 @@
+{
+ "format": "gs-bsp-mesh",
+ "licence": {
+  "model_stand_ins": [],
+  "models": [],
+  "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
+  "pbr_store": "../pbr-library",
+  "skipped_skybox_models": 0,
+  "sounds": [],
+  "textures": [
+   {
+    "area": 0.0,
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.5,
+     0.5,
+     0.5
+    ],
+    "fallback_file": "textures/fb_Concrete007.webp",
+    "file": "pbr/Concrete007",
+    "generic": "pbr_Concrete007",
+    "how": "library",
+    "key": "pbr:pbr_Concrete007",
+    "kind": "pbr",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "hr_concrete_wall_painted_002_grey"
+    ],
+    "surfaces": 1,
+    "tier": "1k",
+    "url": "https://ambientcg.com/view?id=Concrete007"
+   },
+   {
+    "area": 0.0,
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.25,
+     0.25,
+     0.25
+    ],
+    "fallback_file": "textures/fb_Concrete043A.webp",
+    "file": "pbr/Concrete043A",
+    "generic": "pbr_Concrete043A",
+    "how": "library",
+    "key": "pbr:pbr_Concrete043A",
+    "kind": "pbr",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "hr_concrete_wall_painted_002_grey_dark"
+    ],
+    "surfaces": 1,
+    "tier": "1k",
+    "url": "https://ambientcg.com/view?id=Concrete043A"
+   },
+   {
+    "area": 0.0,
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.5,
+     0.5,
+     0.5
+    ],
+    "fallback_file": "textures/fb_Metal039.webp",
+    "file": "pbr/Metal039",
+    "generic": "pbr_Metal039",
+    "how": "library",
+    "key": "pbr:pbr_Metal039",
+    "kind": "pbr",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "meshset"
+    ],
+    "surfaces": 1,
+    "tier": "1k",
+    "url": "https://ambientcg.com/view?id=Metal039"
+   },
+   {
+    "area": 0.0,
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.875,
+     0.5,
+     0.125
+    ],
+    "fallback_file": "textures/fb_DiamondPlate006B.webp",
+    "file": "pbr/DiamondPlate006B",
+    "generic": "pbr_DiamondPlate006B",
+    "how": "library",
+    "key": "pbr:pbr_DiamondPlate006B",
+    "kind": "pbr",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "orange_blend"
+    ],
+    "surfaces": 1,
+    "tier": "1k",
+    "url": "https://ambientcg.com/view?id=DiamondPlate006B"
+   }
+  ]
+ },
+ "name": "surf_intro",
+ "notes": [
+  "Texture companion only: this map was imported from a CS2 source with no BSP, so the materials are mapped from the map's own palette (material name, then nearest colour) for the Nightly viewer. It has no world geometry; the playable map is maps/surf_intro/surf_intro.json."
+ ],
+ "surfaces": [
+  {
+   "colour": [
+    0.46,
+    0.47,
+    0.5
+   ],
+   "free": "pbr:pbr_Concrete007",
+   "material": "hr_concrete_wall_painted_002_grey",
+   "translucent": false
+  },
+  {
+   "colour": [
+    0.26,
+    0.27,
+    0.3
+   ],
+   "free": "pbr:pbr_Concrete043A",
+   "material": "hr_concrete_wall_painted_002_grey_dark",
+   "translucent": false
+  },
+  {
+   "colour": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "free": "pbr:pbr_Metal039",
+   "material": "meshset",
+   "translucent": false
+  },
+  {
+   "colour": [
+    0.85,
+    0.45,
+    0.15
+   ],
+   "free": "pbr:pbr_DiamondPlate006B",
+   "material": "orange_blend",
+   "translucent": false
+  }
+ ]
+}

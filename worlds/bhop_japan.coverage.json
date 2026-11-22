@@ -5,17 +5,36 @@
  "sha256": "ddbbe596a94e86ad4df7fa4a71e4b5654950888d33492664798e424582f694cf",
  "textures": {
   "looked_up": 64,
-  "drawn": 66,
+  "drawn": 165,
   "by_tier": {
    "addon": 59,
    "default": 3,
    "fallback": 2
   },
   "free_by_tier": {
-   "addon": 60,
+   "addon": 159,
    "default": 6
   },
   "nearest_photo": [
+   "models/props_asian/gardentree_leaf",
+   "models/props_asian/stone_longchair",
+   "models/props_nature/bamboo_bark",
+   "models/props_nature/bamboo_leaf",
+   "models/props_nature/bamboo_leaves1",
+   "models/props_nature/bark_01",
+   "models/props_nature/bark_03",
+   "models/props_nature/leaves_01",
+   "models/props_nature/leaves_01c",
+   "models/props_nature/leaves_02a",
+   "models/props_wasteland/rockcliff_standin",
+   "models/temple/bt_roof",
+   "models/temple/bt_stone",
+   "models/temple/tt_tiles",
+   "models/tony/china_wall_tile",
+   "models/tony/ot_cliff05a",
+   "models/tony/pi_wood1",
+   "models/tony/wallpaper_26",
+   "models/z-o-m-b-i-e/stalker/trees/trees_bark_a_02",
    "tony/blendrockdirt008c_detail",
    "tony/blendrockgrass_detail"
   ]

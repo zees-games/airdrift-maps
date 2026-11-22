@@ -5,18 +5,33 @@
  "sha256": "3e346855e6a7932262028d546bf6501293224ec1fbce54e54bd5a2624da4a575",
  "textures": {
   "looked_up": 125,
-  "drawn": 127,
+  "drawn": 170,
   "by_tier": {
    "addon": 108,
    "default": 16,
    "fallback": 1
   },
   "free_by_tier": {
-   "addon": 109,
+   "addon": 152,
    "default": 18
   },
   "nearest_photo": [
    "ballzofsteel/nature/blendgrassdirt02_a",
+   "models/ballzofsteel/bhop_depot/support_beams/beam1/concretefloor015a",
+   "models/ballzofsteel/bhop_depot/support_beams/beam2/concretefloor015a",
+   "models/ballzofsteel/bhop_depot/support_beams/beam3/concretefloor015a",
+   "models/ballzofsteel/bhop_depot/support_beams/beam4/concretefloor015a",
+   "models/ballzofsteel/bhop_depot/support_beams/beam5/concretefloor015a",
+   "models/ballzofsteel/bhop_depot/support_beams/beam6/concretefloor015a",
+   "models/ballzofsteel/bhop_depot/support_beams/beam7/concretefloor015a",
+   "models/ballzofsteel/bhop_depot/support_beams/beam8/concretefloor015a",
+   "models/ballzofsteel/pallets/pallet_biga/woodbeam002a",
+   "models/ballzofsteel/pallets/pallet_smalla/woodbeam002a",
+   "models/ballzofsteel/wood/wood_support1/tides_floor_wood",
+   "models/props_foliage/arbre01",
+   "models/props_foliage/forestrock_cluster01",
+   "models/props_foliage/tree_pine_cards_01",
+   "models/props_foliage/vines01",
    "nature/blend_grass_gravel_01"
   ]
  },

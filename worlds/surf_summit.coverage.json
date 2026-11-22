@@ -5,14 +5,14 @@
  "sha256": "807f13aed0628b9b5ef55d7ba684e17d558bef5da29339cacf2238af2c58edc4",
  "textures": {
   "looked_up": 37,
-  "drawn": 41,
+  "drawn": 82,
   "by_tier": {
    "addon": 28,
    "default": 8,
    "fallback": 1
   },
   "free_by_tier": {
-   "addon": 34,
+   "addon": 74,
    "default": 7
   },
   "nearest_photo": [
@@ -22,7 +22,31 @@
    "castle/blend_grass_rock03",
    "castle/blend_grass_rock04",
    "castle/blend_grass_rock05",
-   "castle/blend_grass_rock06"
+   "castle/blend_grass_rock06",
+   "foliage/rock01",
+   "foliage/rock03",
+   "foliage/rock05",
+   "foliage/rock08",
+   "models/foliage/leaves01_green",
+   "models/foliage/leaves01_orange",
+   "models/foliage/leaves01_red",
+   "models/foliage/leaves01b_green",
+   "models/foliage/leaves01b_orange",
+   "models/foliage/leaves01b_red",
+   "models/foliage/tree01_diffuse",
+   "models/foliage/tree03_diffuse",
+   "models/foliage/tree10_diffuse",
+   "models/foliage/tree11_diffuse",
+   "models/foliage/tree23",
+   "models/plantlife/mushroom/jn_blue_mushroom",
+   "models/props_foliage/arbre01",
+   "propper/summit/brick03",
+   "propper/summit/brickj",
+   "propper/surf_summit/brick03",
+   "propper/surf_summit/cobble02",
+   "propper/surf_summit/concretefloor009a",
+   "propper/surf_summit/concretewall001a",
+   "propper/surf_summit/stonefloor01"
   ]
  },
  "models": {
@@ -72,7 +96,9 @@
   "textures_unmapped": [
    "SURF_SUMMIT/CREDITS1"
   ],
-  "textures_flat": [],
+  "textures_flat": [
+   "propper/surf_summit/black"
+  ],
   "models_unmapped": [
    "fragmodels/gnubbel.mdl",
    "fragmodels/gnubbel2.mdl",
@@ -116,7 +142,7 @@
  },
  "counts": {
   "textures_unmapped": 1,
-  "textures_flat": 0,
+  "textures_flat": 1,
   "models_unmapped": 24,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,

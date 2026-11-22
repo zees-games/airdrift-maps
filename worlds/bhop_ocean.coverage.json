@@ -5,16 +5,29 @@
  "sha256": "59065d4000816fb8dfc4d54a0c24ef71e5398e1736cbd3dda8473a3800600462",
  "textures": {
   "looked_up": 15,
-  "drawn": 14,
+  "drawn": 30,
   "by_tier": {
    "addon": 12,
    "default": 3
   },
   "free_by_tier": {
-   "addon": 10,
+   "addon": 26,
    "default": 4
   },
-  "nearest_photo": []
+  "nearest_photo": [
+   "foliage/rock04",
+   "foliage/rock04a",
+   "gm_forest/brg_alder_brk",
+   "gm_forest/brg_alder_brk2",
+   "gm_forest/brg_berk_brk",
+   "gm_forest/brg_berk_brk2",
+   "models/cliffs/rocks02",
+   "models/cliffs/rocks_vegetation",
+   "models/props_mining/stalactite_rock02",
+   "models/props_wasteland/rockcliff02c",
+   "models/z-o-m-b-i-e/stalker/wood/wood_fence_01",
+   "rockcliff02a"
+  ]
  },
  "models": {
   "looked_up": 23,

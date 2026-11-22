@@ -5,23 +5,31 @@
  "sha256": "da386b9e31ce569ac3a0abe9a9f412063be2bdb31fc594e50035c676e2c2934a",
  "textures": {
   "looked_up": 217,
-  "drawn": 164,
+  "drawn": 235,
   "by_tier": {
    "addon": 141,
    "default": 71,
    "fallback": 5
   },
   "free_by_tier": {
-   "addon": 144,
+   "addon": 215,
    "default": 20
   },
   "nearest_photo": [
+   "concrete/standin_block",
+   "de_chateau/rockf",
    "de_chateau/rockf_blend",
    "de_dust/groundsand_blend",
    "de_nuke/nukblenddirtgrass",
    "de_train/blendgrassdirt001a",
+   "decals/decal_crater001a",
+   "decals/monsterjam/palm_leaves",
+   "decals/monsterjam/rocky_bullwinkle",
+   "decals/monsterjam/wall_of_oppression",
    "ground/blendsnow_tracks",
    "icecreamlock/iceorange",
+   "metal/standin_payphone",
+   "models/props_wasteland/rockcliff_standin",
    "nature/blenddirtdirt001a",
    "nature/blenddirtgrass006a",
    "nature/blendgrassgrass001a",

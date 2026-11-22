@@ -5,17 +5,23 @@
  "sha256": "78be543240f9fe02aa44f79d0cafdbac87350cd786ee5e4a8e1a6be1e73ab7f2",
  "textures": {
   "looked_up": 40,
-  "drawn": 37,
+  "drawn": 67,
   "by_tier": {
    "addon": 19,
    "default": 16,
    "fallback": 5
   },
   "free_by_tier": {
-   "addon": 18,
+   "addon": 48,
    "default": 19
   },
   "nearest_photo": [
+   "models/bhop_overthinker/white_neon",
+   "models/bhop_overthinker/white_nop",
+   "models/bhop_overthinker/whiteglass",
+   "proxychains/algetic_props/white_neon",
+   "proxychains/algetic_props/white_nop",
+   "proxychains/algetic_props/white_nop_low",
    "proxychains/kz_bhop_algetic/reflective_blend_normal_rock"
   ]
  },

@@ -5,20 +5,33 @@
  "sha256": "30d690984cdd011aa338141804f583f979da24a042e385ebb759ddb7dd1516dc",
  "textures": {
   "looked_up": 201,
-  "drawn": 201,
+  "drawn": 263,
   "by_tier": {
    "addon": 175,
    "default": 17,
    "fallback": 9
   },
   "free_by_tier": {
-   "addon": 171,
+   "addon": 233,
    "default": 30
   },
   "nearest_photo": [
    "bioshock/arcadia/grass",
+   "concrete/standin_block",
+   "gm_forest/3dm_rockbig_001",
+   "granitecolor_dif",
    "kz_shrubhop/shrbhp_blend_grassdirtwall001a",
-   "perftest/blendrockdirt001a"
+   "models/bioshock/arcadia/vine5_leaves_diffuse",
+   "models/bioshock/arcadia/vine_leaves_diffuse",
+   "models/bioshock/concrete_barrier_diffuse",
+   "models/bioshock/granitecolor_dif",
+   "models/bioshock/marblefloor001b",
+   "models/bioshock/stonewall050a",
+   "models/bioshock/stonewall050e",
+   "models/bioshock/wall_props/hanginglamp_dif",
+   "models/props_wasteland/rockcliff_standin",
+   "perftest/blendrockdirt001a",
+   "wood/standin_piling"
   ]
  },
  "models": {

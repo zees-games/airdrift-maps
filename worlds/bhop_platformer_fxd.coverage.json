@@ -1,0 +1,191 @@
+{
+ "format": "gs-bsp-coverage",
+ "version": 1,
+ "map": "bhop_mario_fxd",
+ "sha256": "88ab5f6904545346cbccbc0f2882df0982b762834f0eabb183a691a00abf716b",
+ "textures": {
+  "looked_up": 94,
+  "drawn": 94,
+  "by_tier": {
+   "addon": 30,
+   "default": 32,
+   "fallback": 32
+  },
+  "free_by_tier": {
+   "addon": 78,
+   "default": 16
+  },
+  "nearest_photo": [
+   "brick/brickfloor001a",
+   "dev/dev_measuregeneric07",
+   "dev/dev_measuregeneric23",
+   "dev/dev_measuregeneric26",
+   "dev/dev_measuregeneric36",
+   "dev/dev_measuregeneric42",
+   "dev/dev_measuregeneric43",
+   "ground/blendsnow_asphault_wvt_patch",
+   "ground/blendsnow_conc_wvt_patch",
+   "less/metalfloor6",
+   "less/metalfloor7",
+   "mario/aim3",
+   "mario/basta",
+   "mario/byp",
+   "mario/col1",
+   "mario/nitwish",
+   "mario/testers",
+   "reacz/portal/dark/thick_framed/wall_black_huge2",
+   "reacz/portal/dark/thick_framed/wall_black_medium_thin2",
+   "reacz/portal/dark/thick_framed/wall_black_small2",
+   "reacz/portal/dark/thick_framed/wall_black_thin2",
+   "reacz/portal/dark/thin_framed/bulged/large_bulged",
+   "reacz/portal/dark/thin_framed/clean/large_clean",
+   "reacz/portal/dark/thin_framed/textured/medium_textured",
+   "rf/blackchecker",
+   "sprites/combineball_trail_red_1",
+   "thw_mario/block1",
+   "thw_mario/block2",
+   "thw_mario/blue",
+   "thw_mario/brick1",
+   "thw_mario/brick2",
+   "thw_mario/bushdisplacement",
+   "thw_mario/flagpole",
+   "thw_mario/floor1",
+   "thw_mario/floor2",
+   "thw_mario/graybrick",
+   "thw_mario/lava",
+   "thw_mario/pipecolor",
+   "thw_mario/shroom",
+   "thw_mario/whatblock",
+   "z3phyr/carpet2",
+   "z3phyr/metal1",
+   "z3phyr/upperwall02",
+   "z3phyr/upperwall03",
+   "z3phyr/wood4",
+   "z3phyr/wood5",
+   "z3phyr/wood7",
+   "zombiepack/zombie18"
+  ]
+ },
+ "models": {
+  "looked_up": 6,
+  "by_tier": {
+   "default": 6
+  }
+ },
+ "sounds": {
+  "looked_up": 3,
+  "by_tier": {
+   "default": 3
+  }
+ },
+ "classes": {
+  "distinct": 26,
+  "entities": 863,
+  "by_tier": {
+   "default": 26
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "game_player_equip": [
+    "ammo",
+    "weapon_knife",
+    "weapon_usp"
+   ],
+   "weapon_deagle": [
+    "ammo"
+   ]
+  }
+ },
+ "links": {
+  "total": 525,
+  "unresolved": 0
+ },
+ "gameplay": {
+  "findings": {
+   "filter_dangling": 1,
+   "player_input": 1
+  },
+  "severity": {
+   "filter_dangling": "source",
+   "player_input": "unsupported"
+  },
+  "classes": {
+   "approximated": 1,
+   "implemented": 24
+  }
+ },
+ "lists": {
+  "textures_unmapped": [
+   "MARIO/AIM3",
+   "MARIO/BASTA",
+   "MARIO/BYP",
+   "MARIO/COL1",
+   "MARIO/NITWISH",
+   "MARIO/TESTERS",
+   "REACZ/PORTAL/DARK/THICK_FRAMED/WALL_BLACK_HUGE2",
+   "REACZ/PORTAL/DARK/THICK_FRAMED/WALL_BLACK_MEDIUM_THIN2",
+   "REACZ/PORTAL/DARK/THICK_FRAMED/WALL_BLACK_SMALL2",
+   "REACZ/PORTAL/DARK/THICK_FRAMED/WALL_BLACK_THIN2",
+   "REACZ/PORTAL/DARK/THIN_FRAMED/BULGED/LARGE_BULGED",
+   "REACZ/PORTAL/DARK/THIN_FRAMED/CLEAN/LARGE_CLEAN",
+   "REACZ/PORTAL/DARK/THIN_FRAMED/TEXTURED/MEDIUM_TEXTURED",
+   "REACZ/PORTAL/LIGHT/TEXTURED/WHITE/SMALL_TEXTURED",
+   "RF/BLACKCHECKER",
+   "THW_MARIO/BLOCK1",
+   "THW_MARIO/BLOCK2",
+   "THW_MARIO/BLUE",
+   "THW_MARIO/BOWSER",
+   "THW_MARIO/FLAGPOLE",
+   "THW_MARIO/FLOOR1",
+   "THW_MARIO/FLOOR2",
+   "THW_MARIO/FLOWER",
+   "THW_MARIO/GATE",
+   "THW_MARIO/LAVA",
+   "THW_MARIO/LEAFLADDER",
+   "THW_MARIO/PIPECOLOR",
+   "THW_MARIO/SHROOM",
+   "THW_MARIO/WHATBLOCK",
+   "Z3PHYR/UPPERWALL02",
+   "Z3PHYR/UPPERWALL03",
+   "ZOMBIEPACK/ZOMBIE18"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "game_player_equip.ammo",
+   "game_player_equip.weapon_knife",
+   "game_player_equip.weapon_usp",
+   "weapon_deagle.ammo"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [
+   "de_chateau/curtain01a"
+  ],
+  "gameplay_lost": [
+   "player_input:addoutput targetname x514"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 32,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 4,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 1,
+  "gameplay_lost": 1
+ },
+ "prop_fit": {
+  "rescaled": 14,
+  "fits": 14,
+  "boxed": 6,
+  "unmeasured": 14
+ }
+}

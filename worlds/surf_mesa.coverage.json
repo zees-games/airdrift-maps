@@ -5,19 +5,26 @@
  "sha256": "7328e453b2aaaf3c116e1bfb4d842ac3f09e6ce282a977b63fe4f0539e995d93",
  "textures": {
   "looked_up": 21,
-  "drawn": 16,
+  "drawn": 36,
   "by_tier": {
    "addon": 12,
    "default": 9
   },
   "free_by_tier": {
-   "addon": 14,
+   "addon": 34,
    "default": 2
   },
   "nearest_photo": [
+   "common/nature/trees_bark",
    "gm_construct/blend_rockrock",
    "gm_construct/blend_sandgrass",
-   "gm_construct/blend_sandrock"
+   "gm_construct/blend_sandrock",
+   "models/props/de_nuke/light_wall",
+   "models/props_mining/stalactite_rock02",
+   "models/props_nature/rock01_sg",
+   "models/props_wasteland/rockcliff02a",
+   "models/props_wasteland/rockcliff02c",
+   "models/props_wasteland/rockcliff_standin"
   ]
  },
  "models": {

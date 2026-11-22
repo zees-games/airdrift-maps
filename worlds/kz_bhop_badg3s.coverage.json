@@ -5,17 +5,20 @@
  "sha256": "3c95277c79e56f625d219125c8fbc8f10057a9afe9280ff2c614f9f2bd4e78c5",
  "textures": {
   "looked_up": 61,
-  "drawn": 60,
+  "drawn": 73,
   "by_tier": {
    "addon": 38,
    "default": 3,
    "fallback": 20
   },
   "free_by_tier": {
-   "addon": 38,
+   "addon": 51,
    "default": 22
   },
-  "nearest_photo": []
+  "nearest_photo": [
+   "models/pg_props/pg_gate_ii/pg_lab_cabinet_01",
+   "models/pg_props/pg_gate_ii/pg_lab_cabinet_01_skin2"
+  ]
  },
  "models": {
   "looked_up": 18,

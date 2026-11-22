@@ -5,19 +5,20 @@
  "sha256": "2900ea5e9657e6704ed23c135cb21562949c06ad78962b171b61a203c55bc97f",
  "textures": {
   "looked_up": 79,
-  "drawn": 73,
+  "drawn": 82,
   "by_tier": {
    "addon": 64,
    "default": 13,
    "fallback": 2
   },
   "free_by_tier": {
-   "addon": 65,
+   "addon": 74,
    "default": 8
   },
   "nearest_photo": [
    "nature/blendmilground004_rock2",
-   "nature/blendmilground004_rock2b"
+   "nature/blendmilground004_rock2b",
+   "wood/standin_piling"
   ]
  },
  "models": {

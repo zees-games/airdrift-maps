@@ -5,17 +5,18 @@
  "sha256": "a742331f1164bd0b96da0eb907e69f16535215313dea59599fb12f52e4ddeaa6",
  "textures": {
   "looked_up": 97,
-  "drawn": 99,
+  "drawn": 100,
   "by_tier": {
    "addon": 93,
    "default": 2,
    "fallback": 2
   },
   "free_by_tier": {
-   "addon": 95,
+   "addon": 96,
    "default": 4
   },
   "nearest_photo": [
+   "models/props_wasteland/rockcliff_standin",
    "nature/blenddirtdirt001a",
    "nature/blendmilrock001_ground002",
    "nature/blendrockdirt006a",

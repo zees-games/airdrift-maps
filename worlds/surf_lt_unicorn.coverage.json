@@ -5,17 +5,19 @@
  "sha256": "daab4c1834999e362e02dc2c8af40aa719aa555aaa2e1c65af0ce7070521b240",
  "textures": {
   "looked_up": 60,
-  "drawn": 60,
+  "drawn": 166,
   "by_tier": {
    "addon": 57,
    "default": 2,
    "fallback": 1
   },
   "free_by_tier": {
-   "addon": 40,
+   "addon": 146,
    "default": 20
   },
   "nearest_photo": [
+   "models/props/surf_lt_unicorn/rockgranite02a",
+   "models/props/surf_lt_unicorn/woodfloor008a",
    "surf_lt_unicorn/blendgrassrock",
    "surf_lt_unicorn/blendrockrock_dark"
   ]

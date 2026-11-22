@@ -5,16 +5,35 @@
  "sha256": "ca34b97a98caa6789b4d656c4366e73b214fc95cb9eeb455ba70ecda6dea4fe6",
  "textures": {
   "looked_up": 17,
-  "drawn": 17,
+  "drawn": 35,
   "by_tier": {
    "addon": 15,
    "default": 2
   },
   "free_by_tier": {
-   "addon": 15,
+   "addon": 33,
    "default": 2
   },
-  "nearest_photo": []
+  "nearest_photo": [
+   "models/bhop_sqee/echelle/texture_grise",
+   "models/bhop_sqee/echelle/texture_orange",
+   "models/bhop_sqee/echelle/texture_rouge1",
+   "models/bhop_sqee/echelle/texture_rouge10",
+   "models/bhop_sqee/echelle/texture_rouge2",
+   "models/bhop_sqee/echelle/texture_rouge3",
+   "models/bhop_sqee/echelle/texture_rouge4",
+   "models/bhop_sqee/echelle/texture_rouge5",
+   "models/bhop_sqee/echelle/texture_rouge6",
+   "models/bhop_sqee/echelle/texture_rouge7",
+   "models/bhop_sqee/echelle/texture_rouge8",
+   "models/bhop_sqee/echelle/texture_rouge9",
+   "models/bhop_sqee/fin/texture_grise",
+   "models/bhop_sqee/lvl1/texture_grise",
+   "models/bhop_sqee/lvl10/texture_grise",
+   "models/bhop_sqee/lvl2/texture_grise",
+   "models/bhop_sqee/lvl4_cercle/texture_orange",
+   "models/bhop_sqee/lvl8/texture_grise"
+  ]
  },
  "models": {
   "looked_up": 7,

@@ -5,19 +5,44 @@
  "sha256": "3167e12be2cd3866b18765329192ab21708e189c76bdb6f8352fe00984bdd527",
  "textures": {
   "looked_up": 19,
-  "drawn": 18,
+  "drawn": 43,
   "by_tier": {
    "addon": 12,
    "default": 3,
    "fallback": 4
   },
   "free_by_tier": {
-   "addon": 13,
+   "addon": 38,
    "default": 5
   },
   "nearest_photo": [
+   "anubis/models/foliage/ivy01",
    "collablol/rock_pur_blend ",
-   "collablol/rock_pur_blendnorefract"
+   "collablol/rock_pur_blendnorefract",
+   "liroy_textures/coral_sonika_01",
+   "models/antosha/bihop/color",
+   "models/antosha/bihop/obvodka",
+   "models/esther/lostbeach/detail_01",
+   "models/props/shari1/pink_neon",
+   "models/props/shari2/pink_neon",
+   "models/props/shari3/pink_neon",
+   "models/props/shari4/pink_neon",
+   "models/props/shari5/pink_neon",
+   "models/props/shari6/pink_neon",
+   "models/props/shari7/pink_neon",
+   "models/props/shari8/pink_neon",
+   "models/props/shari9/pink_neon",
+   "models/props_xen/crystals/xen_teleport_crystal_medium_b",
+   "models/props_xen/floatingislands/asteroids_set01",
+   "models/props_xen/floatingislands/floatingisland_set01",
+   "models/props_xen/xenrock",
+   "models/soniamodels/crystal_caverns_crystal_group_a_mat_a",
+   "models/soniamodels/crystal_caverns_crystal_group_a_mat_b",
+   "models/soniamodels/generic_plant_shelldouble_01",
+   "models/soniamodels/generic_plant_shellsingle_01",
+   "models/soniamodels/land_plant_middle_04",
+   "models/soniamodels/land_plant_middle_04_alpha",
+   "water/water_pur_beneath"
   ]
  },
  "models": {

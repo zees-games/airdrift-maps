@@ -5,17 +5,31 @@
  "sha256": "72f734de16ad7b34bbba65e56cb8460e440ab6a798410fa82825646eb7164c46",
  "textures": {
   "looked_up": 106,
-  "drawn": 103,
+  "drawn": 164,
   "by_tier": {
    "addon": 91,
    "default": 10,
    "fallback": 5
   },
   "free_by_tier": {
-   "addon": 87,
+   "addon": 148,
    "default": 16
   },
   "nearest_photo": [
+   "concrete/standin_block",
+   "decals/ivy03",
+   "models/msc/e_leaves",
+   "models/props_foliage/mall_trees_branches01",
+   "models/props_foliage/mall_trees_branches02",
+   "models/props_foliage/mall_trees_branches03",
+   "models/props_foliage/ped_tree01_leaves_autumn02",
+   "models/z-o-m-b-i-e/metro_2033/metal/metal_d5",
+   "models/z-o-m-b-i-e/metro_2033/metal/metal_rod",
+   "models/z-o-m-b-i-e/metro_2033/metal/metal_truba3",
+   "models/z-o-m-b-i-e/metro_2033/metal/metal_truba8",
+   "models/z-o-m-b-i-e/metro_2033/metal/metal_truba_sneg",
+   "models/z-o-m-b-i-e/stalker/grnd/grnd_rocks_06",
+   "models/z-o-m-b-i-e/stalker/mtl/mtl_ventil_pod_01",
    "nature/blendsandweed005a"
   ]
  },

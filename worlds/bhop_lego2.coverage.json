@@ -5,16 +5,18 @@
  "sha256": "4d71347b5e3356cf76f7b278519afae8d1e387e73582011ce3c0140e21f942ae",
  "textures": {
   "looked_up": 73,
-  "drawn": 73,
+  "drawn": 137,
   "by_tier": {
    "addon": 54,
    "fallback": 19
   },
   "free_by_tier": {
-   "addon": 54,
+   "addon": 117,
    "default": 19
   },
-  "nearest_photo": []
+  "nearest_photo": [
+   "models/player/horseman/clip_chrome"
+  ]
  },
  "models": {
   "looked_up": 3,
@@ -97,7 +99,9 @@
    "LEGO2/TONYMONTANA",
    "LEGO2/YE"
   ],
-  "textures_flat": [],
+  "textures_flat": [
+   "models/player/hatsunemiku/black"
+  ],
   "models_unmapped": [
    "hobune/horse.mdl"
   ],
@@ -148,7 +152,7 @@
  },
  "counts": {
   "textures_unmapped": 19,
-  "textures_flat": 0,
+  "textures_flat": 1,
   "models_unmapped": 1,
   "sounds_unmapped": 6,
   "classes_unmapped": 0,

@@ -5,17 +5,34 @@
  "sha256": "caebb705cf814cabf202473c525b2a12d2726748dc5bad36a69748cec664c402",
  "textures": {
   "looked_up": 94,
-  "drawn": 85,
+  "drawn": 144,
   "by_tier": {
    "addon": 74,
    "default": 19,
    "fallback": 1
   },
   "free_by_tier": {
-   "addon": 73,
+   "addon": 132,
    "default": 12
   },
   "nearest_photo": [
+   "models/de_dust/crates/crate_128x128",
+   "models/de_dust/crates/crate_64x64",
+   "models/de_dust/crates/crate_64x64b",
+   "models/pi_shrub/pi_bush",
+   "models/props/cs_militia/crate_extralargemill",
+   "models/props/cs_militia/crate_extrasmallmil",
+   "models/props/cs_office/crates_indoor",
+   "models/props/cs_office/crates_outdoor",
+   "models/props/de_inferno/bushgreen",
+   "models/props/de_tides/tides_light_streetlight",
+   "models/props_foliage/oak_tree01",
+   "models/props_foliage/tree_deciduous_01a_branches",
+   "models/props_foliage/tree_deciduous_01a_trunk",
+   "models/props_foliage/tree_deciduous_cards_01",
+   "models/props_pipes/pipemetal001a",
+   "models/props_pipes/pipeset_metal",
+   "models/props_pipes/pipeset_metal02",
    "nature/blendmilground008_2_plants",
    "nature/blendrockgrass"
   ]
